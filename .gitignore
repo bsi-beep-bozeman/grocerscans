@@ -1,0 +1,22 @@
+# dependencies
+node_modules/
+
+# environment / secrets — never commit VISION_ENDPOINT keys or Supabase service keys
+.env
+.env.*
+!.env.example
+
+# build output
+dist/
+build/
+.cache/
+
+# editor
+.vscode/
+.idea/
+*.swp
+
+# os
+.DS_Store
+Thumbs.db
+desktop.ini

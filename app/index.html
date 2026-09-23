@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#fcfcfd">
+<title>ShelfLife — Expiry Tracking</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23303038' stroke-width='2' stroke-linecap='round'%3E%3Cpath d='M3 7V5a2 2 0 0 1 2-2h2M17 3h2a2 2 0 0 1 2 2v2M21 17v2a2 2 0 0 1-2 2h-2M7 21H5a2 2 0 0 1-2-2v-2M7 12h10'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+<div class="app">
+
+  <header class="topbar">
+    <h1>ShelfLife</h1>
+    <span class="sub" id="topbar-sub">Receiving</span>
+  </header>
+
+  <!-- ══ SCAN ══ -->
+  <main class="screen" id="screen-scan">
+
+    <div class="diag" id="diagnostic"></div>
+
+    <div id="scan-capture">
+      <div class="scan-stage" id="scan-stage">
+        <p class="idle" id="scan-idle">
+          Camera is off.<br>Tap below to start scanning.
+        </p>
+        <video id="scan-video" hidden playsinline muted></video>
+        <div class="reticle" id="scan-reticle" hidden></div>
+      </div>
+
+      <button class="btn" id="scan-start" type="button">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M3 7V5a2 2 0 0 1 2-2h2M17 3h2a2 2 0 0 1 2 2v2M21 17v2a2 2 0 0 1-2 2h-2M7 21H5a2 2 0 0 1-2-2v-2"/>
+          <path d="M7 12h10"/>
+        </svg>
+        Scan a barcode
+      </button>
+
+      <div class="manual">
+        <input id="f-manual" type="text" inputmode="numeric" autocomplete="off"
+               placeholder="…or type a UPC" aria-label="Enter a UPC manually">
+        <button class="btn sm ghost" id="scan-manual" type="button">Go</button>
+      </div>
+
+      <div class="btn-row">
+        <button class="btn sm ghost" id="reset" type="button">Reset demo data</button>
+      </div>
+    </div>
+
+    <!-- receiving form -->
+    <form id="scan-form" hidden>
+      <div class="sec-head">
+        <h2>Receiving</h2>
+        <span class="count num" id="form-upc"></span>
+      </div>
+
+      <div class="field">
+        <label for="f-name">Product</label>
+        <input id="f-name" type="text" autocomplete="off" placeholder="Type the name once">
+        <p class="hint">Saved to your catalog — future scans of this UPC fill in automatically.</p>
+      </div>
+
+      <div class="field">
+        <label for="f-category">Category</label>
+        <select id="f-category"></select>
+      </div>
+
+      <div class="row">
+        <div class="field">
+          <label for="f-qty">Quantity</label>
+          <input id="f-qty" type="number" inputmode="numeric" min="1" value="1">
+        </div>
+
+        <div class="field" id="wrap-expiry">
+          <label for="f-expiry">Expiry (printed)</label>
+          <input id="f-expiry" type="date">
+        </div>
+
+        <div class="field" id="wrap-received" hidden>
+          <label for="f-received">Date received</label>
+          <input id="f-received" type="date">
+        </div>
+      </div>
+
+      <p class="hint hint-block" id="hint-expiry"></p>
+      <p class="hint hint-block" id="hint-received" hidden></p>
+
+      <div class="field" id="wrap-lot" hidden>
+        <label for="f-lot">Traceability lot code</label>
+        <input id="f-lot" type="text" autocomplete="off" placeholder="From the supplier's case label">
+        <p class="hint" id="hint-lot"></p>
+      </div>
+
+      <button class="btn" type="submit">Log batch</button>
+      <div class="btn-row">
+        <button class="btn sm ghost" id="form-cancel" type="button">Cancel</button>
+      </div>
+    </form>
+  </main>
+
+  <!-- ══ ALERTS ══ -->
+  <main class="screen" id="screen-alerts" hidden>
+    <div class="sec-head">
+      <h2>Approaching expiry</h2>
+      <span class="count" id="count-alerts"></span>
+    </div>
+    <div id="list-alerts"></div>
+  </main>
+
+  <!-- ══ ROUNDS ══ -->
+  <main class="screen" id="screen-rounds" hidden>
+    <div class="sec-head">
+      <h2>Today's rounds — fresh</h2>
+      <span class="count" id="count-rounds"></span>
+    </div>
+    <div id="list-rounds"></div>
+  </main>
+
+  <!-- ══ STOCK ══ -->
+  <main class="screen" id="screen-stock" hidden>
+    <div class="sec-head">
+      <h2>All active batches</h2>
+      <span class="count" id="count-stock"></span>
+    </div>
+    <div id="list-stock"></div>
+  </main>
+
+</div>
+
+<nav class="nav">
+  <button id="nav-scan" aria-selected="true" type="button">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"
+         stroke-linejoin="round" aria-hidden="true">
+      <path d="M3 7V5a2 2 0 0 1 2-2h2M17 3h2a2 2 0 0 1 2 2v2M21 17v2a2 2 0 0 1-2 2h-2M7 21H5a2 2 0 0 1-2-2v-2"/>
+      <path d="M7 12h10"/>
+    </svg>
+    Scan
+  </button>
+  <button id="nav-alerts" aria-selected="false" type="button">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"
+         stroke-linejoin="round" aria-hidden="true">
+      <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/>
+      <path d="M13.7 21a2 2 0 0 1-3.4 0"/>
+    </svg>
+    Alerts
+  </button>
+  <button id="nav-rounds" aria-selected="false" type="button">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"
+         stroke-linejoin="round" aria-hidden="true">
+      <path d="M9 11l3 3L22 4"/>
+      <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>
+    </svg>
+    Rounds
+  </button>
+  <button id="nav-stock" aria-selected="false" type="button">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round"
+         stroke-linejoin="round" aria-hidden="true">
+      <path d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/>
+    </svg>
+    Stock
+  </button>
+</nav>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

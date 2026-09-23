@@ -14,7 +14,8 @@ demonstrating the three capabilities it's missing.
 
 | Document | What it's for |
 |---|---|
-| **[ASSESSMENT.md](ASSESSMENT.md)** | Gap analysis of their build. **Read this first.** |
+| **[RESUME.md](RESUME.md)** | **Paste-able prompt to restore full context after a reset.** |
+| **[ASSESSMENT.md](ASSESSMENT.md)** | Gap analysis of their build. Read this first. |
 | [MARKET.md](MARKET.md) | Competitive research — incumbents, build-vs-buy, UX lessons, state law |
 | [MEETING.md](MEETING.md) | Agenda, diagnostic script, questions, what not to commit to |
 | [PLAN.md](PLAN.md) | Domain model, category profiles, FSMA 204, schema, phasing |

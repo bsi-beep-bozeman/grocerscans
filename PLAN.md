@@ -232,11 +232,28 @@ Store
 
 **On `donated` as a resolution:** the Bill Emerson Good Samaritan Food Donation
 Act, expanded by the Food Donation Improvement Act of 2023, gives liability
-protection for donating food in good faith — including food past a quality date
-but still wholesome. For a grocer this turns some near-expiry stock from a write-
-off into a documented donation with potential tax treatment. Worth surfacing as a
-first-class action in the alert resolution flow rather than burying it under
-"discarded." Confirm specifics with their accountant; don't give tax advice.
+protection for donating food in good faith, and IRC §170(e)(3) offers an enhanced
+deduction. Worth surfacing as a first-class action rather than burying it under
+"discarded."
+
+> **⚠ But the protection is conditional, and this is not as simple as it first
+> appears.** Emerson protects "apparently wholesome food," defined as food that
+> **meets all quality and labeling standards imposed by Federal, State and local
+> laws.** If state law prohibits donating a past-date item, federal protection
+> may not attach — and the §170(e)(3) deduction carries the same precondition, so
+> a state violation can forfeit both at once.
+>
+> In every East Coast state checked, **reduced-oxygen-packaged (ROP) and
+> time/temperature-control-for-safety (TCS) foods cannot be sold *or* donated past
+> date.** Massachusetts and Pennsylvania are materially more restrictive than New
+> York or Connecticut.
+>
+> **Product requirement:** category profiles must carry `allowsDonationPastDate`
+> and `allowsMarkdownPastDate` flags, set per state, and the resolution UI must
+> not offer actions the state prohibits. See [MARKET.md §8](MARKET.md).
+>
+> **Which state this store operates in is a blocking question** — the profiles
+> can't be finalised without it. Not legal advice; confirm with counsel.
 
 **Note on quantities:** without POS integration, `quantity_remaining` is an
 estimate. This is accepted by design — the staff shelf walk *is* the verification

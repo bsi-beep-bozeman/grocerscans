@@ -15,6 +15,7 @@ demonstrating the three capabilities it's missing.
 | Document | What it's for |
 |---|---|
 | **[ASSESSMENT.md](ASSESSMENT.md)** | Gap analysis of their build. **Read this first.** |
+| [MARKET.md](MARKET.md) | Competitive research — incumbents, build-vs-buy, UX lessons, state law |
 | [MEETING.md](MEETING.md) | Agenda, diagnostic script, questions, what not to commit to |
 | [PLAN.md](PLAN.md) | Domain model, category profiles, FSMA 204, schema, phasing |
 | [reference/AL_SAFA_MARKET_OS.md](reference/AL_SAFA_MARKET_OS.md) | Their documentation, as supplied |
@@ -70,9 +71,24 @@ It is a reference implementation to port from, not a replacement product.
 
 ---
 
+## Open questions blocking scope
+
+**Which state is the store in?** There is no federal date-labeling law except for
+infant formula — it's state law, and East Coast states differ sharply. In
+Pennsylvania milk cannot be sold past its sell-by date at all; New York is far
+more permissive. Which resolution actions are legal — markdown, donate, neither —
+is set by state, so the category profiles can't be finalised without it.
+*[MARKET.md §8](MARKET.md).*
+
+**Their source code.** Only their documentation has been reviewed. The batch
+retrofit could be a week or a month depending on how the inventory code is
+structured, and there's no way to tell from a README.
+
+---
+
 ## Status
 
 - Assessment complete against their documentation
+- Market research complete — see [MARKET.md](MARKET.md)
 - Reference build working and verified
-- **Outstanding:** their source code has not been reviewed — only their docs.
-  Effort estimates for the batch retrofit are not reliable until it is.
+- Blocked on the two questions above before scope or pricing

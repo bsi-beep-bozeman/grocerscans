@@ -61,7 +61,23 @@ Then show barcode scanning working on your phone. See
 
 ## Questions to ask
 
-### A. Categories — ask these first, they drive everything
+### A0. Ask this before anything else
+
+0. **Which state is the store in?**
+
+   Not a formality. There is no federal date-labeling law except for infant
+   formula — it's all state law, and East Coast states differ sharply. In
+   Pennsylvania, milk cannot be sold past its sell-by date at all. Massachusetts
+   restricts a long list of categories. New York is far more permissive.
+
+   In **every** East Coast state checked, reduced-oxygen-packaged and
+   refrigerated ready-to-eat (TCS) foods cannot be sold *or* donated past date.
+
+   **The category profiles cannot be finalised without this answer**, because
+   which resolution actions are legal — markdown, donate, or neither — is set by
+   state. See [MARKET.md §8](MARKET.md).
+
+### A. Categories — ask these next, they drive everything else
 
 1. **Do you carry any of these?** — deli salads, soft cheeses, shell eggs,
    leafy greens, tomatoes, peppers, cucumbers, melons, fresh-cut produce, fresh
@@ -169,6 +185,66 @@ trustworthy once batches exist.
 
 ---
 
+## "Why not just buy something off the shelf?"
+
+He or his accountant will ask. Full detail in [MARKET.md §2](MARKET.md).
+
+**The incumbent is Upshop** — formerly Date Check Pro, which also absorbed
+Whywaste and Invafresh. 50,000+ stores, and it includes an FSMA 204 module.
+Take it seriously rather than dismissing it.
+
+**Why it probably doesn't fit one independent store:**
+
+- Third-party directories list **$2,700 per user per year**. Vendor publishes
+  nothing — enterprise quote only.
+- Independent analysis: *"clearly built for multi-store chains, making it a
+  difficult investment for smaller independent grocers."*
+- Their iOS app was **last updated February 2023** — over three years stale.
+  3.3★ from 6 ratings.
+- Onboarding "requires significant buy-in and training for store-level employees."
+
+**Say this plainly:** *if the build costs more than a few years of a subscription,
+buying wins — and I'll tell you if that's where the numbers land.* Offering that
+up front buys more credibility than any feature list.
+
+The real argument for building: he already owns an app shaped around how his
+store actually runs, and the gaps are narrow.
+
+---
+
+## The framing to use for the problem itself
+
+Don't describe this as "staff miss items on the shelf walk." Use the industry
+number — [Scandit](https://www.scandit.com/blog/the-expiry-date-problem/):
+
+> Only about **30% of perishable items ever get their expiry date captured into a
+> store system. The other 70% are invisible.**
+
+Because expiry dates are printed text, not encoded in the barcode — so someone
+has to read and type every one. That friction is why coverage stalls.
+
+His problem isn't the walk. It's that most of his perishable stock was never in a
+system to walk in the first place.
+
+---
+
+## If he wants to salvage the OCR work
+
+Point him at **[Scandit Smart Label Capture](https://www.scandit.com/products/smart-label-capture/)**
+rather than building a vision backend: it reads the barcode and the printed date
+**in one capture**. Claims 4 seconds → 1 second per item. Walmart has run it
+since 2022.
+
+That de-risks the exact feature that stalled his project, and it's a licence
+rather than a build.
+
+Also worth telling him: **his instinct to make OCR review-only was right.** Every
+credible implementation treats OCR as a suggestion needing confirmation — glare,
+curved packaging and lot codes that look like dates make it unreliable. He got
+that call correct.
+
+---
+
 ## Depth signals — what to raise unprompted
 
 These demonstrate you understand the domain better than the prototype does:
@@ -186,6 +262,11 @@ These demonstrate you understand the domain better than the prototype does:
 - **Offline.** Back rooms and walk-ins have bad wifi. Scanning has to work anyway.
 - **Temp logs.** Staff are already in the app for rounds — capturing chiller temps
   replaces a clipboard that inspectors ask for.
+- **Nobody models batches properly.** Across every consumer app researched, only
+  one even mentions lot codes. It's a real differentiator, not table stakes.
+- **Don't bother with a markdown marketplace.** Stop & Shop and Giant both ended
+  Flashfood in June 2025 — Giant cited low customer engagement and went back to
+  in-house yellow-tag markdowns. Keep markdown inside his own app.
 
 ---
 

@@ -1,8 +1,8 @@
 # Resume prompt
 
 Paste the block below into a fresh Claude Code session after a context reset.
-Everything else in this repo is the context it needs — the prompt just points at
-it and carries the decisions that aren't obvious from the files.
+Everything else in this repo — plus **`product/`** and its own README — is the
+context it needs.
 
 ---
 
@@ -13,52 +13,64 @@ I'm resuming the Al Safa Market OS engagement. The working repo is:
 
 D:\LLM-Data\Claude-Desktop\claude-code\shelflife
 
-Read these first, in this order, before responding:
-1. README.md      — orientation and open questions
-2. ASSESSMENT.md  — gap analysis of the client's existing build
-3. MARKET.md      — competitive research, build-vs-buy, state date-label law
-4. MEETING.md     — meeting kit: agenda, diagnostic, questions
-5. PLAN.md        — domain model and schema (partly superseded; see banner)
+The engagement has PIVOTED. The current deliverable is a Supabase-backed PWA
+built from scratch under product/, NOT a set of patches to the client's
+existing Al Safa Market OS build. Read these first, in this order:
 
-CONTEXT
-A US East Coast grocery store owner has an existing app, "Al Safa Market OS" —
-a browser PWA with role-based access, four dashboards, purchase orders, receiving
-log, markdown tracking and an audit log. He reported that its phone scanning
-feature doesn't work, and asked whether to finish it or rebuild. I'm assessing
-it and advising. His documentation is at reference/AL_SAFA_MARKET_OS.md. I have
-NOT seen his source code.
+1. product/README.md   — status matrix, seed credentials, local setup
+2. product/supabase/migrations/*.sql
+                       — full schema + RLS + RPCs (org → branches → users,
+                         batch model, POs, alerts, rounds, temp logs,
+                         audit log, rev ops views)
+3. product/supabase/seed.sql
+                       — 1 org, 2 branches, 4 kiosks, 1 admin, 1 viewer,
+                         12 staff with PINs, categories, demo products
+4. ASSESSMENT.md       — assessment of the client's original build; still
+                         accurate as context on WHY these choices were made
+5. MARKET.md §8        — state date-label rules (still unresolved — which
+                         US state the store is in gates category legality)
 
-There's also a small reference build in app/ — zero-dependency PWA demonstrating
-the three things his app is missing: barcode scanning, a batch/lot model, and
-the printed-vs-computed expiry split. Run it with:
-    node app/_serve.mjs 8128
-It is a reference implementation to port from, NOT a replacement product.
+The pre-pivot documents (this RESUME.md prior version, PLAN.md, MEETING.md)
+were built around "extend their build." That option was on the table until
+the client meeting, after which the direction changed to building a fresh
+Supabase-backed product with proper multi-branch tenancy, role-based access,
+and kiosk PIN auth. Treat those documents as historical context, not the
+current plan.
 
-DECIDED — don't relitigate these
-- Extend his build; do not rebuild. His PWA shell, roles, dashboards, POs and
-  audit log are real work worth months.
-- The missing batch/lot model is the critical flaw and the first work item.
-- Position the reference build as something to port from, never as a rival.
-- Markdown stays inside his own app — no third-party marketplace.
+DECIDED — don't relitigate
+- Supabase-hosted (local Supabase for dev via `npx supabase start`).
+- Same PWA URL serves mobile and desktop.
+- 1 org (Al Safa Market), 2 branches, 4 tiers:
+    admin  — email/password, all branches, rev ops + user mgmt
+    manager — email/password, one branch (nullable — see is_shift_lead)
+    staff  — 4-6 digit PIN on kiosk device only (never per-user email)
+    viewer — email/password, read-only rev ops
+- Kiosk devices are their own Supabase auth accounts. Staff writes go
+  through SECURITY DEFINER RPCs (`kiosk_log_batch`, `kiosk_resolve_alert`,
+  `kiosk_start_round`, `kiosk_add_round_item`, `kiosk_complete_round`,
+  `kiosk_log_temp`) that re-verify the PIN and stamp the audit log.
+- Manager tier is not seeded — the shift-lead concept is expressed as
+  `is_shift_lead` on staff_profiles. Promote to a real tier if the client
+  needs a separate operational role.
 
-CORRECTIONS ALREADY MADE — do not reintroduce the earlier versions
-- Scanning fails because the OCR/vision backend was never built (VISION_ENDPOINT
-  in app.js points nowhere). It is NOT primarily an HTTPS/secure-context problem,
-  though that may sit underneath it as a second issue.
-- Donation is NOT a clean alternative to write-off. Good Samaritan Act protection
-  is conditioned on meeting all state and local labeling standards, and the IRC
-  170(e)(3) deduction carries the same precondition — a state violation can
-  forfeit both. ROP and TCS foods can't be sold or donated past date in any East
-  Coast state checked.
-- PLAN.md section 11 originally recommended a rebuild. That is withdrawn and
-  marked as such. Don't act on it.
+BLOCKED ON — needed before a client demo
+- Which US state the store operates in. Category flags
+  `allows_markdown_past_date` and `allows_donation_past_date` are seeded
+  `false` (conservative) and can't be finalised without it.
+- Confirmation from the client that the seeded tier structure and
+  branch/staff counts match their operation.
 
-BLOCKED ON — both needed before scope or pricing
-- Which US state the store is in. There's no federal date-labeling law except
-  infant formula; PA bars selling milk past sell-by, MA is broad, NY is
-  permissive. Category profiles can't be finalised without it.
-- His source code, particularly app.js and the inventory schema. The batch
-  retrofit could be a week or a month depending on how it's structured.
+STATUS WHEN LAST TOUCHED (see product/README.md status matrix for detail)
+- ✅ Schema, RLS, RPCs, rev ops views written and committed
+- ✅ Seed script written and committed
+- ✅ PWA login + role-aware shell + 4 read-only tabs (dashboard, stock,
+     shipments, rev ops) + admin/alerts read-only + scan/rounds stubs
+- ⏳ Local Supabase (`supabase start`) had to finish downloading Docker
+     images — verify with `npx supabase status` and `npx supabase db reset`
+     before assuming migrations are applied
+- ⏳ Not yet built: kiosk PIN pad UI, barcode scanner wire-up, alert
+     resolve action, admin user-mgmt writes, offline IndexedDB queue,
+     service worker
 
 Give me a short summary of where things stand and what you'd do next. Don't
 restate the documents back to me.
@@ -78,35 +90,39 @@ Read D:\LLM-Data\Claude-Desktop\claude-code\shelflife\RESUME.md and follow it.
 
 Check current state with `git -C "D:\LLM-Data\Claude-Desktop\claude-code\shelflife" log --oneline`.
 
+Remote: `github.com/bsi-beep-bozeman/grocerscans` (branch `main`).
+
 | | |
 |---|---|
-| Repo | `D:\LLM-Data\Claude-Desktop\claude-code\shelflife` (git, branch `main`) |
-| Reference build | `node app/_serve.mjs 8128` → http://localhost:8128 |
-| Preview config | `shelflife` entry in `../.claude/launch.json` |
+| Product repo path | `product/` |
+| Dev server | `node product/_serve.mjs 8128` → http://localhost:8128 |
+| Local Supabase | `cd product && npx supabase start` (Docker required) |
+| Studio (schema/auth UI) | http://127.0.0.1:54323 after start |
+| Reference-only twin | `app/` — the old scrappy demo, NOT the deliverable |
 | Client docs | `reference/AL_SAFA_MARKET_OS.md` |
 
-**Done:** assessment against their documentation; market research; reference build
-working and verified in-browser.
+**Reset the database (applies migrations + seed):**
 
-**Not done:** their source code has not been reviewed. No scope, no estimate, no
-price. Meeting not yet held.
+```bash
+cd product && npx supabase db reset
+```
 
-**Next actions, in order:**
+**First-time only** — after `supabase start`, copy the anon key from
+`npx supabase status` into `product/js/config.js`.
 
-1. Get his source code and read the inventory schema — everything downstream of
-   the batch retrofit estimate depends on it
-2. Confirm the state, then finalise the category profiles with per-state
-   `allowsDonationPastDate` / `allowsMarkdownPastDate` flags
-3. Hold the meeting using [MEETING.md](MEETING.md); demo the two-batches-same-UPC
-   comparison live
-4. Decide with him whether to licence Scandit Smart Label Capture for the stalled
-   OCR feature, or drop OCR and rely on barcode plus typed dates
+## Order of next work
 
-**Unverified assumptions worth re-checking before quoting:**
+1. Verify migrations apply cleanly against local Supabase; fix any errors
+2. Wire kiosk PIN pad UI + barcode scanner (port from `app/js/scanner.js`)
+3. Wire alert resolution (PIN gate + resolution picker → `kiosk_resolve_alert`)
+4. Admin user-mgmt writes: invite by email, assign role/branch, rotate PIN
+5. Rounds flow: pair-audit start, mark items, close
+6. Offline queue (IndexedDB) + service worker
+7. Deploy target (hosted Supabase + static host — Netlify/Vercel/Cloudflare Pages)
 
-- Fresh-category shelf lives in `app/js/catalog.js` (meat 3 days, seafood 2, deli
-  3) are my defaults, not checked against USDA guidance or his practice
-- The $2,700/user/year Upshop figure is from third-party directories, not the
-  vendor
-- FSMA 204's July 20 2028 date has moved before — reconfirm before it goes in a
-  proposal
+## Two open decisions worth flagging every session
+
+- **State the store operates in.** Drives donation/markdown legality per
+  category. See [MARKET.md §8](MARKET.md).
+- **Manager tier vs `is_shift_lead` flag.** Current seed has no Manager users;
+  staff-lead is a flag. Confirm with client before adding.

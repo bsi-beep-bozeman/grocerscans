@@ -20,7 +20,10 @@ demonstrating the three capabilities it's missing.
 | [MEETING.md](MEETING.md) | Agenda, diagnostic script, questions, what not to commit to |
 | [PLAN.md](PLAN.md) | Domain model, category profiles, FSMA 204, schema, phasing |
 | [reference/AL_SAFA_MARKET_OS.md](reference/AL_SAFA_MARKET_OS.md) | Their documentation, as supplied |
-| [app/](app/) | ShelfLife — the reference build |
+| **[app_flutter/](app_flutter/)** | **Current deliverable — Flutter native app (Android + Web)** |
+| [product/supabase/](product/supabase/) | Backend — schema, RLS, RPCs, seed (shared, stack-agnostic) |
+| [product/js/](product/js/) *(deprecated)* | Vanilla-JS PWA shell — kept as port reference, will be removed |
+| [app/](app/) | Original scrappy demo — reference twin, not the deliverable |
 
 ---
 
@@ -45,30 +48,33 @@ essentially solved, and it removes the most tedious field to type.
 
 ---
 
-## Recommendation
+## Recommendation — SUPERSEDED
 
-**Extend their build — don't rebuild.** The PWA shell, role-based access, four
-dashboards, purchase orders and audit log are real work that would take months to
-reproduce and wouldn't come back better.
+The original recommendation was *"extend their build"* — that was withdrawn in
+a subsequent session after the meeting outcome. The engagement then pivoted
+twice:
 
-An earlier version of [PLAN.md](PLAN.md) recommended a rebuild. That was written
-before their build was disclosed and has been withdrawn.
+1. **Pivot 1:** extend → build fresh Supabase-backed PWA (produced
+   `product/js/*` and `product/supabase/*`)
+2. **Pivot 2:** vanilla-JS PWA → Flutter native (current — `app_flutter/`).
+   The scanner-heavy use case on iOS Safari and older Android made native
+   ML Kit the objectively better call.
+
+**Current deliverable: [app_flutter/](app_flutter/) (Flutter) + [product/supabase/](product/supabase/) (backend).** See [RESUME.md](RESUME.md) for the authoritative resume prompt and current state.
 
 ---
 
-## The reference build
-
-`app/` is a small zero-dependency PWA demonstrating what theirs is missing:
-barcode scanning, a batch/lot model, and the printed-vs-computed expiry split.
+## Boot the Flutter app (web build)
 
 ```bash
-node app/_serve.mjs 8128
+cd app_flutter
+D:\dev\flutter\bin\flutter.bat build web --release
 ```
 
-Then open `http://localhost:8128`. To demo on a phone it **must** be served over
-HTTPS — see [app/README.md](app/README.md).
+Then in the desktop app's Browser pane, use `preview_start` with
+`name: "shelflife-flutter"` — serves on http://localhost:8131.
 
-It is a reference implementation to port from, not a replacement product.
+Full instructions in [app_flutter/README.md](app_flutter/README.md).
 
 ---
 

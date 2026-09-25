@@ -146,3 +146,25 @@ select o.id, p.upc, p.name,
     ('0000000000101', 'Sourdough loaf',     'Bakery (in-store)', null,             150,  399)
   ) as p(upc, name, cat, sup, cost, price)
  where o.name = 'Al Safa Market';
+
+-- ─────────────────────────────────────────────────────────────
+-- Supplier user (external vendor with a linked supplier_id).
+-- Demo: supplier-delmonte@alsafa.local / shelflife-supplier — scoped
+-- to Del Monte's supplier row via supplier_profiles. Sees only their
+-- own products, batches, POs, receiving events per RLS in
+-- migration 20260925000000_supplier_tier.sql.
+-- ─────────────────────────────────────────────────────────────
+
+do $$
+declare
+  v_org_id      uuid := (select id from orgs where name = 'Al Safa Market');
+  v_supplier_id uuid := (select id from suppliers
+                          where org_id = v_org_id and name = 'Del Monte');
+  v_user_id     uuid;
+begin
+  v_user_id := pg_temp.seed_user(
+    'supplier-delmonte@alsafa.local', 'shelflife-supplier');
+  insert into supplier_profiles (id, org_id, supplier_id, display_name, email)
+  values (v_user_id, v_org_id, v_supplier_id,
+          'Del Monte Rep', 'supplier-delmonte@alsafa.local');
+end $$;

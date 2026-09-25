@@ -238,11 +238,13 @@ scan-hot-path polish and reminder controls do.
 ### Priorities this session left unfinished
 
 1. Push `eb26bec` (Flutter pivot) — done
-2. Write PLAN.md v2 addendum covering the 8 gaps above — partially done:
-   see [PLAN_ADDENDUM_2026-09-25.md](PLAN_ADDENDUM_2026-09-25.md) which
-   covers the tier split and Xpiry UX ideas. The other 6 gaps (OCR photo
-   scan, Owner Dashboard, Executive Dashboard, AI Insights, Purchase
-   Orders/PDF, CSV export, weekly report) still need design notes.
+2. Write PLAN.md v2 addendum covering the 8 gaps above — DONE. See
+   [PLAN_ADDENDUM_2026-09-25.md](PLAN_ADDENDUM_2026-09-25.md): §1 tier
+   split, §2 Xpiry UX, §3 OCR photo scan, §4 Owner Dashboard,
+   §5 Executive Dashboard, §6 AI Insights (rules-based),
+   §7 Purchase Orders + PDF, §8 weekly report, §9 CSV export.
+   Each section includes schema sketch, tech choice, priority phase,
+   and open decisions.
 3. Update `product/supabase/migrations/` to split viewer/supplier tiers if
    client confirms — NOT done (blocked on decision; schema sketch in
    the addendum)

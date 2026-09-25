@@ -1,13 +1,36 @@
 # PLAN Addendum — 2026-09-25
 
-Rolls up to a future PLAN v2. Two design notes captured here so they survive
-context loss between Claude sessions.
+Rolls up to a future PLAN v2. Design decisions and specs captured here so
+they survive context loss between Claude sessions.
 
 Read this alongside:
 - [PLAN.md](PLAN.md) — original plan (⚠ superseded in part)
 - [ASSESSMENT.md](ASSESSMENT.md) — revised "extend their build" position
 - [RESUME.md](RESUME.md) — session state, blocked decisions
 - [reference/AL_SAFA_MARKET_OS.md](reference/AL_SAFA_MARKET_OS.md) — client brief
+
+---
+
+## Decisions locked 2026-09-25 (CM)
+
+The client has relinquished all app design and function to the developer
+(CM). CM's locked-in positions on the previously-open decisions:
+
+| # | Question | Decision | Rationale |
+|---|---|---|---|
+| 1 | Merge viewer + supplier, or split? | **Split.** 4 tiers total: `admin / staff / viewer / supplier` | Merged tier leaks other suppliers' pricing and volumes |
+| 2 | Manager tier? | **No.** Use `is_shift_lead` flag on `staff_profiles` | Already the design in the current seed |
+| 3 | iOS build path | **Defer iOS to Phase 2.** Ship Android + web first | Cheapest path; majority of stockroom devices are Android; iOS after Play Store launch validates the product |
+| 4 | US state (donation/markdown legality) | **Conservative defaults** for now — `allows_markdown_past_date = false`, `allows_donation_past_date = false` on all categories. Flip per-state when the operating state is confirmed | Safe posture; data-only flip, no schema change |
+| 5 | Vision API vendor for OCR | **Claude Vision** (Anthropic API via Supabase Edge Function) | One vendor relationship; strongest reasoning on packaging layouts |
+| 6 | Vision confidence threshold | **0.75** default; fields below stay blank for manual entry | Standard practice |
+| 7 | Extract barcode in same vision call? | **Yes.** One round-trip cheaper than two | |
+| 8 | Email provider (scheduled reports) | **Resend** | Cheapest at low volume; excellent DX |
+| 9 | Weekly report schedule | **Hardcoded Monday 08:00 America/New_York** in Phase 1. Make configurable in Phase 2 | Ship the report first, tune later |
+| 10 | Category markdown/donation flags at seed | **All false.** Admin flips them per state after launch | Cannot ship legally-risky defaults |
+
+Anything CM later wants to override, flip in this table and re-seed.
+Nothing here is blocking implementation.
 
 ---
 

@@ -176,35 +176,36 @@ cd product && npx supabase db reset
 
 ## Two open decisions worth flagging every session
 
-- **State the store operates in.** Drives donation/markdown legality per
-  category. See [MARKET.md §8](MARKET.md).
-- **Manager tier vs `is_shift_lead` flag.** Current seed has no Manager users;
-  staff-lead is a flag. Confirm with client before adding.
+Both closed 2026-09-25 — client relinquished all design authority to CM.
+See [PLAN_ADDENDUM_2026-09-25.md](PLAN_ADDENDUM_2026-09-25.md) → "Decisions
+locked 2026-09-25 (CM)" for the full list. Historical context kept below.
+
+- ~~**State the store operates in.**~~ Interim: conservative defaults —
+  `allows_markdown_past_date = false`, `allows_donation_past_date = false`
+  on all categories. Flip per-state when operating state is confirmed.
+  See [MARKET.md §8](MARKET.md) for the legal background.
+- ~~**Manager tier vs `is_shift_lead` flag.**~~ Locked: no manager tier;
+  `is_shift_lead` flag on `staff_profiles` handles shift-lead concept.
 
 ## Session 2026-09-25 — pending decisions and gap analysis
 
 Captured here so a fresh Claude sees these without re-doing the analysis.
 
-### New pending decisions from this session
+### Decisions closed 2026-09-25
 
-1. **Tier structure — viewer AND supplier, or one merged tier?**
-   Client (CM) reframed tiers as `admin / staff / viewer-or-supplier`. But
-   `viewer` (internal read-only — accountant, exec, consultant) and `supplier`
-   (external vendor) have very different data-access needs:
-   - Viewer → sees everything, read-only
-   - Supplier → must be scoped to their own `supplier_id` (deliveries,
-     shelf-life-delivered, return credits) — merging with viewer leaks other
-     suppliers' pricing and volumes
-   Recommendation: two distinct tiers. Add a `supplier_profiles` table
-   linking Supabase auth user → `supplier_id`, with RLS restricting all
-   supplier reads to `WHERE supplier_id = auth.jwt() -> supplier_id`.
-   **Awaiting client confirmation.**
+Client (Al Safa Market) relinquished all design/function authority to
+developer (CM). CM locked in the following — full table in
+[PLAN_ADDENDUM_2026-09-25.md](PLAN_ADDENDUM_2026-09-25.md) under
+"Decisions locked 2026-09-25 (CM)":
 
-2. **iOS build path.** Windows cannot build iOS. Options:
-   - Mac Mini M4 (~$599 one-time)
-   - Cloud CI: Codemagic / Bitrise (~$30–95/mo)
-   - Android + web only for now, defer iOS
-   **Awaiting client budget input.**
+- **4 tiers**: `admin / staff / viewer / supplier` (viewer + supplier split)
+- **No manager tier** (is_shift_lead flag)
+- **iOS deferred to Phase 2** — Android + web first
+- **Conservative markdown/donation defaults** until state is confirmed
+- **Claude Vision** for OCR (via Supabase Edge Function)
+- **Resend** for email
+- **Weekly report** hardcoded Mon 08:00 ET Phase 1
+- OCR confidence threshold 0.75, extract barcode in same vision call
 
 ### Gaps between PLAN.md and the client brief (`reference/AL_SAFA_MARKET_OS.md`)
 
@@ -245,8 +246,9 @@ scan-hot-path polish and reminder controls do.
    §7 Purchase Orders + PDF, §8 weekly report, §9 CSV export.
    Each section includes schema sketch, tech choice, priority phase,
    and open decisions.
-3. Update `product/supabase/migrations/` to split viewer/supplier tiers if
-   client confirms — NOT done (blocked on decision; schema sketch in
-   the addendum)
-4. Then continue port order: role-aware shell → PIN pad → mobile_scanner →
+3. Update `product/supabase/migrations/` to add `supplier` tier + RLS —
+   NOT done, but UNBLOCKED (schema sketch in the addendum §1)
+4. Continue port order: role-aware shell → PIN pad → mobile_scanner →
    alert resolution
+5. Build out the 8 unfinished-features per the locked design decisions in
+   PLAN_ADDENDUM §3–9 (OCR, dashboards, insights, POs, weekly report, CSV)

@@ -12,7 +12,13 @@ const supabaseUrl = String.fromEnvironment(
   defaultValue: 'http://127.0.0.1:54321',
 );
 
+/// Local Supabase anon key. This is the deterministic key the Supabase CLI
+/// generates for every local dev install — safe to commit. Rotate for hosted
+/// via `--dart-define=SUPABASE_ANON_KEY=...` (never bake a prod key here).
 const supabaseAnonKey = String.fromEnvironment(
   'SUPABASE_ANON_KEY',
-  defaultValue: '__replace_after_supabase_start__',
+  defaultValue:
+      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.'
+      'eyJpc3MiOiJzdXBhYmFzZS1kZW1vIiwicm9sZSI6ImFub24iLCJleHAiOjE5ODM4MTI5OTZ9.'
+      'CRXP1A7WOeoJeXxjNni43kdQwgnWNReilDMblYTn_I0',
 );

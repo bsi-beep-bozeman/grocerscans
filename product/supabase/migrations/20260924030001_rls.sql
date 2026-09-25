@@ -6,7 +6,7 @@ language sql stable security definer set search_path = public as $$
   select * from staff_profiles where id = auth.uid() and active = true
 $$;
 
-create or replace function public.current_role()
+create or replace function public.current_app_role()
 returns app_role
 language sql stable security definer set search_path = public as $$
   select role from staff_profiles where id = auth.uid() and active = true
@@ -107,7 +107,7 @@ create policy read_branches on branches
 create policy read_staff on staff_profiles
   for select using (
     org_id = current_org_id() and (
-      current_role() in ('admin', 'viewer')
+      current_app_role() in ('admin', 'viewer')
       or id = auth.uid()
       or (branch_id is not null and branch_id = current_branch_scope())
     )
@@ -201,7 +201,7 @@ create policy read_temp_logs on temp_logs
 create policy read_audit_log on audit_log
   for select using (
     org_id = current_org_id() and (
-      current_role() in ('admin', 'viewer')
+      current_app_role() in ('admin', 'viewer')
       or (branch_id is not null and branch_id = current_branch_scope())
     )
   );

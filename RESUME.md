@@ -180,3 +180,66 @@ cd product && npx supabase db reset
   category. See [MARKET.md §8](MARKET.md).
 - **Manager tier vs `is_shift_lead` flag.** Current seed has no Manager users;
   staff-lead is a flag. Confirm with client before adding.
+
+## Session 2026-09-25 — pending decisions and gap analysis
+
+Captured here so a fresh Claude sees these without re-doing the analysis.
+
+### New pending decisions from this session
+
+1. **Tier structure — viewer AND supplier, or one merged tier?**
+   Client (CM) reframed tiers as `admin / staff / viewer-or-supplier`. But
+   `viewer` (internal read-only — accountant, exec, consultant) and `supplier`
+   (external vendor) have very different data-access needs:
+   - Viewer → sees everything, read-only
+   - Supplier → must be scoped to their own `supplier_id` (deliveries,
+     shelf-life-delivered, return credits) — merging with viewer leaks other
+     suppliers' pricing and volumes
+   Recommendation: two distinct tiers. Add a `supplier_profiles` table
+   linking Supabase auth user → `supplier_id`, with RLS restricting all
+   supplier reads to `WHERE supplier_id = auth.jwt() -> supplier_id`.
+   **Awaiting client confirmation.**
+
+2. **iOS build path.** Windows cannot build iOS. Options:
+   - Mac Mini M4 (~$599 one-time)
+   - Cloud CI: Codemagic / Bitrise (~$30–95/mo)
+   - Android + web only for now, defer iOS
+   **Awaiting client budget input.**
+
+### Gaps between PLAN.md and the client brief (`reference/AL_SAFA_MARKET_OS.md`)
+
+PLAN.md was written **before** the client's existing build was disclosed
+(see the ⚠ banner at the top of PLAN.md). It covers the batch model, category
+expiry, FSMA 204, and scanning well — but 8 features from the client brief
+are not covered and need to be added to PLAN.md as an addendum:
+
+| # | Feature | Status in PLAN.md |
+|---|---|---|
+| 1 | **Scan Product by Photo** (OCR/vision → extract name/brand/exp/size/category) | Absent — client's biggest AI feature |
+| 2 | **Owner Dashboard** — inventory value at cost/retail, potential profit, top-20, by category | Absent |
+| 3 | **Executive Dashboard** — weekly waste estimate, monthly summary | Absent |
+| 4 | **Supplier Dashboard** — deliveries, avg shelf life received, losses by supplier | Partial (§8 Phase 5 mentions pharmacy-return worklist only) |
+| 5 | **AI Insights** — rules-based analytics (patterns, waste trends, slow-moving, supplier risk, low-stock) | Absent |
+| 6 | **Purchase Orders + PDF generation** | Absent |
+| 7 | **CSV export** | Absent |
+| 8 | **Weekly Monday 8AM inventory report** | Absent (Alerts engine §8 Phase 2 doesn't cover scheduled reports) |
+
+Gap #4 (Supplier Dashboard) gets bigger if we accept the "supplier as external
+tier" recommendation above — supplier users need their own scoped dashboard,
+not just a report.
+
+Also worth stealing UX-wise from **Xpiry (Expiry Notify Product Scanner
+by Stavila Radu)** on Play Store, which the client cited as inspiration:
+per-product custom reminder cadence, AI recipe generation from expiring
+products (waste reduction angle), clean 3-tap scan flow, PDF inventory
+export. It's a solo-user app so architecture doesn't transfer, but the
+scan-hot-path polish and reminder controls do.
+
+### Priorities this session left unfinished
+
+1. Push `eb26bec` (Flutter pivot) — done in this commit
+2. Write PLAN.md v2 addendum covering the 8 gaps above — NOT done
+3. Update `product/supabase/migrations/` to split viewer/supplier tiers if
+   client confirms — NOT done (blocked on decision)
+4. Then continue port order: role-aware shell → PIN pad → mobile_scanner →
+   alert resolution

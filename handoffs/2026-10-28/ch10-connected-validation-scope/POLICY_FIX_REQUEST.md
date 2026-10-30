@@ -1,0 +1,7 @@
+# Scoped source/apply amendment: activated receiving policy
+
+Fresh real Auth/API test reproduced HTTP400 / SQLSTATE42702: `column reference "active" is ambiguous` from get_receiving_policy_v1 after S1 setup activation. Missing-setup reads passed because they bypass the affected location queries. No credential or key is included in this evidence. API_CASES_ATTEMPT_01.json preserves the failing run (10 groups PASS,2 FAIL; the other failure is a test-harness timestamp fixture under separate correction).
+
+Proposed exact replacement function is [PROPOSED_POLICY_FIX.sql](PROPOSED_POLICY_FIX.sql), not applied. Rename only the local PL/pgSQL record variable `active` to `active_setup` and its record references, preserving boolean `active` column checks. No authorization logic, data fields, grants or API shape change.
+
+Request approval to add `product/supabase/migrations/20261028000000_receiving_policy_location_scope.sql` containing this CREATE OR REPLACE function, preserve all ten current migration files byte-for-byte, apply it only to the already-approved disposable database in one fail-fast migration transaction, record its history/hash, and rerun the failed ready-policy API case plus dependent browser lookup tests. Add a focused regression assertion to the receiving test-only harness. No new dependency or broad code refactor. Existing R03/R05 backup/restore/stop remains in this owning chat. If declined, report the known failure, complete unaffected checks and restore/stop; no hosted or release action follows.

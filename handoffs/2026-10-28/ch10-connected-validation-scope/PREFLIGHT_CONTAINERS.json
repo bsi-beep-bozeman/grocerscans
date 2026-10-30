@@ -1,0 +1,34 @@
+[
+  {
+    "name": "supabase_db_shelflife-ch06-validation",
+    "error": "inspect unavailable"
+  },
+  {
+    "name": "supabase_auth_shelflife-ch06-validation",
+    "error": "inspect unavailable"
+  },
+  {
+    "name": "supabase_rest_shelflife-ch06-validation",
+    "error": "inspect unavailable"
+  },
+  {
+    "name": "supabase_inbucket_shelflife-ch06-validation",
+    "error": "inspect unavailable"
+  },
+  {
+    "name": "supabase_kong_shelflife-ch06-validation",
+    "error": "inspect unavailable"
+  },
+  {
+    "name": "supabase_db_shelflife-ch06-validation_binding_backup",
+    "error": "inspect unavailable"
+  },
+  {
+    "name": "supabase_kong_shelflife-ch06-validation_binding_backup",
+    "error": "inspect unavailable"
+  },
+  {
+    "name": "supabase_inbucket_shelflife-ch06-validation_binding_backup",
+    "error": "inspect unavailable"
+  }
+]

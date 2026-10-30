@@ -1,0 +1,26 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {createHash} from 'node:crypto';
+import {fileURLToPath} from 'node:url';
+const dir=path.dirname(fileURLToPath(import.meta.url));
+const root=path.resolve(dir,'../..');
+const content=JSON.parse(fs.readFileSync(path.join(dir,'content.json')));
+const evidence=Object.fromEntries(Object.entries(content.sources).map(([key,[title,file]])=>{
+ const text=fs.readFileSync(path.join(root,file),'utf8');
+ return [key,{title,file,text,sha256:createHash('sha256').update(text).digest('hex')}];
+}));
+const original=fs.existsSync(path.join(dir,'index.html'))?'index.html':'Oct 4-17 26 Shelflife progress report.html';
+let html=fs.readFileSync(path.join(dir,original),'utf8');
+const start=html.indexOf('function sources(s){'),end=html.indexOf('\nfunction figure(s)',start);
+if(start<0||end<0)throw Error('Original report source function not found');
+html=html.slice(0,start)+`function sources(s){return '<div class="sources"><span>Evidence</span>'+s.sources.map(k=>'<button type="button" class="evidence-link" data-evidence="'+k+'">'+refs[k][0]+' ↗</button>').join('')+'</div>'}`+html.slice(end);
+html=html.replace('</style>',`.evidence-link{border:0;background:transparent;color:var(--green);padding:0;font:inherit;text-decoration:underline;text-align:left}.evidence-reader{width:min(960px,94vw);height:min(780px,90dvh);border:1px solid var(--line);border-radius:14px;padding:20px;color:var(--ink);background:var(--white)}.evidence-reader::backdrop{background:#10251bd9}.evidence-reader header{display:flex;align-items:center;justify-content:space-between;gap:16px}.evidence-reader h2{font:600 20px Segoe UI,Arial,sans-serif;margin:0}.evidence-reader .source-meta{font-size:12px;overflow-wrap:anywhere;margin:14px 0;color:var(--muted)}.evidence-reader pre{white-space:pre-wrap;overflow-wrap:anywhere;font:14px/1.6 Consolas,monospace;margin:0}.evidence-reader .reader-content{height:calc(100% - 130px);overflow:auto;border-top:1px solid var(--line);padding-top:14px}.evidence-reader .reader-note{font-size:12px;line-height:1.4;margin:10px 0} @media(max-width:600px){.evidence-reader{padding:14px}.evidence-reader pre{font-size:12px}.evidence-reader h2{font-size:17px}.evidence-reader .reader-content{height:calc(100% - 170px)}} @media print{.evidence-reader{display:none}}</style>`);
+html=html.replace('<script>','<dialog class="evidence-reader" id="evidence-reader" aria-labelledby="evidence-title"><header><h2 id="evidence-title"></h2><button class="quiet" id="close-evidence" autofocus>Close ×</button></header><p class="reader-note">Embedded source snapshot, packaged October 26. Source records may include later updates; report results retain the October 17 cutoff. Original chat links elsewhere require authorised Codex access.</p><p class="source-meta" id="evidence-path"></p><div class="reader-content"><pre id="evidence-text"></pre></div></dialog><script>');
+html=html.replace("if(document.getElementById('lightbox').open)return;","if(document.getElementById('lightbox').open||document.getElementById('evidence-reader').open)return;");
+const script=`\nconst embeddedEvidence=${JSON.stringify(evidence).replace(/</g,'\\u003c')};
+document.addEventListener('click',e=>{const b=e.target.closest('[data-evidence]');if(!b)return;const source=embeddedEvidence[b.dataset.evidence];document.getElementById('evidence-title').textContent=source.title;document.getElementById('evidence-path').textContent=source.file;document.getElementById('evidence-text').textContent=source.text;document.querySelector('.reader-content').scrollTop=0;document.getElementById('evidence-reader').showModal();});
+document.getElementById('close-evidence').onclick=()=>document.getElementById('evidence-reader').close();\n`;
+html=html.replace('</script></body>',script+'</script></body>');
+fs.writeFileSync(path.join(dir,'ghl-standalone.html'),html);
+fs.writeFileSync(path.join(dir,'GHL_PACKAGE.json'),JSON.stringify({packaged:'2026-10-26',file:'ghl-standalone.html',embeddedSources:Object.values(evidence).map(({title,file,sha256})=>({title,file,sha256})),embeddedImages:Object.keys(content.images).length,bytes:Buffer.byteLength(html),published:false},null,2));
+console.log(JSON.stringify({sources:Object.keys(evidence).length,bytes:Buffer.byteLength(html)}));

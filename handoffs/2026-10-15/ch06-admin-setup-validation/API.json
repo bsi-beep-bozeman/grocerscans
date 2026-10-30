@@ -1,0 +1,98 @@
+{
+  "status": "PASS",
+  "checks": 23,
+  "results": [
+    {
+      "label": "Real Auth admin creation and password sign-in for two isolated organisations",
+      "status": "PASS"
+    },
+    {
+      "label": "Context derives admin/org and scoped catalog from real issued JWT",
+      "status": "PASS"
+    },
+    {
+      "label": "API save/retry/conflict/invalid contract and invalid-request atomicity",
+      "status": "PASS"
+    },
+    {
+      "label": "API activation snapshot and exact retry",
+      "status": "PASS"
+    },
+    {
+      "label": "API location/preset mutations and recorded retry",
+      "status": "PASS"
+    },
+    {
+      "label": "All six RPCs deny manager with no side effects",
+      "status": "PASS"
+    },
+    {
+      "label": "All six RPCs deny staff with no side effects",
+      "status": "PASS"
+    },
+    {
+      "label": "All six RPCs deny viewer with no side effects",
+      "status": "PASS"
+    },
+    {
+      "label": "All six RPCs deny inactive-admin with no side effects",
+      "status": "PASS"
+    },
+    {
+      "label": "All six RPCs deny supplier with no side effects",
+      "status": "PASS"
+    },
+    {
+      "label": "All six RPCs deny kiosk with no side effects",
+      "status": "PASS"
+    },
+    {
+      "label": "All six RPCs deny admin-supplier-conflict with no side effects",
+      "status": "PASS"
+    },
+    {
+      "label": "All six RPCs deny admin-kiosk-conflict with no side effects",
+      "status": "PASS"
+    },
+    {
+      "label": "All six RPCs deny unprovisioned with no side effects",
+      "status": "PASS"
+    },
+    {
+      "label": "All six RPCs deny anonymous access",
+      "status": "PASS"
+    },
+    {
+      "label": "All eight setup tables deny direct read/delete; private helper grants denied",
+      "status": "PASS"
+    },
+    {
+      "label": "Cross-organisation reads and every mutation family denied",
+      "status": "PASS"
+    },
+    {
+      "label": "Existing real JWT and recorded retries denied after administrator revocation",
+      "status": "PASS"
+    },
+    {
+      "label": "API rejects locally signed expired JWT and tampered issued JWT",
+      "status": "PASS"
+    },
+    {
+      "label": "Forged organisation/app-role claims do not elevate a staff identity",
+      "status": "PASS"
+    },
+    {
+      "label": "Response body connection deliberately discarded; exact retry recovers one committed mutation",
+      "status": "PASS"
+    },
+    {
+      "label": "Real session refresh preserves backend setup state",
+      "status": "PASS"
+    },
+    {
+      "label": "API operations preserve nonempty inventory/operational audit checksums",
+      "status": "PASS"
+    }
+  ]
+}

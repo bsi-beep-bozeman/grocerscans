@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-26 Australia/Perth",
+  "scope": "Documentation and source integrity only; no application/runtime tests",
+  "status": "PASS",
+  "protectedFiles": 285,
+  "priorLedgerEvents": 68,
+  "priorLedgerHistoryVerbatim": true,
+  "documents": 13,
+  "localLinks": 108,
+  "sourceHashes": 26,
+  "migrationHashes": 7,
+  "s1Rows": 12,
+  "mandatoryStartGateVerbatim": true,
+  "gitDiffCheckExit": 0,
+  "failures": []
+}

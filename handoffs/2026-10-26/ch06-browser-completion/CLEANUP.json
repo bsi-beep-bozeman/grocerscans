@@ -1,0 +1,9 @@
+{
+  "restoredBaseline": true,
+  "unrelatedInventoryChanges": [],
+  "targetAndBackupContainersStopped": 8,
+  "serverStopped": true,
+  "validationListeners": 0,
+  "status": "PASS",
+  "dockerEngineLeftRunning": true
+}

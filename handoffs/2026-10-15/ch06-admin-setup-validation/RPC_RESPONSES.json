@@ -1,0 +1,2558 @@
+[
+  {
+    "type": "context",
+    "name": "get_admin_setup_context",
+    "data": {
+      "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+      "catalog": {
+        "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+        "presets": [
+          {
+            "id": "b3b4fa36-5b0f-49e4-804d-7b1e7f1525ea",
+            "name": "Synthetic preset",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          }
+        ],
+        "branches": [
+          {
+            "id": "02cc7b44-9b18-4340-8c24-eb4dd3a6b186",
+            "name": "A1",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          },
+          {
+            "id": "eee2796a-3bd1-48a2-96c1-52382a8bba65",
+            "name": "A2",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          }
+        ],
+        "products": [
+          {
+            "id": "4a2e47d1-7791-4833-9626-9ab02e609632",
+            "name": "Synthetic product",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1,
+            "category_id": "380805c1-9fe0-4334-b8fd-c671893a9744"
+          }
+        ],
+        "locations": [
+          {
+            "id": "19e499be-ee1d-403f-8d6f-f89f0e2ecdf0",
+            "name": "Receiving",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1,
+            "branch_id": "02cc7b44-9b18-4340-8c24-eb4dd3a6b186"
+          }
+        ],
+        "categories": [
+          {
+            "id": "380805c1-9fe0-4334-b8fd-c671893a9744",
+            "name": "Synthetic category",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          }
+        ],
+        "preset_versions": [
+          {
+            "id": "19a58585-8156-4516-bbc7-fdf7b73a439d",
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "policy": {
+              "entry_modes": [
+                "manual"
+              ],
+              "expiry_mode": "printed",
+              "label_profile": "manual_only",
+              "lot_requirement": "optional",
+              "supplier_requirement": "optional",
+              "reference_requirement": "optional"
+            },
+            "version": 1,
+            "preset_id": "b3b4fa36-5b0f-49e4-804d-7b1e7f1525ea"
+          }
+        ]
+      },
+      "admin_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+      "session_expires_at": "2026-10-15T11:50:03+00:00"
+    }
+  },
+  {
+    "type": "state",
+    "name": "get_store_setup",
+    "data": {
+      "draft": {
+        "id": "724c17a8-91dd-4c19-ae4a-0d6dfed2f9d1",
+        "revision": 1,
+        "saved_at": "2026-10-15T10:50:03.223155+00:00",
+        "branch_id": "02cc7b44-9b18-4340-8c24-eb4dd3a6b186",
+        "configuration": {
+          "store": {
+            "region": "WA",
+            "country": "AU",
+            "timezone": "Australia/Perth",
+            "confirmed": true,
+            "display_name": "Synthetic store"
+          },
+          "units": [
+            {
+              "code": "each",
+              "precision": 0
+            }
+          ],
+          "bindings": [
+            {
+              "category_id": "380805c1-9fe0-4334-b8fd-c671893a9744",
+              "preset_version_id": "19a58585-8156-4516-bbc7-fdf7b73a439d"
+            }
+          ],
+          "products": [
+            {
+              "pack_name": "Single",
+              "pack_count": 1,
+              "product_id": "4a2e47d1-7791-4833-9626-9ab02e609632",
+              "stock_unit": "each"
+            }
+          ],
+          "receiving": {
+            "location_ids": [
+              "19e499be-ee1d-403f-8d6f-f89f0e2ecdf0"
+            ],
+            "exception_role": "admin",
+            "hold_location_id": "19e499be-ee1d-403f-8d6f-f89f0e2ecdf0"
+          },
+          "schema_version": 1
+        }
+      },
+      "active": null,
+      "catalog": {
+        "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+        "presets": [
+          {
+            "id": "b3b4fa36-5b0f-49e4-804d-7b1e7f1525ea",
+            "name": "Synthetic preset",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          }
+        ],
+        "branches": [
+          {
+            "id": "02cc7b44-9b18-4340-8c24-eb4dd3a6b186",
+            "name": "A1",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          },
+          {
+            "id": "eee2796a-3bd1-48a2-96c1-52382a8bba65",
+            "name": "A2",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          }
+        ],
+        "products": [
+          {
+            "id": "4a2e47d1-7791-4833-9626-9ab02e609632",
+            "name": "Synthetic product",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1,
+            "category_id": "380805c1-9fe0-4334-b8fd-c671893a9744"
+          }
+        ],
+        "locations": [
+          {
+            "id": "19e499be-ee1d-403f-8d6f-f89f0e2ecdf0",
+            "name": "Receiving",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1,
+            "branch_id": "02cc7b44-9b18-4340-8c24-eb4dd3a6b186"
+          }
+        ],
+        "categories": [
+          {
+            "id": "380805c1-9fe0-4334-b8fd-c671893a9744",
+            "name": "Synthetic category",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          }
+        ],
+        "preset_versions": [
+          {
+            "id": "19a58585-8156-4516-bbc7-fdf7b73a439d",
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "policy": {
+              "entry_modes": [
+                "manual"
+              ],
+              "expiry_mode": "printed",
+              "label_profile": "manual_only",
+              "lot_requirement": "optional",
+              "supplier_requirement": "optional",
+              "reference_requirement": "optional"
+            },
+            "version": 1,
+            "preset_id": "b3b4fa36-5b0f-49e4-804d-7b1e7f1525ea"
+          }
+        ]
+      },
+      "history": [
+        {
+          "id": "b59bf805-7575-4352-ac01-c6f2b8c5634a",
+          "action": "location_create",
+          "reason": "Synthetic fixture",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 1,
+          "target_id": "19e499be-ee1d-403f-8d6f-f89f0e2ecdf0",
+          "occurred_at": "2026-10-15T10:50:03.164698+00:00",
+          "operation_id": "82950a02-a7f7-487d-8b82-b47eec1df08f"
+        },
+        {
+          "id": "8a3ab8d6-66df-4513-86f2-e91277104dac",
+          "action": "save_store_setup",
+          "reason": "",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 1,
+          "target_id": "724c17a8-91dd-4c19-ae4a-0d6dfed2f9d1",
+          "occurred_at": "2026-10-15T10:50:03.223512+00:00",
+          "operation_id": "5d9d372f-59c9-4c1e-bcda-5ffd02c67b54"
+        }
+      ],
+      "branch_id": "02cc7b44-9b18-4340-8c24-eb4dd3a6b186",
+      "readiness": {
+        "errors": [],
+        "products": [
+          {
+            "actions": {
+              "freeze": {
+                "reasons": [
+                  "actions.freeze: explicit choice required"
+                ],
+                "not_used": false
+              },
+              "discard": {
+                "reasons": [
+                  "actions.discard: explicit choice required"
+                ],
+                "not_used": false
+              },
+              "relabel": {
+                "reasons": [
+                  "actions.relabel: explicit choice required"
+                ],
+                "not_used": false
+              },
+              "donation": {
+                "reasons": [
+                  "actions.donation: explicit choice required"
+                ],
+                "not_used": false
+              },
+              "markdown": {
+                "reasons": [
+                  "actions.markdown: explicit choice required"
+                ],
+                "not_used": false
+              },
+              "conversion": {
+                "reasons": [
+                  "actions.conversion: explicit choice required"
+                ],
+                "not_used": false
+              }
+            },
+            "effective": {
+              "policy": {
+                "entry_modes": [
+                  "manual"
+                ],
+                "expiry_mode": "printed",
+                "label_profile": "manual_only",
+                "lot_requirement": "optional",
+                "supplier_requirement": "optional",
+                "reference_requirement": "optional"
+              },
+              "origins": {
+                "actions": "unknown",
+                "entry_modes": "preset",
+                "expiry_mode": "preset",
+                "expiry_rule": "unknown",
+                "label_profile": "preset",
+                "lot_requirement": "preset",
+                "supplier_requirement": "preset",
+                "reference_requirement": "preset"
+              }
+            },
+            "receiving": {
+              "reasons": [],
+              "not_used": false
+            },
+            "product_id": "4a2e47d1-7791-4833-9626-9ab02e609632"
+          }
+        ]
+      },
+      "active_revision": 0
+    }
+  },
+  {
+    "type": "state",
+    "name": "save_store_setup",
+    "data": {
+      "draft": {
+        "id": "724c17a8-91dd-4c19-ae4a-0d6dfed2f9d1",
+        "revision": 2,
+        "saved_at": "2026-10-15T10:50:03.781766+00:00",
+        "branch_id": "02cc7b44-9b18-4340-8c24-eb4dd3a6b186",
+        "configuration": {
+          "store": {
+            "region": "WA",
+            "country": "AU",
+            "timezone": "Australia/Perth",
+            "confirmed": true,
+            "display_name": "Synthetic store"
+          },
+          "units": [
+            {
+              "code": "each",
+              "precision": 0
+            }
+          ],
+          "bindings": [
+            {
+              "category_id": "380805c1-9fe0-4334-b8fd-c671893a9744",
+              "preset_version_id": "19a58585-8156-4516-bbc7-fdf7b73a439d"
+            }
+          ],
+          "products": [
+            {
+              "pack_name": "Single",
+              "pack_count": 1,
+              "product_id": "4a2e47d1-7791-4833-9626-9ab02e609632",
+              "stock_unit": "each"
+            }
+          ],
+          "receiving": {
+            "location_ids": [
+              "19e499be-ee1d-403f-8d6f-f89f0e2ecdf0"
+            ],
+            "exception_role": "admin",
+            "hold_location_id": "19e499be-ee1d-403f-8d6f-f89f0e2ecdf0"
+          },
+          "schema_version": 1
+        }
+      },
+      "active": null,
+      "catalog": {
+        "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+        "presets": [
+          {
+            "id": "b3b4fa36-5b0f-49e4-804d-7b1e7f1525ea",
+            "name": "Synthetic preset",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          }
+        ],
+        "branches": [
+          {
+            "id": "02cc7b44-9b18-4340-8c24-eb4dd3a6b186",
+            "name": "A1",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          },
+          {
+            "id": "eee2796a-3bd1-48a2-96c1-52382a8bba65",
+            "name": "A2",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          }
+        ],
+        "products": [
+          {
+            "id": "4a2e47d1-7791-4833-9626-9ab02e609632",
+            "name": "Synthetic product",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1,
+            "category_id": "380805c1-9fe0-4334-b8fd-c671893a9744"
+          }
+        ],
+        "locations": [
+          {
+            "id": "19e499be-ee1d-403f-8d6f-f89f0e2ecdf0",
+            "name": "Receiving",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1,
+            "branch_id": "02cc7b44-9b18-4340-8c24-eb4dd3a6b186"
+          }
+        ],
+        "categories": [
+          {
+            "id": "380805c1-9fe0-4334-b8fd-c671893a9744",
+            "name": "Synthetic category",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          }
+        ],
+        "preset_versions": [
+          {
+            "id": "19a58585-8156-4516-bbc7-fdf7b73a439d",
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "policy": {
+              "entry_modes": [
+                "manual"
+              ],
+              "expiry_mode": "printed",
+              "label_profile": "manual_only",
+              "lot_requirement": "optional",
+              "supplier_requirement": "optional",
+              "reference_requirement": "optional"
+            },
+            "version": 1,
+            "preset_id": "b3b4fa36-5b0f-49e4-804d-7b1e7f1525ea"
+          }
+        ]
+      },
+      "history": [
+        {
+          "id": "b59bf805-7575-4352-ac01-c6f2b8c5634a",
+          "action": "location_create",
+          "reason": "Synthetic fixture",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 1,
+          "target_id": "19e499be-ee1d-403f-8d6f-f89f0e2ecdf0",
+          "occurred_at": "2026-10-15T10:50:03.164698+00:00",
+          "operation_id": "82950a02-a7f7-487d-8b82-b47eec1df08f"
+        },
+        {
+          "id": "8a3ab8d6-66df-4513-86f2-e91277104dac",
+          "action": "save_store_setup",
+          "reason": "",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 1,
+          "target_id": "724c17a8-91dd-4c19-ae4a-0d6dfed2f9d1",
+          "occurred_at": "2026-10-15T10:50:03.223512+00:00",
+          "operation_id": "5d9d372f-59c9-4c1e-bcda-5ffd02c67b54"
+        },
+        {
+          "id": "aaff9542-518d-4d41-a957-14f25be61eaa",
+          "action": "save_store_setup",
+          "reason": "",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 2,
+          "target_id": "724c17a8-91dd-4c19-ae4a-0d6dfed2f9d1",
+          "occurred_at": "2026-10-15T10:50:03.782085+00:00",
+          "operation_id": "66dff52e-90f1-4897-8031-be5f363f013b"
+        }
+      ],
+      "branch_id": "02cc7b44-9b18-4340-8c24-eb4dd3a6b186",
+      "readiness": {
+        "errors": [],
+        "products": [
+          {
+            "actions": {
+              "freeze": {
+                "reasons": [
+                  "actions.freeze: explicit choice required"
+                ],
+                "not_used": false
+              },
+              "discard": {
+                "reasons": [
+                  "actions.discard: explicit choice required"
+                ],
+                "not_used": false
+              },
+              "relabel": {
+                "reasons": [
+                  "actions.relabel: explicit choice required"
+                ],
+                "not_used": false
+              },
+              "donation": {
+                "reasons": [
+                  "actions.donation: explicit choice required"
+                ],
+                "not_used": false
+              },
+              "markdown": {
+                "reasons": [
+                  "actions.markdown: explicit choice required"
+                ],
+                "not_used": false
+              },
+              "conversion": {
+                "reasons": [
+                  "actions.conversion: explicit choice required"
+                ],
+                "not_used": false
+              }
+            },
+            "effective": {
+              "policy": {
+                "entry_modes": [
+                  "manual"
+                ],
+                "expiry_mode": "printed",
+                "label_profile": "manual_only",
+                "lot_requirement": "optional",
+                "supplier_requirement": "optional",
+                "reference_requirement": "optional"
+              },
+              "origins": {
+                "actions": "unknown",
+                "entry_modes": "preset",
+                "expiry_mode": "preset",
+                "expiry_rule": "unknown",
+                "label_profile": "preset",
+                "lot_requirement": "preset",
+                "supplier_requirement": "preset",
+                "reference_requirement": "preset"
+              }
+            },
+            "receiving": {
+              "reasons": [],
+              "not_used": false
+            },
+            "product_id": "4a2e47d1-7791-4833-9626-9ab02e609632"
+          }
+        ]
+      },
+      "active_revision": 0
+    }
+  },
+  {
+    "type": "state",
+    "name": "save_store_setup",
+    "data": {
+      "draft": {
+        "id": "724c17a8-91dd-4c19-ae4a-0d6dfed2f9d1",
+        "revision": 2,
+        "saved_at": "2026-10-15T10:50:03.781766+00:00",
+        "branch_id": "02cc7b44-9b18-4340-8c24-eb4dd3a6b186",
+        "configuration": {
+          "store": {
+            "region": "WA",
+            "country": "AU",
+            "timezone": "Australia/Perth",
+            "confirmed": true,
+            "display_name": "Synthetic store"
+          },
+          "units": [
+            {
+              "code": "each",
+              "precision": 0
+            }
+          ],
+          "bindings": [
+            {
+              "category_id": "380805c1-9fe0-4334-b8fd-c671893a9744",
+              "preset_version_id": "19a58585-8156-4516-bbc7-fdf7b73a439d"
+            }
+          ],
+          "products": [
+            {
+              "pack_name": "Single",
+              "pack_count": 1,
+              "product_id": "4a2e47d1-7791-4833-9626-9ab02e609632",
+              "stock_unit": "each"
+            }
+          ],
+          "receiving": {
+            "location_ids": [
+              "19e499be-ee1d-403f-8d6f-f89f0e2ecdf0"
+            ],
+            "exception_role": "admin",
+            "hold_location_id": "19e499be-ee1d-403f-8d6f-f89f0e2ecdf0"
+          },
+          "schema_version": 1
+        }
+      },
+      "active": null,
+      "catalog": {
+        "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+        "presets": [
+          {
+            "id": "b3b4fa36-5b0f-49e4-804d-7b1e7f1525ea",
+            "name": "Synthetic preset",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          }
+        ],
+        "branches": [
+          {
+            "id": "02cc7b44-9b18-4340-8c24-eb4dd3a6b186",
+            "name": "A1",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          },
+          {
+            "id": "eee2796a-3bd1-48a2-96c1-52382a8bba65",
+            "name": "A2",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          }
+        ],
+        "products": [
+          {
+            "id": "4a2e47d1-7791-4833-9626-9ab02e609632",
+            "name": "Synthetic product",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1,
+            "category_id": "380805c1-9fe0-4334-b8fd-c671893a9744"
+          }
+        ],
+        "locations": [
+          {
+            "id": "19e499be-ee1d-403f-8d6f-f89f0e2ecdf0",
+            "name": "Receiving",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1,
+            "branch_id": "02cc7b44-9b18-4340-8c24-eb4dd3a6b186"
+          }
+        ],
+        "categories": [
+          {
+            "id": "380805c1-9fe0-4334-b8fd-c671893a9744",
+            "name": "Synthetic category",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          }
+        ],
+        "preset_versions": [
+          {
+            "id": "19a58585-8156-4516-bbc7-fdf7b73a439d",
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "policy": {
+              "entry_modes": [
+                "manual"
+              ],
+              "expiry_mode": "printed",
+              "label_profile": "manual_only",
+              "lot_requirement": "optional",
+              "supplier_requirement": "optional",
+              "reference_requirement": "optional"
+            },
+            "version": 1,
+            "preset_id": "b3b4fa36-5b0f-49e4-804d-7b1e7f1525ea"
+          }
+        ]
+      },
+      "history": [
+        {
+          "id": "b59bf805-7575-4352-ac01-c6f2b8c5634a",
+          "action": "location_create",
+          "reason": "Synthetic fixture",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 1,
+          "target_id": "19e499be-ee1d-403f-8d6f-f89f0e2ecdf0",
+          "occurred_at": "2026-10-15T10:50:03.164698+00:00",
+          "operation_id": "82950a02-a7f7-487d-8b82-b47eec1df08f"
+        },
+        {
+          "id": "8a3ab8d6-66df-4513-86f2-e91277104dac",
+          "action": "save_store_setup",
+          "reason": "",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 1,
+          "target_id": "724c17a8-91dd-4c19-ae4a-0d6dfed2f9d1",
+          "occurred_at": "2026-10-15T10:50:03.223512+00:00",
+          "operation_id": "5d9d372f-59c9-4c1e-bcda-5ffd02c67b54"
+        },
+        {
+          "id": "aaff9542-518d-4d41-a957-14f25be61eaa",
+          "action": "save_store_setup",
+          "reason": "",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 2,
+          "target_id": "724c17a8-91dd-4c19-ae4a-0d6dfed2f9d1",
+          "occurred_at": "2026-10-15T10:50:03.782085+00:00",
+          "operation_id": "66dff52e-90f1-4897-8031-be5f363f013b"
+        }
+      ],
+      "branch_id": "02cc7b44-9b18-4340-8c24-eb4dd3a6b186",
+      "readiness": {
+        "errors": [],
+        "products": [
+          {
+            "actions": {
+              "freeze": {
+                "reasons": [
+                  "actions.freeze: explicit choice required"
+                ],
+                "not_used": false
+              },
+              "discard": {
+                "reasons": [
+                  "actions.discard: explicit choice required"
+                ],
+                "not_used": false
+              },
+              "relabel": {
+                "reasons": [
+                  "actions.relabel: explicit choice required"
+                ],
+                "not_used": false
+              },
+              "donation": {
+                "reasons": [
+                  "actions.donation: explicit choice required"
+                ],
+                "not_used": false
+              },
+              "markdown": {
+                "reasons": [
+                  "actions.markdown: explicit choice required"
+                ],
+                "not_used": false
+              },
+              "conversion": {
+                "reasons": [
+                  "actions.conversion: explicit choice required"
+                ],
+                "not_used": false
+              }
+            },
+            "effective": {
+              "policy": {
+                "entry_modes": [
+                  "manual"
+                ],
+                "expiry_mode": "printed",
+                "label_profile": "manual_only",
+                "lot_requirement": "optional",
+                "supplier_requirement": "optional",
+                "reference_requirement": "optional"
+              },
+              "origins": {
+                "actions": "unknown",
+                "entry_modes": "preset",
+                "expiry_mode": "preset",
+                "expiry_rule": "unknown",
+                "label_profile": "preset",
+                "lot_requirement": "preset",
+                "supplier_requirement": "preset",
+                "reference_requirement": "preset"
+              }
+            },
+            "receiving": {
+              "reasons": [],
+              "not_used": false
+            },
+            "product_id": "4a2e47d1-7791-4833-9626-9ab02e609632"
+          }
+        ]
+      },
+      "active_revision": 0
+    }
+  },
+  {
+    "type": "state",
+    "name": "activate_store_setup",
+    "data": {
+      "draft": {
+        "id": "724c17a8-91dd-4c19-ae4a-0d6dfed2f9d1",
+        "revision": 2,
+        "saved_at": "2026-10-15T10:50:03.781766+00:00",
+        "branch_id": "02cc7b44-9b18-4340-8c24-eb4dd3a6b186",
+        "configuration": {
+          "store": {
+            "region": "WA",
+            "country": "AU",
+            "timezone": "Australia/Perth",
+            "confirmed": true,
+            "display_name": "Synthetic store"
+          },
+          "units": [
+            {
+              "code": "each",
+              "precision": 0
+            }
+          ],
+          "bindings": [
+            {
+              "category_id": "380805c1-9fe0-4334-b8fd-c671893a9744",
+              "preset_version_id": "19a58585-8156-4516-bbc7-fdf7b73a439d"
+            }
+          ],
+          "products": [
+            {
+              "pack_name": "Single",
+              "pack_count": 1,
+              "product_id": "4a2e47d1-7791-4833-9626-9ab02e609632",
+              "stock_unit": "each"
+            }
+          ],
+          "receiving": {
+            "location_ids": [
+              "19e499be-ee1d-403f-8d6f-f89f0e2ecdf0"
+            ],
+            "exception_role": "admin",
+            "hold_location_id": "19e499be-ee1d-403f-8d6f-f89f0e2ecdf0"
+          },
+          "schema_version": 1
+        }
+      },
+      "active": {
+        "id": "c09ea04c-bc6f-41ea-be4a-127d3c055b68",
+        "reason": "Synthetic API activation",
+        "version": 1,
+        "branch_id": "02cc7b44-9b18-4340-8c24-eb4dd3a6b186",
+        "activated_at": "2026-10-15T10:50:03.906871+00:00",
+        "configuration": {
+          "store": {
+            "region": "WA",
+            "country": "AU",
+            "timezone": "Australia/Perth",
+            "confirmed": true,
+            "display_name": "Synthetic store"
+          },
+          "units": [
+            {
+              "code": "each",
+              "precision": 0
+            }
+          ],
+          "bindings": [
+            {
+              "category_id": "380805c1-9fe0-4334-b8fd-c671893a9744",
+              "preset_version_id": "19a58585-8156-4516-bbc7-fdf7b73a439d"
+            }
+          ],
+          "products": [
+            {
+              "pack_name": "Single",
+              "pack_count": 1,
+              "product_id": "4a2e47d1-7791-4833-9626-9ab02e609632",
+              "stock_unit": "each"
+            }
+          ],
+          "receiving": {
+            "location_ids": [
+              "19e499be-ee1d-403f-8d6f-f89f0e2ecdf0"
+            ],
+            "exception_role": "admin",
+            "hold_location_id": "19e499be-ee1d-403f-8d6f-f89f0e2ecdf0"
+          },
+          "schema_version": 1
+        }
+      },
+      "catalog": {
+        "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+        "presets": [
+          {
+            "id": "b3b4fa36-5b0f-49e4-804d-7b1e7f1525ea",
+            "name": "Synthetic preset",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          }
+        ],
+        "branches": [
+          {
+            "id": "02cc7b44-9b18-4340-8c24-eb4dd3a6b186",
+            "name": "A1",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          },
+          {
+            "id": "eee2796a-3bd1-48a2-96c1-52382a8bba65",
+            "name": "A2",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          }
+        ],
+        "products": [
+          {
+            "id": "4a2e47d1-7791-4833-9626-9ab02e609632",
+            "name": "Synthetic product",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1,
+            "category_id": "380805c1-9fe0-4334-b8fd-c671893a9744"
+          }
+        ],
+        "locations": [
+          {
+            "id": "19e499be-ee1d-403f-8d6f-f89f0e2ecdf0",
+            "name": "Receiving",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1,
+            "branch_id": "02cc7b44-9b18-4340-8c24-eb4dd3a6b186"
+          }
+        ],
+        "categories": [
+          {
+            "id": "380805c1-9fe0-4334-b8fd-c671893a9744",
+            "name": "Synthetic category",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          }
+        ],
+        "preset_versions": [
+          {
+            "id": "19a58585-8156-4516-bbc7-fdf7b73a439d",
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "policy": {
+              "entry_modes": [
+                "manual"
+              ],
+              "expiry_mode": "printed",
+              "label_profile": "manual_only",
+              "lot_requirement": "optional",
+              "supplier_requirement": "optional",
+              "reference_requirement": "optional"
+            },
+            "version": 1,
+            "preset_id": "b3b4fa36-5b0f-49e4-804d-7b1e7f1525ea"
+          }
+        ]
+      },
+      "history": [
+        {
+          "id": "b59bf805-7575-4352-ac01-c6f2b8c5634a",
+          "action": "location_create",
+          "reason": "Synthetic fixture",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 1,
+          "target_id": "19e499be-ee1d-403f-8d6f-f89f0e2ecdf0",
+          "occurred_at": "2026-10-15T10:50:03.164698+00:00",
+          "operation_id": "82950a02-a7f7-487d-8b82-b47eec1df08f"
+        },
+        {
+          "id": "8a3ab8d6-66df-4513-86f2-e91277104dac",
+          "action": "save_store_setup",
+          "reason": "",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 1,
+          "target_id": "724c17a8-91dd-4c19-ae4a-0d6dfed2f9d1",
+          "occurred_at": "2026-10-15T10:50:03.223512+00:00",
+          "operation_id": "5d9d372f-59c9-4c1e-bcda-5ffd02c67b54"
+        },
+        {
+          "id": "aaff9542-518d-4d41-a957-14f25be61eaa",
+          "action": "save_store_setup",
+          "reason": "",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 2,
+          "target_id": "724c17a8-91dd-4c19-ae4a-0d6dfed2f9d1",
+          "occurred_at": "2026-10-15T10:50:03.782085+00:00",
+          "operation_id": "66dff52e-90f1-4897-8031-be5f363f013b"
+        },
+        {
+          "id": "ea016e84-3f83-445a-b2b9-4bf4c14e63d3",
+          "action": "activate_store_setup",
+          "reason": "Synthetic API activation",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 1,
+          "target_id": "c09ea04c-bc6f-41ea-be4a-127d3c055b68",
+          "occurred_at": "2026-10-15T10:50:03.907787+00:00",
+          "operation_id": "0e373a48-eed9-4b02-a753-1598cb0c5006"
+        }
+      ],
+      "branch_id": "02cc7b44-9b18-4340-8c24-eb4dd3a6b186",
+      "readiness": {
+        "errors": [],
+        "products": [
+          {
+            "actions": {
+              "freeze": {
+                "reasons": [
+                  "actions.freeze: explicit choice required"
+                ],
+                "not_used": false
+              },
+              "discard": {
+                "reasons": [
+                  "actions.discard: explicit choice required"
+                ],
+                "not_used": false
+              },
+              "relabel": {
+                "reasons": [
+                  "actions.relabel: explicit choice required"
+                ],
+                "not_used": false
+              },
+              "donation": {
+                "reasons": [
+                  "actions.donation: explicit choice required"
+                ],
+                "not_used": false
+              },
+              "markdown": {
+                "reasons": [
+                  "actions.markdown: explicit choice required"
+                ],
+                "not_used": false
+              },
+              "conversion": {
+                "reasons": [
+                  "actions.conversion: explicit choice required"
+                ],
+                "not_used": false
+              }
+            },
+            "effective": {
+              "policy": {
+                "entry_modes": [
+                  "manual"
+                ],
+                "expiry_mode": "printed",
+                "label_profile": "manual_only",
+                "lot_requirement": "optional",
+                "supplier_requirement": "optional",
+                "reference_requirement": "optional"
+              },
+              "origins": {
+                "actions": "unknown",
+                "entry_modes": "preset",
+                "expiry_mode": "preset",
+                "expiry_rule": "unknown",
+                "label_profile": "preset",
+                "lot_requirement": "preset",
+                "supplier_requirement": "preset",
+                "reference_requirement": "preset"
+              }
+            },
+            "receiving": {
+              "reasons": [],
+              "not_used": false
+            },
+            "product_id": "4a2e47d1-7791-4833-9626-9ab02e609632"
+          }
+        ]
+      },
+      "active_revision": 1
+    }
+  },
+  {
+    "type": "state",
+    "name": "activate_store_setup",
+    "data": {
+      "draft": {
+        "id": "724c17a8-91dd-4c19-ae4a-0d6dfed2f9d1",
+        "revision": 2,
+        "saved_at": "2026-10-15T10:50:03.781766+00:00",
+        "branch_id": "02cc7b44-9b18-4340-8c24-eb4dd3a6b186",
+        "configuration": {
+          "store": {
+            "region": "WA",
+            "country": "AU",
+            "timezone": "Australia/Perth",
+            "confirmed": true,
+            "display_name": "Synthetic store"
+          },
+          "units": [
+            {
+              "code": "each",
+              "precision": 0
+            }
+          ],
+          "bindings": [
+            {
+              "category_id": "380805c1-9fe0-4334-b8fd-c671893a9744",
+              "preset_version_id": "19a58585-8156-4516-bbc7-fdf7b73a439d"
+            }
+          ],
+          "products": [
+            {
+              "pack_name": "Single",
+              "pack_count": 1,
+              "product_id": "4a2e47d1-7791-4833-9626-9ab02e609632",
+              "stock_unit": "each"
+            }
+          ],
+          "receiving": {
+            "location_ids": [
+              "19e499be-ee1d-403f-8d6f-f89f0e2ecdf0"
+            ],
+            "exception_role": "admin",
+            "hold_location_id": "19e499be-ee1d-403f-8d6f-f89f0e2ecdf0"
+          },
+          "schema_version": 1
+        }
+      },
+      "active": {
+        "id": "c09ea04c-bc6f-41ea-be4a-127d3c055b68",
+        "reason": "Synthetic API activation",
+        "version": 1,
+        "branch_id": "02cc7b44-9b18-4340-8c24-eb4dd3a6b186",
+        "activated_at": "2026-10-15T10:50:03.906871+00:00",
+        "configuration": {
+          "store": {
+            "region": "WA",
+            "country": "AU",
+            "timezone": "Australia/Perth",
+            "confirmed": true,
+            "display_name": "Synthetic store"
+          },
+          "units": [
+            {
+              "code": "each",
+              "precision": 0
+            }
+          ],
+          "bindings": [
+            {
+              "category_id": "380805c1-9fe0-4334-b8fd-c671893a9744",
+              "preset_version_id": "19a58585-8156-4516-bbc7-fdf7b73a439d"
+            }
+          ],
+          "products": [
+            {
+              "pack_name": "Single",
+              "pack_count": 1,
+              "product_id": "4a2e47d1-7791-4833-9626-9ab02e609632",
+              "stock_unit": "each"
+            }
+          ],
+          "receiving": {
+            "location_ids": [
+              "19e499be-ee1d-403f-8d6f-f89f0e2ecdf0"
+            ],
+            "exception_role": "admin",
+            "hold_location_id": "19e499be-ee1d-403f-8d6f-f89f0e2ecdf0"
+          },
+          "schema_version": 1
+        }
+      },
+      "catalog": {
+        "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+        "presets": [
+          {
+            "id": "b3b4fa36-5b0f-49e4-804d-7b1e7f1525ea",
+            "name": "Synthetic preset",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          }
+        ],
+        "branches": [
+          {
+            "id": "02cc7b44-9b18-4340-8c24-eb4dd3a6b186",
+            "name": "A1",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          },
+          {
+            "id": "eee2796a-3bd1-48a2-96c1-52382a8bba65",
+            "name": "A2",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          }
+        ],
+        "products": [
+          {
+            "id": "4a2e47d1-7791-4833-9626-9ab02e609632",
+            "name": "Synthetic product",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1,
+            "category_id": "380805c1-9fe0-4334-b8fd-c671893a9744"
+          }
+        ],
+        "locations": [
+          {
+            "id": "19e499be-ee1d-403f-8d6f-f89f0e2ecdf0",
+            "name": "Receiving",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1,
+            "branch_id": "02cc7b44-9b18-4340-8c24-eb4dd3a6b186"
+          }
+        ],
+        "categories": [
+          {
+            "id": "380805c1-9fe0-4334-b8fd-c671893a9744",
+            "name": "Synthetic category",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          }
+        ],
+        "preset_versions": [
+          {
+            "id": "19a58585-8156-4516-bbc7-fdf7b73a439d",
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "policy": {
+              "entry_modes": [
+                "manual"
+              ],
+              "expiry_mode": "printed",
+              "label_profile": "manual_only",
+              "lot_requirement": "optional",
+              "supplier_requirement": "optional",
+              "reference_requirement": "optional"
+            },
+            "version": 1,
+            "preset_id": "b3b4fa36-5b0f-49e4-804d-7b1e7f1525ea"
+          }
+        ]
+      },
+      "history": [
+        {
+          "id": "b59bf805-7575-4352-ac01-c6f2b8c5634a",
+          "action": "location_create",
+          "reason": "Synthetic fixture",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 1,
+          "target_id": "19e499be-ee1d-403f-8d6f-f89f0e2ecdf0",
+          "occurred_at": "2026-10-15T10:50:03.164698+00:00",
+          "operation_id": "82950a02-a7f7-487d-8b82-b47eec1df08f"
+        },
+        {
+          "id": "8a3ab8d6-66df-4513-86f2-e91277104dac",
+          "action": "save_store_setup",
+          "reason": "",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 1,
+          "target_id": "724c17a8-91dd-4c19-ae4a-0d6dfed2f9d1",
+          "occurred_at": "2026-10-15T10:50:03.223512+00:00",
+          "operation_id": "5d9d372f-59c9-4c1e-bcda-5ffd02c67b54"
+        },
+        {
+          "id": "aaff9542-518d-4d41-a957-14f25be61eaa",
+          "action": "save_store_setup",
+          "reason": "",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 2,
+          "target_id": "724c17a8-91dd-4c19-ae4a-0d6dfed2f9d1",
+          "occurred_at": "2026-10-15T10:50:03.782085+00:00",
+          "operation_id": "66dff52e-90f1-4897-8031-be5f363f013b"
+        },
+        {
+          "id": "ea016e84-3f83-445a-b2b9-4bf4c14e63d3",
+          "action": "activate_store_setup",
+          "reason": "Synthetic API activation",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 1,
+          "target_id": "c09ea04c-bc6f-41ea-be4a-127d3c055b68",
+          "occurred_at": "2026-10-15T10:50:03.907787+00:00",
+          "operation_id": "0e373a48-eed9-4b02-a753-1598cb0c5006"
+        }
+      ],
+      "branch_id": "02cc7b44-9b18-4340-8c24-eb4dd3a6b186",
+      "readiness": {
+        "errors": [],
+        "products": [
+          {
+            "actions": {
+              "freeze": {
+                "reasons": [
+                  "actions.freeze: explicit choice required"
+                ],
+                "not_used": false
+              },
+              "discard": {
+                "reasons": [
+                  "actions.discard: explicit choice required"
+                ],
+                "not_used": false
+              },
+              "relabel": {
+                "reasons": [
+                  "actions.relabel: explicit choice required"
+                ],
+                "not_used": false
+              },
+              "donation": {
+                "reasons": [
+                  "actions.donation: explicit choice required"
+                ],
+                "not_used": false
+              },
+              "markdown": {
+                "reasons": [
+                  "actions.markdown: explicit choice required"
+                ],
+                "not_used": false
+              },
+              "conversion": {
+                "reasons": [
+                  "actions.conversion: explicit choice required"
+                ],
+                "not_used": false
+              }
+            },
+            "effective": {
+              "policy": {
+                "entry_modes": [
+                  "manual"
+                ],
+                "expiry_mode": "printed",
+                "label_profile": "manual_only",
+                "lot_requirement": "optional",
+                "supplier_requirement": "optional",
+                "reference_requirement": "optional"
+              },
+              "origins": {
+                "actions": "unknown",
+                "entry_modes": "preset",
+                "expiry_mode": "preset",
+                "expiry_rule": "unknown",
+                "label_profile": "preset",
+                "lot_requirement": "preset",
+                "supplier_requirement": "preset",
+                "reference_requirement": "preset"
+              }
+            },
+            "receiving": {
+              "reasons": [],
+              "not_used": false
+            },
+            "product_id": "4a2e47d1-7791-4833-9626-9ab02e609632"
+          }
+        ]
+      },
+      "active_revision": 1
+    }
+  },
+  {
+    "type": "reference",
+    "name": "mutate_setup_location",
+    "data": {
+      "catalog": {
+        "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+        "presets": [
+          {
+            "id": "b3b4fa36-5b0f-49e4-804d-7b1e7f1525ea",
+            "name": "Synthetic preset",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          }
+        ],
+        "branches": [
+          {
+            "id": "02cc7b44-9b18-4340-8c24-eb4dd3a6b186",
+            "name": "A1",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          },
+          {
+            "id": "eee2796a-3bd1-48a2-96c1-52382a8bba65",
+            "name": "A2",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          }
+        ],
+        "products": [
+          {
+            "id": "4a2e47d1-7791-4833-9626-9ab02e609632",
+            "name": "Synthetic product",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1,
+            "category_id": "380805c1-9fe0-4334-b8fd-c671893a9744"
+          }
+        ],
+        "locations": [
+          {
+            "id": "19e499be-ee1d-403f-8d6f-f89f0e2ecdf0",
+            "name": "Receiving",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1,
+            "branch_id": "02cc7b44-9b18-4340-8c24-eb4dd3a6b186"
+          },
+          {
+            "id": "2d9f4829-3d78-4e13-9a4c-ca4a5e9b2c40",
+            "name": "API location",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1,
+            "branch_id": "02cc7b44-9b18-4340-8c24-eb4dd3a6b186"
+          }
+        ],
+        "categories": [
+          {
+            "id": "380805c1-9fe0-4334-b8fd-c671893a9744",
+            "name": "Synthetic category",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          }
+        ],
+        "preset_versions": [
+          {
+            "id": "19a58585-8156-4516-bbc7-fdf7b73a439d",
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "policy": {
+              "entry_modes": [
+                "manual"
+              ],
+              "expiry_mode": "printed",
+              "label_profile": "manual_only",
+              "lot_requirement": "optional",
+              "supplier_requirement": "optional",
+              "reference_requirement": "optional"
+            },
+            "version": 1,
+            "preset_id": "b3b4fa36-5b0f-49e4-804d-7b1e7f1525ea"
+          }
+        ]
+      },
+      "history": [
+        {
+          "id": "b59bf805-7575-4352-ac01-c6f2b8c5634a",
+          "action": "location_create",
+          "reason": "Synthetic fixture",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 1,
+          "target_id": "19e499be-ee1d-403f-8d6f-f89f0e2ecdf0",
+          "occurred_at": "2026-10-15T10:50:03.164698+00:00",
+          "operation_id": "82950a02-a7f7-487d-8b82-b47eec1df08f"
+        },
+        {
+          "id": "b92abdd8-7087-4861-9a29-1fec879ef327",
+          "action": "preset_create",
+          "reason": "Synthetic fixture",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 1,
+          "target_id": "b3b4fa36-5b0f-49e4-804d-7b1e7f1525ea",
+          "occurred_at": "2026-10-15T10:50:03.192225+00:00",
+          "operation_id": "3f217949-1c97-47d9-aaae-8c77599caaa2"
+        },
+        {
+          "id": "8a3ab8d6-66df-4513-86f2-e91277104dac",
+          "action": "save_store_setup",
+          "reason": "",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 1,
+          "target_id": "724c17a8-91dd-4c19-ae4a-0d6dfed2f9d1",
+          "occurred_at": "2026-10-15T10:50:03.223512+00:00",
+          "operation_id": "5d9d372f-59c9-4c1e-bcda-5ffd02c67b54"
+        },
+        {
+          "id": "aaff9542-518d-4d41-a957-14f25be61eaa",
+          "action": "save_store_setup",
+          "reason": "",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 2,
+          "target_id": "724c17a8-91dd-4c19-ae4a-0d6dfed2f9d1",
+          "occurred_at": "2026-10-15T10:50:03.782085+00:00",
+          "operation_id": "66dff52e-90f1-4897-8031-be5f363f013b"
+        },
+        {
+          "id": "ea016e84-3f83-445a-b2b9-4bf4c14e63d3",
+          "action": "activate_store_setup",
+          "reason": "Synthetic API activation",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 1,
+          "target_id": "c09ea04c-bc6f-41ea-be4a-127d3c055b68",
+          "occurred_at": "2026-10-15T10:50:03.907787+00:00",
+          "operation_id": "0e373a48-eed9-4b02-a753-1598cb0c5006"
+        },
+        {
+          "id": "6babd001-0bd3-44f7-bffa-1dd8830cc3b1",
+          "action": "location_create",
+          "reason": "Synthetic API",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 1,
+          "target_id": "2d9f4829-3d78-4e13-9a4c-ca4a5e9b2c40",
+          "occurred_at": "2026-10-15T10:50:03.928832+00:00",
+          "operation_id": "15023c25-b4f0-4253-a4e0-ce09742e9693"
+        }
+      ]
+    }
+  },
+  {
+    "type": "reference",
+    "name": "mutate_setup_preset",
+    "data": {
+      "catalog": {
+        "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+        "presets": [
+          {
+            "id": "191c2762-e185-48f6-af47-0d62a9a5f35c",
+            "name": "API preset",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          },
+          {
+            "id": "b3b4fa36-5b0f-49e4-804d-7b1e7f1525ea",
+            "name": "Synthetic preset",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          }
+        ],
+        "branches": [
+          {
+            "id": "02cc7b44-9b18-4340-8c24-eb4dd3a6b186",
+            "name": "A1",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          },
+          {
+            "id": "eee2796a-3bd1-48a2-96c1-52382a8bba65",
+            "name": "A2",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          }
+        ],
+        "products": [
+          {
+            "id": "4a2e47d1-7791-4833-9626-9ab02e609632",
+            "name": "Synthetic product",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1,
+            "category_id": "380805c1-9fe0-4334-b8fd-c671893a9744"
+          }
+        ],
+        "locations": [
+          {
+            "id": "19e499be-ee1d-403f-8d6f-f89f0e2ecdf0",
+            "name": "Receiving",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1,
+            "branch_id": "02cc7b44-9b18-4340-8c24-eb4dd3a6b186"
+          },
+          {
+            "id": "2d9f4829-3d78-4e13-9a4c-ca4a5e9b2c40",
+            "name": "API location",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1,
+            "branch_id": "02cc7b44-9b18-4340-8c24-eb4dd3a6b186"
+          }
+        ],
+        "categories": [
+          {
+            "id": "380805c1-9fe0-4334-b8fd-c671893a9744",
+            "name": "Synthetic category",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          }
+        ],
+        "preset_versions": [
+          {
+            "id": "19a58585-8156-4516-bbc7-fdf7b73a439d",
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "policy": {
+              "entry_modes": [
+                "manual"
+              ],
+              "expiry_mode": "printed",
+              "label_profile": "manual_only",
+              "lot_requirement": "optional",
+              "supplier_requirement": "optional",
+              "reference_requirement": "optional"
+            },
+            "version": 1,
+            "preset_id": "b3b4fa36-5b0f-49e4-804d-7b1e7f1525ea"
+          },
+          {
+            "id": "ad8ed22c-8000-4ab3-909b-bfefcedb5175",
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "policy": {
+              "entry_modes": [
+                "manual"
+              ],
+              "expiry_mode": "printed",
+              "label_profile": "manual_only",
+              "lot_requirement": "optional",
+              "supplier_requirement": "optional",
+              "reference_requirement": "optional"
+            },
+            "version": 1,
+            "preset_id": "191c2762-e185-48f6-af47-0d62a9a5f35c"
+          }
+        ]
+      },
+      "history": [
+        {
+          "id": "b59bf805-7575-4352-ac01-c6f2b8c5634a",
+          "action": "location_create",
+          "reason": "Synthetic fixture",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 1,
+          "target_id": "19e499be-ee1d-403f-8d6f-f89f0e2ecdf0",
+          "occurred_at": "2026-10-15T10:50:03.164698+00:00",
+          "operation_id": "82950a02-a7f7-487d-8b82-b47eec1df08f"
+        },
+        {
+          "id": "b92abdd8-7087-4861-9a29-1fec879ef327",
+          "action": "preset_create",
+          "reason": "Synthetic fixture",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 1,
+          "target_id": "b3b4fa36-5b0f-49e4-804d-7b1e7f1525ea",
+          "occurred_at": "2026-10-15T10:50:03.192225+00:00",
+          "operation_id": "3f217949-1c97-47d9-aaae-8c77599caaa2"
+        },
+        {
+          "id": "8a3ab8d6-66df-4513-86f2-e91277104dac",
+          "action": "save_store_setup",
+          "reason": "",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 1,
+          "target_id": "724c17a8-91dd-4c19-ae4a-0d6dfed2f9d1",
+          "occurred_at": "2026-10-15T10:50:03.223512+00:00",
+          "operation_id": "5d9d372f-59c9-4c1e-bcda-5ffd02c67b54"
+        },
+        {
+          "id": "aaff9542-518d-4d41-a957-14f25be61eaa",
+          "action": "save_store_setup",
+          "reason": "",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 2,
+          "target_id": "724c17a8-91dd-4c19-ae4a-0d6dfed2f9d1",
+          "occurred_at": "2026-10-15T10:50:03.782085+00:00",
+          "operation_id": "66dff52e-90f1-4897-8031-be5f363f013b"
+        },
+        {
+          "id": "ea016e84-3f83-445a-b2b9-4bf4c14e63d3",
+          "action": "activate_store_setup",
+          "reason": "Synthetic API activation",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 1,
+          "target_id": "c09ea04c-bc6f-41ea-be4a-127d3c055b68",
+          "occurred_at": "2026-10-15T10:50:03.907787+00:00",
+          "operation_id": "0e373a48-eed9-4b02-a753-1598cb0c5006"
+        },
+        {
+          "id": "6babd001-0bd3-44f7-bffa-1dd8830cc3b1",
+          "action": "location_create",
+          "reason": "Synthetic API",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 1,
+          "target_id": "2d9f4829-3d78-4e13-9a4c-ca4a5e9b2c40",
+          "occurred_at": "2026-10-15T10:50:03.928832+00:00",
+          "operation_id": "15023c25-b4f0-4253-a4e0-ce09742e9693"
+        },
+        {
+          "id": "a18509a6-a9a3-4730-a6a2-2adf7992dab1",
+          "action": "preset_create",
+          "reason": "Synthetic API",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 1,
+          "target_id": "191c2762-e185-48f6-af47-0d62a9a5f35c",
+          "occurred_at": "2026-10-15T10:50:03.93837+00:00",
+          "operation_id": "3b4f7fca-dd28-404b-9ae9-45367f739c10"
+        }
+      ],
+      "preset_version": {
+        "id": "ad8ed22c-8000-4ab3-909b-bfefcedb5175",
+        "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+        "policy": {
+          "entry_modes": [
+            "manual"
+          ],
+          "expiry_mode": "printed",
+          "label_profile": "manual_only",
+          "lot_requirement": "optional",
+          "supplier_requirement": "optional",
+          "reference_requirement": "optional"
+        },
+        "version": 1,
+        "preset_id": "191c2762-e185-48f6-af47-0d62a9a5f35c"
+      }
+    }
+  },
+  {
+    "type": "reference",
+    "name": "mutate_setup_preset",
+    "data": {
+      "catalog": {
+        "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+        "presets": [
+          {
+            "id": "191c2762-e185-48f6-af47-0d62a9a5f35c",
+            "name": "API preset",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          },
+          {
+            "id": "b3b4fa36-5b0f-49e4-804d-7b1e7f1525ea",
+            "name": "Synthetic preset",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          }
+        ],
+        "branches": [
+          {
+            "id": "02cc7b44-9b18-4340-8c24-eb4dd3a6b186",
+            "name": "A1",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          },
+          {
+            "id": "eee2796a-3bd1-48a2-96c1-52382a8bba65",
+            "name": "A2",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          }
+        ],
+        "products": [
+          {
+            "id": "4a2e47d1-7791-4833-9626-9ab02e609632",
+            "name": "Synthetic product",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1,
+            "category_id": "380805c1-9fe0-4334-b8fd-c671893a9744"
+          }
+        ],
+        "locations": [
+          {
+            "id": "19e499be-ee1d-403f-8d6f-f89f0e2ecdf0",
+            "name": "Receiving",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1,
+            "branch_id": "02cc7b44-9b18-4340-8c24-eb4dd3a6b186"
+          },
+          {
+            "id": "2d9f4829-3d78-4e13-9a4c-ca4a5e9b2c40",
+            "name": "API location",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1,
+            "branch_id": "02cc7b44-9b18-4340-8c24-eb4dd3a6b186"
+          }
+        ],
+        "categories": [
+          {
+            "id": "380805c1-9fe0-4334-b8fd-c671893a9744",
+            "name": "Synthetic category",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          }
+        ],
+        "preset_versions": [
+          {
+            "id": "19a58585-8156-4516-bbc7-fdf7b73a439d",
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "policy": {
+              "entry_modes": [
+                "manual"
+              ],
+              "expiry_mode": "printed",
+              "label_profile": "manual_only",
+              "lot_requirement": "optional",
+              "supplier_requirement": "optional",
+              "reference_requirement": "optional"
+            },
+            "version": 1,
+            "preset_id": "b3b4fa36-5b0f-49e4-804d-7b1e7f1525ea"
+          },
+          {
+            "id": "ad8ed22c-8000-4ab3-909b-bfefcedb5175",
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "policy": {
+              "entry_modes": [
+                "manual"
+              ],
+              "expiry_mode": "printed",
+              "label_profile": "manual_only",
+              "lot_requirement": "optional",
+              "supplier_requirement": "optional",
+              "reference_requirement": "optional"
+            },
+            "version": 1,
+            "preset_id": "191c2762-e185-48f6-af47-0d62a9a5f35c"
+          }
+        ]
+      },
+      "history": [
+        {
+          "id": "b59bf805-7575-4352-ac01-c6f2b8c5634a",
+          "action": "location_create",
+          "reason": "Synthetic fixture",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 1,
+          "target_id": "19e499be-ee1d-403f-8d6f-f89f0e2ecdf0",
+          "occurred_at": "2026-10-15T10:50:03.164698+00:00",
+          "operation_id": "82950a02-a7f7-487d-8b82-b47eec1df08f"
+        },
+        {
+          "id": "b92abdd8-7087-4861-9a29-1fec879ef327",
+          "action": "preset_create",
+          "reason": "Synthetic fixture",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 1,
+          "target_id": "b3b4fa36-5b0f-49e4-804d-7b1e7f1525ea",
+          "occurred_at": "2026-10-15T10:50:03.192225+00:00",
+          "operation_id": "3f217949-1c97-47d9-aaae-8c77599caaa2"
+        },
+        {
+          "id": "8a3ab8d6-66df-4513-86f2-e91277104dac",
+          "action": "save_store_setup",
+          "reason": "",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 1,
+          "target_id": "724c17a8-91dd-4c19-ae4a-0d6dfed2f9d1",
+          "occurred_at": "2026-10-15T10:50:03.223512+00:00",
+          "operation_id": "5d9d372f-59c9-4c1e-bcda-5ffd02c67b54"
+        },
+        {
+          "id": "aaff9542-518d-4d41-a957-14f25be61eaa",
+          "action": "save_store_setup",
+          "reason": "",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 2,
+          "target_id": "724c17a8-91dd-4c19-ae4a-0d6dfed2f9d1",
+          "occurred_at": "2026-10-15T10:50:03.782085+00:00",
+          "operation_id": "66dff52e-90f1-4897-8031-be5f363f013b"
+        },
+        {
+          "id": "ea016e84-3f83-445a-b2b9-4bf4c14e63d3",
+          "action": "activate_store_setup",
+          "reason": "Synthetic API activation",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 1,
+          "target_id": "c09ea04c-bc6f-41ea-be4a-127d3c055b68",
+          "occurred_at": "2026-10-15T10:50:03.907787+00:00",
+          "operation_id": "0e373a48-eed9-4b02-a753-1598cb0c5006"
+        },
+        {
+          "id": "6babd001-0bd3-44f7-bffa-1dd8830cc3b1",
+          "action": "location_create",
+          "reason": "Synthetic API",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 1,
+          "target_id": "2d9f4829-3d78-4e13-9a4c-ca4a5e9b2c40",
+          "occurred_at": "2026-10-15T10:50:03.928832+00:00",
+          "operation_id": "15023c25-b4f0-4253-a4e0-ce09742e9693"
+        },
+        {
+          "id": "a18509a6-a9a3-4730-a6a2-2adf7992dab1",
+          "action": "preset_create",
+          "reason": "Synthetic API",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 1,
+          "target_id": "191c2762-e185-48f6-af47-0d62a9a5f35c",
+          "occurred_at": "2026-10-15T10:50:03.93837+00:00",
+          "operation_id": "3b4f7fca-dd28-404b-9ae9-45367f739c10"
+        }
+      ],
+      "preset_version": {
+        "id": "ad8ed22c-8000-4ab3-909b-bfefcedb5175",
+        "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+        "policy": {
+          "entry_modes": [
+            "manual"
+          ],
+          "expiry_mode": "printed",
+          "label_profile": "manual_only",
+          "lot_requirement": "optional",
+          "supplier_requirement": "optional",
+          "reference_requirement": "optional"
+        },
+        "version": 1,
+        "preset_id": "191c2762-e185-48f6-af47-0d62a9a5f35c"
+      }
+    }
+  },
+  {
+    "type": "state",
+    "name": "save_store_setup",
+    "data": {
+      "draft": {
+        "id": "724c17a8-91dd-4c19-ae4a-0d6dfed2f9d1",
+        "revision": 3,
+        "saved_at": "2026-10-15T10:50:09.002715+00:00",
+        "branch_id": "02cc7b44-9b18-4340-8c24-eb4dd3a6b186",
+        "configuration": {
+          "store": {
+            "region": "WA",
+            "country": "AU",
+            "timezone": "Australia/Perth",
+            "confirmed": true,
+            "display_name": "Synthetic store"
+          },
+          "units": [
+            {
+              "code": "each",
+              "precision": 0
+            }
+          ],
+          "bindings": [
+            {
+              "category_id": "380805c1-9fe0-4334-b8fd-c671893a9744",
+              "preset_version_id": "19a58585-8156-4516-bbc7-fdf7b73a439d"
+            }
+          ],
+          "products": [
+            {
+              "pack_name": "Single",
+              "pack_count": 1,
+              "product_id": "4a2e47d1-7791-4833-9626-9ab02e609632",
+              "stock_unit": "each"
+            }
+          ],
+          "receiving": {
+            "location_ids": [
+              "19e499be-ee1d-403f-8d6f-f89f0e2ecdf0"
+            ],
+            "exception_role": "admin",
+            "hold_location_id": "19e499be-ee1d-403f-8d6f-f89f0e2ecdf0"
+          },
+          "schema_version": 1
+        }
+      },
+      "active": {
+        "id": "c09ea04c-bc6f-41ea-be4a-127d3c055b68",
+        "reason": "Synthetic API activation",
+        "version": 1,
+        "branch_id": "02cc7b44-9b18-4340-8c24-eb4dd3a6b186",
+        "activated_at": "2026-10-15T10:50:03.906871+00:00",
+        "configuration": {
+          "store": {
+            "region": "WA",
+            "country": "AU",
+            "timezone": "Australia/Perth",
+            "confirmed": true,
+            "display_name": "Synthetic store"
+          },
+          "units": [
+            {
+              "code": "each",
+              "precision": 0
+            }
+          ],
+          "bindings": [
+            {
+              "category_id": "380805c1-9fe0-4334-b8fd-c671893a9744",
+              "preset_version_id": "19a58585-8156-4516-bbc7-fdf7b73a439d"
+            }
+          ],
+          "products": [
+            {
+              "pack_name": "Single",
+              "pack_count": 1,
+              "product_id": "4a2e47d1-7791-4833-9626-9ab02e609632",
+              "stock_unit": "each"
+            }
+          ],
+          "receiving": {
+            "location_ids": [
+              "19e499be-ee1d-403f-8d6f-f89f0e2ecdf0"
+            ],
+            "exception_role": "admin",
+            "hold_location_id": "19e499be-ee1d-403f-8d6f-f89f0e2ecdf0"
+          },
+          "schema_version": 1
+        }
+      },
+      "catalog": {
+        "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+        "presets": [
+          {
+            "id": "191c2762-e185-48f6-af47-0d62a9a5f35c",
+            "name": "API preset",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          },
+          {
+            "id": "b3b4fa36-5b0f-49e4-804d-7b1e7f1525ea",
+            "name": "Synthetic preset",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          }
+        ],
+        "branches": [
+          {
+            "id": "02cc7b44-9b18-4340-8c24-eb4dd3a6b186",
+            "name": "A1",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          },
+          {
+            "id": "eee2796a-3bd1-48a2-96c1-52382a8bba65",
+            "name": "A2",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          }
+        ],
+        "products": [
+          {
+            "id": "4a2e47d1-7791-4833-9626-9ab02e609632",
+            "name": "Synthetic product",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1,
+            "category_id": "380805c1-9fe0-4334-b8fd-c671893a9744"
+          }
+        ],
+        "locations": [
+          {
+            "id": "19e499be-ee1d-403f-8d6f-f89f0e2ecdf0",
+            "name": "Receiving",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1,
+            "branch_id": "02cc7b44-9b18-4340-8c24-eb4dd3a6b186"
+          },
+          {
+            "id": "2d9f4829-3d78-4e13-9a4c-ca4a5e9b2c40",
+            "name": "API location",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1,
+            "branch_id": "02cc7b44-9b18-4340-8c24-eb4dd3a6b186"
+          }
+        ],
+        "categories": [
+          {
+            "id": "380805c1-9fe0-4334-b8fd-c671893a9744",
+            "name": "Synthetic category",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          }
+        ],
+        "preset_versions": [
+          {
+            "id": "19a58585-8156-4516-bbc7-fdf7b73a439d",
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "policy": {
+              "entry_modes": [
+                "manual"
+              ],
+              "expiry_mode": "printed",
+              "label_profile": "manual_only",
+              "lot_requirement": "optional",
+              "supplier_requirement": "optional",
+              "reference_requirement": "optional"
+            },
+            "version": 1,
+            "preset_id": "b3b4fa36-5b0f-49e4-804d-7b1e7f1525ea"
+          },
+          {
+            "id": "ad8ed22c-8000-4ab3-909b-bfefcedb5175",
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "policy": {
+              "entry_modes": [
+                "manual"
+              ],
+              "expiry_mode": "printed",
+              "label_profile": "manual_only",
+              "lot_requirement": "optional",
+              "supplier_requirement": "optional",
+              "reference_requirement": "optional"
+            },
+            "version": 1,
+            "preset_id": "191c2762-e185-48f6-af47-0d62a9a5f35c"
+          }
+        ]
+      },
+      "history": [
+        {
+          "id": "b59bf805-7575-4352-ac01-c6f2b8c5634a",
+          "action": "location_create",
+          "reason": "Synthetic fixture",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 1,
+          "target_id": "19e499be-ee1d-403f-8d6f-f89f0e2ecdf0",
+          "occurred_at": "2026-10-15T10:50:03.164698+00:00",
+          "operation_id": "82950a02-a7f7-487d-8b82-b47eec1df08f"
+        },
+        {
+          "id": "8a3ab8d6-66df-4513-86f2-e91277104dac",
+          "action": "save_store_setup",
+          "reason": "",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 1,
+          "target_id": "724c17a8-91dd-4c19-ae4a-0d6dfed2f9d1",
+          "occurred_at": "2026-10-15T10:50:03.223512+00:00",
+          "operation_id": "5d9d372f-59c9-4c1e-bcda-5ffd02c67b54"
+        },
+        {
+          "id": "aaff9542-518d-4d41-a957-14f25be61eaa",
+          "action": "save_store_setup",
+          "reason": "",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 2,
+          "target_id": "724c17a8-91dd-4c19-ae4a-0d6dfed2f9d1",
+          "occurred_at": "2026-10-15T10:50:03.782085+00:00",
+          "operation_id": "66dff52e-90f1-4897-8031-be5f363f013b"
+        },
+        {
+          "id": "ea016e84-3f83-445a-b2b9-4bf4c14e63d3",
+          "action": "activate_store_setup",
+          "reason": "Synthetic API activation",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 1,
+          "target_id": "c09ea04c-bc6f-41ea-be4a-127d3c055b68",
+          "occurred_at": "2026-10-15T10:50:03.907787+00:00",
+          "operation_id": "0e373a48-eed9-4b02-a753-1598cb0c5006"
+        },
+        {
+          "id": "6babd001-0bd3-44f7-bffa-1dd8830cc3b1",
+          "action": "location_create",
+          "reason": "Synthetic API",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 1,
+          "target_id": "2d9f4829-3d78-4e13-9a4c-ca4a5e9b2c40",
+          "occurred_at": "2026-10-15T10:50:03.928832+00:00",
+          "operation_id": "15023c25-b4f0-4253-a4e0-ce09742e9693"
+        },
+        {
+          "id": "65d09e8c-3308-4277-84c1-3ebd3ff17ff1",
+          "action": "save_store_setup",
+          "reason": "",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 3,
+          "target_id": "724c17a8-91dd-4c19-ae4a-0d6dfed2f9d1",
+          "occurred_at": "2026-10-15T10:50:09.002821+00:00",
+          "operation_id": "7e14f511-b2de-4a1c-89d6-6e28c0c2f0c2"
+        }
+      ],
+      "branch_id": "02cc7b44-9b18-4340-8c24-eb4dd3a6b186",
+      "readiness": {
+        "errors": [],
+        "products": [
+          {
+            "actions": {
+              "freeze": {
+                "reasons": [
+                  "actions.freeze: explicit choice required"
+                ],
+                "not_used": false
+              },
+              "discard": {
+                "reasons": [
+                  "actions.discard: explicit choice required"
+                ],
+                "not_used": false
+              },
+              "relabel": {
+                "reasons": [
+                  "actions.relabel: explicit choice required"
+                ],
+                "not_used": false
+              },
+              "donation": {
+                "reasons": [
+                  "actions.donation: explicit choice required"
+                ],
+                "not_used": false
+              },
+              "markdown": {
+                "reasons": [
+                  "actions.markdown: explicit choice required"
+                ],
+                "not_used": false
+              },
+              "conversion": {
+                "reasons": [
+                  "actions.conversion: explicit choice required"
+                ],
+                "not_used": false
+              }
+            },
+            "effective": {
+              "policy": {
+                "entry_modes": [
+                  "manual"
+                ],
+                "expiry_mode": "printed",
+                "label_profile": "manual_only",
+                "lot_requirement": "optional",
+                "supplier_requirement": "optional",
+                "reference_requirement": "optional"
+              },
+              "origins": {
+                "actions": "unknown",
+                "entry_modes": "preset",
+                "expiry_mode": "preset",
+                "expiry_rule": "unknown",
+                "label_profile": "preset",
+                "lot_requirement": "preset",
+                "supplier_requirement": "preset",
+                "reference_requirement": "preset"
+              }
+            },
+            "receiving": {
+              "reasons": [],
+              "not_used": false
+            },
+            "product_id": "4a2e47d1-7791-4833-9626-9ab02e609632"
+          }
+        ]
+      },
+      "active_revision": 1
+    }
+  },
+  {
+    "type": "state",
+    "name": "get_store_setup",
+    "data": {
+      "draft": {
+        "id": "724c17a8-91dd-4c19-ae4a-0d6dfed2f9d1",
+        "revision": 3,
+        "saved_at": "2026-10-15T10:50:09.002715+00:00",
+        "branch_id": "02cc7b44-9b18-4340-8c24-eb4dd3a6b186",
+        "configuration": {
+          "store": {
+            "region": "WA",
+            "country": "AU",
+            "timezone": "Australia/Perth",
+            "confirmed": true,
+            "display_name": "Synthetic store"
+          },
+          "units": [
+            {
+              "code": "each",
+              "precision": 0
+            }
+          ],
+          "bindings": [
+            {
+              "category_id": "380805c1-9fe0-4334-b8fd-c671893a9744",
+              "preset_version_id": "19a58585-8156-4516-bbc7-fdf7b73a439d"
+            }
+          ],
+          "products": [
+            {
+              "pack_name": "Single",
+              "pack_count": 1,
+              "product_id": "4a2e47d1-7791-4833-9626-9ab02e609632",
+              "stock_unit": "each"
+            }
+          ],
+          "receiving": {
+            "location_ids": [
+              "19e499be-ee1d-403f-8d6f-f89f0e2ecdf0"
+            ],
+            "exception_role": "admin",
+            "hold_location_id": "19e499be-ee1d-403f-8d6f-f89f0e2ecdf0"
+          },
+          "schema_version": 1
+        }
+      },
+      "active": {
+        "id": "c09ea04c-bc6f-41ea-be4a-127d3c055b68",
+        "reason": "Synthetic API activation",
+        "version": 1,
+        "branch_id": "02cc7b44-9b18-4340-8c24-eb4dd3a6b186",
+        "activated_at": "2026-10-15T10:50:03.906871+00:00",
+        "configuration": {
+          "store": {
+            "region": "WA",
+            "country": "AU",
+            "timezone": "Australia/Perth",
+            "confirmed": true,
+            "display_name": "Synthetic store"
+          },
+          "units": [
+            {
+              "code": "each",
+              "precision": 0
+            }
+          ],
+          "bindings": [
+            {
+              "category_id": "380805c1-9fe0-4334-b8fd-c671893a9744",
+              "preset_version_id": "19a58585-8156-4516-bbc7-fdf7b73a439d"
+            }
+          ],
+          "products": [
+            {
+              "pack_name": "Single",
+              "pack_count": 1,
+              "product_id": "4a2e47d1-7791-4833-9626-9ab02e609632",
+              "stock_unit": "each"
+            }
+          ],
+          "receiving": {
+            "location_ids": [
+              "19e499be-ee1d-403f-8d6f-f89f0e2ecdf0"
+            ],
+            "exception_role": "admin",
+            "hold_location_id": "19e499be-ee1d-403f-8d6f-f89f0e2ecdf0"
+          },
+          "schema_version": 1
+        }
+      },
+      "catalog": {
+        "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+        "presets": [
+          {
+            "id": "191c2762-e185-48f6-af47-0d62a9a5f35c",
+            "name": "API preset",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          },
+          {
+            "id": "b3b4fa36-5b0f-49e4-804d-7b1e7f1525ea",
+            "name": "Synthetic preset",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          }
+        ],
+        "branches": [
+          {
+            "id": "02cc7b44-9b18-4340-8c24-eb4dd3a6b186",
+            "name": "A1",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          },
+          {
+            "id": "eee2796a-3bd1-48a2-96c1-52382a8bba65",
+            "name": "A2",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          }
+        ],
+        "products": [
+          {
+            "id": "4a2e47d1-7791-4833-9626-9ab02e609632",
+            "name": "Synthetic product",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1,
+            "category_id": "380805c1-9fe0-4334-b8fd-c671893a9744"
+          }
+        ],
+        "locations": [
+          {
+            "id": "19e499be-ee1d-403f-8d6f-f89f0e2ecdf0",
+            "name": "Receiving",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1,
+            "branch_id": "02cc7b44-9b18-4340-8c24-eb4dd3a6b186"
+          },
+          {
+            "id": "2d9f4829-3d78-4e13-9a4c-ca4a5e9b2c40",
+            "name": "API location",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1,
+            "branch_id": "02cc7b44-9b18-4340-8c24-eb4dd3a6b186"
+          }
+        ],
+        "categories": [
+          {
+            "id": "380805c1-9fe0-4334-b8fd-c671893a9744",
+            "name": "Synthetic category",
+            "active": true,
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "revision": 1
+          }
+        ],
+        "preset_versions": [
+          {
+            "id": "19a58585-8156-4516-bbc7-fdf7b73a439d",
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "policy": {
+              "entry_modes": [
+                "manual"
+              ],
+              "expiry_mode": "printed",
+              "label_profile": "manual_only",
+              "lot_requirement": "optional",
+              "supplier_requirement": "optional",
+              "reference_requirement": "optional"
+            },
+            "version": 1,
+            "preset_id": "b3b4fa36-5b0f-49e4-804d-7b1e7f1525ea"
+          },
+          {
+            "id": "ad8ed22c-8000-4ab3-909b-bfefcedb5175",
+            "org_id": "b58af867-2201-4241-93fc-7aecd3a8b119",
+            "policy": {
+              "entry_modes": [
+                "manual"
+              ],
+              "expiry_mode": "printed",
+              "label_profile": "manual_only",
+              "lot_requirement": "optional",
+              "supplier_requirement": "optional",
+              "reference_requirement": "optional"
+            },
+            "version": 1,
+            "preset_id": "191c2762-e185-48f6-af47-0d62a9a5f35c"
+          }
+        ]
+      },
+      "history": [
+        {
+          "id": "b59bf805-7575-4352-ac01-c6f2b8c5634a",
+          "action": "location_create",
+          "reason": "Synthetic fixture",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 1,
+          "target_id": "19e499be-ee1d-403f-8d6f-f89f0e2ecdf0",
+          "occurred_at": "2026-10-15T10:50:03.164698+00:00",
+          "operation_id": "82950a02-a7f7-487d-8b82-b47eec1df08f"
+        },
+        {
+          "id": "8a3ab8d6-66df-4513-86f2-e91277104dac",
+          "action": "save_store_setup",
+          "reason": "",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 1,
+          "target_id": "724c17a8-91dd-4c19-ae4a-0d6dfed2f9d1",
+          "occurred_at": "2026-10-15T10:50:03.223512+00:00",
+          "operation_id": "5d9d372f-59c9-4c1e-bcda-5ffd02c67b54"
+        },
+        {
+          "id": "aaff9542-518d-4d41-a957-14f25be61eaa",
+          "action": "save_store_setup",
+          "reason": "",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 2,
+          "target_id": "724c17a8-91dd-4c19-ae4a-0d6dfed2f9d1",
+          "occurred_at": "2026-10-15T10:50:03.782085+00:00",
+          "operation_id": "66dff52e-90f1-4897-8031-be5f363f013b"
+        },
+        {
+          "id": "ea016e84-3f83-445a-b2b9-4bf4c14e63d3",
+          "action": "activate_store_setup",
+          "reason": "Synthetic API activation",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 1,
+          "target_id": "c09ea04c-bc6f-41ea-be4a-127d3c055b68",
+          "occurred_at": "2026-10-15T10:50:03.907787+00:00",
+          "operation_id": "0e373a48-eed9-4b02-a753-1598cb0c5006"
+        },
+        {
+          "id": "6babd001-0bd3-44f7-bffa-1dd8830cc3b1",
+          "action": "location_create",
+          "reason": "Synthetic API",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 1,
+          "target_id": "2d9f4829-3d78-4e13-9a4c-ca4a5e9b2c40",
+          "occurred_at": "2026-10-15T10:50:03.928832+00:00",
+          "operation_id": "15023c25-b4f0-4253-a4e0-ce09742e9693"
+        },
+        {
+          "id": "65d09e8c-3308-4277-84c1-3ebd3ff17ff1",
+          "action": "save_store_setup",
+          "reason": "",
+          "actor_id": "22e43657-0a6f-486a-b648-77dfe1dc2524",
+          "revision": 3,
+          "target_id": "724c17a8-91dd-4c19-ae4a-0d6dfed2f9d1",
+          "occurred_at": "2026-10-15T10:50:09.002821+00:00",
+          "operation_id": "7e14f511-b2de-4a1c-89d6-6e28c0c2f0c2"
+        }
+      ],
+      "branch_id": "02cc7b44-9b18-4340-8c24-eb4dd3a6b186",
+      "readiness": {
+        "errors": [],
+        "products": [
+          {
+            "actions": {
+              "freeze": {
+                "reasons": [
+                  "actions.freeze: explicit choice required"
+                ],
+                "not_used": false
+              },
+              "discard": {
+                "reasons": [
+                  "actions.discard: explicit choice required"
+                ],
+                "not_used": false
+              },
+              "relabel": {
+                "reasons": [
+                  "actions.relabel: explicit choice required"
+                ],
+                "not_used": false
+              },
+              "donation": {
+                "reasons": [
+                  "actions.donation: explicit choice required"
+                ],
+                "not_used": false
+              },
+              "markdown": {
+                "reasons": [
+                  "actions.markdown: explicit choice required"
+                ],
+                "not_used": false
+              },
+              "conversion": {
+                "reasons": [
+                  "actions.conversion: explicit choice required"
+                ],
+                "not_used": false
+              }
+            },
+            "effective": {
+              "policy": {
+                "entry_modes": [
+                  "manual"
+                ],
+                "expiry_mode": "printed",
+                "label_profile": "manual_only",
+                "lot_requirement": "optional",
+                "supplier_requirement": "optional",
+                "reference_requirement": "optional"
+              },
+              "origins": {
+                "actions": "unknown",
+                "entry_modes": "preset",
+                "expiry_mode": "preset",
+                "expiry_rule": "unknown",
+                "label_profile": "preset",
+                "lot_requirement": "preset",
+                "supplier_requirement": "preset",
+                "reference_requirement": "preset"
+              }
+            },
+            "receiving": {
+              "reasons": [],
+              "not_used": false
+            },
+            "product_id": "4a2e47d1-7791-4833-9626-9ab02e609632"
+          }
+        ]
+      },
+      "active_revision": 1
+    }
+  }
+]

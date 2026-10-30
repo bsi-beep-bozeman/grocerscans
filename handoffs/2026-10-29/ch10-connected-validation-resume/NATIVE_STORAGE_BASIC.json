@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "result": "- heading \"Synthetic storage validation\" [level=2]\n- text: \"PASS: native commit, close/reopen and stale-revision race. NOT tested: process kill, power loss, quota, blocked upgrade, lifecycle, Auth/API or backup restore. Synthetic database retained for approved cleanup.\"\n- button \"Run approved platform checks\"",
+  "databases": [
+    {
+      "name": "shelflife_s2a_synthetic_validation_v1",
+      "version": 1
+    }
+  ],
+  "browser": "156.0.8078.48",
+  "pageErrors": [],
+  "blockedNonlocalRequests": []
+}

@@ -1,0 +1,74 @@
+{
+  "packaged": "2026-10-26",
+  "file": "ghl-standalone.html",
+  "embeddedSources": [
+    {
+      "title": "Chapter 01 closeout",
+      "file": "handoffs/2026-10-09/ch01-transition-closeout/EXECUTIVE_SUMMARY.md",
+      "sha256": "b0ee926f33523c50c89580d7e1058ad77e9cfa4aa744d762f99f363da5b462e5"
+    },
+    {
+      "title": "Workflow specification",
+      "file": "docs/superpowers/specs/2026-10-10-staff-workflow-design.md",
+      "sha256": "ba786e5b5b61b3ce62eb36011569c93f1bfad9fbc0ef5f2549d9444df33a5084"
+    },
+    {
+      "title": "Accepted decisions",
+      "file": "docs/superpowers/specs/2026-10-10-staff-workflow-decisions-addendum.md",
+      "sha256": "b774224132ea3e1b200ffe20c6a2b8312dcb5d38f307a0fd4e9cf53dc3b9596d"
+    },
+    {
+      "title": "Verified design closeout",
+      "file": "handoffs/2026-10-11/ch03-transition-closeout/EXECUTIVE_SUMMARY.md",
+      "sha256": "c8a3716f5f90a698c39dcf71c0e9e55a3f4982903e3548382b5df862711a144b"
+    },
+    {
+      "title": "Scope and acceptance plan",
+      "file": "docs/superpowers/plans/2026-10-12-staff-workflow-scope-acceptance.md",
+      "sha256": "21447bc2fc4a41694fac22900ada634b3d5b245331bf722a08f5b16ec20811b2"
+    },
+    {
+      "title": "Existing demo review",
+      "file": "handoffs/2026-10-13/ch05-existing-demo-review/EXECUTIVE_SUMMARY.md",
+      "sha256": "668b70d37e08932cf6a0f1b74150599892fdbc7bde67ea19c5f1b650a839b8dd"
+    },
+    {
+      "title": "20-product catalog",
+      "file": "handoffs/2026-10-13/ch05-demo-catalog-20/EXECUTIVE_SUMMARY.md",
+      "sha256": "92d7d4f5aedbe6d3ad96754800fe81610ddda64b144f8ef1d3541cad5f1d84c6"
+    },
+    {
+      "title": "Local implementation evidence",
+      "file": "handoffs/2026-10-15/ch05-admin-setup-foundation/EVIDENCE.md",
+      "sha256": "feca1ea5e6127301b1dbd2de452b75580dd2331637e4bbd6bb536757cddb7fed"
+    },
+    {
+      "title": "Backend evidence",
+      "file": "handoffs/2026-10-16/ch06-backend-validation/EVIDENCE.md",
+      "sha256": "7a7b696058e2867d4d7839750dc7c524a7c16956100f2edde9711dbc303b965b"
+    },
+    {
+      "title": "Successful restore retry",
+      "file": "handoffs/2026-10-16/ch06-restore-retry/RESTORE.json",
+      "sha256": "50add436d77be76737a98457bc8c72021ee9c0ed42e642c7886cc03ce4afb928"
+    },
+    {
+      "title": "Connected Chrome results",
+      "file": "handoffs/2026-10-16/ch06-browser-validation/BROWSER_CHECKS.json",
+      "sha256": "f1baaadf9f2604c5f553eb65085ceda554661aec7661852bfb2e20b83aa801bf"
+    },
+    {
+      "title": "Restore and Chrome approval",
+      "file": "handoffs/2026-10-16/ch06-restore-retry/APPROVAL_RECEIPT.md",
+      "sha256": "b559daaf74948df3834ff09c53644175192e4693869365db5bbec7b91baa2c23"
+    },
+    {
+      "title": "Dated event ledger",
+      "file": "STATUS_LEDGER.md",
+      "sha256": "fbb9cab6b42fe6059aac0ead9f27f9ea0fdb06bf90b968e7eb5c53b5b53a4c08"
+    }
+  ],
+  "embeddedImages": 4,
+  "bytes": 623949,
+  "published": false
+}

@@ -1,0 +1,9 @@
+00:00 +0: loading D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/receiving/workspace_test.dart
+00:00 +0: stored draft reopens, supports new draft, and discloses persistence refusal
+00:00 +1: online catalog cache is reused offline and policy selection remains explicit
+00:01 +2: open failure preserves records and never offers a successful save
+00:01 +3: corrupt ciphertext is retained while valid drafts remain readable
+00:01 +4: save waits for commit and fits Size(390.0, 844.0) at 200% text
+00:01 +5: save waits for commit and fits Size(1440.0, 1100.0) at 200% text
+00:01 +6: write failure is never called saved
+00:01 +7: All tests passed!

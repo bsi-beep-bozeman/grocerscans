@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "legacyObjects": 22,
+  "roles": [
+    "anon",
+    "authenticated"
+  ],
+  "schema": false,
+  "helpers": 0,
+  "sequence": false,
+  "privateDefaultPrivilegeStatement": "ABSENT in source; future-object default contract remains unresolved",
+  "realtimeTransport": "NOT RUN: service not approved"
+}

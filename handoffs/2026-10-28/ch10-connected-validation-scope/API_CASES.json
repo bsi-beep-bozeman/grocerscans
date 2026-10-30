@@ -1,0 +1,56 @@
+{
+  "results": [
+    {
+      "label": "A01: all29 actual Auth identity contexts",
+      "status": "PASS"
+    },
+    {
+      "label": "A01: inactive conflicting profiles still deny receiving",
+      "status": "PASS"
+    },
+    {
+      "label": "A03: cross-device and tenant replay, forged secret, predecessor revocation",
+      "status": "PASS"
+    },
+    {
+      "label": "A03: current PIN, actor, device, lead and session revocation checks",
+      "status": "FAIL",
+      "reason": "SQL failed (details withheld; use a sanitized assertion log)"
+    },
+    {
+      "label": "A04: effective legacy/private/S1 helper privileges and owned audit sequence",
+      "status": "PASS"
+    },
+    {
+      "label": "A04: real API direct tables, views, joins and helper requests denied",
+      "status": "PASS"
+    },
+    {
+      "label": "A05: exact safe catalog projection, leading zeros and pagination",
+      "status": "PASS"
+    },
+    {
+      "label": "A02: ambiguous PIN counts as denial",
+      "status": "PASS"
+    },
+    {
+      "label": "A10: recovery denies ordinary/foreign actors and audits disabled-owner recovery",
+      "status": "PASS"
+    },
+    {
+      "label": "S1: six retained endpoints, ready configuration, exact retry and stale conflict",
+      "status": "PASS"
+    },
+    {
+      "label": "S1: all six endpoints deny non-admin roles, cross-tenant reads denied",
+      "status": "PASS"
+    },
+    {
+      "label": "A05: actual ready policy remains draft-only",
+      "status": "FAIL",
+      "reason": "ready policy: status 400 code 42702\n\n400 !== 200\n"
+    }
+  ],
+  "passed": 10,
+  "failed": 2
+}

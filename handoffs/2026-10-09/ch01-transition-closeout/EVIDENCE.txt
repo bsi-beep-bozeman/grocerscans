@@ -1,0 +1,42 @@
+Chapter 01 transition — documentation verification
+Date: 2026-10-09 Australia/Perth
+PASS: 8 current closeout documents and 24 local links.
+PASS: mandatory start gate verbatim in rules and actual opening message.
+PASS: original domain-plan/addendum/resume bodies preserved.
+PASS: git diff --check.
+No application tests/builds/deployments/connected validation run.
+Earlier test and publication results remain historical.
+
+Existing tracked application diff (unchanged scope):
+3	0	app_flutter/android/app/src/main/AndroidManifest.xml
+8	0	app_flutter/pubspec.yaml
+49	24	app_flutter/test/widget_test.dart
+
+Old dated packet SHA-256 inventory (preserve these files):
+ENGINEERING_HANDOFF.md 19f1f1ac0392a8990e198f480045a21aff269dde6e8d8633ee6565fb48d385ca
+EVIDENCE.txt 8e01f7dc28327a336911f4c6b10c6f90e00cec1968739f9abd2373dced1a1d0b
+EXECUTIVE_SUMMARY.md c760ee0c9001bfd9af2b6837c3ef233fb19fac8be2b73e3b33b37bd374228e2b
+NEXT_CHAT_OPENING.md 25b0280e2e3cd37b8e4f2a770b67d0988731715ca690f92995c51a625917ed58
+
+Main HEAD:
+f56d5068e94cf80819f55be952a95769ad508c97
+
+Working-tree status:
+M PLAN.md
+ M PLAN_ADDENDUM_2026-09-25.md
+ M RESUME.md
+ M app_flutter/android/app/src/main/AndroidManifest.xml
+ M app_flutter/pubspec.yaml
+ M app_flutter/test/widget_test.dart
+?? AGENTS.md
+?? IMPLEMENTATION_PLAN.md
+?? NEXT_CONVERSATION_HANDOFF.md
+?? SESSION_INDEX.md
+?? STATUS_LEDGER.md
+?? app_flutter/PREVIEW.md
+?? app_flutter/assets/
+?? app_flutter/lib/preview.dart
+?? app_flutter/lib/preview/
+?? app_flutter/serve-preview.mjs
+?? handoffs/
+?? site-preview/

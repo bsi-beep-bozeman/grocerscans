@@ -1,0 +1,35 @@
+Final Chapter 01 documentation/transition verification
+Date: 2026-10-09 Australia/Perth
+PASS: 9 current documents, 28 local link targets.
+PASS: earlier dated handoff files unchanged (SHA-256 comparison with pre-creation evidence).
+PASS: actual continuation ID recorded in all current navigation/status records.
+PASS: exact mandatory start gate unchanged in rules and sent opening.
+PASS: preexisting tracked application diff unchanged.
+PASS: git diff --check.
+Fresh tool evidence: create_thread succeeded once; wait_threads reported completed acknowledgement and idle; read_thread confirmed title and waiting response.
+No new implementation, application tests, deployment, publication, push, merge, permission change or rollout.
+Source and continuation chats kept; no archive or second creation performed.
+In-chat approval of Staff Workflow Design Specification remains pending.
+
+Final root HEAD:
+f56d5068e94cf80819f55be952a95769ad508c97
+
+Final root status:
+M PLAN.md
+ M PLAN_ADDENDUM_2026-09-25.md
+ M RESUME.md
+ M app_flutter/android/app/src/main/AndroidManifest.xml
+ M app_flutter/pubspec.yaml
+ M app_flutter/test/widget_test.dart
+?? AGENTS.md
+?? IMPLEMENTATION_PLAN.md
+?? NEXT_CONVERSATION_HANDOFF.md
+?? SESSION_INDEX.md
+?? STATUS_LEDGER.md
+?? app_flutter/PREVIEW.md
+?? app_flutter/assets/
+?? app_flutter/lib/preview.dart
+?? app_flutter/lib/preview/
+?? app_flutter/serve-preview.mjs
+?? handoffs/
+?? site-preview/

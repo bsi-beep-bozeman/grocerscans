@@ -1,0 +1,6 @@
+00:00 +0: loading D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/receiving/recovery_test.dart
+00:00 +0: recovery discloses partition scope and opens attributed workspace
+00:00 +1: revoked recovery response locks the staff session
+00:00 +2: late recovery grant is discarded and its key cleared
+00:00 +3: invalid recovery form stays in place with safe error
+00:00 +4: All tests passed!

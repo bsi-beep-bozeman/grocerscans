@@ -1,0 +1,65 @@
+{
+  "errors": [],
+  "overflows": [
+    {
+      "view": {
+        "width": 1280,
+        "height": 720
+      },
+      "gi": 2,
+      "si": 2,
+      "h": 556,
+      "sh": 556,
+      "w": 1198,
+      "sw": 1198,
+      "title": "Show the existing work",
+      "contentH": 363,
+      "contentSH": 384
+    },
+    {
+      "view": {
+        "width": 390,
+        "height": 844
+      },
+      "gi": 0,
+      "si": 0,
+      "h": 674,
+      "sh": 674,
+      "w": 364,
+      "sw": 364,
+      "title": "From decisions to a working admin foundation.",
+      "contentH": 0,
+      "contentSH": 180
+    },
+    {
+      "view": {
+        "width": 390,
+        "height": 844
+      },
+      "gi": 1,
+      "si": 10,
+      "h": 674,
+      "sh": 674,
+      "w": 364,
+      "sw": 364,
+      "title": "Implementation and review interval",
+      "contentH": 361,
+      "contentSH": 400
+    },
+    {
+      "view": {
+        "width": 390,
+        "height": 844
+      },
+      "gi": 1,
+      "si": 13,
+      "h": 674,
+      "sh": 674,
+      "w": 364,
+      "sw": 364,
+      "title": "The period-end position",
+      "contentH": 372,
+      "contentSH": 400
+    }
+  ]
+}

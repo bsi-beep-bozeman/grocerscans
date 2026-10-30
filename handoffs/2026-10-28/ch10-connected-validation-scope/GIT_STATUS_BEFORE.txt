@@ -1,0 +1,40 @@
+ M PLAN.md
+ M PLAN_ADDENDUM_2026-09-25.md
+ M RESUME.md
+ M app_flutter/android/app/src/main/AndroidManifest.xml
+ M app_flutter/lib/main.dart
+ M app_flutter/lib/screens/login.dart
+ M app_flutter/pubspec.lock
+ M app_flutter/pubspec.yaml
+ M app_flutter/test/widget_test.dart
+?? AGENTS.md
+?? IMPLEMENTATION_PLAN.md
+?? NEXT_CONVERSATION_HANDOFF.md
+?? SESSION_INDEX.md
+?? STATUS_LEDGER.md
+?? app_flutter/PREVIEW.md
+?? app_flutter/android/app/src/main/res/xml/
+?? app_flutter/assets/
+?? app_flutter/demo-data/
+?? app_flutter/integration_test/
+?? app_flutter/lib/identity/
+?? app_flutter/lib/preview.dart
+?? app_flutter/lib/preview/
+?? app_flutter/lib/receiving/
+?? app_flutter/lib/setup/
+?? app_flutter/lib/sync/
+?? app_flutter/serve-preview.mjs
+?? app_flutter/test/identity/
+?? app_flutter/test/receiving/
+?? app_flutter/test/setup/
+?? app_flutter/test/sync/
+?? docs/
+?? handoffs/
+?? product/supabase/migrations/20261013000000_store_setup.sql
+?? product/supabase/migrations/20261013000001_store_setup_api.sql
+?? product/supabase/migrations/20261027000000_receiving_identity.sql
+?? product/supabase/migrations/20261027000001_receiving_foundation_api.sql
+?? product/supabase/migrations/20261027000002_receiving_access_boundary.sql
+?? product/supabase/tests/
+?? reports/
+?? site-preview/

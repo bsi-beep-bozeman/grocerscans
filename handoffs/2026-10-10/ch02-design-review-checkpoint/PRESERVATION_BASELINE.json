@@ -1,0 +1,414 @@
+[
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\.gitignore",
+    "Hash": "A505D6F40FC9D0FC3D17C87C7FECAD330709C1321CC0FFEFF5AF29A1A2711777"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\AGENTS.md",
+    "Hash": "751090B48A4805EBB8EBD9C5317DE3891D8F2F8DFAF4320D4BF08676EABDAA8C"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\.gitignore",
+    "Hash": "0581D23086F7283DC97D2D5BDE4F60724F8115F67BAA76949596790AB9800DD7"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\.metadata",
+    "Hash": "A68A9DD52A10663EA3307A618A885770283487E33D624C4514AA60662015DE96"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\analysis_options.yaml",
+    "Hash": "FF56F6372293DBD6E9A9BA935988332CACCFE59D6978D2F36C1E25898B316CE4"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\android\\.gitignore",
+    "Hash": "C9AF75DBC2C8AA867476A09426C80B178C4AEED8B9393AE48503EEDFA3273D71"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\android\\app\\build.gradle.kts",
+    "Hash": "92CEFE647FC15E733BB1B09F736E3371197187B2F2802F7912A2F4BD580A1669"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\android\\app\\src\\debug\\AndroidManifest.xml",
+    "Hash": "B01A4541A8144C15BC617BAB7EB267C99FA1476368FBBDA5A12CDBF4E316A34C"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\android\\app\\src\\main\\AndroidManifest.xml",
+    "Hash": "54D977F5D00AF6D777BFC22FE84AACF5F56F2397BC73DC620A8DB5367F34E645"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\android\\app\\src\\main\\kotlin\\com\\alsafa\\shelflife\\MainActivity.kt",
+    "Hash": "9C30E776A10719E3507D6A65FC5DB0626F3BA62B05C5A008024449B0AD619A10"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\android\\app\\src\\main\\res\\drawable-v21\\launch_background.xml",
+    "Hash": "DCA312EC77DE83E43EF70A825C299B51451247286C29167D62F19165750B8793"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\android\\app\\src\\main\\res\\drawable\\launch_background.xml",
+    "Hash": "2DF60E2CFBEE873CE2858088CF003E6B93498F2F568476DA437610467EA1A9D7"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png",
+    "Hash": "6A7C8F0D703E3682108F9662F813302236240D3F8F638BB391E32BFB96055FEF"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png",
+    "Hash": "C7C0C0189145E4E32A401C61C9BDC615754B0264E7AFAE24E834BB81049EAF81"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png",
+    "Hash": "E14AA40904929BF313FDED22CF7E7FFCBF1D1AAC4263B5EF1BE8BFCE650397AA"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png",
+    "Hash": "4D470BF22D5C17D84EDC5F82516D1BA8A1C09559CD761CEFB792F86D9F52B540"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png",
+    "Hash": "3C34E1F298D0C9EA3455D46DB6B7759C8211A49E9EC6E44B635FC5C87DFB4180"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+    "Hash": "EA763597DC1A84C8034251CAEE98D7753E0FBF57340FFC94677427DE4B537516"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\android\\app\\src\\main\\res\\values\\styles.xml",
+    "Hash": "CCA15A99B59380A548BF6A890F7CA5380EE509B1F9BBB2F5F9EC3589FA25C2F7"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\android\\app\\src\\profile\\AndroidManifest.xml",
+    "Hash": "B01A4541A8144C15BC617BAB7EB267C99FA1476368FBBDA5A12CDBF4E316A34C"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\android\\build.gradle.kts",
+    "Hash": "218F400E3FFF31C9C986A2535DFB974560E1B4D33CC27B7C1FEE96A2B7E44454"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\android\\gradle.properties",
+    "Hash": "7714698DE712A7872E371F0DBAE626C255FC83AC1C15E52E7CD9FCAA241B5092"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\android\\gradle\\wrapper\\gradle-wrapper.properties",
+    "Hash": "594A00250EF7A36609A01F3263BF5ED63963AFAF9CA9F82F2CD1DE0F6F056383"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\android\\settings.gradle.kts",
+    "Hash": "092BA880C8D4A07591AAFC082F45DEEDC9AFCF60C113A4BB3D13CBE1A1FCE9DE"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\lib\\config.dart",
+    "Hash": "404C318FE9115DF19412F8C1F83022BFF6EC861E25E4663BA36E42C92179B216"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\lib\\main.dart",
+    "Hash": "C1E9E0733547D0024D3B10823C44E0C48F3E389F9922210975BC552A0B198A6C"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\lib\\preview.dart",
+    "Hash": "5BC0A31570899F0DD1847FC079DDE268F26D0BAC3D001C6A65554092002B685F"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\lib\\screens\\login.dart",
+    "Hash": "F60A50900F10C36540D7EB4C36F5B0957544A7CF0A9E3846F1C8AF69926EC5EB"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\lib\\supa.dart",
+    "Hash": "0D405636A6F6D79B662386670299B3F04025B57722212B82375695B9031F6741"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\PREVIEW.md",
+    "Hash": "AF73B8E909EEDD9D1E64551792BEB44CDC8D9433687C569AF80EA56C55DBDAB8"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\pubspec.lock",
+    "Hash": "07833C59EBFB3A55410D540E97B63D762BC5772529F05E64FBF06168185F0FD6"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\pubspec.yaml",
+    "Hash": "F33C8251C44B4C298B31B63C9F53B7AE06679AB835DC73075AB311EA810C56F0"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\README.md",
+    "Hash": "1C04CF43FB9ADB56F94E9DA47C85BF132BBF46153BDDAB9D0BA1698981A7DE5C"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\serve-preview.mjs",
+    "Hash": "9A6A5750E393547C0F85ED985785ED4FD744575B38D9D1DB1EB7D30AB084910F"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\test\\widget_test.dart",
+    "Hash": "398DA5B9D324F76CAAA429E9EEC069CE758CA774ADD9FE8D0E7527375A5AC478"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\web\\favicon.png",
+    "Hash": "7AB2525F4B86B65D3E4C70358A17E5A1AAF6F437F99CBCC046DAD73D59BB9015"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\web\\icons\\Icon-192.png",
+    "Hash": "3DCE99077602F70421C1C6B2A240BC9B83D64D86681D45F2154143310C980BE3"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\web\\icons\\Icon-512.png",
+    "Hash": "BACCB205AE45F0B421BE1657259B4943AC40C95094AB877F3BCBE12CD544DCBE"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\web\\icons\\Icon-maskable-192.png",
+    "Hash": "D2C842E22A9F4EC9D996B23373A905C88D9A203B220C5C151885AD621F974B5C"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\web\\icons\\Icon-maskable-512.png",
+    "Hash": "6AEE06CDCAB6B2AEF74B1734C4778F4421D2DA100B0FF9E52B21B55240202929"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\web\\index.html",
+    "Hash": "A1852D27DE95CAEA32ECB0AA4E0F68FF44EF41314A51BA969C8B396F003CF4E0"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\web\\manifest.json",
+    "Hash": "8896DA0C612E4389826CCFB77F171393DB459E8B0FA64E12DA23DA462D6E3DD6"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app\\_serve.mjs",
+    "Hash": "34602B05D0445AA1B9FA4FFEDC3354E7D9249058AA0A340F14629E9C0933E144"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app\\css\\app.css",
+    "Hash": "A21C42DCD19D5A7AB74AA9A77C8CB2D41A1F61A8AA1E4EDFBBE27167CB6EF0E8"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app\\css\\tokens.css",
+    "Hash": "9389A32F1FC155D0774CA2743E4B8A5BB5BAA3B99121B53896415DEFF9CA6814"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app\\index.html",
+    "Hash": "BEBD2DED84A7BE746FB6BE699CCFB5E2743F8F51E0F2671A1C3B0EC628C274F5"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app\\js\\catalog.js",
+    "Hash": "EC0AE4BED1910DB31B9CB3A7848780A71DA40947A2E7DC843C26C89C86B0EF1E"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app\\js\\main.js",
+    "Hash": "5450ADECD07BE5FDC0CD71B799F094169C078344268043D15772684325F20FCB"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app\\js\\scanner.js",
+    "Hash": "A446B49CBA1853542280F8F44DE0842B6B5F494431785C0A674784A9968A9F8E"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app\\js\\store.js",
+    "Hash": "CE90AC723F324DE5C22FA4FD235E143007B0E0498227B535CCB06DB013BE25DF"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app\\js\\ui.js",
+    "Hash": "2B2E3D7C8A4DCEC898E0FC1945080B77D439F1356C519185FAC77F006142FFB9"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app\\README.md",
+    "Hash": "E90B02037F9E1DE96381DE8E20055EA1309B4E84ABE15297EDBE92A5E8B87C26"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\ASSESSMENT.md",
+    "Hash": "8D8865BA6400FF9DF5399660CA2739D2443521C280788785ED638A7C25B6BBCB"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\assets\\fonts\\roboto_license.txt",
+    "Hash": "CFC7749B96F63BD31C3C42B5C471BF756814053E847C10F3EB003417BC523D30"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\assets\\fonts\\roboto-bold.ttf",
+    "Hash": "7D0B991EE3E0BE7AF01AD7EA8CD2BEEA6C00A25E679A0226B6737F079AAFFF86"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\assets\\fonts\\roboto-medium.ttf",
+    "Hash": "F205CC511821EA56078A105557FCEA6253129404D411C997E1866FBD006ABB68"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\assets\\fonts\\roboto-regular.ttf",
+    "Hash": "79E851404657DAC2106B3D22AD256D47824A9A5765458EDB72C9102A45816D95"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\lib\\preview\\catalog.dart",
+    "Hash": "0A6CEECFE7F6C7C08B8338756E22F53DA33C60CF9B710180490914A65A962BD8"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\lib\\preview\\cockpit.dart",
+    "Hash": "57FEF809DBA12E7C32974ECB8AE2D19E1C78092B8D6EB7B962E08A56DD1485F6"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\handoffs\\2026-10-09\\ch01-transition-closeout\\CONTINUATION_RECEIPT.md",
+    "Hash": "6A1ACD704CD1E6B28B1E981F6787D22E9D98FFE0D20EE67CA36223BB04023AFC"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\handoffs\\2026-10-09\\ch01-transition-closeout\\ENGINEERING_HANDOFF.md",
+    "Hash": "23584C659A3DAC63D0E9B94B06A193AC6AC1B28280F94E7C85CFDB597314AF4E"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\handoffs\\2026-10-09\\ch01-transition-closeout\\EVIDENCE.txt",
+    "Hash": "C36A23FDA6F01AAE7747DEB4DCFEC595C44820D88C9A53AEB0BBD3B640ADED4F"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\handoffs\\2026-10-09\\ch01-transition-closeout\\EXECUTIVE_SUMMARY.md",
+    "Hash": "B0EE926F33523C50C89580D7E1058AD77E9CFA4AA744D762F99F363DA5B462E5"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\handoffs\\2026-10-09\\ch01-transition-closeout\\NEXT_CHAT_OPENING.md",
+    "Hash": "AF4C4BBFAA82D804CC20EF0A6191CEB6BAF3B478CD14CECAF9FF21205B6A74D6"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\handoffs\\2026-10-09\\ch01-transition-closeout\\POST_TRANSITION_VERIFICATION.txt",
+    "Hash": "39FBCC9A9BE28122671D5016BCA440698825DE8D65748D781869807C862DA337"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\handoffs\\2026-10-09\\ch01-workflow-checkpoint\\ENGINEERING_HANDOFF.md",
+    "Hash": "19F1F1AC0392A8990E198F480045A21AFF269DDE6E8D8633EE6565FB48D385CA"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\handoffs\\2026-10-09\\ch01-workflow-checkpoint\\EVIDENCE.txt",
+    "Hash": "8E01F7DC28327A336911F4C6B10C6F90E00CEC1968739F9ABD2373DCED1A1D0B"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\handoffs\\2026-10-09\\ch01-workflow-checkpoint\\EXECUTIVE_SUMMARY.md",
+    "Hash": "C760EE0C9001BFD9AF2B6837C3EF233FB19FAC8BE2B73E3B33B37BD374228E2B"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\handoffs\\2026-10-09\\ch01-workflow-checkpoint\\NEXT_CHAT_OPENING.md",
+    "Hash": "25B0280E2E3CD37B8E4F2A770B67D0988731715CA690F92995C51A625917ED58"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\MARKET.md",
+    "Hash": "81A7D4EA0E0CDFFCEF0CF59E9BD5A118F58533716EDDFE2C20958525283DB0F7"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\MEETING.md",
+    "Hash": "D3F8049D445041304A62AC33B79B0E451ADBA928BAE8818CA5C86CFCD9144695"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\PLAN_ADDENDUM_2026-09-25.md",
+    "Hash": "2533BB4D7CB7A24DD5D39D523AE794F22FC39A9AB2DE4AD2C1D455ED0C719E9A"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\PLAN.md",
+    "Hash": "268C1242C3E8B13264BB38359B1AEE11FF361EBF28CD5E7A8B5CE9537FC65943"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\_serve.mjs",
+    "Hash": "34602B05D0445AA1B9FA4FFEDC3354E7D9249058AA0A340F14629E9C0933E144"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\css\\app.css",
+    "Hash": "78DDF46D31368E7C11F1EC695E60EA6C89A94FA3FEF20ED9F9177B42C4786F46"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\css\\tokens.css",
+    "Hash": "9389A32F1FC155D0774CA2743E4B8A5BB5BAA3B99121B53896415DEFF9CA6814"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\index.html",
+    "Hash": "05E467FB1671D13AD0A758B6B01F42D662FDC10B3892FA629DB49E7CFAA1F8A6"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\js\\app.js",
+    "Hash": "51A989B02BBFFB2B356E3D81FC3971546974ED2585D281AF68CC948D8E46E488"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\js\\config.js",
+    "Hash": "76A457734AC538575515498B09A8287DDF1BCED3D618C7691BC4C00B3F478895"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\js\\screens\\login.js",
+    "Hash": "F4A4B13AAABBFEA0987C6F5F729AAC82539310F8016B4D9E91DBDD6A066784C5"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\js\\screens\\shell.js",
+    "Hash": "9C62FDB9DF4F682A0F372001F215887A7700457437C3E0E1B493182FE3DA5422"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\js\\screens\\tabs\\admin.js",
+    "Hash": "EFE539AB913B0785369247C08F082CE23F867539778B4CDA6750FCB5A0BA5357"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\js\\screens\\tabs\\alerts.js",
+    "Hash": "508C204DBB1EC1A48F856E3A8AFFDA951070C90867FE6684882DECCF4212B04C"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\js\\screens\\tabs\\dashboard.js",
+    "Hash": "7FC71E81F8601D9A3942371F814DE742482089C163E2E4C2E9396F48BC1B213E"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\js\\screens\\tabs\\revops.js",
+    "Hash": "E67CB4C11745AD43880783BE00508888FC72607D155D3E4AB94A16A1F55DA5BC"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\js\\screens\\tabs\\rounds.js",
+    "Hash": "2F0284F51F329C2F4E8B2493D2E83C18E0FB3F6DDB71199667BAAB50819518E8"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\js\\screens\\tabs\\scan.js",
+    "Hash": "C89EDFF21945FEF14944FE846D0F057A92EC6C07CA4EDB265E910BBFA6FD1DBF"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\js\\screens\\tabs\\shipments.js",
+    "Hash": "A8BCD10D83AFC8836376EEDBAB7A8945DBB445BACFB40B4D22C3513D668ADFE8"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\js\\screens\\tabs\\stock.js",
+    "Hash": "B9156A1396AA3B14BD197A8DF33F33C4EBDBFF7E42E54EC3C61FAF415E009286"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\js\\supa.js",
+    "Hash": "45525AA0212E86A82DB2C23FA86815A2117220A3F676B6CC7387BAF37C02E51A"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\manifest.webmanifest",
+    "Hash": "200880C6DE56A195B52B388F6383BA11EB70296EB2229C836D5A02C1DBDC50FB"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\README.md",
+    "Hash": "E7DD27825A53A4C6E5A033C24C79708FBD6C7F5ECF18050EDA61D5AEE24CB631"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\supabase\\.gitignore",
+    "Hash": "507699EB91144818EDF61D3A079212CACF31D8DB520EAE428E3B48FCF0D6919C"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\supabase\\config.toml",
+    "Hash": "78E98E0106034B51524D8569C3D14B5A17CEE2AEE99108CB8A9C58E934B1C0FA"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\supabase\\migrations\\20260924030000_init.sql",
+    "Hash": "DC2E26EBE74A64892540ECB0E177EBC1768F7B3F192852DE110D6DFAE578F805"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\supabase\\migrations\\20260924030001_rls.sql",
+    "Hash": "FFF8423FCF4DB709DE47EF219629EAB29EEC819D875CED1FD98E7704224BF9BA"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\supabase\\migrations\\20260924030002_rpcs.sql",
+    "Hash": "C3AE1C250E718A3CED3B369572E3FB88AC481B4710098F42000BEFCD4AE80417"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\supabase\\migrations\\20260925000000_supplier_tier.sql",
+    "Hash": "5923B59433E0B236045A79780E4C5B09BC7CD7576DA6B3F608F1B96A34C426F5"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\supabase\\migrations\\20260925000001_supplier_tier.sql",
+    "Hash": "45E5EB4212AAEC85BF3E962AFDEF6FD9F375CBF7DE3A0E69B1DD6430B77E3217"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\supabase\\seed.sql",
+    "Hash": "161C9014D29A5143391D471259C523C9AF871ED2013F64AD889DFC16A3CC2434"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\README.md",
+    "Hash": "C4707C5263736A4AC26B10FB6FC6D38A6C5F94F710EAF38F5E4A30B2CB2CF67C"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\reference\\AL_SAFA_MARKET_OS.md",
+    "Hash": "52B4AEA70A7E79E18E3DBF5B97B18B78DE1363B2BA88CFA169CDA467A0041963"
+  },
+  {
+    "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\RESUME.md",
+    "Hash": "1D688630332531A6CA5F7FA5B643985F1B95B6BF9498ADE4A5111295623B683D"
+  }
+]

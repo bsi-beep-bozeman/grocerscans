@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "tabs": 6,
+  "slides": 36,
+  "viewports": 3,
+  "slideViewportChecks": 108,
+  "overflow": [],
+  "missingSources": [],
+  "embeddedImages": 4,
+  "interactionChecks": [
+    "section tabs",
+    "daily date buttons",
+    "previous/next slide",
+    "arrow-key slides",
+    "arrow-key tab focus",
+    "deep-link load and fragment change",
+    "image zoom",
+    "Escape closes image",
+    "36-slide print expansion",
+    "single-slide restoration after print"
+  ],
+  "fixes": [
+    "responsive content spacing",
+    "hash-change navigation"
+  ],
+  "limitations": [
+    "No physical device or screen-reader certification",
+    "Print expansion tested; PDF pagination not certified"
+  ],
+  "date": "2026-10-19"
+}

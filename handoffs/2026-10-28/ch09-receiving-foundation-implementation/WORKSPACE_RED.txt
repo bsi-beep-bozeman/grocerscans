@@ -1,0 +1,26 @@
+00:00 +0: loading D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/receiving/workspace_test.dart
+test/receiving/workspace_test.dart:5:8: Error: Error when reading 'lib/receiving/draft_workspace.dart': The system cannot find the file specified
+import 'package:shelflife/receiving/draft_workspace.dart';
+       ^
+test/receiving/workspace_test.dart:30:134: Error: Method not found: 'DraftWorkspace'.
+      await tester.pumpWidget(MaterialApp(home:MediaQuery(data:MediaQueryData(size:size,textScaler:const TextScaler.linear(2)),child:DraftWorkspace(controller:controller,openStore:()async=>store))));
+                                                                                          ^^^^^^^^^^^^^^
+test/receiving/workspace_test.dart:43:46: Error: Method not found: 'DraftWorkspace'.
+    await tester.pumpWidget(MaterialApp(home:DraftWorkspace(controller:controller,openStore:()async=>store)));
+                                             ^^^^^^^^^^^^^^
+00:00 +0 -1: loading D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/receiving/workspace_test.dart [E]
+  Failed to load "D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/receiving/workspace_test.dart":
+  Compilation failed for testPath=D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/receiving/workspace_test.dart: test/receiving/workspace_test.dart:5:8: Error: Error when reading 'lib/receiving/draft_workspace.dart': The system cannot find the file specified
+  import 'package:shelflife/receiving/draft_workspace.dart';
+         ^
+  test/receiving/workspace_test.dart:30:134: Error: Method not found: 'DraftWorkspace'.
+        await tester.pumpWidget(MaterialApp(home:MediaQuery(data:MediaQueryData(size:size,textScaler:const TextScaler.linear(2)),child:DraftWorkspace(controller:controller,openStore:()async=>store))));
+                                                                                                                                       ^^^^^^^^^^^^^^
+  test/receiving/workspace_test.dart:43:46: Error: Method not found: 'DraftWorkspace'.
+      await tester.pumpWidget(MaterialApp(home:DraftWorkspace(controller:controller,openStore:()async=>store)));
+                                               ^^^^^^^^^^^^^^
+  .
+00:00 +0 -1: Some tests failed.
+
+Failing tests:
+  D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/receiving/workspace_test.dart: loading D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/receiving/workspace_test.dart

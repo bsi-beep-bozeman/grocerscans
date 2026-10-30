@@ -1,0 +1,58 @@
+[
+  {
+    "path": "app_flutter/lib/client_demo/demo_app.dart",
+    "sha256": "12EA2AFBFD09DD22080EBF7B0B984A6426947936FE84720A2AB225211CA86D23"
+  },
+  {
+    "path": "app_flutter/lib/client_demo/demo_identity_repository.dart",
+    "sha256": "3611086B4BE63E2CB797CC93FC1F33308EBF908CFC8A856FF03E850EE85527DE"
+  },
+  {
+    "path": "app_flutter/lib/client_demo/demo_platform_stub.dart",
+    "sha256": "F55151FFB09D3DDF236615363F7D60788BDA798C90AE3DEBDE4B9252A1270743"
+  },
+  {
+    "path": "app_flutter/lib/client_demo/demo_platform_web.dart",
+    "sha256": "E953A7AC6E075B5F3C9FDABEAB1650FCF4502F74B494606B561BA3EFB71696AF"
+  },
+  {
+    "path": "app_flutter/lib/client_demo/demo_platform.dart",
+    "sha256": "43426F5458AD1DEAFEF2B833D0751AA718700063E833BD73A161349B0EFB4DC4"
+  },
+  {
+    "path": "app_flutter/lib/client_demo/demo_receiving_repository.dart",
+    "sha256": "CE530C5BF51AA8B1E025A7C13D54D71B06C34A68684B5B10940A9104A9917326"
+  },
+  {
+    "path": "app_flutter/lib/client_demo/demo_setup_repository.dart",
+    "sha256": "47087F3D34B7124A0B5C925EE6AE788360619FEB01D3D20C20DFB9B82B344F52"
+  },
+  {
+    "path": "app_flutter/lib/client_demo/demo_state.dart",
+    "sha256": "A2562DF07CE92B3BA320DA66755816022935D4AEE5361E9E05DBD18DA181D634"
+  },
+  {
+    "path": "app_flutter/lib/client_demo/seed.dart",
+    "sha256": "ABEB4215D3163D8A430F4D772FB6187226751644231A6FF4EC2FCA83C747794C"
+  },
+  {
+    "path": "app_flutter/test/client_demo/demo_test.dart",
+    "sha256": "555642F502A453C0C9751A100A588803B7AB5DE21168E77D4110C4BC2BCE3BDC"
+  },
+  {
+    "path": "app_flutter/tools/client_demo/browser-test.mjs",
+    "sha256": "D9218C898B2B24DFF469D05C913D16FDEE9B00AD9A42CF5657CD67A70D39F679"
+  },
+  {
+    "path": "app_flutter/tools/client_demo/package.mjs",
+    "sha256": "5CC1F43FA5C43D0C13C39A278C406782778CB57843091161F7304BE4475FA2D5"
+  },
+  {
+    "path": "app_flutter/tools/client_demo/serve.mjs",
+    "sha256": "5B9D9BC001CD8DFFA0DCC866451A721A93D1200FE227B9668483A60D08EAA6A1"
+  },
+  {
+    "path": "app_flutter/lib/client_demo.dart",
+    "sha256": "6D3417ACC9188901E0256508224982D38D28A7FD3548820964DDA07DA2462823"
+  }
+]

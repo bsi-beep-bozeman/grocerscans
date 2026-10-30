@@ -1,0 +1,16 @@
+{
+  "date_perth": "2026-10-27",
+  "scope": "Documentation verification only",
+  "passed": false,
+  "protected_files": 314,
+  "source_hashes": 26,
+  "prior_ledger_events": 76,
+  "ledger_history_verbatim": true,
+  "documents": 13,
+  "local_links": 93,
+  "exact_start_gate": true,
+  "application_tests_executed": 0,
+  "failures": [
+    "Contract coverage missing: Admin recovery"
+  ]
+}

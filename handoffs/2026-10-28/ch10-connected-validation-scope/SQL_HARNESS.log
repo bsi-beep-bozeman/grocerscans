@@ -1,0 +1,21 @@
+BEGIN
+CREATE FUNCTION
+INSERT 0 3
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 2
+INSERT 0 1
+INSERT 0 1
+                                             set_config                                             
+----------------------------------------------------------------------------------------------------
+ {"exp": 1793203820.687814, "sub": "97000000-0000-4000-8000-000000000001", "role": "authenticated"}
+(1 row)
+
+CREATE TABLE
+DO
+DO
+DO
+CREATE FUNCTION
+DO
+ROLLBACK

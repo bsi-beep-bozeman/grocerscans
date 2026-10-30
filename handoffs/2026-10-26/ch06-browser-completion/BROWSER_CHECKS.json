@@ -1,0 +1,161 @@
+{
+  "date": "2026-10-26",
+  "browser": "156.0.8078.47",
+  "headless": true,
+  "checks": [
+    {
+      "label": "Fresh sign-in loads preserved browser fixture after Docker recovery",
+      "status": "PASS"
+    },
+    {
+      "label": "Explicit UI activation creates version1 with reviewed reason",
+      "status": "PASS",
+      "activeRevision": 1,
+      "reason": "October26 verified UI activation"
+    },
+    {
+      "label": "Two real admin sessions: stale save409, explicit discard/reload, immutable active snapshot",
+      "status": "PASS"
+    },
+    {
+      "label": "Committed response loss: UI retries exact operation and recovers exact server result",
+      "status": "PASS",
+      "revision": 6,
+      "operationId": "a27c5c56-f0c4-4aef-b97b-ce8e8e8914d4"
+    },
+    {
+      "label": "Offline locked session denies protected setup",
+      "status": "PASS"
+    },
+    {
+      "label": "Online re-verification unlocks the existing admin session",
+      "status": "PASS"
+    },
+    {
+      "label": "Page reload restores authenticated session and confirmed draft/active state",
+      "status": "PASS"
+    },
+    {
+      "label": "Injected browser visibility-change signal conceals protected dialog and requires verification",
+      "status": "PASS",
+      "limitation": "Headless tab switching stayed visible; OS/native background behavior not established."
+    },
+    {
+      "label": "Viewer sign-in denied admin setup after admin sign-out",
+      "status": "PASS"
+    },
+    {
+      "label": "Staff sign-in denied admin setup",
+      "status": "PASS"
+    },
+    {
+      "label": "Sign-out and other-org sign-in discard previous admin data and scope catalog/branch",
+      "status": "PASS"
+    },
+    {
+      "label": "All six setup steps navigable at390px with no document horizontal overflow",
+      "status": "PASS",
+      "steps": [
+        {
+          "step": 1,
+          "domWidth": 390,
+          "viewport": 390
+        },
+        {
+          "step": 2,
+          "domWidth": 390,
+          "viewport": 390
+        },
+        {
+          "step": 3,
+          "domWidth": 390,
+          "viewport": 390
+        },
+        {
+          "step": 4,
+          "domWidth": 390,
+          "viewport": 390
+        },
+        {
+          "step": 5,
+          "domWidth": 390,
+          "viewport": 390
+        },
+        {
+          "step": 6,
+          "domWidth": 390,
+          "viewport": 390
+        }
+      ]
+    },
+    {
+      "label": "Keyboard Tab progresses Store name, Country, Region/state, Time zone, confirmation switch",
+      "status": "PASS",
+      "focus": [
+        {
+          "role": null,
+          "label": "Country",
+          "tag": "INPUT"
+        },
+        {
+          "role": null,
+          "label": "Region / state",
+          "tag": "INPUT"
+        },
+        {
+          "role": null,
+          "label": "Time zone",
+          "tag": "INPUT"
+        },
+        {
+          "role": "switch",
+          "label": "I confirm these store details",
+          "tag": "FLT-SEMANTICS"
+        }
+      ]
+    },
+    {
+      "label": "Inactivity lock observed after interruption",
+      "status": "PASS",
+      "observedAfterMs": 12217523,
+      "limitation": "Observation delayed by conversation interruption; does not establish exact five-minute threshold."
+    },
+    {
+      "label": "Headed Chrome focus loss to another test page locks setup and removes protected dialog; verification restores setup without dialog",
+      "status": "PASS",
+      "headless": false,
+      "browser": "156.0.8078.47",
+      "focusedBefore": {
+        "visibility": "visible",
+        "focus": true
+      },
+      "events": [
+        {
+          "event": "visibilitychange",
+          "visibility": "visible",
+          "focus": false,
+          "at": 1792968227222
+        },
+        {
+          "event": "visibilitychange",
+          "visibility": "visible",
+          "focus": false,
+          "at": 1792968227223
+        }
+      ],
+      "limitation": "document.visibilityState remained visible; observed real focus loss, not OS minimization or physical device backgrounding."
+    },
+    {
+      "label": "Unaccelerated inactivity check: setup locked and protected fields absent at309.309 seconds",
+      "status": "PASS",
+      "startedAt": "2026-10-25T22:41:12.230Z",
+      "firstReadOnlyLockedObservationAfterMs": 309309,
+      "protectedStoreFieldCount": 0,
+      "limitation": "Lock observed after 309.309 seconds without interaction; exact internal timer firing was not measured. Unawaited automation watcher did not produce a result."
+    },
+    {
+      "label": "Fresh Chrome process with privately preserved browser storage restores Auth and draft6/active1",
+      "status": "PASS"
+    }
+  ]
+}

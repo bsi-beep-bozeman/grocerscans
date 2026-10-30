@@ -1,0 +1,40 @@
+
+┌─────────────────────────────────────────────────────────┐
+│ A new version of Flutter is available!                  │
+│                                                         │
+│ To update to the latest version, run "flutter upgrade". │
+└─────────────────────────────────────────────────────────┘
+Resolving dependencies...
+Downloading packages...
+  app_links 7.2.1 (7.2.2 available)
+  app_links_linux 1.0.3 (1.0.4 available)
+  app_links_web 1.0.4 (1.0.5 available)
+  crypto 3.0.7 (3.0.8 available)
++ cryptography 2.9.0
+  cupertino_icons 1.0.9 (2.0.0 available)
+  gotrue 2.27.2 (2.27.3 available)
++ idb_shim 2.10.1+1 (2.11.1 available)
+  material_color_utilities 0.13.0 (0.13.1 available)
+  meta 1.18.3 (1.19.0 available)
+  realtime_client 2.13.0 (2.13.2 available)
++ sembast 3.9.0
+  shared_preferences 2.5.5 (2.5.6 available)
+  shared_preferences_android 2.4.28 (2.5.4 available)
+  shared_preferences_foundation 2.5.7 (2.6.1 available)
++ sqflite 2.4.5
++ sqflite_android 2.4.5
++ sqflite_common 2.5.14
++ sqflite_darwin 2.4.4+1
++ sqflite_platform_interface 2.4.3
+  storage_client 2.8.0 (2.8.1 available)
+  supabase 2.16.1 (2.16.5 available)
+  supabase_flutter 2.17.2 (2.18.3 available)
++ synchronized 3.5.0
+  test_api 0.7.12 (0.7.15 available)
+  url_launcher 6.3.2 (6.3.3 available)
+  vector_math 2.4.0 (2.4.4 available)
+  vm_service 15.3.0 (15.4.0 available)
+  web 1.1.1 (from transitive dependency to direct dependency) (1.1.2 available)
+Changed 10 dependencies!
+21 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.

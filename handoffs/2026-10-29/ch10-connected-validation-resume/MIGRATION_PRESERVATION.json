@@ -1,0 +1,42 @@
+[
+  {
+    "path": "product/supabase/migrations/20260924030000_init.sql",
+    "matches": true
+  },
+  {
+    "path": "product/supabase/migrations/20260924030001_rls.sql",
+    "matches": true
+  },
+  {
+    "path": "product/supabase/migrations/20260924030002_rpcs.sql",
+    "matches": true
+  },
+  {
+    "path": "product/supabase/migrations/20260925000000_supplier_tier.sql",
+    "matches": true
+  },
+  {
+    "path": "product/supabase/migrations/20260925000001_supplier_tier.sql",
+    "matches": true
+  },
+  {
+    "path": "product/supabase/migrations/20261013000000_store_setup.sql",
+    "matches": true
+  },
+  {
+    "path": "product/supabase/migrations/20261013000001_store_setup_api.sql",
+    "matches": true
+  },
+  {
+    "path": "product/supabase/migrations/20261027000000_receiving_identity.sql",
+    "matches": true
+  },
+  {
+    "path": "product/supabase/migrations/20261027000001_receiving_foundation_api.sql",
+    "matches": true
+  },
+  {
+    "path": "product/supabase/migrations/20261027000002_receiving_access_boundary.sql",
+    "matches": true
+  }
+]

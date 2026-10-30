@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "date": "2026-10-16",
+  "markdownFiles": 10,
+  "localLinks": 87,
+  "migrationHashesMatched": 7,
+  "javascriptSyntaxChecks": 7,
+  "jwtScanFiles": 25,
+  "jwtHitFiles": [],
+  "priorLedgerEventRows": 57,
+  "ledgerPreservation": "Prior table content copied without text edits; original CRLF convention restored. Initial comparison failed solely because writer normalized CRLF to LF.",
+  "problems": [],
+  "restoreRetryExecuted": false,
+  "browserValidationExecuted": false
+}

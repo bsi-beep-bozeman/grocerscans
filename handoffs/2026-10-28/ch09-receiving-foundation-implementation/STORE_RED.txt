@@ -1,0 +1,68 @@
+00:00 +0: loading D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/sync/store_contract_test.dart
+test/sync/store_contract_test.dart:5:8: Error: Error when reading 'lib/sync/draft_store.dart': The system cannot find the file specified
+import 'package:shelflife/sync/draft_store.dart';
+       ^
+test/sync/store_contract_test.dart:6:8: Error: Error when reading 'lib/sync/draft_migrations.dart': The system cannot find the file specified
+import 'package:shelflife/sync/draft_migrations.dart';
+       ^
+test/sync/store_contract_test.dart:15:5: Error: Method not found: 'validateDraftWrite'.
+    validateDraftWrite([first],next,1);
+    ^^^^^^^^^^^^^^^^^^
+test/sync/store_contract_test.dart:16:18: Error: Method not found: 'validateDraftWrite'.
+    expect(() => validateDraftWrite([first],next,0), throwsA(isA<ReceivingFailure>()));
+                 ^^^^^^^^^^^^^^^^^^
+test/sync/store_contract_test.dart:17:18: Error: Method not found: 'validateDraftWrite'.
+    expect(() => validateDraftWrite([first],first,1), throwsA(isA<ReceivingFailure>()));
+                 ^^^^^^^^^^^^^^^^^^
+test/sync/store_contract_test.dart:18:18: Error: Method not found: 'validateDraftWrite'.
+    expect(() => validateDraftWrite([first],next,1,maxBytes:1), throwsA(isA<ReceivingFailure>()));
+                 ^^^^^^^^^^^^^^^^^^
+test/sync/store_contract_test.dart:20:18: Error: Method not found: 'validateDraftWrite'.
+    expect(() => validateDraftWrite([first],other,0,maxDrafts:1), throwsA(isA<ReceivingFailure>()));
+                 ^^^^^^^^^^^^^^^^^^
+test/sync/store_contract_test.dart:24:18: Error: Undefined name 'DraftMigrations'.
+    expect(() => DraftMigrations.requireCurrent(2), throwsUnsupportedError);
+                 ^^^^^^^^^^^^^^^
+test/sync/store_contract_test.dart:25:18: Error: Undefined name 'DraftMigrations'.
+    expect(() => DraftMigrations.requireCurrent(0), throwsUnsupportedError);
+                 ^^^^^^^^^^^^^^^
+test/sync/store_contract_test.dart:26:5: Error: Undefined name 'DraftMigrations'.
+    DraftMigrations.requireCurrent(1);
+    ^^^^^^^^^^^^^^^
+00:00 +0 -1: loading D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/sync/store_contract_test.dart [E]
+  Failed to load "D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/sync/store_contract_test.dart":
+  Compilation failed for testPath=D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/sync/store_contract_test.dart: test/sync/store_contract_test.dart:5:8: Error: Error when reading 'lib/sync/draft_store.dart': The system cannot find the file specified
+  import 'package:shelflife/sync/draft_store.dart';
+         ^
+  test/sync/store_contract_test.dart:6:8: Error: Error when reading 'lib/sync/draft_migrations.dart': The system cannot find the file specified
+  import 'package:shelflife/sync/draft_migrations.dart';
+         ^
+  test/sync/store_contract_test.dart:15:5: Error: Method not found: 'validateDraftWrite'.
+      validateDraftWrite([first],next,1);
+      ^^^^^^^^^^^^^^^^^^
+  test/sync/store_contract_test.dart:16:18: Error: Method not found: 'validateDraftWrite'.
+      expect(() => validateDraftWrite([first],next,0), throwsA(isA<ReceivingFailure>()));
+                   ^^^^^^^^^^^^^^^^^^
+  test/sync/store_contract_test.dart:17:18: Error: Method not found: 'validateDraftWrite'.
+      expect(() => validateDraftWrite([first],first,1), throwsA(isA<ReceivingFailure>()));
+                   ^^^^^^^^^^^^^^^^^^
+  test/sync/store_contract_test.dart:18:18: Error: Method not found: 'validateDraftWrite'.
+      expect(() => validateDraftWrite([first],next,1,maxBytes:1), throwsA(isA<ReceivingFailure>()));
+                   ^^^^^^^^^^^^^^^^^^
+  test/sync/store_contract_test.dart:20:18: Error: Method not found: 'validateDraftWrite'.
+      expect(() => validateDraftWrite([first],other,0,maxDrafts:1), throwsA(isA<ReceivingFailure>()));
+                   ^^^^^^^^^^^^^^^^^^
+  test/sync/store_contract_test.dart:24:18: Error: Undefined name 'DraftMigrations'.
+      expect(() => DraftMigrations.requireCurrent(2), throwsUnsupportedError);
+                   ^^^^^^^^^^^^^^^
+  test/sync/store_contract_test.dart:25:18: Error: Undefined name 'DraftMigrations'.
+      expect(() => DraftMigrations.requireCurrent(0), throwsUnsupportedError);
+                   ^^^^^^^^^^^^^^^
+  test/sync/store_contract_test.dart:26:5: Error: Undefined name 'DraftMigrations'.
+      DraftMigrations.requireCurrent(1);
+      ^^^^^^^^^^^^^^^
+  .
+00:00 +0 -1: Some tests failed.
+
+Failing tests:
+  D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/sync/store_contract_test.dart: loading D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/sync/store_contract_test.dart

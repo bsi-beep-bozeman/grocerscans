@@ -1,0 +1,27 @@
+ M PLAN.md
+ M PLAN_ADDENDUM_2026-09-25.md
+ M RESUME.md
+ M app_flutter/android/app/src/main/AndroidManifest.xml
+ M app_flutter/lib/main.dart
+ M app_flutter/lib/screens/login.dart
+ M app_flutter/pubspec.yaml
+ M app_flutter/test/widget_test.dart
+?? AGENTS.md
+?? IMPLEMENTATION_PLAN.md
+?? NEXT_CONVERSATION_HANDOFF.md
+?? SESSION_INDEX.md
+?? STATUS_LEDGER.md
+?? app_flutter/PREVIEW.md
+?? app_flutter/assets/
+?? app_flutter/demo-data/
+?? app_flutter/lib/preview.dart
+?? app_flutter/lib/preview/
+?? app_flutter/lib/setup/
+?? app_flutter/serve-preview.mjs
+?? app_flutter/test/setup/
+?? docs/
+?? handoffs/
+?? product/supabase/migrations/20261013000000_store_setup.sql
+?? product/supabase/migrations/20261013000001_store_setup_api.sql
+?? product/supabase/tests/
+?? site-preview/

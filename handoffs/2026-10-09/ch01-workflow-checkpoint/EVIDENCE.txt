@@ -1,0 +1,48 @@
+ShelfLife chapter workflow — documentation-only validation
+Date: 2026-10-09 (Australia/Perth)
+Source chat: Review Grocerscans handoff / 01a0ec6a-a956-71d2-88f5-ed33d81f2930
+
+PASS: 11 workflow/pointer documents read successfully.
+PASS: 45 local Markdown link targets exist.
+PASS: verbatim mandatory start gate present in standing rules and draft opening.
+PASS: PLAN.md, plan addendum and RESUME.md original bodies preserved.
+PASS: git diff --check.
+No application tests/builds, connected tests, remote publication or chat creation performed.
+Remote deployment/test evidence in the handoff is historical, not revalidated.
+
+Main repository HEAD and branch:
+f56d5068e94cf80819f55be952a95769ad508c97
+main
+
+Main repository final working-tree inventory (includes this handoff directory):
+M PLAN.md
+ M PLAN_ADDENDUM_2026-09-25.md
+ M RESUME.md
+ M app_flutter/android/app/src/main/AndroidManifest.xml
+ M app_flutter/pubspec.yaml
+ M app_flutter/test/widget_test.dart
+?? AGENTS.md
+?? IMPLEMENTATION_PLAN.md
+?? NEXT_CONVERSATION_HANDOFF.md
+?? SESSION_INDEX.md
+?? STATUS_LEDGER.md
+?? app_flutter/PREVIEW.md
+?? app_flutter/assets/
+?? app_flutter/lib/preview.dart
+?? app_flutter/lib/preview/
+?? app_flutter/serve-preview.mjs
+?? handoffs/
+?? site-preview/
+
+Main repository tracked diff summary:
+PLAN.md                                            |  6 ++
+ PLAN_ADDENDUM_2026-09-25.md                        |  5 ++
+ RESUME.md                                          |  7 +++
+ .../android/app/src/main/AndroidManifest.xml       |  3 +
+ app_flutter/pubspec.yaml                           |  8 +++
+ app_flutter/test/widget_test.dart                  | 73 +++++++++++++++-------
+ 6 files changed, 78 insertions(+), 24 deletions(-)
+
+Nested Sites repository status:
+(clean)
+e806215c81926baaaec787030a935d408937bbed Update Site source

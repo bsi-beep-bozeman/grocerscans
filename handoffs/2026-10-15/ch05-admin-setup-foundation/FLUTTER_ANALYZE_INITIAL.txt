@@ -1,0 +1,6 @@
+Analyzing app_flutter...                                        
+
+   info - Statements in an if should be enclosed in a block. Try wrapping the statement in a block - test\setup\setup_review_regression_test.dart:51:9 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block. Try wrapping the statement in a block - test\setup\setup_screen_test.dart:163:11 - curly_braces_in_flow_control_structures
+
+2 issues found. (ran in 5.2s)

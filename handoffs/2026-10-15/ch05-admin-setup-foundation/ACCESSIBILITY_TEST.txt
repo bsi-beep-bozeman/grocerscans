@@ -1,0 +1,3 @@
+00:00 +0: loading D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_accessibility_test.dart
+00:00 +0: store fields expose labels, keyboard order and 56px save target
+00:00 +1: All tests passed!

@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "before": {
+    "cache": {
+      "count": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "containsPlaintext": false
+    },
+    "drafts": {
+      "count": 1,
+      "sha256": "16bb9842b213ffbae3db9a278fa4e68b47b798e0c8b990c2b3ccb9488c536723",
+      "containsPlaintext": false
+    },
+    "migration_journal": {
+      "count": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "containsPlaintext": false
+    },
+    "vault_meta": {
+      "count": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "containsPlaintext": false
+    }
+  },
+  "after": {
+    "cache": {
+      "count": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "containsPlaintext": false
+    },
+    "drafts": {
+      "count": 1,
+      "sha256": "16bb9842b213ffbae3db9a278fa4e68b47b798e0c8b990c2b3ccb9488c536723",
+      "containsPlaintext": false
+    },
+    "migration_journal": {
+      "count": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "containsPlaintext": false
+    },
+    "vault_meta": {
+      "count": 0,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "containsPlaintext": false
+    }
+  },
+  "method": "closed dedicated Chrome process, relaunched same profile, compared before rerunning harness"
+}

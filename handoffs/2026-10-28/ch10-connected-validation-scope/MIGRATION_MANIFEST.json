@@ -1,0 +1,52 @@
+[
+  {
+    "path": "product/supabase/migrations/20260924030000_init.sql",
+    "sha256": "DC2E26EBE74A64892540ECB0E177EBC1768F7B3F192852DE110D6DFAE578F805",
+    "baseline": true
+  },
+  {
+    "path": "product/supabase/migrations/20260924030001_rls.sql",
+    "sha256": "FFF8423FCF4DB709DE47EF219629EAB29EEC819D875CED1FD98E7704224BF9BA",
+    "baseline": true
+  },
+  {
+    "path": "product/supabase/migrations/20260924030002_rpcs.sql",
+    "sha256": "C3AE1C250E718A3CED3B369572E3FB88AC481B4710098F42000BEFCD4AE80417",
+    "baseline": true
+  },
+  {
+    "path": "product/supabase/migrations/20260925000000_supplier_tier.sql",
+    "sha256": "5923B59433E0B236045A79780E4C5B09BC7CD7576DA6B3F608F1B96A34C426F5",
+    "baseline": true
+  },
+  {
+    "path": "product/supabase/migrations/20260925000001_supplier_tier.sql",
+    "sha256": "45E5EB4212AAEC85BF3E962AFDEF6FD9F375CBF7DE3A0E69B1DD6430B77E3217",
+    "baseline": true
+  },
+  {
+    "path": "product/supabase/migrations/20261013000000_store_setup.sql",
+    "sha256": "9B1EF461FC1BE7C2E21D255F4A823135C5FCDC672CF5F79F9E41639492F29BEB",
+    "baseline": false
+  },
+  {
+    "path": "product/supabase/migrations/20261013000001_store_setup_api.sql",
+    "sha256": "C1F4B68B3CAC568A963C8A869B9233A814CF4ECEAB971E0EC1F8352C7A444F78",
+    "baseline": false
+  },
+  {
+    "path": "product/supabase/migrations/20261027000000_receiving_identity.sql",
+    "sha256": "67533D735FB95140639DF07598D4FCBEB1F4791098495EF8173DE726ACC05F3A",
+    "baseline": false
+  },
+  {
+    "path": "product/supabase/migrations/20261027000001_receiving_foundation_api.sql",
+    "sha256": "CDC6F332C868570B82AD7C8421E42DC73A4BF7B5850CFCCCD679CBA0C1FCB789",
+    "baseline": false
+  },
+  {
+    "path": "product/supabase/migrations/20261027000002_receiving_access_boundary.sql",
+    "sha256": "4B40D5EAC1F9BE86A264FDA513D49DE854AC7D3DDCE7713EB4476DC8B0F3F24A",
+    "baseline": false
+  }
+]

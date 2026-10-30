@@ -1,0 +1,266 @@
+[
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\lib\\config.dart",
+    "sha256": "404C318FE9115DF19412F8C1F83022BFF6EC861E25E4663BA36E42C92179B216"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\lib\\main.dart",
+    "sha256": "7A8254BDE80B296B64CAA78FF3488E429D224BC5B006B9D49AC075AF8385C530"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\lib\\preview.dart",
+    "sha256": "5BC0A31570899F0DD1847FC079DDE268F26D0BAC3D001C6A65554092002B685F"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\lib\\supa.dart",
+    "sha256": "0D405636A6F6D79B662386670299B3F04025B57722212B82375695B9031F6741"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\lib\\preview\\catalog.dart",
+    "sha256": "B5DEBA4769CA8890B590A23071D428D8821F0754E56E7D2C319B98CBD4F67015"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\lib\\preview\\cockpit.dart",
+    "sha256": "A484E3E519B2EE35B81A1B7B02119EF6E10DFFE17425A1CB040A6BDEA9ACC230"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\lib\\screens\\login.dart",
+    "sha256": "BA9C9B12EDC62FE2DFB905D7AB5938787F1AA81A8AB666D1541478FC8895635B"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\lib\\setup\\admin_setup_gate.dart",
+    "sha256": "A89E072DB720820BE76D03FECDE372DD88F3C6A6193A6BBF780CDDFE801CEC70"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\lib\\setup\\preset_editor.dart",
+    "sha256": "8035E871E07BD93D83F5CF430451AB83115752A768F417916BA2285100D5E958"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\lib\\setup\\setup_controller.dart",
+    "sha256": "08BC063FB0D2903C6021F6D60E19E12BE40DD7E3F4FCBB66B1F8AD50D963EA09"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\lib\\setup\\setup_forms.dart",
+    "sha256": "91F54F96ACBF876E32A47A214D64E5C31AD574E34781CB78A7AC61FC9FAC0E1F"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\lib\\setup\\setup_models.dart",
+    "sha256": "D5374D9F92D97056B0782A42585E499C62690BA52D6450F01C226C109DD0E768"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\lib\\setup\\setup_repository.dart",
+    "sha256": "C5CC37F759054B1C829BD799B8E7E4DE28C61E6779F6366B51C8DD815E715E28"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\lib\\setup\\setup_review.dart",
+    "sha256": "DD755202A69EFC95C502B9FD972ED4ED4E074688B53AD4DCD0BC9F9E1D2A1248"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\lib\\setup\\setup_screen.dart",
+    "sha256": "E8B6C84BF89EAD986DEE53649D24BAC01112F9ECE2198A56728C465075864480"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\lib\\setup\\setup_steps.dart",
+    "sha256": "7032A7DE1085B6755AFF6FA5786EA02079BDD6960EDBCDB6B3965D8B7994B3FD"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\lib\\setup\\setup_validation.dart",
+    "sha256": "C24475AE1CD53C09E57C4D232CDD70890BCC2A69287AB2375152A5D7AFE4CB7D"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\lib\\setup\\supabase_setup_repository.dart",
+    "sha256": "B5C1ABF20BEBA4FAC81A0BCC471471177E0035878003CAFE3CEE43798386D49A"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\test\\widget_test.dart",
+    "sha256": "398DA5B9D324F76CAAA429E9EEC069CE758CA774ADD9FE8D0E7527375A5AC478"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\test\\setup\\admin_setup_gate_test.dart",
+    "sha256": "4583EC411ACE8D013EA2F08DFD7A53341982A7E5B2BB663BF965B957824E3C41"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\test\\setup\\setup_accessibility_test.dart",
+    "sha256": "655797CBA0F9B2F8E69E2F4B5E211C101BE1D1BE62310B18EFA1E9794355D4F2"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\test\\setup\\setup_controller_test.dart",
+    "sha256": "0413B94AB1623305F304F4556523B2F863CE94CF49AB06B0A31F91C601E4AD58"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\test\\setup\\setup_fixtures.dart",
+    "sha256": "B7574B3D3969A0DC65470B401F5865C8501258223A89009C0A0420F044DCCD1D"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\test\\setup\\setup_repository_test.dart",
+    "sha256": "55851BCF9AB8F468C618742CCBFB2FBB65FE12C664839807D00C191DE1E51088"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\test\\setup\\setup_review_regression_test.dart",
+    "sha256": "1ACD4992D8F1863A042624048AD95D9D2029E6A957CC62258486AE21A5082C31"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\test\\setup\\setup_screen_test.dart",
+    "sha256": "27EE20305A19196703453AD3264DC2FE4F83D3E3953C93F3A493DD97AA21A258"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\test\\setup\\setup_ui_repository.dart",
+    "sha256": "DF58571D08DC7F29582AB3E3A28075C28D68C042FC96457FA9EF526DFC9BD61E"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\test\\setup\\setup_validation_test.dart",
+    "sha256": "271240933DA1B59F4605E29C5EF379DA603BB7342446A2758D762FA1D20C4DE5"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\test\\setup\\setup_visual_test.dart",
+    "sha256": "E00265B186ECDC6AC5E0C319315FBE3AF5F710A5FB9071F50A6D4F387CB54800"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\android\\app\\src\\main\\AndroidManifest.xml",
+    "sha256": "54D977F5D00AF6D777BFC22FE84AACF5F56F2397BC73DC620A8DB5367F34E645"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\android\\app\\src\\main\\java\\io\\flutter\\plugins\\GeneratedPluginRegistrant.java",
+    "sha256": "5B4CCC2DA83ADCFF805F93D6BDA26609BB156E05CCE0577A43F0F17462197606"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\android\\app\\src\\main\\kotlin\\com\\alsafa\\shelflife\\MainActivity.kt",
+    "sha256": "9C30E776A10719E3507D6A65FC5DB0626F3BA62B05C5A008024449B0AD619A10"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\android\\app\\src\\main\\res\\drawable\\launch_background.xml",
+    "sha256": "2DF60E2CFBEE873CE2858088CF003E6B93498F2F568476DA437610467EA1A9D7"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\android\\app\\src\\main\\res\\drawable-v21\\launch_background.xml",
+    "sha256": "DCA312EC77DE83E43EF70A825C299B51451247286C29167D62F19165750B8793"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png",
+    "sha256": "6A7C8F0D703E3682108F9662F813302236240D3F8F638BB391E32BFB96055FEF"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png",
+    "sha256": "C7C0C0189145E4E32A401C61C9BDC615754B0264E7AFAE24E834BB81049EAF81"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png",
+    "sha256": "E14AA40904929BF313FDED22CF7E7FFCBF1D1AAC4263B5EF1BE8BFCE650397AA"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png",
+    "sha256": "4D470BF22D5C17D84EDC5F82516D1BA8A1C09559CD761CEFB792F86D9F52B540"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png",
+    "sha256": "3C34E1F298D0C9EA3455D46DB6B7759C8211A49E9EC6E44B635FC5C87DFB4180"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\android\\app\\src\\main\\res\\values\\styles.xml",
+    "sha256": "CCA15A99B59380A548BF6A890F7CA5380EE509B1F9BBB2F5F9EC3589FA25C2F7"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+    "sha256": "EA763597DC1A84C8034251CAEE98D7753E0FBF57340FFC94677427DE4B537516"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\supabase\\migrations\\20260924030000_init.sql",
+    "sha256": "DC2E26EBE74A64892540ECB0E177EBC1768F7B3F192852DE110D6DFAE578F805"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\supabase\\migrations\\20260924030001_rls.sql",
+    "sha256": "FFF8423FCF4DB709DE47EF219629EAB29EEC819D875CED1FD98E7704224BF9BA"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\supabase\\migrations\\20260924030002_rpcs.sql",
+    "sha256": "C3AE1C250E718A3CED3B369572E3FB88AC481B4710098F42000BEFCD4AE80417"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\supabase\\migrations\\20260925000000_supplier_tier.sql",
+    "sha256": "5923B59433E0B236045A79780E4C5B09BC7CD7576DA6B3F608F1B96A34C426F5"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\supabase\\migrations\\20260925000001_supplier_tier.sql",
+    "sha256": "45E5EB4212AAEC85BF3E962AFDEF6FD9F375CBF7DE3A0E69B1DD6430B77E3217"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\supabase\\migrations\\20261013000000_store_setup.sql",
+    "sha256": "9B1EF461FC1BE7C2E21D255F4A823135C5FCDC672CF5F79F9E41639492F29BEB"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\supabase\\migrations\\20261013000001_store_setup_api.sql",
+    "sha256": "C1F4B68B3CAC568A963C8A869B9233A814CF4ECEAB971E0EC1F8352C7A444F78"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\supabase\\tests\\store_setup.sql",
+    "sha256": "16974E882EC22DBAC34905E3DD0D41E1E1FB46A107F48D67B408F3FABF539995"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\supabase\\tests\\backend-validation\\api.mjs",
+    "sha256": "CA7D86756EA1C719D1A1731C2A4083A79A00ED15A62A237D90BBA4D032F66174"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\supabase\\tests\\backend-validation\\apply-setup.mjs",
+    "sha256": "B9B706917D03E1E286473899145F93D07DB757351B78C317AD6FAC591D1C81A0"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\supabase\\tests\\backend-validation\\browser-checkpoint.mjs",
+    "sha256": "679195161C3114897E54529079371686C7A37DE6A8E24B4A86A10FDD01D54451"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\supabase\\tests\\backend-validation\\browser-fixtures.mjs",
+    "sha256": "5D4BE25A230735816ADFC32B8DE3EEA57499909DECCC4577CA58435D4E5A9677"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\supabase\\tests\\backend-validation\\common.mjs",
+    "sha256": "DDF96DB5664E4D0E63BDF6AD38040238C16238FE204F36DD5835B3F80E54799E"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\supabase\\tests\\backend-validation\\concurrency.mjs",
+    "sha256": "E1360DD5C0B987FE1893CF34A7425D740739FB05BD6501969423BF4483EDE28F"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\supabase\\tests\\backend-validation\\decode-responses.dart",
+    "sha256": "35CAA39FE4B79DDC0C1814074366E5B358474F5D910E9AE040A9804BCA91940B"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\supabase\\tests\\backend-validation\\rebind-local.mjs",
+    "sha256": "422413A04DC103686350D9F48F8C0D00D6DA5FFCFCD08E19EFE96147F312113F"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\supabase\\tests\\backend-validation\\restart.mjs",
+    "sha256": "485C81F28C1E08D66A9A8168C50DA14E373493FF1133F7D16DE4B39E320D84D6"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\supabase\\tests\\backend-validation\\restore-baseline.mjs",
+    "sha256": "4B128258D54065C10A0B23DDABDFABDCE3090FD4CD36084005FC684E76D3FCDE"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\supabase\\tests\\backend-validation\\serve-web.mjs",
+    "sha256": "D3A50F12A9956C2D2123587612D37274844B21EAFFF6F8EF876782A19220B06C"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\pubspec.yaml",
+    "sha256": "F33C8251C44B4C298B31B63C9F53B7AE06679AB835DC73075AB311EA810C56F0"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\app_flutter\\pubspec.lock",
+    "sha256": "07833C59EBFB3A55410D540E97B63D762BC5772529F05E64FBF06168185F0FD6"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\IMPLEMENTATION_PLAN.md",
+    "sha256": "E2A3630EF2BD8FF5807791678E3451B92BE835CFB55A3A56B289359D60B184C6"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\STATUS_LEDGER.md",
+    "sha256": "468B4297A5F2FC23DCD780AB60145EBCF54BC3319A64D9BA73F3CEB9F81D14AA"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\SESSION_INDEX.md",
+    "sha256": "AE4EE33AF134CDBFF8464C5855851A39F5AC4250A7194363198F46F6B878363A"
+  },
+  {
+    "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\NEXT_CONVERSATION_HANDOFF.md",
+    "sha256": "88D611A76E05339EE7E9D3A6B9CC4C7573B662A1FFD117233F25CDF841075449"
+  }
+]

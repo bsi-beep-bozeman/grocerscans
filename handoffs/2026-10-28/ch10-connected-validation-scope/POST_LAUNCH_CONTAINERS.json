@@ -1,0 +1,148 @@
+[
+  {
+    "name": "supabase_db_shelflife-ch06-validation",
+    "id": "62b6180dd1a932a7b700b8d12ed0ccdb3eabd13a8a9a6439956422f3e3a86ccc",
+    "state": "exited",
+    "imageId": "sha256:658d1c9b09ae4f61b8e95087b6859181b4b7d6940d769cf7b605609c8aad43e9",
+    "bindings": {
+      "5432/tcp": [
+        {
+          "HostIp": "127.0.0.1",
+          "HostPort": "55322"
+        }
+      ]
+    },
+    "networks": [
+      "shelflife-ch06-validation"
+    ],
+    "mounts": [
+      {
+        "Type": "volume",
+        "Name": "supabase_db_shelflife-ch06-validation",
+        "Source": "/var/lib/docker/volumes/supabase_db_shelflife-ch06-validation/_data",
+        "Destination": "/var/lib/postgresql/data",
+        "RW": true
+      }
+    ]
+  },
+  {
+    "name": "supabase_auth_shelflife-ch06-validation",
+    "id": "d13a17fb2067f8262d18a4444d1bfbd968bf67b941486238c81ac30b2cdffd70",
+    "state": "exited",
+    "imageId": "sha256:1736a63078f5922b198c4cbe50f80ab9a2d3b54fe8b7b6cfb2e9dc5dbbc12c6b",
+    "bindings": {},
+    "networks": [
+      "shelflife-ch06-validation"
+    ],
+    "mounts": []
+  },
+  {
+    "name": "supabase_rest_shelflife-ch06-validation",
+    "id": "87a57153d8eedfcf2ddb0e63d02e92b70c8eace89ecafe9b3e8b2b0a135377e1",
+    "state": "exited",
+    "imageId": "sha256:ec0e25a4e24b0a3bc5e4f011369bfc736bd1b19f513bd01079b86329a7636962",
+    "bindings": {},
+    "networks": [
+      "shelflife-ch06-validation"
+    ],
+    "mounts": []
+  },
+  {
+    "name": "supabase_inbucket_shelflife-ch06-validation",
+    "id": "2b3ec793cbfade15a3e517fad6e82eef467d2a8d762e101a12c227a4e8a9c6c7",
+    "state": "exited",
+    "imageId": "sha256:37a38e48e9338cd7e89dfeb487f37b02ebfcd9cb23111bed2d345e79d37d6dd6",
+    "bindings": {
+      "8025/tcp": [
+        {
+          "HostIp": "127.0.0.1",
+          "HostPort": "55324"
+        }
+      ]
+    },
+    "networks": [
+      "shelflife-ch06-validation"
+    ],
+    "mounts": []
+  },
+  {
+    "name": "supabase_kong_shelflife-ch06-validation",
+    "id": "73a5badd83f19f116201a7876e10046ed108ceb0a1482beba7c8ce259788c5d1",
+    "state": "exited",
+    "imageId": "sha256:1b53405d8680a09d6f44494b7990bf7da2ea43f84a258c59717d4539abf09f6d",
+    "bindings": {
+      "8000/tcp": [
+        {
+          "HostIp": "127.0.0.1",
+          "HostPort": "55321"
+        }
+      ]
+    },
+    "networks": [
+      "shelflife-ch06-validation"
+    ],
+    "mounts": []
+  },
+  {
+    "name": "supabase_db_shelflife-ch06-validation_binding_backup",
+    "id": "92d66059c5230f497391c86d41f9df151a7f3b075e3bc6504c66e59d4e2b1e42",
+    "state": "exited",
+    "imageId": "sha256:658d1c9b09ae4f61b8e95087b6859181b4b7d6940d769cf7b605609c8aad43e9",
+    "bindings": {
+      "5432/tcp": [
+        {
+          "HostIp": "",
+          "HostPort": "55322"
+        }
+      ]
+    },
+    "networks": [
+      "shelflife-ch06-validation"
+    ],
+    "mounts": [
+      {
+        "Type": "volume",
+        "Name": "supabase_db_shelflife-ch06-validation",
+        "Source": "/var/lib/docker/volumes/supabase_db_shelflife-ch06-validation/_data",
+        "Destination": "/var/lib/postgresql/data",
+        "RW": true
+      }
+    ]
+  },
+  {
+    "name": "supabase_kong_shelflife-ch06-validation_binding_backup",
+    "id": "f664f9730e0725bdb5975b1cf0dfbac0559dbdfa520d11fe4c08afc4af6617c0",
+    "state": "exited",
+    "imageId": "sha256:1b53405d8680a09d6f44494b7990bf7da2ea43f84a258c59717d4539abf09f6d",
+    "bindings": {
+      "8000/tcp": [
+        {
+          "HostIp": "",
+          "HostPort": "55321"
+        }
+      ]
+    },
+    "networks": [
+      "shelflife-ch06-validation"
+    ],
+    "mounts": []
+  },
+  {
+    "name": "supabase_inbucket_shelflife-ch06-validation_binding_backup",
+    "id": "c016313de85d2b4e904bb894b02188a61a2a2eeac183d95e6089b1d133fb3d0f",
+    "state": "exited",
+    "imageId": "sha256:37a38e48e9338cd7e89dfeb487f37b02ebfcd9cb23111bed2d345e79d37d6dd6",
+    "bindings": {
+      "8025/tcp": [
+        {
+          "HostIp": "",
+          "HostPort": "55324"
+        }
+      ]
+    },
+    "networks": [
+      "shelflife-ch06-validation"
+    ],
+    "mounts": []
+  }
+]

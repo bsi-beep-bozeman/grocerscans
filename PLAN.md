@@ -1,5 +1,11 @@
 # ShelfLife — Implementation Plan
 
+> **2026-10-09 navigation update:** Current implementation position and approval
+> gates are in [IMPLEMENTATION_PLAN.md](IMPLEMENTATION_PLAN.md) and
+> [STATUS_LEDGER.md](STATUS_LEDGER.md). Continue via
+> [NEXT_CONVERSATION_HANDOFF.md](NEXT_CONVERSATION_HANDOFF.md) only after the
+> new-chat start gate is satisfied. The original specification below is preserved.
+
 Expiration tracking for an operating grocery store. Replaces manual shelf-walking
 with scheduled, category-aware alerts and daily rounds.
 

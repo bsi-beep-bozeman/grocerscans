@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-26 Australia/Perth",
+  "scope": "Acceptance receipt and documentation only",
+  "status": "PASS",
+  "protectedFiles": 23,
+  "priorLedgerHistoryVerbatim": true,
+  "documents": 5,
+  "localLinks": 72,
+  "newApplicationTests": 0,
+  "failures": []
+}

@@ -1,0 +1,9 @@
+{
+  "resolvedLocalLinks": 80,
+  "missingLinks": [],
+  "priorLedgerEventsPreserved": true,
+  "sourceManifestUnchanged": true,
+  "verbatimGatePresent": true,
+  "continuationId": "01a18027-683a-7043-b764-5939d2330ee2",
+  "continuationState": "completed initial turn, idle, waiting; no latest tool marker"
+}

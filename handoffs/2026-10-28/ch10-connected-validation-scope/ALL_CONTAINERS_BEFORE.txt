@@ -1,0 +1,29 @@
+ce2c4bd16f3e|scout-db-1|exited|0.0.0.0:15432->5432/tcp
+63aabbf94a4c|ppd-node22-01a145b7-preflight-npm|exited|
+92c5a653deb8|ppd-node22-01a145b7-preflight-runtime|exited|
+2b3ec793cbfa|supabase_inbucket_shelflife-ch06-validation|exited|
+73a5badd83f1|supabase_kong_shelflife-ch06-validation|exited|
+62b6180dd1a9|supabase_db_shelflife-ch06-validation|exited|
+87a57153d8ee|supabase_rest_shelflife-ch06-validation|exited|
+c016313de85d|supabase_inbucket_shelflife-ch06-validation_binding_backup|exited|
+d13a17fb2067|supabase_auth_shelflife-ch06-validation|exited|
+f664f9730e07|supabase_kong_shelflife-ch06-validation_binding_backup|exited|
+92d66059c523|supabase_db_shelflife-ch06-validation_binding_backup|exited|
+896e9d3fd367|supabase_db_product|running|0.0.0.0:54322->5432/tcp, [::]:54322->5432/tcp
+c9a489aa567e|supabase_studio_product|running|0.0.0.0:54323->3000/tcp, [::]:54323->3000/tcp
+377d1945aaee|supabase_pg_meta_product|running|8080/tcp
+f5477fada402|supabase_edge_runtime_product|exited|
+c1a2371f40fc|supabase_storage_product|running|5000/tcp
+73ab9f96c1dd|supabase_rest_product|running|3000/tcp
+3339379702ab|supabase_realtime_product|running|4000/tcp
+bca0e0db1fce|supabase_inbucket_product|running|0.0.0.0:54324->8025/tcp, [::]:54324->8025/tcp
+002caacfccaa|supabase_auth_product|running|9999/tcp
+797bf76bd471|supabase_kong_product|running|0.0.0.0:54321->8000/tcp, [::]:54321->8000/tcp
+6d060996567b|supabase_vector_product|running|
+c6f616c31425|supabase_analytics_product|running|0.0.0.0:54327->4000/tcp, [::]:54327->4000/tcp
+10d07a57fdd3|ppd-cos-ingestion-service-postgres-1|exited|
+f114a15b7d3b|onyx-nginx-1|running|0.0.0.0:80->80/tcp, [::]:80->80/tcp, 0.0.0.0:3000->80/tcp, [::]:3000->80/tcp
+0345b6081d10|onyx-web_server-1|running|
+87179b868e7d|onyx-api_server-1|running|
+0563ddd84964|onyx-relational_db-1|running|5432/tcp
+0beec70560ac|onyx-code-interpreter-1|running|8000/tcp

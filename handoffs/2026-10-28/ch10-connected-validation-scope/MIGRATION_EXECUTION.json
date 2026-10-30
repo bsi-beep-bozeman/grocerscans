@@ -1,0 +1,27 @@
+[
+  {
+    "file": "20261013000000_store_setup.sql",
+    "sha256": "9B1EF461FC1BE7C2E21D255F4A823135C5FCDC672CF5F79F9E41639492F29BEB",
+    "exitCode": 0
+  },
+  {
+    "file": "20261013000001_store_setup_api.sql",
+    "sha256": "C1F4B68B3CAC568A963C8A869B9233A814CF4ECEAB971E0EC1F8352C7A444F78",
+    "exitCode": 0
+  },
+  {
+    "file": "20261027000000_receiving_identity.sql",
+    "sha256": "67533D735FB95140639DF07598D4FCBEB1F4791098495EF8173DE726ACC05F3A",
+    "exitCode": 0
+  },
+  {
+    "file": "20261027000001_receiving_foundation_api.sql",
+    "sha256": "CDC6F332C868570B82AD7C8421E42DC73A4BF7B5850CFCCCD679CBA0C1FCB789",
+    "exitCode": 0
+  },
+  {
+    "file": "20261027000002_receiving_access_boundary.sql",
+    "sha256": "4B40D5EAC1F9BE86A264FDA513D49DE854AC7D3DDCE7713EB4476DC8B0F3F24A",
+    "exitCode": 0
+  }
+]

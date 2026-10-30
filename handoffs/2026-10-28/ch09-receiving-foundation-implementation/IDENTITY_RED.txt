@@ -1,0 +1,166 @@
+00:00 +0: loading D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/identity/session_test.dart
+test/identity/session_test.dart:3:8: Error: Error when reading 'lib/identity/identity_models.dart': The system cannot find the path specified
+import 'package:shelflife/identity/identity_models.dart';
+       ^
+test/identity/session_test.dart:4:8: Error: Error when reading 'lib/identity/identity_repository.dart': The system cannot find the path specified
+import 'package:shelflife/identity/identity_repository.dart';
+       ^
+test/identity/session_test.dart:5:8: Error: Error when reading 'lib/identity/staff_session_controller.dart': The system cannot find the path specified
+import 'package:shelflife/identity/staff_session_controller.dart';
+       ^
+test/identity/session_test.dart:21:31: Error: Type 'IdentityRepository' not found.
+class FakeIdentity implements IdentityRepository {
+                              ^^^^^^^^^^^^^^^^^^
+test/identity/session_test.dart:22:13: Error: Type 'StaffSession' not found.
+  Completer<StaffSession>? pending;
+            ^^^^^^^^^^^^
+test/identity/session_test.dart:25:20: Error: Type 'ReceivingContext' not found.
+  @override Future<ReceivingContext> context() async => ReceivingContext.fromJson({
+                   ^^^^^^^^^^^^^^^^
+test/identity/session_test.dart:30:20: Error: Type 'StaffSession' not found.
+  @override Future<StaffSession> begin(String pin) async {
+                   ^^^^^^^^^^^^
+test/identity/session_test.dart:34:30: Error: Type 'StaffSession' not found.
+  @override Future<void> end(StaffSession session) async { ends++; }
+                             ^^^^^^^^^^^^
+test/identity/session_test.dart:35:20: Error: Type 'RecoveryGrant' not found.
+  @override Future<RecoveryGrant> recover(StaffSession session, String actorId, String reason) => throw UnimplementedError();
+                   ^^^^^^^^^^^^^
+test/identity/session_test.dart:35:43: Error: Type 'StaffSession' not found.
+  @override Future<RecoveryGrant> recover(StaffSession session, String actorId, String reason) => throw UnimplementedError();
+                                          ^^^^^^^^^^^^
+test/identity/session_test.dart:22:13: Error: 'StaffSession' isn't a type.
+  Completer<StaffSession>? pending;
+            ^^^^^^^^^^^^
+test/identity/session_test.dart:25:57: Error: The getter 'ReceivingContext' isn't defined for the type 'FakeIdentity'.
+ - 'FakeIdentity' is from 'test/identity/session_test.dart'.
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'ReceivingContext'.
+  @override Future<ReceivingContext> context() async => ReceivingContext.fromJson({
+                                                        ^^^^^^^^^^^^^^^^
+test/identity/session_test.dart:32:31: Error: The getter 'StaffSession' isn't defined for the type 'FakeIdentity'.
+ - 'FakeIdentity' is from 'test/identity/session_test.dart'.
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'StaffSession'.
+    return pending?.future ?? StaffSession.fromJson(sessionWire());
+                              ^^^^^^^^^^^^
+test/identity/session_test.dart:34:30: Error: 'StaffSession' isn't a type.
+  @override Future<void> end(StaffSession session) async { ends++; }
+                             ^^^^^^^^^^^^
+test/identity/session_test.dart:35:43: Error: 'StaffSession' isn't a type.
+  @override Future<RecoveryGrant> recover(StaffSession session, String actorId, String reason) => throw UnimplementedError();
+                                          ^^^^^^^^^^^^
+test/identity/session_test.dart:39:18: Error: Undefined name 'StaffSession'.
+    expect(() => StaffSession.fromJson({...sessionWire(), 'pin': '1234'}), throwsFormatException);
+                 ^^^^^^^^^^^^
+test/identity/session_test.dart:42:18: Error: Undefined name 'StaffSession'.
+    expect(() => StaffSession.fromJson(wire), throwsFormatException);
+                 ^^^^^^^^^^^^
+test/identity/session_test.dart:43:12: Error: Undefined name 'StaffSession'.
+    expect(StaffSession.fromJson(sessionWire()).scope.actorId, actor);
+           ^^^^^^^^^^^^
+test/identity/session_test.dart:46:18: Error: Undefined name 'ReceivingContext'.
+    expect(() => ReceivingContext.fromJson({'contract_version': 1, 'kind': 'staff', 'server_time': '2026-10-28T00:00:00Z'}), throwsFormatException);
+                 ^^^^^^^^^^^^^^^^
+test/identity/session_test.dart:49:54: Error: 'StaffSession' isn't a type.
+    final repo = FakeIdentity()..pending = Completer<StaffSession>();
+                                                     ^^^^^^^^^^^^
+test/identity/session_test.dart:50:24: Error: Method not found: 'StaffSessionController'.
+    final controller = StaffSessionController(repo);
+                       ^^^^^^^^^^^^^^^^^^^^^^
+test/identity/session_test.dart:53:28: Error: Undefined name 'StaffSession'.
+    repo.pending!.complete(StaffSession.fromJson(sessionWire()));
+                           ^^^^^^^^^^^^
+test/identity/session_test.dart:61:24: Error: Method not found: 'StaffSessionController'.
+    final controller = StaffSessionController(FakeIdentity(), elapsed: () => elapsed);
+                       ^^^^^^^^^^^^^^^^^^^^^^
+test/identity/session_test.dart:79:24: Error: Method not found: 'StaffSessionController'.
+    final controller = StaffSessionController(FakeIdentity(), elapsed: () => elapsed);
+                       ^^^^^^^^^^^^^^^^^^^^^^
+test/identity/session_test.dart:84:53: Error: Method not found: 'StaffSessionController'.
+    final repo = FakeIdentity(); final controller = StaffSessionController(repo);
+                                                    ^^^^^^^^^^^^^^^^^^^^^^
+00:00 +0 -1: loading D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/identity/session_test.dart [E]
+  Failed to load "D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/identity/session_test.dart":
+  Compilation failed for testPath=D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/identity/session_test.dart: test/identity/session_test.dart:3:8: Error: Error when reading 'lib/identity/identity_models.dart': The system cannot find the path specified
+  import 'package:shelflife/identity/identity_models.dart';
+         ^
+  test/identity/session_test.dart:4:8: Error: Error when reading 'lib/identity/identity_repository.dart': The system cannot find the path specified
+  import 'package:shelflife/identity/identity_repository.dart';
+         ^
+  test/identity/session_test.dart:5:8: Error: Error when reading 'lib/identity/staff_session_controller.dart': The system cannot find the path specified
+  import 'package:shelflife/identity/staff_session_controller.dart';
+         ^
+  test/identity/session_test.dart:21:31: Error: Type 'IdentityRepository' not found.
+  class FakeIdentity implements IdentityRepository {
+                                ^^^^^^^^^^^^^^^^^^
+  test/identity/session_test.dart:22:13: Error: Type 'StaffSession' not found.
+    Completer<StaffSession>? pending;
+              ^^^^^^^^^^^^
+  test/identity/session_test.dart:25:20: Error: Type 'ReceivingContext' not found.
+    @override Future<ReceivingContext> context() async => ReceivingContext.fromJson({
+                     ^^^^^^^^^^^^^^^^
+  test/identity/session_test.dart:30:20: Error: Type 'StaffSession' not found.
+    @override Future<StaffSession> begin(String pin) async {
+                     ^^^^^^^^^^^^
+  test/identity/session_test.dart:34:30: Error: Type 'StaffSession' not found.
+    @override Future<void> end(StaffSession session) async { ends++; }
+                               ^^^^^^^^^^^^
+  test/identity/session_test.dart:35:20: Error: Type 'RecoveryGrant' not found.
+    @override Future<RecoveryGrant> recover(StaffSession session, String actorId, String reason) => throw UnimplementedError();
+                     ^^^^^^^^^^^^^
+  test/identity/session_test.dart:35:43: Error: Type 'StaffSession' not found.
+    @override Future<RecoveryGrant> recover(StaffSession session, String actorId, String reason) => throw UnimplementedError();
+                                            ^^^^^^^^^^^^
+  test/identity/session_test.dart:22:13: Error: 'StaffSession' isn't a type.
+    Completer<StaffSession>? pending;
+              ^^^^^^^^^^^^
+  test/identity/session_test.dart:25:57: Error: The getter 'ReceivingContext' isn't defined for the type 'FakeIdentity'.
+   - 'FakeIdentity' is from 'test/identity/session_test.dart'.
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'ReceivingContext'.
+    @override Future<ReceivingContext> context() async => ReceivingContext.fromJson({
+                                                          ^^^^^^^^^^^^^^^^
+  test/identity/session_test.dart:32:31: Error: The getter 'StaffSession' isn't defined for the type 'FakeIdentity'.
+   - 'FakeIdentity' is from 'test/identity/session_test.dart'.
+  Try correcting the name to the name of an existing getter, or defining a getter or field named 'StaffSession'.
+      return pending?.future ?? StaffSession.fromJson(sessionWire());
+                                ^^^^^^^^^^^^
+  test/identity/session_test.dart:34:30: Error: 'StaffSession' isn't a type.
+    @override Future<void> end(StaffSession session) async { ends++; }
+                               ^^^^^^^^^^^^
+  test/identity/session_test.dart:35:43: Error: 'StaffSession' isn't a type.
+    @override Future<RecoveryGrant> recover(StaffSession session, String actorId, String reason) => throw UnimplementedError();
+                                            ^^^^^^^^^^^^
+  test/identity/session_test.dart:39:18: Error: Undefined name 'StaffSession'.
+      expect(() => StaffSession.fromJson({...sessionWire(), 'pin': '1234'}), throwsFormatException);
+                   ^^^^^^^^^^^^
+  test/identity/session_test.dart:42:18: Error: Undefined name 'StaffSession'.
+      expect(() => StaffSession.fromJson(wire), throwsFormatException);
+                   ^^^^^^^^^^^^
+  test/identity/session_test.dart:43:12: Error: Undefined name 'StaffSession'.
+      expect(StaffSession.fromJson(sessionWire()).scope.actorId, actor);
+             ^^^^^^^^^^^^
+  test/identity/session_test.dart:46:18: Error: Undefined name 'ReceivingContext'.
+      expect(() => ReceivingContext.fromJson({'contract_version': 1, 'kind': 'staff', 'server_time': '2026-10-28T00:00:00Z'}), throwsFormatException);
+                   ^^^^^^^^^^^^^^^^
+  test/identity/session_test.dart:49:54: Error: 'StaffSession' isn't a type.
+      final repo = FakeIdentity()..pending = Completer<StaffSession>();
+                                                       ^^^^^^^^^^^^
+  test/identity/session_test.dart:50:24: Error: Method not found: 'StaffSessionController'.
+      final controller = StaffSessionController(repo);
+                         ^^^^^^^^^^^^^^^^^^^^^^
+  test/identity/session_test.dart:53:28: Error: Undefined name 'StaffSession'.
+      repo.pending!.complete(StaffSession.fromJson(sessionWire()));
+                             ^^^^^^^^^^^^
+  test/identity/session_test.dart:61:24: Error: Method not found: 'StaffSessionController'.
+      final controller = StaffSessionController(FakeIdentity(), elapsed: () => elapsed);
+                         ^^^^^^^^^^^^^^^^^^^^^^
+  test/identity/session_test.dart:79:24: Error: Method not found: 'StaffSessionController'.
+      final controller = StaffSessionController(FakeIdentity(), elapsed: () => elapsed);
+                         ^^^^^^^^^^^^^^^^^^^^^^
+  test/identity/session_test.dart:84:53: Error: Method not found: 'StaffSessionController'.
+      final repo = FakeIdentity(); final controller = StaffSessionController(repo);
+                                                      ^^^^^^^^^^^^^^^^^^^^^^
+  .
+00:00 +0 -1: Some tests failed.
+
+Failing tests:
+  D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/identity/session_test.dart: loading D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/identity/session_test.dart

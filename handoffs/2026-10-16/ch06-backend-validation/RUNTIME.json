@@ -1,0 +1,112 @@
+{
+  "containers": [
+    {
+      "name": "supabase_db_shelflife-ch06-validation",
+      "id": "62b6180dd1a932a7b700b8d12ed0ccdb3eabd13a8a9a6439956422f3e3a86ccc",
+      "state": "exited",
+      "image": "sha256:658d1c9b09ae4f61b8e95087b6859181b4b7d6940d769cf7b605609c8aad43e9",
+      "imageId": "sha256:658d1c9b09ae4f61b8e95087b6859181b4b7d6940d769cf7b605609c8aad43e9",
+      "repoDigests": [
+        "public.ecr.aws/supabase/postgres@sha256:658d1c9b09ae4f61b8e95087b6859181b4b7d6940d769cf7b605609c8aad43e9"
+      ],
+      "bindings": {
+        "5432/tcp": [
+          {
+            "HostIp": "127.0.0.1",
+            "HostPort": "55322"
+          }
+        ]
+      },
+      "networks": [
+        "shelflife-ch06-validation"
+      ],
+      "volumes": [
+        {
+          "name": "supabase_db_shelflife-ch06-validation",
+          "destination": "/var/lib/postgresql/data"
+        }
+      ]
+    },
+    {
+      "name": "supabase_auth_shelflife-ch06-validation",
+      "id": "d13a17fb2067f8262d18a4444d1bfbd968bf67b941486238c81ac30b2cdffd70",
+      "state": "exited",
+      "image": "public.ecr.aws/supabase/gotrue:v2.197.0",
+      "imageId": "sha256:1736a63078f5922b198c4cbe50f80ab9a2d3b54fe8b7b6cfb2e9dc5dbbc12c6b",
+      "repoDigests": [
+        "public.ecr.aws/supabase/gotrue@sha256:1736a63078f5922b198c4cbe50f80ab9a2d3b54fe8b7b6cfb2e9dc5dbbc12c6b"
+      ],
+      "bindings": {},
+      "networks": [
+        "shelflife-ch06-validation"
+      ],
+      "volumes": []
+    },
+    {
+      "name": "supabase_rest_shelflife-ch06-validation",
+      "id": "87a57153d8eedfcf2ddb0e63d02e92b70c8eace89ecafe9b3e8b2b0a135377e1",
+      "state": "exited",
+      "image": "public.ecr.aws/supabase/postgrest:v16.3",
+      "imageId": "sha256:ec0e25a4e24b0a3bc5e4f011369bfc736bd1b19f513bd01079b86329a7636962",
+      "repoDigests": [
+        "public.ecr.aws/supabase/postgrest@sha256:ec0e25a4e24b0a3bc5e4f011369bfc736bd1b19f513bd01079b86329a7636962"
+      ],
+      "bindings": {},
+      "networks": [
+        "shelflife-ch06-validation"
+      ],
+      "volumes": []
+    },
+    {
+      "name": "supabase_inbucket_shelflife-ch06-validation",
+      "id": "2b3ec793cbfade15a3e517fad6e82eef467d2a8d762e101a12c227a4e8a9c6c7",
+      "state": "exited",
+      "image": "sha256:37a38e48e9338cd7e89dfeb487f37b02ebfcd9cb23111bed2d345e79d37d6dd6",
+      "imageId": "sha256:37a38e48e9338cd7e89dfeb487f37b02ebfcd9cb23111bed2d345e79d37d6dd6",
+      "repoDigests": [
+        "public.ecr.aws/supabase/mailpit@sha256:37a38e48e9338cd7e89dfeb487f37b02ebfcd9cb23111bed2d345e79d37d6dd6"
+      ],
+      "bindings": {
+        "8025/tcp": [
+          {
+            "HostIp": "127.0.0.1",
+            "HostPort": "55324"
+          }
+        ]
+      },
+      "networks": [
+        "shelflife-ch06-validation"
+      ],
+      "volumes": []
+    },
+    {
+      "name": "supabase_kong_shelflife-ch06-validation",
+      "id": "73a5badd83f19f116201a7876e10046ed108ceb0a1482beba7c8ce259788c5d1",
+      "state": "exited",
+      "image": "sha256:1b53405d8680a09d6f44494b7990bf7da2ea43f84a258c59717d4539abf09f6d",
+      "imageId": "sha256:1b53405d8680a09d6f44494b7990bf7da2ea43f84a258c59717d4539abf09f6d",
+      "repoDigests": [
+        "public.ecr.aws/supabase/kong@sha256:1b53405d8680a09d6f44494b7990bf7da2ea43f84a258c59717d4539abf09f6d"
+      ],
+      "bindings": {
+        "8000/tcp": [
+          {
+            "HostIp": "127.0.0.1",
+            "HostPort": "55321"
+          }
+        ]
+      },
+      "networks": [
+        "shelflife-ch06-validation"
+      ],
+      "volumes": []
+    }
+  ],
+  "network": "shelflife-ch06-validation",
+  "backupContainers": [
+    "supabase_db_shelflife-ch06-validation_binding_backup",
+    "supabase_kong_shelflife-ch06-validation_binding_backup",
+    "supabase_inbucket_shelflife-ch06-validation_binding_backup"
+  ],
+  "state": "All chapter containers stopped; baseline restore partial; private snapshots preserved"
+}

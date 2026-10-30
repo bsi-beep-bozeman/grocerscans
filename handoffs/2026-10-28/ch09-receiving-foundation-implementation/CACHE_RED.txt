@@ -1,0 +1,40 @@
+00:00 +0: loading D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/receiving/policy_test.dart
+test/receiving/policy_test.dart:14:17: Error: Undefined name 'ReceivingCache'.
+    final cache=ReceivingCache.catalog(session.scope,CatalogQuery('all',''),ReceivingCatalog.fromJson(catalogWire()));
+                ^^^^^^^^^^^^^^
+test/receiving/policy_test.dart:19:16: Error: Undefined name 'ReceivingCache'.
+    expect(()=>ReceivingCache.fromJson({...cache.toJson(),'pin':'1234'}),throwsFormatException);
+               ^^^^^^^^^^^^^^
+test/receiving/policy_test.dart:15:60: Error: The method 'sealCache' isn't defined for the type 'DraftCrypto'.
+ - 'DraftCrypto' is from 'package:shelflife/sync/draft_crypto.dart' ('lib/sync/draft_crypto.dart').
+Try correcting the name to the name of an existing method, or defining a method named 'sealCache'.
+    final crypto=DraftCrypto();final envelope=await crypto.sealCache(cache,session.vaultId,1,session.key);
+                                                           ^^^^^^^^^
+test/receiving/policy_test.dart:16:31: Error: The method 'openCache' isn't defined for the type 'DraftCrypto'.
+ - 'DraftCrypto' is from 'package:shelflife/sync/draft_crypto.dart' ('lib/sync/draft_crypto.dart').
+Try correcting the name to the name of an existing method, or defining a method named 'openCache'.
+    final loaded=await crypto.openCache(envelope,session.scope,session.key);
+                              ^^^^^^^^^
+00:00 +0 -1: loading D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/receiving/policy_test.dart [E]
+  Failed to load "D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/receiving/policy_test.dart":
+  Compilation failed for testPath=D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/receiving/policy_test.dart: test/receiving/policy_test.dart:14:17: Error: Undefined name 'ReceivingCache'.
+      final cache=ReceivingCache.catalog(session.scope,CatalogQuery('all',''),ReceivingCatalog.fromJson(catalogWire()));
+                  ^^^^^^^^^^^^^^
+  test/receiving/policy_test.dart:19:16: Error: Undefined name 'ReceivingCache'.
+      expect(()=>ReceivingCache.fromJson({...cache.toJson(),'pin':'1234'}),throwsFormatException);
+                 ^^^^^^^^^^^^^^
+  test/receiving/policy_test.dart:15:60: Error: The method 'sealCache' isn't defined for the type 'DraftCrypto'.
+   - 'DraftCrypto' is from 'package:shelflife/sync/draft_crypto.dart' ('lib/sync/draft_crypto.dart').
+  Try correcting the name to the name of an existing method, or defining a method named 'sealCache'.
+      final crypto=DraftCrypto();final envelope=await crypto.sealCache(cache,session.vaultId,1,session.key);
+                                                             ^^^^^^^^^
+  test/receiving/policy_test.dart:16:31: Error: The method 'openCache' isn't defined for the type 'DraftCrypto'.
+   - 'DraftCrypto' is from 'package:shelflife/sync/draft_crypto.dart' ('lib/sync/draft_crypto.dart').
+  Try correcting the name to the name of an existing method, or defining a method named 'openCache'.
+      final loaded=await crypto.openCache(envelope,session.scope,session.key);
+                                ^^^^^^^^^
+  .
+00:00 +0 -1: Some tests failed.
+
+Failing tests:
+  D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/receiving/policy_test.dart: loading D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/receiving/policy_test.dart

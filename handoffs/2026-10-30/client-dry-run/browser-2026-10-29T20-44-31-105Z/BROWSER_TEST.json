@@ -1,0 +1,40 @@
+{
+  "time": "2026-10-29T20:44:54.377Z",
+  "url": "http://127.0.0.1:8137",
+  "cases": [
+    {
+      "name": "Welcome page and isolated browser storage",
+      "status": "PASS"
+    },
+    {
+      "name": "Admin edits, saves and activates practice setup",
+      "status": "PASS"
+    },
+    {
+      "name": "Invalid PIN is rejected and staff can look up and save a draft",
+      "status": "PASS"
+    },
+    {
+      "name": "Saved staff draft survives page reload and PIN re-entry",
+      "status": "PASS"
+    },
+    {
+      "name": "Switching practice staff conceals Alex drafts and restores them for Alex",
+      "status": "PASS"
+    },
+    {
+      "name": "Second tab is blocked from changing the same practice data",
+      "status": "PASS"
+    },
+    {
+      "name": "Reset cancellation preserves data; confirmed reset clears only demo data",
+      "status": "PASS"
+    },
+    {
+      "name": "Mobile viewport supports welcome, admin and staff in an independent browser",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "external": []
+}

@@ -1,0 +1,13 @@
+Analyzing app_flutter...                                        
+
+   info - Statements in an if should be enclosed in a block. Try wrapping the statement in a block - lib\identity\identity_models.dart:8:65 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block. Try wrapping the statement in a block - lib\identity\staff_session_controller.dart:36:47 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block. Try wrapping the statement in a block - lib\receiving\draft_workspace.dart:91:110 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block. Try wrapping the statement in a block - lib\receiving\draft_workspace.dart:91:151 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block. Try wrapping the statement in a block - lib\receiving\draft_workspace.dart:102:111 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block. Try wrapping the statement in a block - lib\receiving\draft_workspace.dart:102:152 - curly_braces_in_flow_control_structures
+   info - Use the null-aware marker '?' rather than a null check via an 'if'. Try using '?' - lib\receiving\receiving_draft.dart:65:5 - use_null_aware_elements
+   info - Statements in an if should be enclosed in a block. Try wrapping the statement in a block - lib\receiving\receiving_policy.dart:7:119 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block. Try wrapping the statement in a block - lib\receiving\receiving_policy.dart:87:158 - curly_braces_in_flow_control_structures
+
+9 issues found. (ran in 14.3s)

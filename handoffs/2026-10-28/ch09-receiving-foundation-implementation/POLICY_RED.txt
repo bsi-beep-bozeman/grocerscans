@@ -1,0 +1,62 @@
+00:00 +0: loading D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/receiving/policy_test.dart
+test/receiving/policy_test.dart:2:8: Error: Error when reading 'lib/receiving/receiving_policy.dart': The system cannot find the file specified
+import 'package:shelflife/receiving/receiving_policy.dart';
+       ^
+test/receiving/policy_test.dart:10:12: Error: Undefined name 'ReceivingCatalog'.
+    expect(ReceivingCatalog.fromJson(catalogWire()).items.single['upc'],'001234');
+           ^^^^^^^^^^^^^^^^
+test/receiving/policy_test.dart:12:16: Error: Undefined name 'ReceivingCatalog'.
+    expect(()=>ReceivingCatalog.fromJson(j),throwsFormatException);
+               ^^^^^^^^^^^^^^^^
+test/receiving/policy_test.dart:15:16: Error: Undefined name 'ReceivingCatalog'.
+    expect(()=>ReceivingCatalog.fromJson({...catalogWire(),'active_setup_revision':1}),throwsFormatException);
+               ^^^^^^^^^^^^^^^^
+test/receiving/policy_test.dart:17:16: Error: Undefined name 'ReceivingCatalog'.
+    expect(()=>ReceivingCatalog.fromJson(j),throwsFormatException);
+               ^^^^^^^^^^^^^^^^
+test/receiving/policy_test.dart:20:12: Error: Method not found: 'CatalogQuery'.
+    expect(CatalogQuery('upc','001234').toJson()['value'],'001234');
+           ^^^^^^^^^^^^
+test/receiving/policy_test.dart:21:16: Error: Method not found: 'CatalogQuery'.
+    expect(()=>CatalogQuery('name','x'),throwsFormatException);
+               ^^^^^^^^^^^^
+test/receiving/policy_test.dart:22:16: Error: Method not found: 'CatalogQuery'.
+    expect(()=>CatalogQuery('raw_sql','x'),throwsFormatException);
+               ^^^^^^^^^^^^
+test/receiving/policy_test.dart:23:16: Error: Method not found: 'CatalogQuery'.
+    expect(()=>CatalogQuery('all','x'),throwsFormatException);
+               ^^^^^^^^^^^^
+00:00 +0 -1: loading D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/receiving/policy_test.dart [E]
+  Failed to load "D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/receiving/policy_test.dart":
+  Compilation failed for testPath=D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/receiving/policy_test.dart: test/receiving/policy_test.dart:2:8: Error: Error when reading 'lib/receiving/receiving_policy.dart': The system cannot find the file specified
+  import 'package:shelflife/receiving/receiving_policy.dart';
+         ^
+  test/receiving/policy_test.dart:10:12: Error: Undefined name 'ReceivingCatalog'.
+      expect(ReceivingCatalog.fromJson(catalogWire()).items.single['upc'],'001234');
+             ^^^^^^^^^^^^^^^^
+  test/receiving/policy_test.dart:12:16: Error: Undefined name 'ReceivingCatalog'.
+      expect(()=>ReceivingCatalog.fromJson(j),throwsFormatException);
+                 ^^^^^^^^^^^^^^^^
+  test/receiving/policy_test.dart:15:16: Error: Undefined name 'ReceivingCatalog'.
+      expect(()=>ReceivingCatalog.fromJson({...catalogWire(),'active_setup_revision':1}),throwsFormatException);
+                 ^^^^^^^^^^^^^^^^
+  test/receiving/policy_test.dart:17:16: Error: Undefined name 'ReceivingCatalog'.
+      expect(()=>ReceivingCatalog.fromJson(j),throwsFormatException);
+                 ^^^^^^^^^^^^^^^^
+  test/receiving/policy_test.dart:20:12: Error: Method not found: 'CatalogQuery'.
+      expect(CatalogQuery('upc','001234').toJson()['value'],'001234');
+             ^^^^^^^^^^^^
+  test/receiving/policy_test.dart:21:16: Error: Method not found: 'CatalogQuery'.
+      expect(()=>CatalogQuery('name','x'),throwsFormatException);
+                 ^^^^^^^^^^^^
+  test/receiving/policy_test.dart:22:16: Error: Method not found: 'CatalogQuery'.
+      expect(()=>CatalogQuery('raw_sql','x'),throwsFormatException);
+                 ^^^^^^^^^^^^
+  test/receiving/policy_test.dart:23:16: Error: Method not found: 'CatalogQuery'.
+      expect(()=>CatalogQuery('all','x'),throwsFormatException);
+                 ^^^^^^^^^^^^
+  .
+00:00 +0 -1: Some tests failed.
+
+Failing tests:
+  D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/receiving/policy_test.dart: loading D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/receiving/policy_test.dart

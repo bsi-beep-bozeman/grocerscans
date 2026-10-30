@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <exclude domain="database" path="shelflife_drafts_v1.db" />
+    <exclude domain="database" path="shelflife_drafts_v1.db-journal" />
+    <exclude domain="database" path="shelflife_drafts_v1.db-wal" />
+    <exclude domain="database" path="shelflife_drafts_v1.db-shm" />
+</full-backup-content>

@@ -1,0 +1,17 @@
+{
+  "time": "2026-10-29T20:33:23.241Z",
+  "url": "http://127.0.0.1:8137",
+  "cases": [
+    {
+      "name": "Welcome page and isolated browser storage",
+      "status": "PASS"
+    },
+    {
+      "name": "browser execution",
+      "status": "FAIL",
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n+ actual - expected\n\n+ ''\n- 'Client Practice Grocer'\n"
+    }
+  ],
+  "errors": [],
+  "external": []
+}

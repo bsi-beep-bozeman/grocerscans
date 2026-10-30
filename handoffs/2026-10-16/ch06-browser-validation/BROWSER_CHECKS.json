@@ -1,0 +1,27 @@
+{
+  "browser": "155.0.8059.79",
+  "headless": true,
+  "checks": [
+    {
+      "label": "Actual Flutter sign-in via Auth and SDK loads admin setup",
+      "status": "PASS"
+    },
+    {
+      "label": "Save/reload persistence and explicit unsaved-edit cancel/discard",
+      "status": "PASS",
+      "revision": 2
+    },
+    {
+      "label": "Units and product pack edit persisted",
+      "status": "PASS"
+    },
+    {
+      "label": "Location create, rename and deactivate through UI",
+      "status": "PASS"
+    },
+    {
+      "label": "Preset duplicate, versioned edit and deactivate through UI",
+      "status": "PASS"
+    }
+  ]
+}

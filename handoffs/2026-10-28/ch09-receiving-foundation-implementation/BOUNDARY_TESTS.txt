@@ -1,0 +1,30 @@
+00:00 +0: loading D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/identity/session_test.dart
+00:00 +0: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/identity/session_test.dart: cooldown and unexpected failures stay locked without leaking details
+00:00 +1: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/identity/session_test.dart: unavailable workspace and concurrent submission do not start extra requests
+00:00 +2: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/identity/session_test.dart: recovery grant is strict, bounded, and clears key bytes
+00:00 +3: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/identity/session_test.dart: wire primitives reject invalid shape, timestamps and binary lengths
+00:00 +4: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/identity/session_test.dart: strict success rejects extra secret-bearing fields and invalid lifetime
+00:00 +5: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/identity/session_test.dart: unknown identity never becomes a kiosk
+00:00 +6: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/identity/session_test.dart: late PIN completion cannot reopen after lock
+00:00 +7: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/identity/session_test.dart: idle boundary is 300 seconds and touch never extends absolute life
+00:00 +8: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/identity/session_test.dart: uncertain backwards monotonic reference locks
+00:00 +9: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/identity/session_test.dart: invalid PIN is sent once for durable server counting, never retried
+00:00 +10: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/receiving/policy_test.dart: complete policy and safe policy cache round trip without widening fields
+00:00 +11: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/receiving/policy_test.dart: policy rejects malformed setup
+00:00 +12: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/receiving/policy_test.dart: policy rejects malformed unit
+00:00 +13: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/receiving/policy_test.dart: policy rejects malformed pack
+00:00 +14: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/receiving/policy_test.dart: policy rejects malformed requirements
+00:00 +15: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/receiving/policy_test.dart: policy rejects malformed entry_modes
+00:00 +16: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/receiving/policy_test.dart: policy rejects malformed label_profile
+00:00 +17: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/receiving/policy_test.dart: policy rejects malformed expiry
+00:00 +18: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/receiving/policy_test.dart: policy rejects malformed receiving
+00:00 +19: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/receiving/policy_test.dart: policy rejects malformed locations
+00:00 +20: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/receiving/policy_test.dart: policy rejects malformed suppliers
+00:00 +21: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/receiving/policy_test.dart: policy rejects malformed readiness
+00:00 +22: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/receiving/policy_test.dart: missing setup is explicit and unknown response versions are rejected
+00:00 +23: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/receiving/policy_test.dart: cache rejects tenant mismatch, unknown type, oversized data and malformed query
+00:00 +24: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/receiving/policy_test.dart: safe cache is encrypted and bound to the current actor partition
+00:00 +25: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/receiving/policy_test.dart: catalog keeps leading zeros and refuses financial or arbitrary joined fields
+00:00 +26: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/receiving/policy_test.dart: catalog rejects overlong responses and mismatched setup pair
+00:00 +27: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/receiving/policy_test.dart: catalog query is exact and bounded
+00:00 +28: All tests passed!

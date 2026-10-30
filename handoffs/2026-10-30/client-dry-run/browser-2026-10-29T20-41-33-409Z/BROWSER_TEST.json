@@ -1,0 +1,25 @@
+{
+  "time": "2026-10-29T20:42:17.037Z",
+  "url": "http://127.0.0.1:8137",
+  "cases": [
+    {
+      "name": "Welcome page and isolated browser storage",
+      "status": "PASS"
+    },
+    {
+      "name": "Admin edits, saves and activates practice setup",
+      "status": "PASS"
+    },
+    {
+      "name": "Invalid PIN is rejected and staff can look up and save a draft",
+      "status": "PASS"
+    },
+    {
+      "name": "browser execution",
+      "status": "FAIL",
+      "error": "TimeoutError: locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('Whole milk', { exact: true }).last()\u001b[22m\n"
+    }
+  ],
+  "errors": [],
+  "external": []
+}

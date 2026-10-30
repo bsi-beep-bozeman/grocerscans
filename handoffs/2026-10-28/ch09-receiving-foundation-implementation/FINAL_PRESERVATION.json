@@ -1,0 +1,398 @@
+[
+  {
+    "path": "app_flutter/lib/config.dart",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "404C318FE9115DF19412F8C1F83022BFF6EC861E25E4663BA36E42C92179B216"
+  },
+  {
+    "path": "app_flutter/lib/main.dart",
+    "unchanged": false,
+    "allowedChange": true,
+    "sha256": "B9021440D4FCE7143DD646C270CF241624903EB8B4E4AA2E9A3972C7F2F8D588"
+  },
+  {
+    "path": "app_flutter/lib/preview.dart",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "5BC0A31570899F0DD1847FC079DDE268F26D0BAC3D001C6A65554092002B685F"
+  },
+  {
+    "path": "app_flutter/lib/supa.dart",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "0D405636A6F6D79B662386670299B3F04025B57722212B82375695B9031F6741"
+  },
+  {
+    "path": "app_flutter/lib/preview/catalog.dart",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "B5DEBA4769CA8890B590A23071D428D8821F0754E56E7D2C319B98CBD4F67015"
+  },
+  {
+    "path": "app_flutter/lib/preview/cockpit.dart",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "A484E3E519B2EE35B81A1B7B02119EF6E10DFFE17425A1CB040A6BDEA9ACC230"
+  },
+  {
+    "path": "app_flutter/lib/screens/login.dart",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "BA9C9B12EDC62FE2DFB905D7AB5938787F1AA81A8AB666D1541478FC8895635B"
+  },
+  {
+    "path": "app_flutter/lib/setup/admin_setup_gate.dart",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "A89E072DB720820BE76D03FECDE372DD88F3C6A6193A6BBF780CDDFE801CEC70"
+  },
+  {
+    "path": "app_flutter/lib/setup/preset_editor.dart",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "8035E871E07BD93D83F5CF430451AB83115752A768F417916BA2285100D5E958"
+  },
+  {
+    "path": "app_flutter/lib/setup/setup_controller.dart",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "08BC063FB0D2903C6021F6D60E19E12BE40DD7E3F4FCBB66B1F8AD50D963EA09"
+  },
+  {
+    "path": "app_flutter/lib/setup/setup_forms.dart",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "91F54F96ACBF876E32A47A214D64E5C31AD574E34781CB78A7AC61FC9FAC0E1F"
+  },
+  {
+    "path": "app_flutter/lib/setup/setup_models.dart",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "D5374D9F92D97056B0782A42585E499C62690BA52D6450F01C226C109DD0E768"
+  },
+  {
+    "path": "app_flutter/lib/setup/setup_repository.dart",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "C5CC37F759054B1C829BD799B8E7E4DE28C61E6779F6366B51C8DD815E715E28"
+  },
+  {
+    "path": "app_flutter/lib/setup/setup_review.dart",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "DD755202A69EFC95C502B9FD972ED4ED4E074688B53AD4DCD0BC9F9E1D2A1248"
+  },
+  {
+    "path": "app_flutter/lib/setup/setup_screen.dart",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "E8B6C84BF89EAD986DEE53649D24BAC01112F9ECE2198A56728C465075864480"
+  },
+  {
+    "path": "app_flutter/lib/setup/setup_steps.dart",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "7032A7DE1085B6755AFF6FA5786EA02079BDD6960EDBCDB6B3965D8B7994B3FD"
+  },
+  {
+    "path": "app_flutter/lib/setup/setup_validation.dart",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "C24475AE1CD53C09E57C4D232CDD70890BCC2A69287AB2375152A5D7AFE4CB7D"
+  },
+  {
+    "path": "app_flutter/lib/setup/supabase_setup_repository.dart",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "B5C1ABF20BEBA4FAC81A0BCC471471177E0035878003CAFE3CEE43798386D49A"
+  },
+  {
+    "path": "app_flutter/test/widget_test.dart",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "398DA5B9D324F76CAAA429E9EEC069CE758CA774ADD9FE8D0E7527375A5AC478"
+  },
+  {
+    "path": "app_flutter/test/setup/admin_setup_gate_test.dart",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "4583EC411ACE8D013EA2F08DFD7A53341982A7E5B2BB663BF965B957824E3C41"
+  },
+  {
+    "path": "app_flutter/test/setup/setup_accessibility_test.dart",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "655797CBA0F9B2F8E69E2F4B5E211C101BE1D1BE62310B18EFA1E9794355D4F2"
+  },
+  {
+    "path": "app_flutter/test/setup/setup_controller_test.dart",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "0413B94AB1623305F304F4556523B2F863CE94CF49AB06B0A31F91C601E4AD58"
+  },
+  {
+    "path": "app_flutter/test/setup/setup_fixtures.dart",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "B7574B3D3969A0DC65470B401F5865C8501258223A89009C0A0420F044DCCD1D"
+  },
+  {
+    "path": "app_flutter/test/setup/setup_repository_test.dart",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "55851BCF9AB8F468C618742CCBFB2FBB65FE12C664839807D00C191DE1E51088"
+  },
+  {
+    "path": "app_flutter/test/setup/setup_review_regression_test.dart",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "1ACD4992D8F1863A042624048AD95D9D2029E6A957CC62258486AE21A5082C31"
+  },
+  {
+    "path": "app_flutter/test/setup/setup_screen_test.dart",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "27EE20305A19196703453AD3264DC2FE4F83D3E3953C93F3A493DD97AA21A258"
+  },
+  {
+    "path": "app_flutter/test/setup/setup_ui_repository.dart",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "DF58571D08DC7F29582AB3E3A28075C28D68C042FC96457FA9EF526DFC9BD61E"
+  },
+  {
+    "path": "app_flutter/test/setup/setup_validation_test.dart",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "271240933DA1B59F4605E29C5EF379DA603BB7342446A2758D762FA1D20C4DE5"
+  },
+  {
+    "path": "app_flutter/test/setup/setup_visual_test.dart",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "E00265B186ECDC6AC5E0C319315FBE3AF5F710A5FB9071F50A6D4F387CB54800"
+  },
+  {
+    "path": "app_flutter/android/app/src/main/AndroidManifest.xml",
+    "unchanged": false,
+    "allowedChange": true,
+    "sha256": "883B87D7ED91C7BD52ECB16606656553E937948A994564960081ADB7FD716E20"
+  },
+  {
+    "path": "app_flutter/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java",
+    "unchanged": false,
+    "allowedChange": true,
+    "sha256": "0CFA8AF02FE7E283EE3B1867743B16E43D3383670E389F9DE7269616050BD59D"
+  },
+  {
+    "path": "app_flutter/android/app/src/main/kotlin/com/alsafa/shelflife/MainActivity.kt",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "9C30E776A10719E3507D6A65FC5DB0626F3BA62B05C5A008024449B0AD619A10"
+  },
+  {
+    "path": "app_flutter/android/app/src/main/res/drawable/launch_background.xml",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "2DF60E2CFBEE873CE2858088CF003E6B93498F2F568476DA437610467EA1A9D7"
+  },
+  {
+    "path": "app_flutter/android/app/src/main/res/drawable-v21/launch_background.xml",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "DCA312EC77DE83E43EF70A825C299B51451247286C29167D62F19165750B8793"
+  },
+  {
+    "path": "app_flutter/android/app/src/main/res/mipmap-hdpi/ic_launcher.png",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "6A7C8F0D703E3682108F9662F813302236240D3F8F638BB391E32BFB96055FEF"
+  },
+  {
+    "path": "app_flutter/android/app/src/main/res/mipmap-mdpi/ic_launcher.png",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "C7C0C0189145E4E32A401C61C9BDC615754B0264E7AFAE24E834BB81049EAF81"
+  },
+  {
+    "path": "app_flutter/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "E14AA40904929BF313FDED22CF7E7FFCBF1D1AAC4263B5EF1BE8BFCE650397AA"
+  },
+  {
+    "path": "app_flutter/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "4D470BF22D5C17D84EDC5F82516D1BA8A1C09559CD761CEFB792F86D9F52B540"
+  },
+  {
+    "path": "app_flutter/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "3C34E1F298D0C9EA3455D46DB6B7759C8211A49E9EC6E44B635FC5C87DFB4180"
+  },
+  {
+    "path": "app_flutter/android/app/src/main/res/values/styles.xml",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "CCA15A99B59380A548BF6A890F7CA5380EE509B1F9BBB2F5F9EC3589FA25C2F7"
+  },
+  {
+    "path": "app_flutter/android/app/src/main/res/values-night/styles.xml",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "EA763597DC1A84C8034251CAEE98D7753E0FBF57340FFC94677427DE4B537516"
+  },
+  {
+    "path": "product/supabase/migrations/20260924030000_init.sql",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "DC2E26EBE74A64892540ECB0E177EBC1768F7B3F192852DE110D6DFAE578F805"
+  },
+  {
+    "path": "product/supabase/migrations/20260924030001_rls.sql",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "FFF8423FCF4DB709DE47EF219629EAB29EEC819D875CED1FD98E7704224BF9BA"
+  },
+  {
+    "path": "product/supabase/migrations/20260924030002_rpcs.sql",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "C3AE1C250E718A3CED3B369572E3FB88AC481B4710098F42000BEFCD4AE80417"
+  },
+  {
+    "path": "product/supabase/migrations/20260925000000_supplier_tier.sql",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "5923B59433E0B236045A79780E4C5B09BC7CD7576DA6B3F608F1B96A34C426F5"
+  },
+  {
+    "path": "product/supabase/migrations/20260925000001_supplier_tier.sql",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "45E5EB4212AAEC85BF3E962AFDEF6FD9F375CBF7DE3A0E69B1DD6430B77E3217"
+  },
+  {
+    "path": "product/supabase/migrations/20261013000000_store_setup.sql",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "9B1EF461FC1BE7C2E21D255F4A823135C5FCDC672CF5F79F9E41639492F29BEB"
+  },
+  {
+    "path": "product/supabase/migrations/20261013000001_store_setup_api.sql",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "C1F4B68B3CAC568A963C8A869B9233A814CF4ECEAB971E0EC1F8352C7A444F78"
+  },
+  {
+    "path": "product/supabase/tests/store_setup.sql",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "16974E882EC22DBAC34905E3DD0D41E1E1FB46A107F48D67B408F3FABF539995"
+  },
+  {
+    "path": "product/supabase/tests/backend-validation/api.mjs",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "CA7D86756EA1C719D1A1731C2A4083A79A00ED15A62A237D90BBA4D032F66174"
+  },
+  {
+    "path": "product/supabase/tests/backend-validation/apply-setup.mjs",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "B9B706917D03E1E286473899145F93D07DB757351B78C317AD6FAC591D1C81A0"
+  },
+  {
+    "path": "product/supabase/tests/backend-validation/browser-checkpoint.mjs",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "679195161C3114897E54529079371686C7A37DE6A8E24B4A86A10FDD01D54451"
+  },
+  {
+    "path": "product/supabase/tests/backend-validation/browser-fixtures.mjs",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "5D4BE25A230735816ADFC32B8DE3EEA57499909DECCC4577CA58435D4E5A9677"
+  },
+  {
+    "path": "product/supabase/tests/backend-validation/common.mjs",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "DDF96DB5664E4D0E63BDF6AD38040238C16238FE204F36DD5835B3F80E54799E"
+  },
+  {
+    "path": "product/supabase/tests/backend-validation/concurrency.mjs",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "E1360DD5C0B987FE1893CF34A7425D740739FB05BD6501969423BF4483EDE28F"
+  },
+  {
+    "path": "product/supabase/tests/backend-validation/decode-responses.dart",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "35CAA39FE4B79DDC0C1814074366E5B358474F5D910E9AE040A9804BCA91940B"
+  },
+  {
+    "path": "product/supabase/tests/backend-validation/rebind-local.mjs",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "422413A04DC103686350D9F48F8C0D00D6DA5FFCFCD08E19EFE96147F312113F"
+  },
+  {
+    "path": "product/supabase/tests/backend-validation/restart.mjs",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "485C81F28C1E08D66A9A8168C50DA14E373493FF1133F7D16DE4B39E320D84D6"
+  },
+  {
+    "path": "product/supabase/tests/backend-validation/restore-baseline.mjs",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "4B128258D54065C10A0B23DDABDFABDCE3090FD4CD36084005FC684E76D3FCDE"
+  },
+  {
+    "path": "product/supabase/tests/backend-validation/serve-web.mjs",
+    "unchanged": true,
+    "allowedChange": false,
+    "sha256": "D3A50F12A9956C2D2123587612D37274844B21EAFFF6F8EF876782A19220B06C"
+  },
+  {
+    "path": "app_flutter/pubspec.yaml",
+    "unchanged": false,
+    "allowedChange": true,
+    "sha256": "B8BFA3EEB6A5A939FDAC875A0588D2FDE75DFEE81C1F250AA031949125412EBB"
+  },
+  {
+    "path": "app_flutter/pubspec.lock",
+    "unchanged": false,
+    "allowedChange": true,
+    "sha256": "AE13FF204FAEDFABB64DA4AEC167F4CDBA8098BF9E5F767F53F0B18A643AF8F5"
+  },
+  {
+    "path": "IMPLEMENTATION_PLAN.md",
+    "unchanged": false,
+    "allowedChange": true,
+    "sha256": "FB7A242C7EDDB9BE4A6D549A1B1AEBFF2EB9BCAB264BDCACF38F9EC87D880AEA"
+  },
+  {
+    "path": "STATUS_LEDGER.md",
+    "unchanged": false,
+    "allowedChange": true,
+    "sha256": "788B78CE1FCF3DDE359381C56F7A05010D519901F67F42AF7A26E31156474D43"
+  },
+  {
+    "path": "SESSION_INDEX.md",
+    "unchanged": false,
+    "allowedChange": true,
+    "sha256": "4C4D6B4E896A2534A18A360B0391C1256A8B62202FFE0180AAAB1BD6D2CA2CE3"
+  },
+  {
+    "path": "NEXT_CONVERSATION_HANDOFF.md",
+    "unchanged": false,
+    "allowedChange": true,
+    "sha256": "A200F7D12A841342F60EE44FA61C1EFF32E52704E4EDB15FBA291649081B0F79"
+  }
+]

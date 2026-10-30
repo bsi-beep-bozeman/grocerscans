@@ -1,0 +1,21 @@
+{
+  "time": "2026-10-29T20:40:05.623Z",
+  "url": "http://127.0.0.1:8137",
+  "cases": [
+    {
+      "name": "Welcome page and isolated browser storage",
+      "status": "PASS"
+    },
+    {
+      "name": "Admin edits, saves and activates practice setup",
+      "status": "PASS"
+    },
+    {
+      "name": "browser execution",
+      "status": "FAIL",
+      "error": "TimeoutError: locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Whole milk · 0990000000011', exact: true })\u001b[22m\n"
+    }
+  ],
+  "errors": [],
+  "external": []
+}

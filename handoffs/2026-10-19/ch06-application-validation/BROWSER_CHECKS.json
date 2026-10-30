@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-19",
+  "browser": "155.0.8059.80",
+  "headless": true,
+  "checks": [
+    {
+      "label": "390px login required-field validation and labels",
+      "status": "PASS"
+    },
+    {
+      "label": "Backend-unavailable sign-in remains on login and exposes a generic failure",
+      "status": "PASS",
+      "limitation": "The displayed error says check details rather than identifying connectivity; connected recovery not tested."
+    }
+  ]
+}

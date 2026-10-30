@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "target": "supabase_db_shelflife-ch06-validation",
+  "database": {
+    "name": "postgres",
+    "ctype": "en_US.UTF-8",
+    "owner": "postgres",
+    "encoding": "UTF8",
+    "collation": "en_US.UTF-8"
+  },
+  "baselineSha256": "587ce15fbbd00fa7fda99c953e691f1926c628283a285d2073e7ecabc0d73b83",
+  "testedSnapshotSha256": "db70bc336ddf52c677d76b360a0dce1fe07e9d3688b1bc2b6da7b25012d3a915",
+  "result": {
+    "orgs": 0,
+    "auth_users": 0,
+    "migrations": [
+      "20260924030000",
+      "20260924030001",
+      "20260924030002",
+      "20260925000000",
+      "20260925000001"
+    ],
+    "setup_table": null
+  }
+}

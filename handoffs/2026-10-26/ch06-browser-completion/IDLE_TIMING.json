@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "startedAt": "2026-10-25T22:41:12.230Z",
+  "firstReadOnlyLockedObservationAfterMs": 309309,
+  "protectedStoreFieldCount": 0,
+  "limitation": "Lock observed after 309.309 seconds without interaction; exact internal timer firing was not measured. Unawaited automation watcher did not produce a result."
+}

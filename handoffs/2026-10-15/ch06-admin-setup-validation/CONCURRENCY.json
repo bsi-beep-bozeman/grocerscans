@@ -1,0 +1,342 @@
+{
+  "status": "PASS",
+  "checks": 19,
+  "results": [
+    {
+      "label": "1a competing saves: observed lock, one success, PT409, one audit/operation",
+      "status": "PASS",
+      "lock": {
+        "pid": 356,
+        "blockers": [
+          349
+        ],
+        "wait_event": "transactionid",
+        "wait_event_type": "Lock"
+      }
+    },
+    {
+      "label": "1b identical concurrent retry returns exact committed response once",
+      "status": "PASS",
+      "lock": {
+        "pid": 356,
+        "blockers": [
+          349
+        ],
+        "wait_event": "transactionid",
+        "wait_event_type": "Lock"
+      }
+    },
+    {
+      "label": "1c changed payload/action with same operation is rejected",
+      "status": "PASS"
+    },
+    {
+      "label": "1d bounded five-second lock timeout, rollback, retry conflict",
+      "status": "PASS",
+      "lock": {
+        "pid": 356,
+        "blockers": [
+          349
+        ],
+        "wait_event": "transactionid",
+        "wait_event_type": "Lock"
+      }
+    },
+    {
+      "label": "2 competing activation yields one immutable version; exact retry is stable",
+      "status": "PASS",
+      "lock": {
+        "pid": 356,
+        "blockers": [
+          349
+        ],
+        "wait_event": "transactionid",
+        "wait_event_type": "Lock"
+      }
+    },
+    {
+      "label": "3a save wins: stale draft activation denied",
+      "status": "PASS"
+    },
+    {
+      "label": "3b activation wins: later draft save leaves frozen snapshot unchanged",
+      "status": "PASS"
+    },
+    {
+      "label": "4a preset deactivation wins and prevents activation",
+      "status": "PASS"
+    },
+    {
+      "label": "4a location deactivation wins and prevents activation",
+      "status": "PASS"
+    },
+    {
+      "label": "4b activation wins: later location/preset edits preserve full immutable snapshot",
+      "status": "PASS"
+    },
+    {
+      "label": "5a competing preset edit: one revision succeeds",
+      "status": "PASS"
+    },
+    {
+      "label": "5a competing location edit: one revision succeeds",
+      "status": "PASS"
+    },
+    {
+      "label": "5b same organisation different branches serialize",
+      "status": "PASS"
+    },
+    {
+      "label": "5c distinct organisations make progress while other org lock is held",
+      "status": "PASS"
+    },
+    {
+      "label": "6a revoked admin after lock wait denied for fresh operation",
+      "status": "PASS"
+    },
+    {
+      "label": "6a revoked admin after lock wait denied even for recorded retry",
+      "status": "PASS"
+    },
+    {
+      "label": "6b JWT expiring while blocked is rechecked, no side effects",
+      "status": "PASS"
+    },
+    {
+      "label": "7 first and subsequent activation: 50 read responses have consistent version/revision pairs",
+      "status": "PASS",
+      "pairs": [
+        {
+          "revision": 0,
+          "version": null
+        },
+        {
+          "revision": 0,
+          "version": null
+        },
+        {
+          "revision": 0,
+          "version": null
+        },
+        {
+          "revision": 0,
+          "version": null
+        },
+        {
+          "revision": 0,
+          "version": null
+        },
+        {
+          "revision": 0,
+          "version": null
+        },
+        {
+          "revision": 0,
+          "version": null
+        },
+        {
+          "revision": 0,
+          "version": null
+        },
+        {
+          "revision": 0,
+          "version": null
+        },
+        {
+          "revision": 0,
+          "version": null
+        },
+        {
+          "revision": 1,
+          "version": 1
+        },
+        {
+          "revision": 1,
+          "version": 1
+        },
+        {
+          "revision": 1,
+          "version": 1
+        },
+        {
+          "revision": 1,
+          "version": 1
+        },
+        {
+          "revision": 1,
+          "version": 1
+        },
+        {
+          "revision": 1,
+          "version": 1
+        },
+        {
+          "revision": 1,
+          "version": 1
+        },
+        {
+          "revision": 1,
+          "version": 1
+        },
+        {
+          "revision": 1,
+          "version": 1
+        },
+        {
+          "revision": 1,
+          "version": 1
+        },
+        {
+          "revision": 1,
+          "version": 1
+        },
+        {
+          "revision": 1,
+          "version": 1
+        },
+        {
+          "revision": 1,
+          "version": 1
+        },
+        {
+          "revision": 1,
+          "version": 1
+        },
+        {
+          "revision": 1,
+          "version": 1
+        },
+        {
+          "revision": 1,
+          "version": 1
+        },
+        {
+          "revision": 1,
+          "version": 1
+        },
+        {
+          "revision": 1,
+          "version": 1
+        },
+        {
+          "revision": 1,
+          "version": 1
+        },
+        {
+          "revision": 1,
+          "version": 1
+        },
+        {
+          "revision": 1,
+          "version": 1
+        },
+        {
+          "revision": 1,
+          "version": 1
+        },
+        {
+          "revision": 1,
+          "version": 1
+        },
+        {
+          "revision": 1,
+          "version": 1
+        },
+        {
+          "revision": 1,
+          "version": 1
+        },
+        {
+          "revision": 2,
+          "version": 2
+        },
+        {
+          "revision": 2,
+          "version": 2
+        },
+        {
+          "revision": 2,
+          "version": 2
+        },
+        {
+          "revision": 2,
+          "version": 2
+        },
+        {
+          "revision": 2,
+          "version": 2
+        },
+        {
+          "revision": 2,
+          "version": 2
+        },
+        {
+          "revision": 2,
+          "version": 2
+        },
+        {
+          "revision": 2,
+          "version": 2
+        },
+        {
+          "revision": 2,
+          "version": 2
+        },
+        {
+          "revision": 2,
+          "version": 2
+        },
+        {
+          "revision": 2,
+          "version": 2
+        },
+        {
+          "revision": 2,
+          "version": 2
+        },
+        {
+          "revision": 2,
+          "version": 2
+        },
+        {
+          "revision": 2,
+          "version": 2
+        },
+        {
+          "revision": 2,
+          "version": 2
+        }
+      ]
+    },
+    {
+      "label": "Inventory and operational audit counts AND row checksums unchanged",
+      "status": "PASS",
+      "inventory": {
+        "batches": {
+          "sha": "4518ebe686399158cb4f3a552e141f8c",
+          "count": 1
+        },
+        "alerts": {
+          "sha": "20ee9f397ec08872e70a3ce1d5ab6b1c",
+          "count": 1
+        },
+        "receiving_events": {
+          "sha": "f6a635bef2a76c35d3770ddaca70a7c8",
+          "count": 1
+        },
+        "rounds": {
+          "sha": "3373dd0f0507f95f682882fbb75ed4e4",
+          "count": 1
+        },
+        "round_items": {
+          "sha": "d476129945dcf11bcf4a11908a600755",
+          "count": 1
+        },
+        "audit_log": {
+          "sha": "45217334ca44ed419126ab520ad2f1a6",
+          "count": 1
+        }
+      }
+    }
+  ]
+}

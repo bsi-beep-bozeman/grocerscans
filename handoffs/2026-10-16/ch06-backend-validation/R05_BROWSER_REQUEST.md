@@ -1,0 +1,18 @@
+# R05 — local Chrome application validation request
+
+Status: REQUESTED, NOT APPROVED OR EXECUTED. Owner: [Chapter06](codex://threads/01a13ce2-a8fe-7063-8867-260412dd096a). Depends on successful [restore retry](RESTORE_RETRY_REQUEST.md).
+
+Approve **“R05 local Chrome validation”** to authorize this connected application check in the same chat:
+
+1. Use the existing installed Chrome at `C:/Program Files/Google/Chrome/Application/chrome.exe`, in a dedicated test session. Desktop viewport and narrow phone-sized viewport are browser checks, not physical Android evidence. No personal tabs/accounts/profile changes.
+2. Start only the same disposable backend containers with explicit localhost bindings. Provision fresh synthetic users/catalog for admin, viewer/staff denial, a second admin and another organisation; credentials remain private. Real store policy inputs are not invented as production defaults.
+3. Build the authored Flutter application (`app_flutter/lib/main.dart`) using installed dependencies and SDK only, without package upgrades/downloads. Supply `SUPABASE_URL=http://127.0.0.1:55321` and the disposable public/publishable key through the existing configuration overrides. Never fall back to default54321, which belongs to a different project. Use an isolated output under `.cache/ch06-validation/web/`; preserve the existing preview build. Stop if additional installation or SDK downloads are required.
+4. Serve the isolated build only at `http://127.0.0.1:8136`, currently free at preflight and rechecked before use. Use locally available renderer/assets where supported; do not publish the application, expose it on LAN, or link a hosted backend. If required browser automation/renderer components are unavailable, report the limitation before installing anything.
+5. Exercise actual sign-in and six-step setup; draft/save/reload; reference creation/edit/deactivation; explicit activation; unsaved/conflict/retry states; sign-out and identity switching; background concealment and five-minute idle lock; page/session restart; offline denial/recovery. Use two sessions to verify stale revision conflicts. Verify backend audit/persistence and unchanged synthetic inventory while performing those flows.
+6. Inspect keyboard navigation, visible focus, labels, error/status text, scroll/overflow and narrow/wide layouts; capture sanitized screenshots and observations. Record browser-accessibility limits honestly. Physical devices, camera, OS screen-reader certification, staff PIN/receiving/stock operations and Android/iOS install are outside this request.
+7. Allow scoped local fixes to S1 setup UI/controller/repository code and its tests only if the approved browser checks reveal defects, followed by affected installed-dependency tests and revalidation. Do not expand feature/domain/role scope or modify retained migrations. Record exact diffs. Any new dependency or broader change requires separate approval.
+8. At the verified connected checkpoint, preserve evidence and private test backups, stop only the dedicated application server and validation containers, update plan/status/index and comprehensive handoffs, then create the ONE already-authorized fresh continuation with its mandatory in-chat start gate. Do not archive source chats.
+
+No hosted changes (R04), commit/push/merge (R07), publication/access changes (R08), or rollout (R09). This R05 request includes the local build/serve actions only for validation. It does not publish an artifact.
+
+Why approval is required: [AGENTS.md](../../../AGENTS.md) rule9 separately gates connected testing; the existing approval packet reserves named browser/device targets for R05. The user explicitly requested outstanding action-specific approval.

@@ -1,0 +1,11 @@
+{
+  "sourceEntries": 46,
+  "sourceMismatch": 0,
+  "existingMigrations": 10,
+  "migrationMismatch": 0,
+  "approvedFixHash": "709A5D174106D0965D4D4CC4F0F60E560EB400B0C05197052E9E503265D55564",
+  "proposalMatches": true,
+  "localListeners": [],
+  "baselineHash": "431264AFD238C2B927161D8D61B78C890DF2FD8513535EBB6CD57212FF4399A5",
+  "historicalBaselineHash": "587CE15FBBD00FA7FDA99C953E691F1926C628283A285D2073E7ECABC0D73B83"
+}

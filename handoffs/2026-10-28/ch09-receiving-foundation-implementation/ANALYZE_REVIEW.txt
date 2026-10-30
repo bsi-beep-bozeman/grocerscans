@@ -1,0 +1,14 @@
+Analyzing app_flutter...                                        
+
+   info - Statements in an if should be enclosed in a block. Try wrapping the statement in a block - integration_test\receiving_storage_test.dart:55:11 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block. Try wrapping the statement in a block - integration_test\receiving_storage_test.dart:64:11 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block. Try wrapping the statement in a block - integration_test\receiving_storage_test.dart:66:11 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block. Try wrapping the statement in a block - integration_test\receiving_storage_test.dart:74:9 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block. Try wrapping the statement in a block - lib\identity\identity_models.dart:41:5 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block. Try wrapping the statement in a block - lib\identity\identity_models.dart:45:5 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block. Try wrapping the statement in a block - lib\sync\draft_store_android.dart:26:9 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block. Try wrapping the statement in a block - lib\sync\draft_store_web.dart:35:15 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block. Try wrapping the statement in a block - lib\sync\draft_store_web.dart:53:17 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block. Try wrapping the statement in a block - lib\sync\draft_store_web.dart:60:15 - curly_braces_in_flow_control_structures
+
+10 issues found. (ran in 28.6s)

@@ -1,0 +1,5 @@
+00:00 +0: loading D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/receiving/workspace_test.dart
+00:00 +0: save waits for commit and fits Size(390.0, 844.0) at 200% text
+00:01 +1: save waits for commit and fits Size(1440.0, 1100.0) at 200% text
+00:01 +2: write failure is never called saved
+00:01 +3: All tests passed!

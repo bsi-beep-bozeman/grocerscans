@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "sha256": "431264AFD238C2B927161D8D61B78C890DF2FD8513535EBB6CD57212FF4399A5",
+  "baseline": {
+    "orgs": 0,
+    "setup": null,
+    "users": 0,
+    "receiving": null,
+    "migrations": [
+      "20260924030000",
+      "20260924030001",
+      "20260924030002",
+      "20260925000000",
+      "20260925000001"
+    ]
+  },
+  "metadataAndDataEqual": true,
+  "privileges": {
+    "legacy_pin": true,
+    "legacy_view": true
+  }
+}

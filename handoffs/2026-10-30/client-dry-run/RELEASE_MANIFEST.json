@@ -1,0 +1,241 @@
+{
+  "createdAt": "2026-10-29T20:45:32.637Z",
+  "entrypoint": "lib/client_demo.dart",
+  "files": [
+    {
+      "file": "assets/AssetManifest.bin",
+      "size": 340,
+      "sha1": "bf8f9ce3ed34a4b290fb376751fa85ce9be9313e",
+      "sha256": "8d233af127938347b00249f2a0a8292150137fbcba580d1ab07c0bc009c5b525"
+    },
+    {
+      "file": "assets/AssetManifest.bin.json",
+      "size": 458,
+      "sha1": "130e49336da4408b16348b9fe4040c360e19df6b",
+      "sha256": "1a448fb19cf69c39223cc541a1d2802d3ca4d4f9b6c7c31ebf53d0ac21a81f30"
+    },
+    {
+      "file": "assets/assets/fonts/roboto-bold.ttf",
+      "size": 170760,
+      "sha1": "0ce37ced9c5fcac9bdc452a432c1258870ba4677",
+      "sha256": "7d0b991ee3e0be7af01ad7ea8cd2beea6c00a25e679a0226b6737f079aafff86"
+    },
+    {
+      "file": "assets/assets/fonts/roboto-medium.ttf",
+      "size": 172064,
+      "sha1": "5f16f4d6dbb4a4f12d8ae96488ac209bb49762a5",
+      "sha256": "f205cc511821ea56078a105557fcea6253129404d411c997e1866fbd006abb68"
+    },
+    {
+      "file": "assets/assets/fonts/roboto-regular.ttf",
+      "size": 171676,
+      "sha1": "dd1b1db13ff1f72138c134c62f38fef83749f36a",
+      "sha256": "79e851404657dac2106b3d22ad256d47824a9a5765458edb72c9102a45816d95"
+    },
+    {
+      "file": "assets/FontManifest.json",
+      "size": 392,
+      "sha1": "ffbeb8c8c46fd14a2cce1e2a9d451cecb4ff349b",
+      "sha256": "cd5e686e683e222b950f3867519408f2248d72d7e91106194eb194cb4c8fe08a"
+    },
+    {
+      "file": "assets/fonts/MaterialIcons-Regular.otf",
+      "size": 8820,
+      "sha1": "46d3ef6a78303d92e0e13af5bf4f0e825aa5b5ea",
+      "sha256": "da436bfbc14874c9017b9f34333087586467e03a9f448588f74b2370a5da47c2"
+    },
+    {
+      "file": "assets/NOTICES",
+      "size": 1365396,
+      "sha1": "3215f099560585a847d28bcb52aa10305a0f12f7",
+      "sha256": "a3ede480eec3d95c3a355fb627a9121cef5aea8cd4217df218869f0fd7f9fe78"
+    },
+    {
+      "file": "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf",
+      "size": 1472,
+      "sha1": "2e76c70d09fb1d8e6cfd9c64f7a60387224459c2",
+      "sha256": "3d90c370aa4cf00dc57ee2b902f6652147c0f81e03e483df584a9c08b1687c9d"
+    },
+    {
+      "file": "assets/shaders/ink_sparkle.frag",
+      "size": 8890,
+      "sha1": "62b1055b4fc0da06d112f4eb2449dd601d6daacc",
+      "sha256": "2dca5ab93d4ec29e963f996f3916320ba60825e9537dfb149a68008c7a16b026"
+    },
+    {
+      "file": "assets/shaders/stretch_effect.frag",
+      "size": 6737,
+      "sha1": "4e55da261b4244de8c053cd64cc78c982dda1874",
+      "sha256": "ab412f07a5b9b50b67a885b24dbe16929738ae28630407d6490c924caf0a3220"
+    },
+    {
+      "file": "canvaskit/canvaskit.js",
+      "size": 86987,
+      "sha1": "0c6310118813bddae0e1f070db530735cde5ad90",
+      "sha256": "bb559f6080c7d312ac2a912b4abec9f68ff3d3022d4a603c7796b9b31460642b"
+    },
+    {
+      "file": "canvaskit/canvaskit.wasm",
+      "size": 7284602,
+      "sha1": "be8f3627f67c99cf6ffefff4f942c3f4737cce2b",
+      "sha256": "fbed517a43e82452404446683f00f2e876d835aed84410695759e67b6bb01cd3"
+    },
+    {
+      "file": "canvaskit/chromium/canvaskit.js",
+      "size": 86226,
+      "sha1": "dff71f7181981f0d69ac2ef47c1f32ace260502f",
+      "sha256": "6018b12bd8ed37e6952eee72d59c1cf7ad707ccdb74a0a45190010f77edd9068"
+    },
+    {
+      "file": "canvaskit/chromium/canvaskit.wasm",
+      "size": 5428806,
+      "sha1": "10918cabfe82f0f27284c24931b176db616c1884",
+      "sha256": "ae8ff1d858140f7b1300ced3fa89fb8c9dce0a400a0f4f1e11f6dcfb3315fdcf"
+    },
+    {
+      "file": "canvaskit/skwasm.js",
+      "size": 63537,
+      "sha1": "6a61f663457d5542b2064c17257c9ff03c51298f",
+      "sha256": "71d7d3e34bf71b52bdba3b588b103bba8148ba28de5754083e01b3398e7a6e1c"
+    },
+    {
+      "file": "canvaskit/skwasm.wasm",
+      "size": 3593715,
+      "sha1": "dabc13f9cf50a771cf0806e59765b700ffd632f2",
+      "sha256": "e540fd5e8303b7b68ec2718cb49e9c421f8ade3075b15e02a7059a62654df9a1"
+    },
+    {
+      "file": "canvaskit/skwasm_heavy.js",
+      "size": 63650,
+      "sha1": "3ebae712e66aad2b60797a9066d6a403b2d3e9c7",
+      "sha256": "cec554b46ddcf4c0e63d799e0556d546f42d2c3f69316fb4f67ed776f6104558"
+    },
+    {
+      "file": "canvaskit/skwasm_heavy.wasm",
+      "size": 5216217,
+      "sha1": "be248c2bea48e6f2fdfe52172d87d1f7282e5804",
+      "sha256": "565f5cc1cca6ab120f11934b105f01fec4b58b480c82e0889dca93af8e6f8635"
+    },
+    {
+      "file": "canvaskit/webparagraph/canvaskit.js",
+      "size": 76114,
+      "sha1": "650cd68d71602213fbaa6bd6d25d3bee8c10ef92",
+      "sha256": "3110e3e4d9b7b5657d336f253aaca8acca5777cde9319fb69ac302d6ff5a8b23"
+    },
+    {
+      "file": "canvaskit/webparagraph/canvaskit.wasm",
+      "size": 3729129,
+      "sha1": "fd75b31ece4cac2db6ee134d62d3a1a286088e7d",
+      "sha256": "0ce1b05082efdc8529550e8a01f6ff0593972d55525035010e26f5600aa9f254"
+    },
+    {
+      "file": "canvaskit/wimp.js",
+      "size": 59127,
+      "sha1": "798e07f89927a67182fd9dfe435b0d3087758f68",
+      "sha256": "8fd8a47480c6eb0a374d159912d0b3fb15661b41f5c113ecdd39c2f01f2bee46"
+    },
+    {
+      "file": "canvaskit/wimp.wasm",
+      "size": 3581677,
+      "sha1": "7b69c4cc203a16ba17aee8a030d17d5a9079687c",
+      "sha256": "e924eaafd801d41e017d178f3fd5cf8a417f641fe35c9ed34a4e1d7582283e0c"
+    },
+    {
+      "file": "client-guide.html",
+      "size": 2083,
+      "sha1": "3e0805f73d046a766b1bdfbab2e645a4ce77eeeb",
+      "sha256": "6425b132fcd8121ed589b760cd03905b288b14d0f535322f31f7402476926df4"
+    },
+    {
+      "file": "demo-loader.js",
+      "size": 97,
+      "sha1": "a10e300e94af06fc170a7826003d212a7ebd2735",
+      "sha256": "112b744cbb300a7497107da78408973eee4ab3cbd41889d347ac8e4e69767932"
+    },
+    {
+      "file": "favicon.png",
+      "size": 917,
+      "sha1": "61a67757ed3e0129ddccda6e9fa0df255ee92962",
+      "sha256": "7ab2525f4b86b65d3e4c70358a17e5a1aaf6f437f99cbcc046dad73d59bb9015"
+    },
+    {
+      "file": "flutter.js",
+      "size": 12136,
+      "sha1": "d868a09134c9f796f9a312c2e1f647fc2a5fa78b",
+      "sha256": "2beb1ce6b159c71540aa66030af1d7964b6a92377cc78473745e02f97b74effe"
+    },
+    {
+      "file": "flutter_bootstrap.js",
+      "size": 12992,
+      "sha1": "4344a7bec5417022b28ed130b641b66532fc3e81",
+      "sha256": "68f4b89847f0d8a6a93c1f701fcae9f0b7145798ca2cdb4ee0c7895a768b6b14"
+    },
+    {
+      "file": "icons/Icon-192.png",
+      "size": 5292,
+      "sha1": "293b2825c89d2abd4b17e2f5ac30c30f5ba3724f",
+      "sha256": "3dce99077602f70421c1c6b2a240bc9b83d64d86681d45f2154143310c980be3"
+    },
+    {
+      "file": "icons/Icon-512.png",
+      "size": 8252,
+      "sha1": "b3fc122b12b47f9925deaf8158a8e630b610d622",
+      "sha256": "baccb205ae45f0b421be1657259b4943ac40c95094ab877f3bcbe12cd544dcbe"
+    },
+    {
+      "file": "icons/Icon-maskable-192.png",
+      "size": 5594,
+      "sha1": "9a193da5a4e84248c507a4714b0fe3d55fb2c229",
+      "sha256": "d2c842e22a9f4ec9d996b23373a905c88d9a203b220c5c151885ad621f974b5c"
+    },
+    {
+      "file": "icons/Icon-maskable-512.png",
+      "size": 20998,
+      "sha1": "0322e4c518014094ed2c99d9628d2ef97be26f14",
+      "sha256": "6aee06cdcab6b2aef74b1734c4778f4421d2da100b0ff9e52b21b55240202929"
+    },
+    {
+      "file": "index.html",
+      "size": 967,
+      "sha1": "7549037ebe72d5eabe1d3dd5a404fb13d1886faf",
+      "sha256": "868bf361103cb44c1bad5b80a36e8ef6752027c8f845de9978a9407df2f45d0f"
+    },
+    {
+      "file": "main.dart.js",
+      "size": 2828534,
+      "sha1": "19caed4b51f28749d44783766d028531ee627119",
+      "sha256": "0f18094b2060d37b8a1b9e00b4b91d21eb44c08919c0f5725e85bc68b36a1490"
+    },
+    {
+      "file": "manifest.json",
+      "size": 949,
+      "sha1": "88a65276acc6048f0f1420b325a87faeafc33961",
+      "sha256": "8896da0c612e4389826ccfb77f171393db459e8b0fa64e12da23da462d6e3dd6"
+    },
+    {
+      "file": "robots.txt",
+      "size": 26,
+      "sha1": "63657cbb7d7086c56b0cd4e5c6999bb683664868",
+      "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1"
+    },
+    {
+      "file": "vercel.json",
+      "size": 861,
+      "sha1": "821574e8c9d455da1c00d1181bf1c50bf6a4de97",
+      "sha256": "4828381dff58d8e416bb67f629f0841924bdbaf257c069d944669434d2d47be1"
+    },
+    {
+      "file": "version.json",
+      "size": 88,
+      "sha1": "9aacfd8ecd9537f10935baed7707cb1bf766f4e7",
+      "sha256": "a15fd7907aaef54e2770afbf0038c48c8d295ee66f9b951f01329b05b3ccf554"
+    },
+    {
+      "file": "_headers",
+      "size": 397,
+      "sha1": "386667f7fe6797838d5c0a05aada0f5bfe72c5db",
+      "sha256": "d95db25225c0f50fb61b6fc82a4b9fb1d2ef113ae522a6ba2aefa1d955d7fbb9"
+    }
+  ],
+  "totalBytes": 34076975
+}

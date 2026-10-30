@@ -1,0 +1,682 @@
+[
+  {
+    "path": "handoffs/2026-10-09/ch01-transition-closeout/CONTINUATION_RECEIPT.md",
+    "sha256": "6a1acd704cd1e6b28b1e981f6787d22e9d98ffe0d20ee67ca36223bb04023afc"
+  },
+  {
+    "path": "handoffs/2026-10-09/ch01-transition-closeout/ENGINEERING_HANDOFF.md",
+    "sha256": "23584c659a3dac63d0e9b94b06a193ac6ac1b28280f94e7c85cfdb597314af4e"
+  },
+  {
+    "path": "handoffs/2026-10-09/ch01-transition-closeout/EVIDENCE.txt",
+    "sha256": "c36a23fda6f01aae7747deb4dcfec595c44820d88c9a53aeb0bbd3b640aded4f"
+  },
+  {
+    "path": "handoffs/2026-10-09/ch01-transition-closeout/EXECUTIVE_SUMMARY.md",
+    "sha256": "b0ee926f33523c50c89580d7e1058ad77e9cfa4aa744d762f99f363da5b462e5"
+  },
+  {
+    "path": "handoffs/2026-10-09/ch01-transition-closeout/NEXT_CHAT_OPENING.md",
+    "sha256": "af4c4bbfaa82d804cc20ef0a6191ceb6baf3b478cd14cecaf9ff21205b6a74d6"
+  },
+  {
+    "path": "handoffs/2026-10-09/ch01-transition-closeout/POST_TRANSITION_VERIFICATION.txt",
+    "sha256": "39fbcc9a9be28122671d5016bca440698825de8d65748d781869807c862da337"
+  },
+  {
+    "path": "handoffs/2026-10-09/ch01-workflow-checkpoint/ENGINEERING_HANDOFF.md",
+    "sha256": "19f1f1ac0392a8990e198f480045a21aff269dde6e8d8633ee6565fb48d385ca"
+  },
+  {
+    "path": "handoffs/2026-10-09/ch01-workflow-checkpoint/EVIDENCE.txt",
+    "sha256": "8e01f7dc28327a336911f4c6b10c6f90e00cec1968739f9abd2373dced1a1d0b"
+  },
+  {
+    "path": "handoffs/2026-10-09/ch01-workflow-checkpoint/EXECUTIVE_SUMMARY.md",
+    "sha256": "c760ee0c9001bfd9af2b6837c3ef233fb19fac8be2b73e3b33b37bd374228e2b"
+  },
+  {
+    "path": "handoffs/2026-10-09/ch01-workflow-checkpoint/NEXT_CHAT_OPENING.md",
+    "sha256": "25b0280e2e3cd37b8e4f2a770b67d0988731715ca690f92995c51a625917ed58"
+  },
+  {
+    "path": "handoffs/2026-10-10/ch02-design-review-checkpoint/ENGINEERING_HANDOFF.md",
+    "sha256": "220a2063de8ed0c48c354aaed91957caedadcde437210f7101a1049c98a4b893"
+  },
+  {
+    "path": "handoffs/2026-10-10/ch02-design-review-checkpoint/EVIDENCE.md",
+    "sha256": "94289fd0656730545995b0db8a2e7e8dc0401a7b9878ef5b29f19fd872fa964e"
+  },
+  {
+    "path": "handoffs/2026-10-10/ch02-design-review-checkpoint/EXECUTIVE_SUMMARY.md",
+    "sha256": "6500f6c4bd0d5ece7d805e9bc26f5a374bb3ff973148e713c3e40b5119c3aef0"
+  },
+  {
+    "path": "handoffs/2026-10-10/ch02-design-review-checkpoint/GIT_STATUS_AFTER.txt",
+    "sha256": "8210cea7e48c80c09eed1b2113448235cd690047c58c16ceec140dac706726f3"
+  },
+  {
+    "path": "handoffs/2026-10-10/ch02-design-review-checkpoint/GIT_STATUS_BEFORE.txt",
+    "sha256": "caba047bc5ceda45ac248998942ee2f24784f3da5e790f119fc0e2b96db2bb78"
+  },
+  {
+    "path": "handoffs/2026-10-10/ch02-design-review-checkpoint/PRESERVATION_BASELINE.json",
+    "sha256": "f4c629c600f74a8e5a0e4fbb8cbb6ed9b896b86bf1b5cbb6c777b705d19ba1ef"
+  },
+  {
+    "path": "handoffs/2026-10-10/ch02-design-review-checkpoint/prior-current-docs/IMPLEMENTATION_PLAN.md",
+    "sha256": "8b4b3f3599b2b34a2fa5b63f0d55dd781f5e006004c44886456b5615bf1bae2e"
+  },
+  {
+    "path": "handoffs/2026-10-10/ch02-design-review-checkpoint/prior-current-docs/NEXT_CONVERSATION_HANDOFF.md",
+    "sha256": "d160ad58f74a31975226a5cd8b85b0ee46c553f7b1b928a7ca45d1265ce12147"
+  },
+  {
+    "path": "handoffs/2026-10-10/ch02-design-review-checkpoint/prior-current-docs/SESSION_INDEX.md",
+    "sha256": "3a3cddd1337b3fe233cd549681f0d70608307c1596686aa6185a1fc9e5d7d8d8"
+  },
+  {
+    "path": "handoffs/2026-10-10/ch02-design-review-checkpoint/prior-current-docs/STATUS_LEDGER.md",
+    "sha256": "799a34458cf17a1c081416d0814fddc8954f322e5ec5619c935c260b707f899b"
+  },
+  {
+    "path": "handoffs/2026-10-10/ch02-transition-closeout/CONTINUATION_RECEIPT.md",
+    "sha256": "8ec8cb85ba11c0c01af7654ffbab65d851af5c2f91319b57a924bfe975a52eca"
+  },
+  {
+    "path": "handoffs/2026-10-10/ch02-transition-closeout/ENGINEERING_HANDOFF.md",
+    "sha256": "ec8d4305bbce2e4a685a630f47bd02b79d586abd0604f5a5d1dc2dba4dfbb3d6"
+  },
+  {
+    "path": "handoffs/2026-10-10/ch02-transition-closeout/EVIDENCE.md",
+    "sha256": "1bdc6fcfff42c61adc38d190aa0e0a78cc8f62e89fdc40c74e9556a5cbb584f4"
+  },
+  {
+    "path": "handoffs/2026-10-10/ch02-transition-closeout/EXECUTIVE_SUMMARY.md",
+    "sha256": "8456b2c5ddddead59c5f514ca5c8910994e9a935af42125080193e85f4e95a91"
+  },
+  {
+    "path": "handoffs/2026-10-10/ch02-transition-closeout/GIT_STATUS_AFTER.txt",
+    "sha256": "8210cea7e48c80c09eed1b2113448235cd690047c58c16ceec140dac706726f3"
+  },
+  {
+    "path": "handoffs/2026-10-10/ch02-transition-closeout/GIT_STATUS_BEFORE.txt",
+    "sha256": "8210cea7e48c80c09eed1b2113448235cd690047c58c16ceec140dac706726f3"
+  },
+  {
+    "path": "handoffs/2026-10-10/ch02-transition-closeout/NEXT_CHAT_OPENING.md",
+    "sha256": "4ed4faef1dbae3bb1bb28e565e3d8d389fe75ef173252eb85794df86e41d5269"
+  },
+  {
+    "path": "handoffs/2026-10-10/ch02-transition-closeout/PRESERVATION_BASELINE.json",
+    "sha256": "0b46a57df736ed690cfcd75fbd8f88ef57dd4c17f772ca3050c2ac31d522b1c9"
+  },
+  {
+    "path": "handoffs/2026-10-10/ch02-transition-closeout/prior-current-docs/IMPLEMENTATION_PLAN.md",
+    "sha256": "cb6f531977a5c159791f023c9310a13b097d864f0b293a41fcf169ee54d9949f"
+  },
+  {
+    "path": "handoffs/2026-10-10/ch02-transition-closeout/prior-current-docs/NEXT_CONVERSATION_HANDOFF.md",
+    "sha256": "defc3c96d347603fd06bde86d960db72049c1444728b8cbc7abe26ac77c210a6"
+  },
+  {
+    "path": "handoffs/2026-10-10/ch02-transition-closeout/prior-current-docs/SESSION_INDEX.md",
+    "sha256": "6fb84e8cc8cc56c94e6416132c66f0552ed8ceba4050a42451e80c88f476584c"
+  },
+  {
+    "path": "handoffs/2026-10-10/ch02-transition-closeout/prior-current-docs/STATUS_LEDGER.md",
+    "sha256": "515f441d4224e565e38e665b74301978e56a373408516ba13d21e83aa6761753"
+  },
+  {
+    "path": "handoffs/2026-10-10/ch03-decisions-review/ENGINEERING_HANDOFF.md",
+    "sha256": "b89c72cf02ab8a830ecf70ba57d25dbab7520d28e309b1fb666f59eaeba13baa"
+  },
+  {
+    "path": "handoffs/2026-10-10/ch03-decisions-review/EVIDENCE.md",
+    "sha256": "bd287370bea7a4bc8ac50c916e54e07e4cdf66906aabbeeca9a7a1f862f2ddbb"
+  },
+  {
+    "path": "handoffs/2026-10-10/ch03-decisions-review/EXECUTIVE_SUMMARY.md",
+    "sha256": "cd64c8c4e923a693b2bcf03178e78758d8efcb10f9f1578dfb63ec801eda23c5"
+  },
+  {
+    "path": "handoffs/2026-10-10/ch03-decisions-review/GIT_STATUS_BEFORE.txt",
+    "sha256": "8210cea7e48c80c09eed1b2113448235cd690047c58c16ceec140dac706726f3"
+  },
+  {
+    "path": "handoffs/2026-10-10/ch03-decisions-review/PRESERVATION_BASELINE.json",
+    "sha256": "edb62fd07b104dc2976ce4205c95cddfd7f200e8b7e2ed3836f0a56f8afd8ca8"
+  },
+  {
+    "path": "handoffs/2026-10-10/ch03-decisions-review/prior-current-docs/IMPLEMENTATION_PLAN.md",
+    "sha256": "1f6d7a4ca656255cfc65c024401245530e6ff40a89d82b94af96f4c666b2f26a"
+  },
+  {
+    "path": "handoffs/2026-10-10/ch03-decisions-review/prior-current-docs/NEXT_CONVERSATION_HANDOFF.md",
+    "sha256": "83dbc441dea97840ef5c2b27c21b0e16711fc62d62021aa37d5a937acb49710a"
+  },
+  {
+    "path": "handoffs/2026-10-10/ch03-decisions-review/prior-current-docs/SESSION_INDEX.md",
+    "sha256": "2ef8630b6355ec8809b1f829843bd3612d5688e41fcd1a62ec1a946a91c1b31a"
+  },
+  {
+    "path": "handoffs/2026-10-10/ch03-decisions-review/prior-current-docs/STATUS_LEDGER.md",
+    "sha256": "180ae0ee2d2c3a2bd6caa636a66a82a221fb4c5fbcdd81bd2f938f5aa6ccb467"
+  },
+  {
+    "path": "handoffs/2026-10-11/ch03-review-closeout/ADDENDUM_01.md",
+    "sha256": "b8df7668f69955772f5e32083edfc63236c52251341bffa9047f7f7a4acfb7a3"
+  },
+  {
+    "path": "handoffs/2026-10-11/ch03-review-closeout/ENGINEERING_HANDOFF.md",
+    "sha256": "9a709cfb0dad23e2d63d043290bfd6357627df763ec41e4441df4f6d1ee90811"
+  },
+  {
+    "path": "handoffs/2026-10-11/ch03-review-closeout/EVIDENCE.md",
+    "sha256": "3c4bf849bfec9898de75abc79a2c06dfc3b64e472a19867369d1ffafb5ad06e9"
+  },
+  {
+    "path": "handoffs/2026-10-11/ch03-review-closeout/EXECUTIVE_SUMMARY.md",
+    "sha256": "f0b5ea66bad1ff061cdf65ef7a64dd926fa3438275ebb93275361f88a08c1777"
+  },
+  {
+    "path": "handoffs/2026-10-11/ch03-review-closeout/GIT_STATUS_AFTER.txt",
+    "sha256": "8210cea7e48c80c09eed1b2113448235cd690047c58c16ceec140dac706726f3"
+  },
+  {
+    "path": "handoffs/2026-10-11/ch03-review-closeout/GIT_STATUS_BEFORE.txt",
+    "sha256": "8210cea7e48c80c09eed1b2113448235cd690047c58c16ceec140dac706726f3"
+  },
+  {
+    "path": "handoffs/2026-10-11/ch03-review-closeout/PRESERVATION_BASELINE.json",
+    "sha256": "7e3d4924876a864f040b6794cab96e4b4b7bd388355517486e98001fef998747"
+  },
+  {
+    "path": "handoffs/2026-10-11/ch03-review-closeout/prior-current-docs/IMPLEMENTATION_PLAN.md",
+    "sha256": "c761d4b087c2bac976e76fe5d1cb7bbb80c4256c6c670ca2d5be27d97641a5d8"
+  },
+  {
+    "path": "handoffs/2026-10-11/ch03-review-closeout/prior-current-docs/NEXT_CONVERSATION_HANDOFF.md",
+    "sha256": "cdba30747bd0c0ddeeceb046ec1555c9e5f366544f352545f87182406fa2bc76"
+  },
+  {
+    "path": "handoffs/2026-10-11/ch03-review-closeout/prior-current-docs/SESSION_INDEX.md",
+    "sha256": "ee6cb1edfc48ee3f8058193350cf490e424117ab7a1488fb4286061ad34ad002"
+  },
+  {
+    "path": "handoffs/2026-10-11/ch03-review-closeout/prior-current-docs/STATUS_LEDGER.md",
+    "sha256": "38d1d565058f2d4614e03c51ce1652d7058a3cbf188bc58b0356fc2f0108d017"
+  },
+  {
+    "path": "handoffs/2026-10-11/ch03-review-closeout/VERIFICATION_RESULTS.json",
+    "sha256": "5681fb0dc4ef8848a2767d9e85ee4cc17a8b7ed5c74c24676866b022aeefc5f9"
+  },
+  {
+    "path": "handoffs/2026-10-11/ch03-transition-closeout/CONTINUATION_RECEIPT.md",
+    "sha256": "56746acb7fd2c968126a24d9e53c0c8a167a62bcef892d0e7857ec2f55e80deb"
+  },
+  {
+    "path": "handoffs/2026-10-11/ch03-transition-closeout/ENGINEERING_HANDOFF.md",
+    "sha256": "98039370813bd06e335ecc7cf6339cdf36e622c207eabdc037e4c8cf5e5b317b"
+  },
+  {
+    "path": "handoffs/2026-10-11/ch03-transition-closeout/EVIDENCE.md",
+    "sha256": "129ff95a4c767f0041976ab477f3d467caf34d66dcf8c8d4a9bc7fbb126aec0f"
+  },
+  {
+    "path": "handoffs/2026-10-11/ch03-transition-closeout/EXECUTIVE_SUMMARY.md",
+    "sha256": "c8a3716f5f90a698c39dcf71c0e9e55a3f4982903e3548382b5df862711a144b"
+  },
+  {
+    "path": "handoffs/2026-10-11/ch03-transition-closeout/GIT_STATUS_AFTER.txt",
+    "sha256": "8210cea7e48c80c09eed1b2113448235cd690047c58c16ceec140dac706726f3"
+  },
+  {
+    "path": "handoffs/2026-10-11/ch03-transition-closeout/GIT_STATUS_BEFORE.txt",
+    "sha256": "8210cea7e48c80c09eed1b2113448235cd690047c58c16ceec140dac706726f3"
+  },
+  {
+    "path": "handoffs/2026-10-11/ch03-transition-closeout/NEXT_CHAT_OPENING.md",
+    "sha256": "126ab005e85a450a1b9c2cde0af00f8ee455ad9c0bf10d936433711f9df59836"
+  },
+  {
+    "path": "handoffs/2026-10-11/ch03-transition-closeout/PRESERVATION_BASELINE.json",
+    "sha256": "277ab9592cdab943f975fa92f6315143763598f9924c2563a960df4afc42db62"
+  },
+  {
+    "path": "handoffs/2026-10-11/ch03-transition-closeout/prior-current-docs/IMPLEMENTATION_PLAN.md",
+    "sha256": "5a5f6d6d97ceb5a09a4c72021d3b1ca03567bc33758cf86344335a568ee0633d"
+  },
+  {
+    "path": "handoffs/2026-10-11/ch03-transition-closeout/prior-current-docs/NEXT_CONVERSATION_HANDOFF.md",
+    "sha256": "6c9ff48b38aaff76bd5a74e58ff802403fd34dfb0a962ea63349be93098c8194"
+  },
+  {
+    "path": "handoffs/2026-10-11/ch03-transition-closeout/prior-current-docs/SESSION_INDEX.md",
+    "sha256": "070618d41a03bf3f30e0f4cddc048a216f9d0cad65fec9bf2aa26aac1a66ceb1"
+  },
+  {
+    "path": "handoffs/2026-10-11/ch03-transition-closeout/prior-current-docs/STATUS_LEDGER.md",
+    "sha256": "5afb5e97ef77793481e27b6dfca5c219749e542c15bdc95d252035547620d559"
+  },
+  {
+    "path": "handoffs/2026-10-11/ch03-transition-closeout/VERIFICATION_RESULTS.json",
+    "sha256": "fd9f8cee04e9af003c9ceb78aa31cac8af7dc00864719cc49dc25ee2520cc14c"
+  },
+  {
+    "path": "handoffs/2026-10-12/ch04-scope-acceptance/CONTINUATION_RECEIPT.md",
+    "sha256": "9b47f7ef5b1676f90f3e0c74a2a6ee1bb5b8990535c00da68a383212387d218c"
+  },
+  {
+    "path": "handoffs/2026-10-12/ch04-scope-acceptance/DOCUMENT_CHECK_RESULT.txt",
+    "sha256": "0487763ad626e446238f0061acf198e61b25b1d17d1f43c8e7257b7f06ea0269"
+  },
+  {
+    "path": "handoffs/2026-10-12/ch04-scope-acceptance/ENGINEERING_HANDOFF.md",
+    "sha256": "a98a4902a695fe14830e24a2f231fefca9cacf5857788aac402125e7e4296bc0"
+  },
+  {
+    "path": "handoffs/2026-10-12/ch04-scope-acceptance/EVIDENCE.md",
+    "sha256": "1f39bbd4cc95c806bd3c2f512c4031a70b6af450f0a558cec2f187be4bd7d715"
+  },
+  {
+    "path": "handoffs/2026-10-12/ch04-scope-acceptance/EXECUTIVE_SUMMARY.md",
+    "sha256": "e5a0164a8f8869926b1e563d052e2a06ea186ce093b0e71891cea903a040a4b4"
+  },
+  {
+    "path": "handoffs/2026-10-12/ch04-scope-acceptance/GIT_STATUS_AFTER.txt",
+    "sha256": "8210cea7e48c80c09eed1b2113448235cd690047c58c16ceec140dac706726f3"
+  },
+  {
+    "path": "handoffs/2026-10-12/ch04-scope-acceptance/GIT_STATUS_BEFORE.txt",
+    "sha256": "8210cea7e48c80c09eed1b2113448235cd690047c58c16ceec140dac706726f3"
+  },
+  {
+    "path": "handoffs/2026-10-12/ch04-scope-acceptance/NEXT_CHAT_OPENING.md",
+    "sha256": "7c9e63702e3c8cdcbc86a7ae925fcab9f209f78973f63876203ce84a3e0b8a38"
+  },
+  {
+    "path": "handoffs/2026-10-12/ch04-scope-acceptance/prior-current-docs/IMPLEMENTATION_PLAN.md",
+    "sha256": "e2ca6cf8705ea16ed80710875cf1fd1e6f291ad1dc57e606f24af71f4b842865"
+  },
+  {
+    "path": "handoffs/2026-10-12/ch04-scope-acceptance/prior-current-docs/NEXT_CONVERSATION_HANDOFF.md",
+    "sha256": "00f78b5b3ce133d369b1ca97a83f71f492d85a829af76ade142098a3beb88a74"
+  },
+  {
+    "path": "handoffs/2026-10-12/ch04-scope-acceptance/prior-current-docs/SESSION_INDEX.md",
+    "sha256": "fc0522b5da917a37b79e7856c82ff89fa168c1ae18debe3ab4155dc878d44835"
+  },
+  {
+    "path": "handoffs/2026-10-12/ch04-scope-acceptance/prior-current-docs/STATUS_LEDGER.md",
+    "sha256": "1f87918d6b8ead0e2f1ba1e1c8ef63301f4547e37754b86d6f5fa64caeadaca3"
+  },
+  {
+    "path": "handoffs/2026-10-12/ch04-scope-acceptance/PROTECTED_BASELINE.json",
+    "sha256": "9f75b2949475904d31c4af72bfb46acbd11f36b79a27f79c60c07008214307e0"
+  },
+  {
+    "path": "handoffs/2026-10-12/ch04-scope-acceptance/VERIFY_DOCUMENTS.ps1",
+    "sha256": "7dd450f452b7e2652284cd97791ac442688b19b282fc13398e7f1c442fb7aa3e"
+  },
+  {
+    "path": "handoffs/2026-10-13/ch05-admin-setup-foundation/BASELINE.json",
+    "sha256": "d2429f722fa3faa0d987d9bdf7c317bccc95df1ece7f1335e1474b892a44b42a"
+  },
+  {
+    "path": "handoffs/2026-10-13/ch05-admin-setup-foundation/EVIDENCE.md",
+    "sha256": "c68169db6e453123ce2979a48d092bca70d106d34d204e8be9666c57a865f710"
+  },
+  {
+    "path": "handoffs/2026-10-13/ch05-admin-setup-foundation/GIT_STATUS_BEFORE.txt",
+    "sha256": "5c26fb6036cb7990fe6d18977746e1bca57c83a3c90897bb02b308e031907d59"
+  },
+  {
+    "path": "handoffs/2026-10-13/ch05-admin-setup-foundation/prior-current-docs/IMPLEMENTATION_PLAN.md",
+    "sha256": "91ceb42599a50e00be660b1936035ef95611d52c3b341b5f6685d86b87996468"
+  },
+  {
+    "path": "handoffs/2026-10-13/ch05-admin-setup-foundation/prior-current-docs/NEXT_CONVERSATION_HANDOFF.md",
+    "sha256": "d8a272e0a0fb6ccea615d57829e85bfa0fd8aea5182220a799a30619ccda9780"
+  },
+  {
+    "path": "handoffs/2026-10-13/ch05-admin-setup-foundation/prior-current-docs/SESSION_INDEX.md",
+    "sha256": "2cd004ae5ccbd41209e6644e30ea544e846455bcf19dc59f6f06159af52cae0c"
+  },
+  {
+    "path": "handoffs/2026-10-13/ch05-admin-setup-foundation/prior-current-docs/STATUS_LEDGER.md",
+    "sha256": "3356edea3327cc690c3c6376a3908458c176929538202528e8e82f099eab92f8"
+  },
+  {
+    "path": "handoffs/2026-10-13/ch05-demo-catalog-20/ENGINEERING_HANDOFF.md",
+    "sha256": "fe949f712056267a840c5087423fb650f412a0728bffe82f1023e0b60b1dc3ca"
+  },
+  {
+    "path": "handoffs/2026-10-13/ch05-demo-catalog-20/EXECUTIVE_SUMMARY.md",
+    "sha256": "92d7d4f5aedbe6d3ad96754800fe81610ddda64b144f8ef1d3541cad5f1d84c6"
+  },
+  {
+    "path": "handoffs/2026-10-13/ch05-existing-demo-review/demo.jpg",
+    "sha256": "1ffb696da840dc7151a4fe2d76c5107b5918ceb26835989e4d09e0331af5360d"
+  },
+  {
+    "path": "handoffs/2026-10-13/ch05-existing-demo-review/ENGINEERING_HANDOFF.md",
+    "sha256": "4c306e236e40c174674caf1dd440f2fa2c98190128d43b2af04158d38bd6254c"
+  },
+  {
+    "path": "handoffs/2026-10-13/ch05-existing-demo-review/EXECUTIVE_SUMMARY.md",
+    "sha256": "668b70d37e08932cf6a0f1b74150599892fdbc7bde67ea19c5f1b650a839b8dd"
+  },
+  {
+    "path": "handoffs/2026-10-15/ch05-admin-setup-foundation/ACCESSIBILITY_TEST.txt",
+    "sha256": "87776fd504df2d2fd7ab3685c9b0fd44552f7f97cc634dd8de35bb863d8ab1ec"
+  },
+  {
+    "path": "handoffs/2026-10-15/ch05-admin-setup-foundation/BASELINE_COMPARISON.json",
+    "sha256": "e443ed3c39c456a3304a90758d8bdbedcdc3d47c441a76e1c48dfd8b1a74c504"
+  },
+  {
+    "path": "handoffs/2026-10-15/ch05-admin-setup-foundation/BRANCH.txt",
+    "sha256": "d71df7c908e4361c585208e57fec982f2e6626691991373056b08ebc1c39e5dc"
+  },
+  {
+    "path": "handoffs/2026-10-15/ch05-admin-setup-foundation/CONTINUATION_RECEIPT.md",
+    "sha256": "8d9c2397a11b86f1589c966dc1678d314c18fad718509e4cdccda8d62f3d8788"
+  },
+  {
+    "path": "handoffs/2026-10-15/ch05-admin-setup-foundation/DEMO_DATA_CHECK.txt",
+    "sha256": "bd550809fd0cff00b7744881c73e0732bc6ff9053bbd499ca143ea8e0320f62e"
+  },
+  {
+    "path": "handoffs/2026-10-15/ch05-admin-setup-foundation/DOCUMENT_CHECKS.json",
+    "sha256": "1c63e38a9e6611bacc4983f52e7d173f0df22ce6ba1d0b081b7a8011f5bb4e99"
+  },
+  {
+    "path": "handoffs/2026-10-15/ch05-admin-setup-foundation/ENGINEERING_HANDOFF.md",
+    "sha256": "08d444d46de5b4f03df3a60009860540be05a3eec14ad321f8a1e0ed885d0cfd"
+  },
+  {
+    "path": "handoffs/2026-10-15/ch05-admin-setup-foundation/EVIDENCE.md",
+    "sha256": "feca1ea5e6127301b1dbd2de452b75580dd2331637e4bbd6bb536757cddb7fed"
+  },
+  {
+    "path": "handoffs/2026-10-15/ch05-admin-setup-foundation/EXECUTIVE_SUMMARY.md",
+    "sha256": "6ec1d3379a1ec98833d6b37e66141b6186f9244200631dc708218bbc09a95f44"
+  },
+  {
+    "path": "handoffs/2026-10-15/ch05-admin-setup-foundation/FLUTTER_ANALYZE.txt",
+    "sha256": "9421da526796d3d3ba1e50bd451896cb88e8cc518f45eaa055e0ec69432257c3"
+  },
+  {
+    "path": "handoffs/2026-10-15/ch05-admin-setup-foundation/FLUTTER_ANALYZE_INITIAL.txt",
+    "sha256": "80e0d36c5f72b5a5b03a186479e50918a5c43d1dad78ef6d5e5830a2d1c1d28d"
+  },
+  {
+    "path": "handoffs/2026-10-15/ch05-admin-setup-foundation/FLUTTER_TESTS.txt",
+    "sha256": "abf97718697bba791c0084c34bf9afe31750de445166d29c8736668e19fcd310"
+  },
+  {
+    "path": "handoffs/2026-10-15/ch05-admin-setup-foundation/FLUTTER_TESTS_FINAL.txt",
+    "sha256": "e2b6cf8307fc4d69f6aa91b3d8f2408d19d33ff11c2f339ee2c0dd0e0d2b4bbd"
+  },
+  {
+    "path": "handoffs/2026-10-15/ch05-admin-setup-foundation/GIT_STATUS_AFTER.txt",
+    "sha256": "88139e4968c20dc6e973fd3a884658d411e98f3bc7b9d31da453e54104d98cf8"
+  },
+  {
+    "path": "handoffs/2026-10-15/ch05-admin-setup-foundation/HEAD.txt",
+    "sha256": "f2d7a7c0e6aafad74defe57378e074ec7611428e62c773699c67f77e7687d022"
+  },
+  {
+    "path": "handoffs/2026-10-15/ch05-admin-setup-foundation/NEXT_CHAT_OPENING.md",
+    "sha256": "8aadcfb8742c50c99f624b97a0818a6ed237aa91e210b286e42535555c30968d"
+  },
+  {
+    "path": "handoffs/2026-10-15/ch05-admin-setup-foundation/OWNED_TRACKED_DIFF.patch",
+    "sha256": "880a19b363c14c1ffa3783ceeb1d50c4a95a84eb983cc3cf523b7b0e64c22cc3"
+  },
+  {
+    "path": "handoffs/2026-10-15/ch05-admin-setup-foundation/prior-current-docs/IMPLEMENTATION_PLAN.md",
+    "sha256": "6acda10c57a97f3c361bd537b8b004c1824a8546add407ff7a79ce863497b57e"
+  },
+  {
+    "path": "handoffs/2026-10-15/ch05-admin-setup-foundation/prior-current-docs/NEXT_CONVERSATION_HANDOFF.md",
+    "sha256": "c280cb8d78d900561bec8a4e89c467dd7feb0c950a4c7eb3bf0a3e6aad3018ae"
+  },
+  {
+    "path": "handoffs/2026-10-15/ch05-admin-setup-foundation/prior-current-docs/SESSION_INDEX.md",
+    "sha256": "bf7c04cb22752009130ef2b0690eed2246d56391e25fbb228d05b355c72e78ee"
+  },
+  {
+    "path": "handoffs/2026-10-15/ch05-admin-setup-foundation/prior-current-docs/STATUS_LEDGER.md",
+    "sha256": "37da5e66a75cc21b1b0a11e795387926020014ff5476809b422a121271764070"
+  },
+  {
+    "path": "handoffs/2026-10-15/ch05-admin-setup-foundation/setup-1440.png",
+    "sha256": "9b4ccb5d0d209d00a56101e602bb8c7d9512bc278a879aa0d4cd6ad9a3820949"
+  },
+  {
+    "path": "handoffs/2026-10-15/ch05-admin-setup-foundation/setup-390.png",
+    "sha256": "b319f7a1cc67f5b81fd83866283461169577ec8489d5d2f7f6c814d45289300e"
+  },
+  {
+    "path": "handoffs/2026-10-15/ch05-admin-setup-foundation/SOURCE_HASHES.json",
+    "sha256": "e9ed886615e27dd01232c55772aced4596bec1cf8349802acf8fecc7917eb547"
+  },
+  {
+    "path": "handoffs/2026-10-15/ch06-admin-setup-validation/20261013000000_store_setup.sql.log",
+    "sha256": "e07731ea8af700a7f4b1698b7a66e308e96966523834eaa18726854cb73b00dc"
+  },
+  {
+    "path": "handoffs/2026-10-15/ch06-admin-setup-validation/20261013000001_store_setup_api.sql.log",
+    "sha256": "9a964ef78c35075da6fa4e57f029247955f4f0fb8e041a3eb21c29166dadbf99"
+  },
+  {
+    "path": "handoffs/2026-10-15/ch06-admin-setup-validation/API.json",
+    "sha256": "cc0d2463a04daac514c9e953835b0d35213cba58c4316cff91e4d4e4a0496b86"
+  },
+  {
+    "path": "handoffs/2026-10-15/ch06-admin-setup-validation/API_ATTEMPT_01.json",
+    "sha256": "65549ceafd550fa2c626419545b42c8ec15442af14fd82a948e97871e1d7b911"
+  },
+  {
+    "path": "handoffs/2026-10-15/ch06-admin-setup-validation/API_ATTEMPT_02.json",
+    "sha256": "1c184fa6806e6ee3f768e3649bf600ad9b4327dd9dbfee426bfa4643483b9752"
+  },
+  {
+    "path": "handoffs/2026-10-15/ch06-admin-setup-validation/APPROVAL_RECEIPT.md",
+    "sha256": "a97ed56b73d156c52f105fd43b0dfb206617f235ba0772a884585796757615c8"
+  },
+  {
+    "path": "handoffs/2026-10-15/ch06-admin-setup-validation/CONCURRENCY.json",
+    "sha256": "4416f959f9930c638417d97f70b01edb31f9762f8ef7484bfba5b10c8e8be376"
+  },
+  {
+    "path": "handoffs/2026-10-15/ch06-admin-setup-validation/DOCKER_RECOVERY.md",
+    "sha256": "9657e1dca79c9585565f205ed636165b381511bb5757aa98b6bd3eee825a3d65"
+  },
+  {
+    "path": "handoffs/2026-10-15/ch06-admin-setup-validation/DOCKER_REPAIR_REQUEST.md",
+    "sha256": "ee4581365f81985a4e528e82f8740968b0fe994368d56d1296b2f7e869a1a1b0"
+  },
+  {
+    "path": "handoffs/2026-10-15/ch06-admin-setup-validation/EXECUTION_01.md",
+    "sha256": "bde1c76d2a7bda02a42696a033da7d1d6dad52efb137ca06b2ae19714c94080d"
+  },
+  {
+    "path": "handoffs/2026-10-15/ch06-admin-setup-validation/PREFLIGHT.md",
+    "sha256": "a38b28cfdaa110178507e855df2c4a02a1848e8b8f46807f4ae4ce4e7be4e39c"
+  },
+  {
+    "path": "handoffs/2026-10-15/ch06-admin-setup-validation/R03_R06_APPROVAL_REQUEST.md",
+    "sha256": "647bbae16994d5e494cef3b6353667f6c40c087ebeedb37bde1710452a59c036"
+  },
+  {
+    "path": "handoffs/2026-10-15/ch06-admin-setup-validation/RESTART.json",
+    "sha256": "cc47f566ce4cfcaec2d8da905a0ca8ccddce514442c765f852ecd9c3badf0071"
+  },
+  {
+    "path": "handoffs/2026-10-15/ch06-admin-setup-validation/RPC_RESPONSES.json",
+    "sha256": "1310546f6d57cc360bcbeab15115cbb433d35e1f862af14453f7a22c4b39e9e4"
+  },
+  {
+    "path": "handoffs/2026-10-15/ch06-admin-setup-validation/SOURCE_HASHES_BEFORE.json",
+    "sha256": "e39e194b96e3cd4ca4b5c1963cef060fbd01be12a304483931723a605035f1ce"
+  },
+  {
+    "path": "handoffs/2026-10-15/ch06-admin-setup-validation/TOOL_MANIFEST.json",
+    "sha256": "ed0c6aaec9e52f8413613890f98ad270b40f9f149667e64c6fb806137101fda0"
+  },
+  {
+    "path": "handoffs/2026-10-15/ch06-admin-setup-validation/TRANSACTION_01.log",
+    "sha256": "ac2555b4dc32fc8140539a4fe0d13a594f56a9c9d16bda99255bfdad5418c1b4"
+  },
+  {
+    "path": "handoffs/2026-10-16/ch06-backend-validation/ALL_RPC_RESPONSES.json",
+    "sha256": "5bbae2a0ac2314304a83533aa42f3d442924f52fa5de7f413df69dc577e8863c"
+  },
+  {
+    "path": "handoffs/2026-10-16/ch06-backend-validation/CONCURRENCY.json",
+    "sha256": "80ec74586919533c9feaebae3f9a380cf0e77659c39c15ea29e7f3563e9431f4"
+  },
+  {
+    "path": "handoffs/2026-10-16/ch06-backend-validation/CONCURRENT_RPC_RESPONSES.json",
+    "sha256": "48832047f0a5fafaa63da53158084477abdb6df761de4f63056e44cd3227164b"
+  },
+  {
+    "path": "handoffs/2026-10-16/ch06-backend-validation/DOCUMENTATION_CHECK.json",
+    "sha256": "e841b373342b9469bd9b04a1bbef8c4ae050ae2f1307e95cff8c3e3271990ccd"
+  },
+  {
+    "path": "handoffs/2026-10-16/ch06-backend-validation/DTO_CHECK.json",
+    "sha256": "28cb7d622081b255610bd8e07020a12baae2cb905762be8c3e6d0716bfca6c44"
+  },
+  {
+    "path": "handoffs/2026-10-16/ch06-backend-validation/ENGINEERING_HANDOFF.md",
+    "sha256": "0662ce0c3b324a8e69915e74a1918d741a94fe1547746d69fc630afabaed248b"
+  },
+  {
+    "path": "handoffs/2026-10-16/ch06-backend-validation/EVIDENCE.md",
+    "sha256": "7a7b696058e2867d4d7839750dc7c524a7c16956100f2edde9711dbc303b965b"
+  },
+  {
+    "path": "handoffs/2026-10-16/ch06-backend-validation/EXECUTIVE_SUMMARY.md",
+    "sha256": "7840cd3c52dc38a3bcdba434fddbc3ac69627d26a1998532fa1b38be2ceb6b96"
+  },
+  {
+    "path": "handoffs/2026-10-16/ch06-backend-validation/MIGRATION_HASHES.json",
+    "sha256": "e39e194b96e3cd4ca4b5c1963cef060fbd01be12a304483931723a605035f1ce"
+  },
+  {
+    "path": "handoffs/2026-10-16/ch06-backend-validation/R05_BROWSER_REQUEST.md",
+    "sha256": "da344ccc072060df5c8fab4c23bcce764bb7769b7a63a02905fe7c1322538240"
+  },
+  {
+    "path": "handoffs/2026-10-16/ch06-backend-validation/RESTORE.json",
+    "sha256": "fec0d918f3394fd722986f658d0819034e1b66b2bd3152bb5e5df0e48029d2f7"
+  },
+  {
+    "path": "handoffs/2026-10-16/ch06-backend-validation/RESTORE.log",
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "handoffs/2026-10-16/ch06-backend-validation/RESTORE_RETRY_REQUEST.md",
+    "sha256": "e5ff3e02f6b55f957242571348d02f32bd8bc629828ed9962c11cd30064c4512"
+  },
+  {
+    "path": "handoffs/2026-10-16/ch06-backend-validation/RUNTIME.json",
+    "sha256": "df5c1fe5560408eae402069313bf1134cea1008cc3bb45d4049eebf4145435f2"
+  },
+  {
+    "path": "handoffs/2026-10-16/ch06-browser-validation/01-desktop-store.png",
+    "sha256": "707756ac3c203564d5aef9e7286732293140bc045ad142d506a1c1079746095c"
+  },
+  {
+    "path": "handoffs/2026-10-16/ch06-browser-validation/BROWSER_CHECKS.json",
+    "sha256": "f1baaadf9f2604c5f553eb65085ceda554661aec7661852bfb2e20b83aa801bf"
+  },
+  {
+    "path": "handoffs/2026-10-16/ch06-browser-validation/BUILD.log",
+    "sha256": "b1680a87fc988dcd3e7aef7a39432f765b56d1869995564d4f08ecd24176e7e5"
+  },
+  {
+    "path": "handoffs/2026-10-16/ch06-browser-validation/BUILD_ATTEMPT_01.log",
+    "sha256": "a3dc44022daba6e450de3f276abd405e099d92a8bcea00c06b73564151a08193"
+  },
+  {
+    "path": "handoffs/2026-10-16/ch06-browser-validation/BUILD_ATTEMPT_02.log",
+    "sha256": "cf4ae9b49c928d2d214845f1ebae130ea2d96dbd6e74a95c8c0924694ba7c10a"
+  },
+  {
+    "path": "handoffs/2026-10-16/ch06-browser-validation/diagnostic-after-cancel.png",
+    "sha256": "73617213f4130c8500eb66313466d261ba7a3a6669854cf65f4a9c6e27296baa"
+  },
+  {
+    "path": "handoffs/2026-10-16/ch06-browser-validation/PREPARATION.md",
+    "sha256": "78eac63c299826bc99c41aa57d8f4fb1947089b7a30f8a81a2de4a4389fb45b5"
+  },
+  {
+    "path": "handoffs/2026-10-16/ch06-restore-retry/20261013000000_store_setup.sql.log",
+    "sha256": "e07731ea8af700a7f4b1698b7a66e308e96966523834eaa18726854cb73b00dc"
+  },
+  {
+    "path": "handoffs/2026-10-16/ch06-restore-retry/20261013000001_store_setup_api.sql.log",
+    "sha256": "9a964ef78c35075da6fa4e57f029247955f4f0fb8e041a3eb21c29166dadbf99"
+  },
+  {
+    "path": "handoffs/2026-10-16/ch06-restore-retry/APPROVAL_RECEIPT.md",
+    "sha256": "b559daaf74948df3834ff09c53644175192e4693869365db5bbec7b91baa2c23"
+  },
+  {
+    "path": "handoffs/2026-10-16/ch06-restore-retry/RESTORE.json",
+    "sha256": "50add436d77be76737a98457bc8c72021ee9c0ed42e642c7886cc03ce4afb928"
+  },
+  {
+    "path": "handoffs/2026-10-16/ch06-restore-retry/RESTORE.log",
+    "sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070"
+  },
+  {
+    "path": "handoffs/2026-10-16/ch06-restore-retry/TRANSACTION.log",
+    "sha256": "04031288b48ca376d066d106e0446790c196936121dc275f15dda68feed0c72c"
+  },
+  {
+    "path": "handoffs/2026-10-19/ch06-application-validation/backend-unavailable-login.png",
+    "sha256": "5c0b36f1eefdd3aa68129b52a49a6f84a9df249a0c28f922cc80b21295ba1fef"
+  },
+  {
+    "path": "handoffs/2026-10-19/ch06-application-validation/BROWSER_CHECKS.json",
+    "sha256": "fa15b700869ebd5cbfd82fa303f5f711bc376d3d89c8a91a2678824aa26726cd"
+  },
+  {
+    "path": "handoffs/2026-10-19/ch06-application-validation/DOCKER_ELEVATED_START_REQUEST.md",
+    "sha256": "d747273b745c4a773335fd5fac5e1e978d2ec3a913c113db5d6f0c8d16ff0d9e"
+  },
+  {
+    "path": "handoffs/2026-10-19/ch06-application-validation/DOCUMENTATION_CHECK.json",
+    "sha256": "745926385b61fd4a025d6a4715165524c115cc6db7119dda4989a483dad8ef66"
+  },
+  {
+    "path": "handoffs/2026-10-19/ch06-application-validation/ENGINEERING_HANDOFF.md",
+    "sha256": "d8fc93721ddc755fd920b382e2a9d69770c2ae1d815be0654fe8465932fed403"
+  },
+  {
+    "path": "handoffs/2026-10-19/ch06-application-validation/EVIDENCE.md",
+    "sha256": "337ccd65cf9ef7a8863ff530c0bdb16590c15ae05541344302c0c01cf832e9e2"
+  },
+  {
+    "path": "handoffs/2026-10-19/ch06-application-validation/EXECUTIVE_SUMMARY.md",
+    "sha256": "eff83a68cac75235dfa9681e75c4ae477761f529d2fa4ca4e90a11fc526b510b"
+  },
+  {
+    "path": "handoffs/2026-10-19/ch06-application-validation/narrow-login.png",
+    "sha256": "e23055628ebd39e0ceab01c5ca864229198895a57947db85304986678cc13320"
+  },
+  {
+    "path": "handoffs/2026-10-26/ch06-docker-elevated-start/APPROVAL_RECEIPT.md",
+    "sha256": "86a75eb656dd39ee4d86ea101faf53f3b952591533f74459caf26b616d9eb064"
+  },
+  {
+    "path": "handoffs/2026-10-26/ch06-docker-elevated-start/RESULT.md",
+    "sha256": "1671e90beecb9b7c56ebfb1c0bb4d72aa27e77f7fa94429f717be0ad25d9a63a"
+  }
+]

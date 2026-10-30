@@ -1,0 +1,86 @@
+[
+  {
+    "file": "lib\\identity\\identity_models.dart",
+    "found": 148,
+    "hit": 132,
+    "percent": 89.2
+  },
+  {
+    "file": "lib\\identity\\staff_session_controller.dart",
+    "found": 62,
+    "hit": 62,
+    "percent": 100.0
+  },
+  {
+    "file": "lib\\identity\\pin_screen.dart",
+    "found": 47,
+    "hit": 37,
+    "percent": 78.7
+  },
+  {
+    "file": "lib\\identity\\staff_session_gate.dart",
+    "found": 51,
+    "hit": 47,
+    "percent": 92.2
+  },
+  {
+    "file": "lib\\sync\\workspace_lifecycle_stub.dart",
+    "found": 4,
+    "hit": 4,
+    "percent": 100.0
+  },
+  {
+    "file": "lib\\receiving\\receiving_draft.dart",
+    "found": 122,
+    "hit": 107,
+    "percent": 87.7
+  },
+  {
+    "file": "lib\\sync\\draft_crypto.dart",
+    "found": 104,
+    "hit": 101,
+    "percent": 97.1
+  },
+  {
+    "file": "lib\\sync\\draft_queue.dart",
+    "found": 3,
+    "hit": 3,
+    "percent": 100.0
+  },
+  {
+    "file": "lib\\receiving\\receiving_policy.dart",
+    "found": 230,
+    "hit": 225,
+    "percent": 97.8
+  },
+  {
+    "file": "lib\\sync\\draft_store.dart",
+    "found": 9,
+    "hit": 9,
+    "percent": 100.0
+  },
+  {
+    "file": "lib\\sync\\draft_migrations.dart",
+    "found": 3,
+    "hit": 3,
+    "percent": 100.0
+  },
+  {
+    "file": "lib\\receiving\\draft_recovery_screen.dart",
+    "found": 59,
+    "hit": 54,
+    "percent": 91.5
+  },
+  {
+    "file": "lib\\receiving\\draft_workspace.dart",
+    "found": 335,
+    "hit": 287,
+    "percent": 85.7
+  },
+  {
+    "file": "lib\\sync\\draft_store_android.dart",
+    "found": 79,
+    "hit": 0,
+    "percent": 0.0
+  }
+]

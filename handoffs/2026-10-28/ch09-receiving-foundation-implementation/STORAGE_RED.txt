@@ -1,0 +1,86 @@
+00:00 +0: loading D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/sync/draft_crypto_test.dart
+test/sync/draft_crypto_test.dart:4:8: Error: Error when reading 'lib/receiving/receiving_draft.dart': The system cannot find the path specified
+import 'package:shelflife/receiving/receiving_draft.dart';
+       ^
+test/sync/draft_crypto_test.dart:5:8: Error: Error when reading 'lib/sync/draft_crypto.dart': The system cannot find the path specified
+import 'package:shelflife/sync/draft_crypto.dart';
+       ^
+test/sync/draft_crypto_test.dart:6:8: Error: Error when reading 'lib/sync/draft_queue.dart': The system cannot find the path specified
+import 'package:shelflife/sync/draft_queue.dart';
+       ^
+test/sync/draft_crypto_test.dart:13:20: Error: Method not found: 'DraftCrypto'.
+    final crypto = DraftCrypto();
+                   ^^^^^^^^^^^
+test/sync/draft_crypto_test.dart:14:19: Error: Undefined name 'ReceivingDraft'.
+    final draft = ReceivingDraft.create(session.scope, payload: {'entered_identifier': '001234', 'notes': 'private note'});
+                  ^^^^^^^^^^^^^^
+test/sync/draft_crypto_test.dart:24:49: Error: Undefined name 'DraftEnvelope'.
+      await expectLater(() async => crypto.open(DraftEnvelope.fromJson(value), session.scope, session.key), throwsA(anything));
+                                                ^^^^^^^^^^^^^
+test/sync/draft_crypto_test.dart:32:26: Error: Undefined name 'DraftCrypto'.
+    final result = await DraftCrypto.knownAnswer(List.filled(16, 0), List.filled(32, 0), List.filled(12, 0));
+                         ^^^^^^^^^^^
+test/sync/draft_crypto_test.dart:37:20: Error: Undefined name 'ReceivingDraft'.
+      expect(() => ReceivingDraft.create(session.scope, payload: payload), throwsFormatException);
+                   ^^^^^^^^^^^^^^
+test/sync/draft_crypto_test.dart:39:19: Error: Undefined name 'ReceivingDraft'.
+    final draft = ReceivingDraft.create(session.scope);
+                  ^^^^^^^^^^^^^^
+test/sync/draft_crypto_test.dart:40:18: Error: Undefined name 'ReceivingDraft'.
+    expect(() => ReceivingDraft.fromJson({...draft.toJson(), 'state': 'Confirmed'}), throwsFormatException);
+                 ^^^^^^^^^^^^^^
+test/sync/draft_crypto_test.dart:41:18: Error: Undefined name 'ReceivingDraft'.
+    expect(() => ReceivingDraft.fromJson({...draft.toJson(), 'secret': 'x'}), throwsFormatException);
+                 ^^^^^^^^^^^^^^
+test/sync/draft_crypto_test.dart:45:19: Error: Undefined name 'ReceivingDraft'.
+    final draft = ReceivingDraft.create(session.scope);
+                  ^^^^^^^^^^^^^^
+test/sync/draft_crypto_test.dart:46:19: Error: Method not found: 'DraftQueue'.
+    final queue = DraftQueue();
+                  ^^^^^^^^^^
+00:00 +0 -1: loading D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/sync/draft_crypto_test.dart [E]
+  Failed to load "D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/sync/draft_crypto_test.dart":
+  Compilation failed for testPath=D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/sync/draft_crypto_test.dart: test/sync/draft_crypto_test.dart:4:8: Error: Error when reading 'lib/receiving/receiving_draft.dart': The system cannot find the path specified
+  import 'package:shelflife/receiving/receiving_draft.dart';
+         ^
+  test/sync/draft_crypto_test.dart:5:8: Error: Error when reading 'lib/sync/draft_crypto.dart': The system cannot find the path specified
+  import 'package:shelflife/sync/draft_crypto.dart';
+         ^
+  test/sync/draft_crypto_test.dart:6:8: Error: Error when reading 'lib/sync/draft_queue.dart': The system cannot find the path specified
+  import 'package:shelflife/sync/draft_queue.dart';
+         ^
+  test/sync/draft_crypto_test.dart:13:20: Error: Method not found: 'DraftCrypto'.
+      final crypto = DraftCrypto();
+                     ^^^^^^^^^^^
+  test/sync/draft_crypto_test.dart:14:19: Error: Undefined name 'ReceivingDraft'.
+      final draft = ReceivingDraft.create(session.scope, payload: {'entered_identifier': '001234', 'notes': 'private note'});
+                    ^^^^^^^^^^^^^^
+  test/sync/draft_crypto_test.dart:24:49: Error: Undefined name 'DraftEnvelope'.
+        await expectLater(() async => crypto.open(DraftEnvelope.fromJson(value), session.scope, session.key), throwsA(anything));
+                                                  ^^^^^^^^^^^^^
+  test/sync/draft_crypto_test.dart:32:26: Error: Undefined name 'DraftCrypto'.
+      final result = await DraftCrypto.knownAnswer(List.filled(16, 0), List.filled(32, 0), List.filled(12, 0));
+                           ^^^^^^^^^^^
+  test/sync/draft_crypto_test.dart:37:20: Error: Undefined name 'ReceivingDraft'.
+        expect(() => ReceivingDraft.create(session.scope, payload: payload), throwsFormatException);
+                     ^^^^^^^^^^^^^^
+  test/sync/draft_crypto_test.dart:39:19: Error: Undefined name 'ReceivingDraft'.
+      final draft = ReceivingDraft.create(session.scope);
+                    ^^^^^^^^^^^^^^
+  test/sync/draft_crypto_test.dart:40:18: Error: Undefined name 'ReceivingDraft'.
+      expect(() => ReceivingDraft.fromJson({...draft.toJson(), 'state': 'Confirmed'}), throwsFormatException);
+                   ^^^^^^^^^^^^^^
+  test/sync/draft_crypto_test.dart:41:18: Error: Undefined name 'ReceivingDraft'.
+      expect(() => ReceivingDraft.fromJson({...draft.toJson(), 'secret': 'x'}), throwsFormatException);
+                   ^^^^^^^^^^^^^^
+  test/sync/draft_crypto_test.dart:45:19: Error: Undefined name 'ReceivingDraft'.
+      final draft = ReceivingDraft.create(session.scope);
+                    ^^^^^^^^^^^^^^
+  test/sync/draft_crypto_test.dart:46:19: Error: Method not found: 'DraftQueue'.
+      final queue = DraftQueue();
+                    ^^^^^^^^^^
+  .
+00:00 +0 -1: Some tests failed.
+
+Failing tests:
+  D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/sync/draft_crypto_test.dart: loading D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/sync/draft_crypto_test.dart

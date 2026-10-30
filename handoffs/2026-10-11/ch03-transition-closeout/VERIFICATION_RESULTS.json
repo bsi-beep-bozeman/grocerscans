@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-11 Australia/Perth",
+  "protected_files": 61,
+  "preserved_prior_events": 29,
+  "current_documents": 9,
+  "existing_local_references": 54,
+  "preservation": "PASS",
+  "ledger_order": "PASS",
+  "local_links": "PASS",
+  "whitespace": "PASS",
+  "verbatim_start_gate": "PASS",
+  "created_chat": "01a12796-7acf-70b2-94f9-8d0efc7a2e87",
+  "waiting_idle": "VERIFIED",
+  "application_tests": "NOT RUN"
+}

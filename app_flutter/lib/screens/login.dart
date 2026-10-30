@@ -27,6 +27,7 @@ class _LoginScreenState extends State<LoginScreen> {
   }
 
   Future<void> _signIn() async {
+    if (_submitting) return;
     if (!(_formKey.currentState?.validate() ?? false)) return;
     setState(() {
       _submitting = true;
@@ -39,9 +40,16 @@ class _LoginScreenState extends State<LoginScreen> {
       );
       if (!mounted) return;
       widget.onSuccess();
-    } on AuthException catch (e) {
+    } on AuthException {
       if (!mounted) return;
-      setState(() => _error = e.message);
+      setState(
+        () => _error = 'Sign-in failed. Check your details and try again.',
+      );
+    } catch (_) {
+      if (!mounted) return;
+      setState(
+        () => _error = 'Could not connect. Check your connection and retry.',
+      );
     } finally {
       if (mounted) setState(() => _submitting = false);
     }
@@ -51,77 +59,80 @@ class _LoginScreenState extends State<LoginScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: ConstrainedBox(
-          constraints: const BoxConstraints(maxWidth: 400),
-          child: Padding(
-            padding: const EdgeInsets.all(24),
-            child: Card(
-              child: Padding(
-                padding: const EdgeInsets.all(24),
-                child: Form(
-                  key: _formKey,
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    crossAxisAlignment: CrossAxisAlignment.stretch,
-                    children: [
-                      Text(
-                        'ShelfLife',
-                        style: Theme.of(context).textTheme.headlineMedium,
-                      ),
-                      const SizedBox(height: 24),
-                      if (_error != null)
-                        Container(
-                          margin: const EdgeInsets.only(bottom: 16),
-                          padding: const EdgeInsets.all(12),
-                          decoration: BoxDecoration(
-                            color: Colors.red.shade50,
-                            borderRadius: BorderRadius.circular(6),
-                            border: Border.all(color: Colors.red.shade200),
+        child: SingleChildScrollView(
+          child: ConstrainedBox(
+            constraints: const BoxConstraints(maxWidth: 400),
+            child: Padding(
+              padding: const EdgeInsets.all(24),
+              child: Card(
+                child: Padding(
+                  padding: const EdgeInsets.all(24),
+                  child: Form(
+                    key: _formKey,
+                    child: Column(
+                      mainAxisSize: MainAxisSize.min,
+                      crossAxisAlignment: CrossAxisAlignment.stretch,
+                      children: [
+                        Text(
+                          'ShelfLife',
+                          style: Theme.of(context).textTheme.headlineMedium,
+                        ),
+                        const SizedBox(height: 24),
+                        if (_error != null)
+                          Container(
+                            margin: const EdgeInsets.only(bottom: 16),
+                            padding: const EdgeInsets.all(12),
+                            decoration: BoxDecoration(
+                              color: Colors.red.shade50,
+                              borderRadius: BorderRadius.circular(6),
+                              border: Border.all(color: Colors.red.shade200),
+                            ),
+                            child: Text(
+                              _error!,
+                              style: TextStyle(color: Colors.red.shade900),
+                            ),
                           ),
-                          child: Text(
-                            _error!,
-                            style: TextStyle(color: Colors.red.shade900),
+                        TextFormField(
+                          controller: _emailCtrl,
+                          keyboardType: TextInputType.emailAddress,
+                          autocorrect: false,
+                          autofillHints: const [AutofillHints.username],
+                          decoration: const InputDecoration(
+                            labelText: 'Email',
+                            hintText: 'you@alsafa.local',
                           ),
+                          validator: (v) =>
+                              (v == null || v.isEmpty) ? 'Required' : null,
                         ),
-                      TextFormField(
-                        controller: _emailCtrl,
-                        keyboardType: TextInputType.emailAddress,
-                        autocorrect: false,
-                        autofillHints: const [AutofillHints.username],
-                        decoration: const InputDecoration(
-                          labelText: 'Email',
-                          hintText: 'you@alsafa.local',
+                        const SizedBox(height: 16),
+                        TextFormField(
+                          controller: _passwordCtrl,
+                          obscureText: true,
+                          autofillHints: const [AutofillHints.password],
+                          decoration: const InputDecoration(
+                            labelText: 'Password',
+                          ),
+                          validator: (v) =>
+                              (v == null || v.isEmpty) ? 'Required' : null,
+                          onFieldSubmitted: (_) => _signIn(),
                         ),
-                        validator: (v) => (v == null || v.isEmpty)
-                            ? 'Required'
-                            : null,
-                      ),
-                      const SizedBox(height: 16),
-                      TextFormField(
-                        controller: _passwordCtrl,
-                        obscureText: true,
-                        autofillHints: const [AutofillHints.password],
-                        decoration: const InputDecoration(
-                          labelText: 'Password',
+                        const SizedBox(height: 24),
+                        FilledButton(
+                          style: FilledButton.styleFrom(
+                            minimumSize: const Size(0, 56),
+                          ),
+                          onPressed: _submitting ? null : _signIn,
+                          child: Text(_submitting ? 'Signing in…' : 'Sign in'),
                         ),
-                        validator: (v) => (v == null || v.isEmpty)
-                            ? 'Required'
-                            : null,
-                        onFieldSubmitted: (_) => _signIn(),
-                      ),
-                      const SizedBox(height: 24),
-                      FilledButton(
-                        onPressed: _submitting ? null : _signIn,
-                        child: Text(_submitting ? 'Signing in…' : 'Sign in'),
-                      ),
-                      const SizedBox(height: 16),
-                      Text(
-                        'Kiosk devices sign in with their assigned account.\n'
-                        'Staff use PIN after the kiosk is signed in.',
-                        textAlign: TextAlign.center,
-                        style: Theme.of(context).textTheme.bodySmall,
-                      ),
-                    ],
+                        const SizedBox(height: 16),
+                        Text(
+                          'Admin setup is available to provisioned admin accounts.\n'
+                          'Staff and supplier workflows are not available here yet.',
+                          textAlign: TextAlign.center,
+                          style: Theme.of(context).textTheme.bodySmall,
+                        ),
+                      ],
+                    ),
                   ),
                 ),
               ),

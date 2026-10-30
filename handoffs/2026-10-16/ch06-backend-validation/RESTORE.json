@@ -1,0 +1,5 @@
+{
+  "status": "FAIL",
+  "target": "supabase_db_shelflife-ch06-validation",
+  "error": "Command failed: docker --context desktop-linux exec supabase_db_shelflife-ch06-validation pg_restore -U postgres -d postgres --exit-on-error /tmp/ch06-baseline-restore.dump\npg_restore: error: could not execute query: ERROR:  must be able to SET ROLE \"supabase_admin\"\nCommand was: ALTER SCHEMA auth OWNER TO supabase_admin;\n\n"
+}

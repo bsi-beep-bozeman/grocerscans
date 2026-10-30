@@ -1,0 +1,18 @@
+{
+  "version": "2.118.0",
+  "archive_url": "https://github.com/supabase/cli/releases/download/v2.118.0/supabase_2.118.0_windows_amd64.zip",
+  "archive_sha256": "E8EB5871B2A9E9B496D19F3FCA4851D0C2A1BB8059613692D8906B5DC5FC2AAD",
+  "published_checksum_verified": true,
+  "binaries": [
+    {
+      "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\.cache\\ch06-validation\\tools\\cli\\supabase-go.exe",
+      "Hash": "9EC9E65782D397E5EB547CF068423221C5A0B3B0AF28FD235C8FFD3A5FE67602"
+    },
+    {
+      "Path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\.cache\\ch06-validation\\tools\\cli\\supabase.exe",
+      "Hash": "2EA6E55E4856A5AF7F7CCF226551573B51D65B024646235A2A7B753EE68944D9"
+    }
+  ],
+  "runtime_images": [],
+  "runtime_image_inventory": "unknown: Docker engine startup failed"
+}

@@ -1,0 +1,528 @@
+{
+  "period": {
+    "from": "2026-10-04",
+    "to": "2026-10-17",
+    "prepared": "2026-10-19",
+    "timezone": "Australia/Perth"
+  },
+  "groups": [
+    {
+      "id": "overview",
+      "name": "Overview",
+      "slides": [
+        {
+          "tag": "FORTNIGHT REVIEW",
+          "title": "From decisions to a working admin foundation.",
+          "lead": "ShelfLife progress report · October 4–17, 2026",
+          "body": "<div class=\"metrics\"><div><b>6</b><span>setup steps implemented</span></div><div><b>74</b><span>local test cases passed</span></div><div><b>5</b><span>connected UI groups passed</span></div></div><p class=\"cover-note\">A detailed account of the requests, decisions, implementation and evidence that moved the project forward—including documented weekend work.</p>",
+          "sources": [
+            "local",
+            "browser"
+          ],
+          "kind": "cover",
+          "image": "live",
+          "caption": "October 16 · Actual Flutter application connected to the disposable backend."
+        },
+        {
+          "tag": "EXECUTIVE VIEW",
+          "title": "The most meaningful change",
+          "lead": "The project moved beyond a sample cockpit into a locally implemented and partially connected admin setup flow.",
+          "body": "<div class=\"cards\"><article class=\"card\"><h3>Direction became explicit</h3><p>Staff journeys, approval responsibilities, offline boundaries and paired rounds were documented and accepted.</p></article><article class=\"card\"><h3>Configuration became editable</h3><p>Admins can define store details, product packs, locations, presets and action policies, then review a configuration version.</p></article><article class=\"card\"><h3>Claims gained runtime evidence</h3><p>SQL, real sign-in, permission denials, concurrent writers, DTO parsing, restart persistence and baseline restoration were exercised.</p></article></div><div class=\"note\">As of the reporting cutoff: connected application validation was still in progress. This was not a production launch.</div>",
+          "sources": [
+            "decisions",
+            "local",
+            "backend",
+            "restore"
+          ]
+        },
+        {
+          "tag": "THE REPORTING WINDOW",
+          "title": "Fourteen calendar days. Clear evidence boundaries.",
+          "lead": "Sunday October 4 through Saturday October 17, inclusive. Prepared October 19 from saved records.",
+          "body": "<div class=\"cards\"><article class=\"card\"><h3>Recorded activity</h3><p>October 9–13 and 15–16 have dated checkpoints or event evidence. Saturday 10 and Sunday 11 contain substantial documented work.</p></article><article class=\"card\"><h3>Reconstructed interval</h3><p>October 14 sits inside the approved October 13–15 implementation period. The report describes that interval without inventing exact daily completion timestamps.</p></article><article class=\"card\"><h3>No dated entry</h3><p>October 4–8 and 17 have no specific execution entry in the reviewed packet. They remain visible in the daily log; absence of evidence does not prove inactivity.</p></article></div><div class=\"note\">Screenshots are real saved project captures. Fixture images, connected application captures and the older demo are labeled separately. No invented hours, releases or photo evidence.</div>",
+          "sources": [
+            "ledger",
+            "local"
+          ]
+        },
+        {
+          "tag": "OUTCOME MAP",
+          "title": "What was complete—and what was still open",
+          "lead": "These are different levels of completion, not one blended percentage.",
+          "body": "<div class=\"lanes\"><div><span class=\"pill good\">Accepted</span><h3>Design & scope</h3><p>Workflow decisions, six-step onboarding and bounded S1 acceptance plan.</p></div><div><span class=\"pill good\">Implemented</span><h3>Admin foundation</h3><p>Flutter screens, typed client, draft states, versioned SQL and permission checks.</p></div><div><span class=\"pill good\">Verified locally</span><h3>Backend & recovery</h3><p>Runtime checks and corrected baseline restore on a synthetic disposable target.</p></div><div><span class=\"pill amber\">In progress</span><h3>Full app acceptance</h3><p>Five UI groups passed; activation, recovery, identity and lifecycle checks remained.</p></div></div>",
+          "sources": [
+            "scope",
+            "local",
+            "backend",
+            "browser"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "days",
+      "name": "Daily log",
+      "slides": [
+        {
+          "tag": "SUNDAY · OCT 4 · WEEKEND",
+          "title": "The starting point",
+          "lead": "An existing sample cockpit predated this reporting window.",
+          "body": "<div class=\"note\">EVIDENCE GAP · Context carried into the period; no invented daily work allocation.</div><p class=\"large-copy\">The earlier preview established a visual direction for inventory, attention items and rounds. Its September publication is context only; it is not counted as work completed on October 4.</p>",
+          "sources": [
+            "workflow",
+            "demo"
+          ],
+          "day": 4,
+          "status": "No dated entry"
+        },
+        {
+          "tag": "MONDAY · OCT 5 · WEEKDAY",
+          "title": "Carry-in: a prototype, not a finished system",
+          "lead": "No day-specific execution record was found for this date.",
+          "body": "<div class=\"note\">EVIDENCE GAP · Context carried into the period; no invented daily work allocation.</div><p class=\"large-copy\">The preview used sample data and session-only activity. The later review explicitly distinguished that demonstration from a deployed operational backend.</p>",
+          "sources": [
+            "workflow",
+            "demo"
+          ],
+          "day": 5,
+          "status": "No dated entry"
+        },
+        {
+          "tag": "TUESDAY · OCT 6 · WEEKDAY",
+          "title": "Carry-in: roles still needed end-to-end work",
+          "lead": "No verified October 6 milestone is assigned.",
+          "body": "<div class=\"note\">EVIDENCE GAP · Context carried into the period; no invented daily work allocation.</div><p class=\"large-copy\">Admin, Staff, Viewer and Supplier were the intended roles, with Shift Lead as a staff flag. Later source review found foundations but incomplete application routing and live validation.</p>",
+          "sources": [
+            "workflow",
+            "demo"
+          ],
+          "day": 6,
+          "status": "No dated entry"
+        },
+        {
+          "tag": "WEDNESDAY · OCT 7 · WEEKDAY",
+          "title": "Carry-in: policy decisions were still important",
+          "lead": "This date is retained for complete calendar coverage.",
+          "body": "<div class=\"note\">EVIDENCE GAP · Context carried into the period; no invented daily work allocation.</div><p class=\"large-copy\">The upcoming design review would settle confirmation responsibilities, offline limits, catalog approval and paired rounds. Those decisions are dated October 10, not backdated here.</p>",
+          "sources": [
+            "workflow",
+            "demo"
+          ],
+          "day": 7,
+          "status": "No dated entry"
+        },
+        {
+          "tag": "THURSDAY · OCT 8 · WEEKDAY",
+          "title": "Before the documented chapter workflow",
+          "lead": "No dated implementation or test result is attributed to this day.",
+          "body": "<div class=\"note\">EVIDENCE GAP · Context carried into the period; no invented daily work allocation.</div><p class=\"large-copy\">The next verified milestone is October 9: the project adopted chapter closeouts, a session index, a stable handoff pointer and explicit approval boundaries.</p>",
+          "sources": [
+            "workflow",
+            "demo"
+          ],
+          "day": 8,
+          "status": "No dated entry"
+        },
+        {
+          "tag": "FRIDAY · OCT 9",
+          "title": "A repeatable chapter workflow",
+          "lead": "The project gained a reliable way to preserve decisions and resume work.",
+          "body": "<ul class=\"detail-list\"><li><strong>Documented</strong><span>Standing chapter instructions, implementation plan, status ledger, session index and a stable next-handoff pointer.</span></li><li><strong>Preserved</strong><span>Original chats remained the audit record for exact approvals, inputs and outputs. New dated handoffs supplemented them.</span></li><li><strong>Transitioned</strong><span>One fresh Staff Workflow Design Specification chat was created with an explicit in-chat start gate.</span></li></ul><div class=\"note\">Scope on this day: workflow documentation. No new application implementation, deployment or connected testing.</div>",
+          "sources": [
+            "workflow"
+          ],
+          "day": 9,
+          "status": "Recorded"
+        },
+        {
+          "tag": "SATURDAY · OCT 10 · WEEKEND",
+          "title": "The major design decisions landed",
+          "lead": "Weekend work defined how people, approvals and configuration should fit together.",
+          "body": "<ul class=\"detail-list\"><li><strong>Specification</strong><span>13 screens, six workflow areas, 28 proposed acceptance scenarios and ten source gaps were documented.</span></li><li><strong>Human decisions</strong><span>Lead/admin confirmations, offline limits, lock timing, catalog review and paired rounds were accepted.</span></li><li><strong>Product direction</strong><span>Customizable admin presets and first-use setup replaced the need to hardcode every store’s policy. The combined design was accepted.</span></li></ul>",
+          "sources": [
+            "design",
+            "decisions"
+          ],
+          "day": 10,
+          "status": "Recorded weekend work"
+        },
+        {
+          "tag": "SUNDAY · OCT 11 · WEEKEND",
+          "title": "Evidence was reconciled and the design chapter closed",
+          "lead": "The team corrected an earlier premature verification claim and completed the written-design checkpoint.",
+          "body": "<ul class=\"detail-list\"><li><strong>Verified</strong><span>The resumed closeout checked 49 protected files, 26 preserved ledger events and 56 local references.</span></li><li><strong>Corrected</strong><span>A prior credit-related interruption was explicitly recorded instead of presenting an unexecuted verification as complete.</span></li><li><strong>Handed off</strong><span>One fresh scope-and-acceptance chapter was created, with design acceptance carried forward and implementation still separately gated.</span></li></ul>",
+          "sources": [
+            "closeout"
+          ],
+          "day": 11,
+          "status": "Recorded weekend work"
+        },
+        {
+          "tag": "MONDAY · OCT 12",
+          "title": "Admin Setup became the first implementation slice",
+          "lead": "The broad staff vision was narrowed into a bounded first deliverable.",
+          "body": "<ul class=\"detail-list\"><li><strong>Defined S1</strong><span>Admin identity, saved/resumable six-step setup, versioned presets, prerequisites and explicit configuration activation.</span></li><li><strong>Mapped acceptance</strong><span>Twelve S1 scenarios, AC01–AC34 coverage across later slices, file boundaries, persistence/API proposals and action approvals.</span></li><li><strong>Showed existing work</strong><span>The existing sample demo loaded; inventory lookup and checklist progress were observed. This was not a new release.</span></li></ul>",
+          "sources": [
+            "scope",
+            "demo"
+          ],
+          "day": 12,
+          "status": "Recorded"
+        },
+        {
+          "tag": "TUESDAY · OCT 13",
+          "title": "A tangible demo, more data and implementation approval",
+          "lead": "Requests connected the design discussion to visible, testable work.",
+          "body": "<ul class=\"detail-list\"><li><strong>Demonstrated</strong><span>The sample preview saved Whole milk, 2 units, with an October 15 expiry. The displayed activity was session-only.</span></li><li><strong>Expanded</strong><span>A local CSV and preview catalog grew to 20 fictional, unique, checksum-valid UPCs; legacy aliases and derived totals were retained.</span></li><li><strong>Approved</strong><span>Admin Setup Foundation and R02 installed-dependency local checks were authorized. The initial preview baseline passed 3/3 tests.</span></li></ul>",
+          "sources": [
+            "demo",
+            "catalog",
+            "local"
+          ],
+          "day": 13,
+          "status": "Recorded"
+        },
+        {
+          "tag": "WEDNESDAY · OCT 14",
+          "title": "Implementation and review interval",
+          "lead": "Reconstructed placement within the documented October 13–15 source-work window.",
+          "body": "<div class=\"cards\"><article class=\"card\"><h3>Source work in the interval</h3><p>Typed setup models and validation, controller/repository behavior, six-step UI, admin gate and matching SQL/assertion source.</p></article><article class=\"card\"><h3>Review work in the interval</h3><p>Readiness handling, active-version consistency, visible discard/reload, preset descriptions and session/dialog protection were addressed.</p></article><article class=\"card\"><h3>Dating limit</h3><p>The October 15 closeout establishes completion and results. It does not independently prove which edit or test occurred specifically on October 14.</p></article></div><div class=\"note\">RECONSTRUCTED INTERVAL · No hours, exact sequence or per-day completion is claimed. A timestamp inside a widget fixture is sample data, not proof of its capture date.</div>",
+          "sources": [
+            "local"
+          ],
+          "day": 14,
+          "status": "Reconstructed interval"
+        },
+        {
+          "tag": "THURSDAY · OCT 15",
+          "title": "Local implementation reached its checkpoint",
+          "lead": "The admin foundation passed local checks; the next chapter began isolated backend verification.",
+          "body": "<ul class=\"detail-list\"><li><strong>Local result</strong><span>73 combined tests plus one accessibility test passed; whole-app offline analysis was clean. Desktop and 390px widget captures were saved.</span></li><li><strong>Backend scope</strong><span>R03/R06 approved a pinned CLI and isolated synthetic backend. Seven migrations applied and SQL assertions passed.</span></li><li><strong>Runtime evidence</strong><span>Concurrency, real Auth/API and restart tests passed. Unexpected wildcard bindings were stopped and corrected before acceptance testing.</span></li></ul><div class=\"note\">The initial Docker failure and initial wildcard exposure interval were retained as limitations. No production deployment or publication was made.</div>",
+          "sources": [
+            "local",
+            "backend"
+          ],
+          "day": 15,
+          "status": "Recorded"
+        },
+        {
+          "tag": "FRIDAY · OCT 16",
+          "title": "Recovery succeeded and real UI testing began",
+          "lead": "A corrected restore completed; the actual Flutter app reached the disposable backend.",
+          "body": "<ul class=\"detail-list\"><li><strong>Strengthened checks</strong><span>A fresh 19-group concurrency run passed; 61 captured responses decoded through production Dart models.</span></li><li><strong>Recovered</strong><span>An initial restore failed with the limited postgres role. After explicit approval, the existing supabase_admin role restored the baseline; migrations and assertions passed again.</span></li><li><strong>Validated UI</strong><span>The web build succeeded. Five Chrome groups passed for real sign-in, drafts, packs, locations and presets. All six setup pages were inspected.</span></li></ul>",
+          "sources": [
+            "backend",
+            "restore",
+            "approval",
+            "browser"
+          ],
+          "day": 16,
+          "status": "Recorded"
+        },
+        {
+          "tag": "SATURDAY · OCT 17 · WEEKEND",
+          "title": "The period-end position",
+          "lead": "No new execution entry was found for October 17; this slide carries forward the last evidenced state.",
+          "body": "<div class=\"cards\"><article class=\"card\"><h3>Ready to continue</h3><p>The admin foundation, backend validation evidence and successful restore were available. Actual connected Chrome checks had started.</p></article><article class=\"card\"><h3>Still to finish</h3><p>UI activation, two-session conflicts, uncertain-response retry, offline recovery, identity changes, lifecycle locking and narrow authenticated layouts.</p></article><article class=\"card\"><h3>Still separate</h3><p>Production hosting, publication, merging, rollout, physical-device tests and later staff workflows were not completed by this reporting cutoff.</p></article></div><div class=\"note\">CARRY-FORWARD SNAPSHOT · This is not a claim of Saturday execution. October 19 events are outside the requested reporting period.</div>",
+          "sources": [
+            "browser",
+            "scope",
+            "ledger"
+          ],
+          "day": 17,
+          "status": "No new dated entry"
+        }
+      ]
+    },
+    {
+      "id": "requests",
+      "name": "Key requests",
+      "slides": [
+        {
+          "tag": "REQUEST 01 · CONTINUITY",
+          "title": "“Continue the chapter cycle.”",
+          "lead": "Keep work bounded and make every chapter easy to audit.",
+          "body": "<ul class=\"detail-list\"><li><strong>What you asked for</strong><span>Finish verification, update the plan/status, save an executive summary and engineering handoff, and index the exact source chat.</span></li><li><strong>What changed</strong><span>The project adopted preserved dated records, explicit chapter ownership and a stable pointer to the latest handoff.</span></li><li><strong>Why it matters</strong><span>A new chat carries a concise handoff without replacing the original record. Transition permission remains distinct from permission to begin work.</span></li></ul>",
+          "sources": [
+            "workflow",
+            "closeout",
+            "scope"
+          ]
+        },
+        {
+          "tag": "REQUEST 02 · CUSTOMIZATION",
+          "title": "“Customizable presets … on the admin’s discretion”",
+          "lead": "Your request made onboarding the place to collect real store rules.",
+          "body": "<blockquote>“then on onboarding, prompt them their first initial set up.”</blockquote><div class=\"cards\"><article class=\"card\"><h3>Response</h3><p>A six-step store setup and editable preset design was accepted, then implemented as the S1 foundation.</p></article><article class=\"card\"><h3>Impact</h3><p>Jurisdiction, units, packs, labels, locations and handling policies are supplied explicitly instead of invented as universal defaults.</p></article><article class=\"card\"><h3>Boundary</h3><p>Unknown prerequisites keep affected capabilities unavailable. Saving a draft does not silently activate it.</p></article></div>",
+          "sources": [
+            "decisions",
+            "local"
+          ]
+        },
+        {
+          "tag": "REQUEST 03 · SOMETHING VISIBLE",
+          "title": "Show the existing work",
+          "lead": "The demonstration request established what was already real and what was still only specified.",
+          "body": "<div class=\"cards\"><article class=\"card\"><h3>Observed</h3><p>The hosted sample cockpit loaded; inventory lookup, checklist progress and a sample batch-save flow were shown.</p></article><article class=\"card\"><h3>Captured</h3><p>An October 13 screenshot records one batch tried and the Whole milk activity with 2 units.</p></article><article class=\"card\"><h3>Clarified</h3><p>This was the older sample preview with session-only state—not the new admin foundation or a verified production stock operation.</p></article></div>",
+          "sources": [
+            "demo"
+          ],
+          "image": "demo",
+          "caption": "October 13 · Existing sample cockpit walkthrough.",
+          "kind": "split"
+        },
+        {
+          "tag": "REQUEST 04 · DEMO DATA & ACCESS",
+          "title": "“About 20 UPCs … the 4 tier access?”",
+          "lead": "The data request was completed; the access question received a scoped, honest answer.",
+          "body": "<div class=\"cards\"><article class=\"card\"><h3>20 synthetic products</h3><p>Unique checksum-valid UPCs, CSV parity, legacy lookup aliases and derived summary counts. No real inventory import.</p></article><article class=\"card\"><h3>Local versus hosted</h3><p>The local catalog showed 379 units, six attention items and 60 units due within two days. The hosted snapshot remained the older five-product demo.</p></article><article class=\"card\"><h3>Four-tier status</h3><p>Admin, Staff, Viewer and Supplier are intended roles. Role foundations existed, but complete role routing and application-wide access were not finished.</p></article></div>",
+          "sources": [
+            "catalog"
+          ]
+        },
+        {
+          "tag": "REQUEST 05 · VERIFY THE BACKEND",
+          "title": "“Approved to run R03 and R06”",
+          "lead": "The named approval enabled a concrete isolated test sequence.",
+          "body": "<ul class=\"detail-list\"><li><strong>Target</strong><span>A separate local Supabase project with synthetic accounts and data, pinned tooling and explicit localhost endpoints.</span></li><li><strong>Verification</strong><span>SQL assertions, real Auth/API behavior, denial cases, cross-organisation isolation, races, retries, inventory fingerprints and restart checks.</span></li><li><strong>Preservation</strong><span>Baseline and tested-state dumps, migration hashes and raw results were retained. Existing product and Onyx data stayed outside the target.</span></li></ul>",
+          "sources": [
+            "backend"
+          ]
+        },
+        {
+          "tag": "REQUEST 06 · RECOVERY & REAL APP",
+          "title": "“approving both”",
+          "lead": "The approval covered the corrected restore retry and R05 local Chrome validation.",
+          "body": "<div class=\"cards\"><article class=\"card\"><h3>Restore correction</h3><p>Use the existing schema-owner-capable account, preserve failed evidence and prove the clean baseline could be restored.</p></article><article class=\"card\"><h3>Actual application</h3><p>Build and serve the production Flutter entry locally; use real sign-in and synthetic data rather than the separate preview.</p></article><article class=\"card\"><h3>Result by cutoff</h3><p>Restore passed and five UI groups passed. The connected sequence remained open for its remaining acceptance checks.</p></article></div>",
+          "sources": [
+            "approval",
+            "restore",
+            "browser"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "name": "Progress gallery",
+      "slides": [
+        {
+          "tag": "OCT 13 · EXISTING DEMO",
+          "title": "The sample cockpit in use",
+          "lead": "Inventory and attention items made the idea tangible.",
+          "body": "<p>The saved screenshot shows the preview’s stock summary, expiry queue and “Just logged” activity after the sample Whole milk entry.</p><div class=\"note\">Evidence type: existing hosted sample preview. Session-only activity; not a new release or real inventory transaction.</div>",
+          "sources": [
+            "demo"
+          ],
+          "kind": "gallery",
+          "image": "demo",
+          "caption": "Original October 13 capture · Older five-product sample preview."
+        },
+        {
+          "tag": "OCT 15 · LOCAL WIDGET CAPTURE",
+          "title": "The admin setup takes shape",
+          "lead": "A structured desktop interface replaced the signed-in stub.",
+          "body": "<p>The six-step navigation separates store details, units/packs, locations, labels, actions and activation review. Saved-state wording and the lock control are visible.</p><div class=\"note\">Evidence type: actual Flutter widget test image with one synthetic product and no backend. Fixture timestamps are sample values.</div>",
+          "sources": [
+            "local"
+          ],
+          "kind": "gallery",
+          "image": "desktop",
+          "caption": "October 15 evidence packet · 1440px local widget capture."
+        },
+        {
+          "tag": "OCT 15 · LOCAL WIDGET CAPTURE",
+          "title": "The same foundation at phone width",
+          "lead": "The narrow layout uses a step selector and vertically arranged form sections.",
+          "body": "<p>This 390px fixture capture shows readable labels, the branch/progress block and store fields. Local layout tests also exercised larger text.</p><div class=\"note\">Evidence type: widget fixture, not a physical-phone session or live browser connection. Screen-reader and camera behavior were not certified.</div>",
+          "sources": [
+            "local"
+          ],
+          "kind": "gallery",
+          "image": "phone",
+          "caption": "October 15 evidence packet · 390px local widget capture.",
+          "portrait": true
+        },
+        {
+          "tag": "OCT 16 · CONNECTED CHROME",
+          "title": "The actual app meets the backend",
+          "lead": "A real authenticated session loaded the saved synthetic setup draft.",
+          "body": "<p>This capture came from the compiled application connected to the isolated local Supabase backend. It is the clearest visual step from a fixture-only screen to real persistence.</p><div class=\"note\">Evidence type: installed Chrome, headless desktop session. Synthetic data; not a hosted production release. Five connected UI groups passed, with more still pending.</div>",
+          "sources": [
+            "browser",
+            "backend"
+          ],
+          "kind": "gallery",
+          "image": "live",
+          "caption": "October 16 · Actual application, real Auth session, disposable backend."
+        }
+      ]
+    },
+    {
+      "id": "validation",
+      "name": "Validation",
+      "slides": [
+        {
+          "tag": "LOCAL QUALITY",
+          "title": "74 passing local cases",
+          "lead": "The October 15 source checkpoint established behavior before backend execution.",
+          "body": "<div class=\"test-grid\"><div><b>30</b><span>contract / validator</span></div><div><b>9</b><span>controller</span></div><div><b>8</b><span>adapter</span></div><div><b>4</b><span>review / path regressions</span></div><div><b>16</b><span>functional / layout</span></div><div><b>1</b><span>session gate</span></div><div><b>2</b><span>visual fixtures</span></div><div><b>1</b><span>accessibility</span></div><div><b>3</b><span>preview regressions</span></div></div><div class=\"note\">73 cases passed in the final combined run; the additional accessibility case passed separately. Whole-app offline static analysis reported no issues. These were local tests, not 74 end-to-end browser tests.</div>",
+          "sources": [
+            "local"
+          ]
+        },
+        {
+          "tag": "BACKEND QUALITY",
+          "title": "The important boundaries were exercised",
+          "lead": "Real runtime results added evidence beyond the local source tests.",
+          "body": "<div class=\"metrics\"><div><b>19</b><span>concurrency groups</span></div><div><b>23</b><span>Auth / API groups</span></div><div><b>61</b><span>production DTO decodes</span></div></div><ul class=\"detail-list\"><li><strong>Authorization</strong><span>All six setup RPCs, disallowed identities, anonymous access, cross-org requests, revocation, expiry/tampering and direct-table denial.</span></li><li><strong>Consistency</strong><span>Save/activation races, exact retries, stale revisions, lock waits, immutable references and coherent active-version reads.</span></li><li><strong>Preservation</strong><span>Eight setup-table fingerprints and six inventory-table fingerprints survived backend restart; synthetic inventory was unchanged.</span></li></ul>",
+          "sources": [
+            "backend"
+          ]
+        },
+        {
+          "tag": "RECOVERY QUALITY",
+          "title": "A failure became a verified recovery path",
+          "lead": "The original failed restore was kept, then the authorized correction was proven.",
+          "body": "<div class=\"flow\"><div><b>1</b><h3>Preserve</h3><p>Baseline and tested-state dumps retained with SHA-256 hashes.</p></div><div><b>2</b><h3>Diagnose</h3><p>Limited postgres role could not restore schema ownership.</p></div><div><b>3</b><h3>Approve</h3><p>Explicit permission for the existing supabase_admin restore account.</p></div><div><b>4</b><h3>Verify</h3><p>Five original migrations, no users/orgs/setup table; then reapply and assert.</p></div></div><div class=\"note\">The successful retry did not require new grants or credentials. Recovery evidence applies to the disposable test database, not a hosted production disaster-recovery exercise.</div>",
+          "sources": [
+            "backend",
+            "restore",
+            "approval"
+          ]
+        },
+        {
+          "tag": "APPLICATION QUALITY",
+          "title": "Five connected UI groups passed",
+          "lead": "The app began exercising its actual SDK, forms and persistence path.",
+          "body": "<ul class=\"detail-list\"><li><strong>Real sign-in</strong><span>An authenticated admin reached setup through the Flutter application and real Auth service.</span></li><li><strong>Draft handling</strong><span>Saved values persisted; reload and explicit cancel/discard behavior were checked against server responses.</span></li><li><strong>Configuration editing</strong><span>Units and product packs, location create/rename/deactivate, and preset duplicate/version/edit/deactivate passed.</span></li></ul><div class=\"note\">Still open by October 17: UI activation, competing sessions, lost-response recovery, offline reconnection, identity denial/switching, lifecycle/idle locking and authenticated narrow layouts. Do not equate page inspection with completed acceptance.</div>",
+          "sources": [
+            "browser"
+          ]
+        },
+        {
+          "tag": "LESSONS & LIMITS",
+          "title": "The interruptions were recorded, not hidden",
+          "lead": "The report separates repaired issues from work that remained unverified.",
+          "body": "<div class=\"cards\"><article class=\"card\"><h3>Tooling and runtime</h3><p>Docker startup interruptions; unexpected wildcard ports corrected before tests; fixture and relative shader-output errors corrected in the harness/build invocation.</p></article><article class=\"card\"><h3>Verification integrity</h3><p>Credit-related interruptions were distinguished from executed commands. Historical records were preserved and later corrections added explicitly.</p></article><article class=\"card\"><h3>Release boundaries</h3><p>No new production deployment, publication, commit/push/merge or rollout. No physical-device, camera or full four-role completion claim.</p></article></div>",
+          "sources": [
+            "local",
+            "backend",
+            "approval"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "next",
+      "name": "Position & sources",
+      "slides": [
+        {
+          "tag": "AS OF OCTOBER 17",
+          "title": "The next checkpoint is application acceptance",
+          "lead": "Finish the approved connected sequence before moving the chapter forward.",
+          "body": "<ul class=\"detail-list\"><li><strong>Complete the remaining UI checks</strong><span>Activation and immutable history; two-admin conflict; retry and offline recovery; role/identity changes; restart, background and idle locking; narrow authenticated layouts.</span></li><li><strong>Close out with evidence</strong><span>Compare inventory, preserve synthetic-state backups, perform scoped cleanup, update plan/ledger/index and save a final engineering handoff.</span></li><li><strong>Keep the larger roadmap bounded</strong><span>S2 receiving/identity/queue, S3 stock actions and S4 paired rounds remain later implementation slices. Delivery retains separate approval.</span></li></ul>",
+          "sources": [
+            "scope",
+            "browser"
+          ]
+        },
+        {
+          "tag": "HOW TO READ THE NUMBERS",
+          "title": "Evidence, not a timesheet",
+          "lead": "The categories intentionally remain separate.",
+          "body": "<div class=\"cards\"><article class=\"card\"><h3>No invented effort</h3><p>This report contains no fabricated daily hours or productivity totals. Reconstructed date placement is marked and limited to an established work interval.</p></article><article class=\"card\"><h3>No blended test total</h3><p>74 local cases, 19 concurrency groups, 23 API groups, 61 decoded responses and five UI groups measure different things and are not summed.</p></article><article class=\"card\"><h3>Historical cutoff</h3><p>Only work attributable to October 4–17 is counted. October 19 report preparation and later Docker recovery events are excluded from period results.</p></article></div><div class=\"note\">Use the sources below to return to original records. The report is a presentation layer; the owning chats retain exact inputs, outputs and approvals.</div>",
+          "sources": [
+            "ledger",
+            "local",
+            "backend",
+            "browser"
+          ]
+        },
+        {
+          "tag": "AUDIT TRAIL",
+          "title": "Return to the original work",
+          "lead": "Each slide links supporting records; these are the six owning conversations.",
+          "body": "<div class=\"chapter-list\"><a href=\"codex://threads/01a0ec6a-a956-71d2-88f5-ed33d81f2930\"><b>01</b><span>Review Grocerscans handoff<small>01a0ec6a-a956-71d2-88f5-ed33d81f2930</small></span><i>↗</i></a><a href=\"codex://threads/01a12123-430e-7ab1-9ab1-06e648f8535f\"><b>02</b><span>Staff Workflow Design Specification<small>01a12123-430e-7ab1-9ab1-06e648f8535f</small></span><i>↗</i></a><a href=\"codex://threads/01a125ee-a20b-7663-a7f7-f5fe694580d4\"><b>03</b><span>Staff Workflow Design Decisions Review<small>01a125ee-a20b-7663-a7f7-f5fe694580d4</small></span><i>↗</i></a><a href=\"codex://threads/01a12796-7acf-70b2-94f9-8d0efc7a2e87\"><b>04</b><span>Staff Workflow Implementation Scope and Acceptance Plan<small>01a12796-7acf-70b2-94f9-8d0efc7a2e87</small></span><i>↗</i></a><a href=\"codex://threads/01a12f57-0cf7-7fa0-8e2a-542b48d3985d\"><b>05</b><span>Admin Setup Foundation<small>01a12f57-0cf7-7fa0-8e2a-542b48d3985d</small></span><i>↗</i></a><a href=\"codex://threads/01a13ce2-a8fe-7063-8867-260412dd096a\"><b>06</b><span>Admin Setup Backend and Application Validation<small>01a13ce2-a8fe-7063-8867-260412dd096a</small></span><i>↗</i></a></div>",
+          "sources": [
+            "ledger"
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": {
+    "workflow": [
+      "Chapter 01 closeout",
+      "handoffs/2026-10-09/ch01-transition-closeout/EXECUTIVE_SUMMARY.md",
+      1
+    ],
+    "design": [
+      "Workflow specification",
+      "docs/superpowers/specs/2026-10-10-staff-workflow-design.md",
+      2
+    ],
+    "decisions": [
+      "Accepted decisions",
+      "docs/superpowers/specs/2026-10-10-staff-workflow-decisions-addendum.md",
+      3
+    ],
+    "closeout": [
+      "Verified design closeout",
+      "handoffs/2026-10-11/ch03-transition-closeout/EXECUTIVE_SUMMARY.md",
+      3
+    ],
+    "scope": [
+      "Scope and acceptance plan",
+      "docs/superpowers/plans/2026-10-12-staff-workflow-scope-acceptance.md",
+      4
+    ],
+    "demo": [
+      "Existing demo review",
+      "handoffs/2026-10-13/ch05-existing-demo-review/EXECUTIVE_SUMMARY.md",
+      5
+    ],
+    "catalog": [
+      "20-product catalog",
+      "handoffs/2026-10-13/ch05-demo-catalog-20/EXECUTIVE_SUMMARY.md",
+      5
+    ],
+    "local": [
+      "Local implementation evidence",
+      "handoffs/2026-10-15/ch05-admin-setup-foundation/EVIDENCE.md",
+      5
+    ],
+    "backend": [
+      "Backend evidence",
+      "handoffs/2026-10-16/ch06-backend-validation/EVIDENCE.md",
+      6
+    ],
+    "restore": [
+      "Successful restore retry",
+      "handoffs/2026-10-16/ch06-restore-retry/RESTORE.json",
+      6
+    ],
+    "browser": [
+      "Connected Chrome results",
+      "handoffs/2026-10-16/ch06-browser-validation/BROWSER_CHECKS.json",
+      6
+    ],
+    "approval": [
+      "Restore and Chrome approval",
+      "handoffs/2026-10-16/ch06-restore-retry/APPROVAL_RECEIPT.md",
+      6
+    ],
+    "ledger": [
+      "Dated event ledger",
+      "STATUS_LEDGER.md",
+      6
+    ]
+  },
+  "images": {
+    "demo": "handoffs/2026-10-13/ch05-existing-demo-review/demo.jpg",
+    "desktop": "handoffs/2026-10-15/ch05-admin-setup-foundation/setup-1440.png",
+    "phone": "handoffs/2026-10-15/ch05-admin-setup-foundation/setup-390.png",
+    "live": "handoffs/2026-10-16/ch06-browser-validation/01-desktop-store.png"
+  },
+  "totalSlides": 36
+}

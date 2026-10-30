@@ -1,0 +1,12 @@
+00:00 +0: loading D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/client_demo/demo_test.dart
+00:00 +0: all 20 practice products are ready for setup activation
+00:00 +1: save survives repository restart; stale revision does not overwrite it
+00:00 +2: a failed persistence write cannot acknowledge or retain activation
+00:00 +3: invalid cross-branch references fail without replacing saved setup
+00:00 +4: practice staff identity rejects unknown PIN; same staff can reopen and other staff is isolated
+00:00 +5: staff policy uses activated setup, not unsaved or later draft settings
+00:00 +6: catalog search preserves leading zeroes and supports no matches
+00:00 +7: location creation/rename persists and bound location deactivation is rejected
+00:00 +8: preset create and version edit remain readable
+00:00 +9: damaged saved data is retained, not silently reseeded
+00:00 +10: All tests passed!

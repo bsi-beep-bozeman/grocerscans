@@ -1,0 +1,737 @@
+{
+  "date": "2026-10-26",
+  "sources": [
+    {
+      "key": "workflow",
+      "status": "PASS",
+      "characters": 2535
+    },
+    {
+      "key": "design",
+      "status": "PASS",
+      "characters": 41049
+    },
+    {
+      "key": "decisions",
+      "status": "PASS",
+      "characters": 15378
+    },
+    {
+      "key": "closeout",
+      "status": "PASS",
+      "characters": 2153
+    },
+    {
+      "key": "scope",
+      "status": "PASS",
+      "characters": 31101
+    },
+    {
+      "key": "demo",
+      "status": "PASS",
+      "characters": 1239
+    },
+    {
+      "key": "catalog",
+      "status": "PASS",
+      "characters": 1376
+    },
+    {
+      "key": "local",
+      "status": "PASS",
+      "characters": 5143
+    },
+    {
+      "key": "backend",
+      "status": "PASS",
+      "characters": 7724
+    },
+    {
+      "key": "restore",
+      "status": "PASS",
+      "characters": 635
+    },
+    {
+      "key": "browser",
+      "status": "PASS",
+      "characters": 631
+    },
+    {
+      "key": "approval",
+      "status": "PASS",
+      "characters": 927
+    },
+    {
+      "key": "ledger",
+      "status": "PASS",
+      "characters": 27238
+    }
+  ],
+  "viewports": [
+    {
+      "width": 1440,
+      "checks": [
+        {
+          "group": 0,
+          "slide": 0,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 0,
+          "slide": 1,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 0,
+          "slide": 2,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 0,
+          "slide": 3,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 1,
+          "slide": 0,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 1,
+          "slide": 1,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 1,
+          "slide": 2,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 1,
+          "slide": 3,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 1,
+          "slide": 4,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 1,
+          "slide": 5,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 1,
+          "slide": 6,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 1,
+          "slide": 7,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 1,
+          "slide": 8,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 1,
+          "slide": 9,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 1,
+          "slide": 10,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 1,
+          "slide": 11,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 1,
+          "slide": 12,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 1,
+          "slide": 13,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 2,
+          "slide": 0,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 2,
+          "slide": 1,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 2,
+          "slide": 2,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 2,
+          "slide": 3,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 2,
+          "slide": 4,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 2,
+          "slide": 5,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 3,
+          "slide": 0,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 3,
+          "slide": 1,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 3,
+          "slide": 2,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 3,
+          "slide": 3,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 4,
+          "slide": 0,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 4,
+          "slide": 1,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 4,
+          "slide": 2,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 4,
+          "slide": 3,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 4,
+          "slide": 4,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 5,
+          "slide": 0,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 5,
+          "slide": 1,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 5,
+          "slide": 2,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "checks": [
+        {
+          "group": 0,
+          "slide": 0,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 0,
+          "slide": 1,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 0,
+          "slide": 2,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 0,
+          "slide": 3,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 1,
+          "slide": 0,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 1,
+          "slide": 1,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 1,
+          "slide": 2,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 1,
+          "slide": 3,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 1,
+          "slide": 4,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 1,
+          "slide": 5,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 1,
+          "slide": 6,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 1,
+          "slide": 7,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 1,
+          "slide": 8,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 1,
+          "slide": 9,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 1,
+          "slide": 10,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 1,
+          "slide": 11,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 1,
+          "slide": 12,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 1,
+          "slide": 13,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 2,
+          "slide": 0,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 2,
+          "slide": 1,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 2,
+          "slide": 2,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 2,
+          "slide": 3,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 2,
+          "slide": 4,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 2,
+          "slide": 5,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 3,
+          "slide": 0,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 3,
+          "slide": 1,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 3,
+          "slide": 2,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 3,
+          "slide": 3,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 4,
+          "slide": 0,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 4,
+          "slide": 1,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 4,
+          "slide": 2,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 4,
+          "slide": 3,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 4,
+          "slide": 4,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 5,
+          "slide": 0,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 5,
+          "slide": 1,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 5,
+          "slide": 2,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "checks": [
+        {
+          "group": 0,
+          "slide": 0,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 0,
+          "slide": 1,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 0,
+          "slide": 2,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 0,
+          "slide": 3,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 1,
+          "slide": 0,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 1,
+          "slide": 1,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 1,
+          "slide": 2,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 1,
+          "slide": 3,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 1,
+          "slide": 4,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 1,
+          "slide": 5,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 1,
+          "slide": 6,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 1,
+          "slide": 7,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 1,
+          "slide": 8,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 1,
+          "slide": 9,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 1,
+          "slide": 10,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 1,
+          "slide": 11,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 1,
+          "slide": 12,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 1,
+          "slide": 13,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 2,
+          "slide": 0,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 2,
+          "slide": 1,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 2,
+          "slide": 2,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 2,
+          "slide": 3,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 2,
+          "slide": 4,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 2,
+          "slide": 5,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 3,
+          "slide": 0,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 3,
+          "slide": 1,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 3,
+          "slide": 2,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 3,
+          "slide": 3,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 4,
+          "slide": 0,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 4,
+          "slide": 1,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 4,
+          "slide": 2,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 4,
+          "slide": 3,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 4,
+          "slide": 4,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 5,
+          "slide": 0,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 5,
+          "slide": 1,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        },
+        {
+          "group": 5,
+          "slide": 2,
+          "horizontalOverflow": false,
+          "pageOverflow": false
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "hostedGhlTested": false
+}

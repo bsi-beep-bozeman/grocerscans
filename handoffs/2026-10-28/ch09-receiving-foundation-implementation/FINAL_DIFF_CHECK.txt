@@ -1,0 +1,9 @@
+warning: in the working copy of 'PLAN.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'PLAN_ADDENDUM_2026-09-25.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'RESUME.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app_flutter/android/app/src/main/AndroidManifest.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app_flutter/lib/main.dart', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app_flutter/lib/screens/login.dart', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app_flutter/pubspec.lock', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app_flutter/pubspec.yaml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app_flutter/test/widget_test.dart', LF will be replaced by CRLF the next time Git touches it

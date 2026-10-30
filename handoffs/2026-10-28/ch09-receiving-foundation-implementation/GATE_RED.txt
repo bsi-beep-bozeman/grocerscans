@@ -1,0 +1,26 @@
+00:00 +0: loading D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/identity/gate_test.dart
+test/identity/gate_test.dart:4:8: Error: Error when reading 'lib/identity/staff_session_gate.dart': The system cannot find the file specified
+import 'package:shelflife/identity/staff_session_gate.dart';
+       ^
+test/identity/gate_test.dart:10:46: Error: Method not found: 'StaffSessionGate'.
+    await tester.pumpWidget(MaterialApp(home:StaffSessionGate(controller:controller,
+                                             ^^^^^^^^^^^^^^^^
+test/identity/gate_test.dart:24:46: Error: Method not found: 'StaffSessionGate'.
+    await tester.pumpWidget(MaterialApp(home:StaffSessionGate(controller:controller,workspaceBuilder:()=>const Text('Secret'))));
+                                             ^^^^^^^^^^^^^^^^
+00:00 +0 -1: loading D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/identity/gate_test.dart [E]
+  Failed to load "D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/identity/gate_test.dart":
+  Compilation failed for testPath=D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/identity/gate_test.dart: test/identity/gate_test.dart:4:8: Error: Error when reading 'lib/identity/staff_session_gate.dart': The system cannot find the file specified
+  import 'package:shelflife/identity/staff_session_gate.dart';
+         ^
+  test/identity/gate_test.dart:10:46: Error: Method not found: 'StaffSessionGate'.
+      await tester.pumpWidget(MaterialApp(home:StaffSessionGate(controller:controller,
+                                               ^^^^^^^^^^^^^^^^
+  test/identity/gate_test.dart:24:46: Error: Method not found: 'StaffSessionGate'.
+      await tester.pumpWidget(MaterialApp(home:StaffSessionGate(controller:controller,workspaceBuilder:()=>const Text('Secret'))));
+                                               ^^^^^^^^^^^^^^^^
+  .
+00:00 +0 -1: Some tests failed.
+
+Failing tests:
+  D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/identity/gate_test.dart: loading D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/identity/gate_test.dart

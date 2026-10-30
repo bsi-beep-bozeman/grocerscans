@@ -1,30 +1,55 @@
-// This is a basic Flutter widget test.
-//
-// To perform an interaction with a widget in your test, use the WidgetTester
-// utility in the flutter_test package. For example, you can send tap and scroll
-// gestures. You can also use WidgetTester to find child widgets in the widget
-// tree, read text, and verify that the values of widget properties are correct.
-
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-
-import 'package:shelflife/main.dart';
+import 'package:shelflife/preview.dart';
+import 'package:shelflife/preview/catalog.dart';
 
 void main() {
-  testWidgets('Counter increments smoke test', (WidgetTester tester) async {
-    // Build our app and trigger a frame.
-    await tester.pumpWidget(const MyApp());
-
-    // Verify that our counter starts at 0.
-    expect(find.text('0'), findsOneWidget);
-    expect(find.text('1'), findsNothing);
-
-    // Tap the '+' icon and trigger a frame.
-    await tester.tap(find.byIcon(Icons.add));
-    await tester.pump();
-
-    // Verify that our counter has incremented.
-    expect(find.text('0'), findsNothing);
-    expect(find.text('1'), findsOneWidget);
+  test('Catalog resolves exact SKUs and UPC-A / EAN equivalents only', () {
+    expect(lookupPreviewItem(' dai-001 ')?.name, 'Whole milk');
+    expect(lookupPreviewItem('071068201075')?.name, 'Whole milk');
+    expect(lookupPreviewItem('0071068201075')?.name, 'Whole milk');
+    expect(lookupPreviewItem('DAI'), isNull);
+    expect(lookupPreviewItem(''), isNull);
+    expect(lookupPreviewItem('999999999999'), isNull);
   });
+  for (final size in [const Size(390, 844), const Size(1440, 1100)]) {
+    testWidgets('Cockpit fits $size and opens the catalog flow', (
+      tester,
+    ) async {
+      tester.view.physicalSize = size;
+      tester.view.devicePixelRatio = 1;
+      addTearDown(tester.view.resetPhysicalSize);
+      addTearDown(tester.view.resetDevicePixelRatio);
+      await tester.pumpWidget(const CockpitPreviewApp());
+      expect(tester.takeException(), isNull);
+      await tester.tap(find.text('Scan a product'));
+      await tester.pumpAndSettle();
+      await tester.ensureVisible(find.text('DAI-001'));
+      await tester.tap(find.text('DAI-001'));
+      await tester.pumpAndSettle();
+      expect(find.text('Whole milk'), findsOneWidget);
+      expect(find.text('CATALOG MATCH'), findsOneWidget);
+      await tester.ensureVisible(find.text('Save preview batch'));
+      await tester.tap(find.text('Save preview batch'));
+      await tester.pumpAndSettle();
+      expect(
+        find.text('Choose an expiry date and enter 1–100,000 units.'),
+        findsOneWidget,
+      );
+      expect(tester.takeException(), isNull);
+      await tester.ensureVisible(find.text('Choose the printed expiry date'));
+      await tester.tap(find.text('Choose the printed expiry date'));
+      await tester.pumpAndSettle();
+      await tester.tap(find.text('OK'));
+      await tester.pumpAndSettle();
+      await tester.ensureVisible(find.text('Save preview batch'));
+      await tester.tap(find.text('Save preview batch'));
+      await tester.pumpAndSettle();
+      expect(
+        find.textContaining('Whole milk · 1 units · expires'),
+        findsOneWidget,
+      );
+      expect(tester.takeException(), isNull);
+    });
+  }
 }

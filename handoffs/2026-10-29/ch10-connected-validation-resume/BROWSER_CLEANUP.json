@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "profile": "dedicated ch10-receiving-validation/chrome-profile",
+  "origin": "http://127.0.0.1:8136",
+  "removed": [
+    "shelflife_s2a_synthetic_validation_v1"
+  ],
+  "remaining": [],
+  "ownedBrowserClosed": true,
+  "profileAndBuildsRetained": true
+}

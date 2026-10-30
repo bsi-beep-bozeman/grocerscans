@@ -1,0 +1,13 @@
+{
+  "checked_date": "2026-10-11 Australia/Perth",
+  "protected_files": 49,
+  "preserved_prior_ledger_rows": 26,
+  "checked_documents": 9,
+  "existing_local_links": 56,
+  "preservation": "PASS",
+  "ledger_order": "PASS",
+  "local_references": "PASS",
+  "trailing_whitespace": "PASS",
+  "application_tests": "NOT RUN",
+  "limitation": "Local file targets only; no link anchors or remote targets verified."
+}

@@ -1,0 +1,7 @@
+# One normal Docker Desktop launch proposal
+
+R03/R05-WEB are approved in Chapter10, but the packet stops on unavailable engine. Read-only preflight: desktop-linux pipe absent; all eight target/backup identities uninspectable; no target listener reported; historical baseline dump hash matches. The first ordinary attempt could not read Docker context metadata under the filesystem restriction; the elevated-access read-only retry reached the engine endpoint and reported it missing. This is not an automatic approval rejection and not proof that all containers are stopped.
+
+Request: launch the installed `C:/Program Files/Docker/Docker/Docker Desktop.exe` **once**, using normal user privileges and a hidden window. Wait in bounded intervals up to120 seconds for the existing desktop-linux engine. Observe resulting shared-container states without changing them; Desktop may resume configured unrelated containers. Only after engine availability, rerun the approved target identity/binding/mount checks before any owned service starts. Do not use RunAs, rename/delete sockets, change ACLs/credentials/settings, reset/prune/recreate containers, pull images, or repeatedly retry startup. Stop and report exact failure if normal launch fails or target identity differs.
+
+No engine launch has been performed by this chapter. This amendment does not enlarge any other action scope. If declined or still blocked, keep this connected sequence and its records in the current owning chat; no transition merely to move the blocker.

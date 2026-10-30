@@ -1,0 +1,80 @@
+{
+  "status": "PASS",
+  "inventory": {
+    "batches": {
+      "sha": "e376c10acd4d807c94fa2c29a14040c5",
+      "count": 1
+    },
+    "alerts": {
+      "sha": "b368faaf91bd7ed81a41824e812b6594",
+      "count": 1
+    },
+    "receiving_events": {
+      "sha": "344a4f06db87c9087619ed5ab4496548",
+      "count": 1
+    },
+    "rounds": {
+      "sha": "38e26e7933580f1e66164bf9d6ef99b3",
+      "count": 1
+    },
+    "round_items": {
+      "sha": "a824d9fc2949d919f5511cea296188f1",
+      "count": 1
+    },
+    "audit_log": {
+      "sha": "354a05164dfef79cbe24c896953aa66b",
+      "count": 1
+    }
+  },
+  "lostResponseOperation": {
+    "id": "a27c5c56-f0c4-4aef-b97b-ce8e8e8914d4",
+    "audits": 1,
+    "operations": 1,
+    "saved_revision": 6
+  },
+  "state": {
+    "reason": "October26 verified UI activation",
+    "store_name": "Recovered response loss",
+    "version_count": 1,
+    "draft_revision": 6,
+    "active_revision": 1,
+    "active_store_name": "Chrome verified store"
+  },
+  "migrations": [
+    {
+      "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\supabase\\migrations\\20260924030000_init.sql",
+      "sha256": "dc2e26ebe74a64892540ecb0e177ebc1768f7b3f192852de110d6dfae578f805",
+      "expected": "dc2e26ebe74a64892540ecb0e177ebc1768f7b3f192852de110d6dfae578f805"
+    },
+    {
+      "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\supabase\\migrations\\20260924030001_rls.sql",
+      "sha256": "fff8423fcf4db709de47ef219629eab29eec819d875ced1fd98e7704224bf9ba",
+      "expected": "fff8423fcf4db709de47ef219629eab29eec819d875ced1fd98e7704224bf9ba"
+    },
+    {
+      "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\supabase\\migrations\\20260924030002_rpcs.sql",
+      "sha256": "c3ae1c250e718a3ced3b369572e3fb88ac481b4710098f42000befcd4ae80417",
+      "expected": "c3ae1c250e718a3ced3b369572e3fb88ac481b4710098f42000befcd4ae80417"
+    },
+    {
+      "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\supabase\\migrations\\20260925000000_supplier_tier.sql",
+      "sha256": "5923b59433e0b236045a79780e4c5b09bc7cd7576da6b3f608f1b96a34c426f5",
+      "expected": "5923b59433e0b236045a79780e4c5b09bc7cd7576da6b3f608f1b96a34c426f5"
+    },
+    {
+      "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\supabase\\migrations\\20260925000001_supplier_tier.sql",
+      "sha256": "45e5eb4212aaec85bf3e962afdef6fd9f375cbf7de3a0e69b1dd6430b77e3217",
+      "expected": "45e5eb4212aaec85bf3e962afdef6fd9f375cbf7de3a0e69b1dd6430b77e3217"
+    },
+    {
+      "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\supabase\\migrations\\20261013000000_store_setup.sql",
+      "sha256": "9b1ef461fc1be7c2e21d255f4a823135c5fcdc672cf5f79f9e41639492f29beb",
+      "expected": "9b1ef461fc1be7c2e21d255f4a823135c5fcdc672cf5f79f9e41639492f29beb"
+    },
+    {
+      "path": "D:\\LLM-Data\\Claude-Desktop\\claude-code\\shelflife\\product\\supabase\\migrations\\20261013000001_store_setup_api.sql",
+      "sha256": "c1f4b68b3cac568a963c8a869b9233a814cf4eceab971e0ec1f8352c7a444f78",
+      "expected": "c1f4b68b3cac568a963c8a869b9233a814cf4eceab971e0ec1f8352c7a444f78"
+    }
+  ]
+}

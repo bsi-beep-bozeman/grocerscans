@@ -1,0 +1,29 @@
+scout-db-1|running|0.0.0.0:15432->5432/tcp, [::]:15432->5432/tcp
+ppd-node22-01a145b7-preflight-npm|exited|
+ppd-node22-01a145b7-preflight-runtime|exited|
+supabase_inbucket_shelflife-ch06-validation|running|127.0.0.1:55324->8025/tcp
+supabase_kong_shelflife-ch06-validation|running|127.0.0.1:55321->8000/tcp
+supabase_db_shelflife-ch06-validation|running|127.0.0.1:55322->5432/tcp
+supabase_rest_shelflife-ch06-validation|running|3000/tcp
+supabase_inbucket_shelflife-ch06-validation_binding_backup|exited|
+supabase_auth_shelflife-ch06-validation|running|9999/tcp
+supabase_kong_shelflife-ch06-validation_binding_backup|exited|
+supabase_db_shelflife-ch06-validation_binding_backup|exited|
+supabase_db_product|running|0.0.0.0:54322->5432/tcp, [::]:54322->5432/tcp
+supabase_studio_product|running|0.0.0.0:54323->3000/tcp, [::]:54323->3000/tcp
+supabase_pg_meta_product|running|8080/tcp
+supabase_edge_runtime_product|exited|
+supabase_storage_product|running|5000/tcp
+supabase_rest_product|running|3000/tcp
+supabase_realtime_product|running|4000/tcp
+supabase_inbucket_product|running|0.0.0.0:54324->8025/tcp, [::]:54324->8025/tcp
+supabase_auth_product|running|9999/tcp
+supabase_kong_product|running|0.0.0.0:54321->8000/tcp, [::]:54321->8000/tcp
+supabase_vector_product|restarting|
+supabase_analytics_product|running|0.0.0.0:54327->4000/tcp, [::]:54327->4000/tcp
+ppd-cos-ingestion-service-postgres-1|exited|
+onyx-nginx-1|running|0.0.0.0:80->80/tcp, [::]:80->80/tcp, 0.0.0.0:3000->80/tcp, [::]:3000->80/tcp
+onyx-web_server-1|running|
+onyx-api_server-1|running|
+onyx-relational_db-1|running|5432/tcp
+onyx-code-interpreter-1|running|8000/tcp

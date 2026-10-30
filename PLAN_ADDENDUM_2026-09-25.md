@@ -1,5 +1,10 @@
 # PLAN Addendum — 2026-09-25
 
+> **2026-10-09 status pointer:** Use [IMPLEMENTATION_PLAN.md](IMPLEMENTATION_PLAN.md)
+> and [STATUS_LEDGER.md](STATUS_LEDGER.md) for current status and approvals. Supplier
+> role migrations already exist in source; unfinished/blocking statements below
+> are historical. The recorded design decisions remain available unchanged.
+
 Rolls up to a future PLAN v2. Design decisions and specs captured here so
 they survive context loss between Claude sessions.
 

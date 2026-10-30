@@ -1,0 +1,12 @@
+{
+  "time": "2026-10-29T20:32:45.459Z",
+  "url": "http://127.0.0.1:8137",
+  "cases": [
+    {
+      "name": "Welcome page and isolated browser storage",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "external": []
+}

@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-29 Australia/Perth",
+  "baselineEntries": 508,
+  "allowedNavigationChanges": [
+    "IMPLEMENTATION_PLAN.md",
+    "STATUS_LEDGER.md",
+    "SESSION_INDEX.md",
+    "NEXT_CONVERSATION_HANDOFF.md"
+  ],
+  "unexpectedBaselineChanges": [],
+  "priorLedgerEventRows": 84,
+  "missingPriorRows": [],
+  "localLinksChecked": 106,
+  "brokenLinks": [],
+  "scriptSyntax": [
+    {
+      "file": "api-cases.mjs",
+      "exitCode": 0
+    },
+    {
+      "file": "fixtures.mjs",
+      "exitCode": 0
+    },
+    {
+      "file": "restore.mjs",
+      "exitCode": 0
+    },
+    {
+      "file": "runbook.mjs",
+      "exitCode": 0
+    },
+    {
+      "file": "serve-web.mjs",
+      "exitCode": 0
+    },
+    {
+      "file": "target-check.mjs",
+      "exitCode": 0
+    }
+  ],
+  "approvedFixShape": true,
+  "runtimeTestsRerun": false,
+  "connectedStatus": "PENDING by human decision; final database restore outstanding"
+}

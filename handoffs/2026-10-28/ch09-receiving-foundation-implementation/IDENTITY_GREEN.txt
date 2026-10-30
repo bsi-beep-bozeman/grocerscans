@@ -1,0 +1,8 @@
+00:00 +0: loading D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/identity/session_test.dart
+00:00 +0: strict success rejects extra secret-bearing fields and invalid lifetime
+00:00 +1: unknown identity never becomes a kiosk
+00:00 +2: late PIN completion cannot reopen after lock
+00:00 +3: idle boundary is 300 seconds and touch never extends absolute life
+00:00 +4: uncertain backwards monotonic reference locks
+00:00 +5: invalid PIN is sent once for durable server counting, never retried
+00:00 +6: All tests passed!

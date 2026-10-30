@@ -1,0 +1,82 @@
+00:00 +0: loading D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/admin_setup_gate_test.dart
+00:00 +0: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/admin_setup_gate_test.dart: background removes protected screen and open dialog; refresh does not unlock
+00:00 +1: loading D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_controller_test.dart
+00:01 +1: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_controller_test.dart: resume server draft and only mark saved after response
+00:01 +2: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_controller_test.dart: lost response retains exact request; blocks edits until retry
+00:01 +3: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_controller_test.dart: conflict preserves edits until explicit discard and reload
+00:01 +4: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_controller_test.dart: lock hides all protected data and rejects stale completion
+00:01 +5: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_controller_test.dart: different person clears draft and pending operation
+00:01 +6: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_controller_test.dart: online identity mismatch denies context and clears data
+00:01 +7: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_controller_test.dart: inactivity locks after five minutes
+00:01 +8: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_controller_test.dart: sign-out clears protected state immediately
+00:01 +9: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_controller_test.dart: reference mutation preserves unsaved input and invalidates saved readiness
+00:02 +10: loading D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_repository_test.dart
+00:02 +10: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_repository_test.dart: save sends exact named arguments without caller authority
+00:02 +11: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_repository_test.dart: activation preserves all expected revisions and reason
+00:02 +12: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_repository_test.dart: maps 42501 without exposing SQL details
+00:02 +13: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_repository_test.dart: maps PT409 without exposing SQL details
+00:02 +14: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_repository_test.dart: maps PT422 without exposing SQL details
+00:02 +15: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_repository_test.dart: maps PT401 without exposing SQL details
+00:02 +16: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_repository_test.dart: malformed reply remains unconfirmed and retryable
+00:02 +17: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_repository_test.dart: reference mutation transmits immutable envelope
+00:02 +18: loading D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_review_regression_test.dart
+00:03 +18: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_review_regression_test.dart: incomplete setup never claims ready; saved draft=false
+00:04 +19: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_review_regression_test.dart: incomplete setup never claims ready; saved draft=true
+00:04 +20: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_review_regression_test.dart: populated server readiness preserves effective values, origins and reasons
+00:04 +21: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_review_regression_test.dart: invalid list and non-finite nested values identify full paths
+00:04 +22: loading D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_screen_test.dart
+00:04 +22: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_screen_test.dart: preset create sends reviewed fields and revision
+00:07 +23: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_screen_test.dart: preset edit sends reviewed fields and revision
+00:08 +24: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_screen_test.dart: preset duplicate sends reviewed fields and revision
+00:08 +25: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_screen_test.dart: preset deactivate sends reviewed fields and revision
+00:08 +26: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_screen_test.dart: location create sends branch reason and revision
+00:08 +27: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_screen_test.dart: location rename sends branch reason and revision
+00:08 +28: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_screen_test.dart: location deactivate sends branch reason and revision
+00:09 +29: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_screen_test.dart: category assignment saves the exact selected preset version
+00:09 +30: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_screen_test.dart: product override applies only explicitly selected fields and restores inheritance
+00:09 +31: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_screen_test.dart: activation requires explicit confirmation and a nonblank reason
+00:09 +32: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_screen_test.dart: invalid whole pack quantity is rejected before applying
+00:10 +33: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_screen_test.dart: review does not claim readiness for an unsaved incomplete configuration
+00:10 +34: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_screen_test.dart: conflict discard reload replaces the visible store input
+00:10 +35: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_screen_test.dart: six-step saved setup is usable at width 390.0 and 200% text
+00:10 +36: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_screen_test.dart: six-step saved setup is usable at width 1440.0 and 200% text
+00:10 +37: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_screen_test.dart: editing store marks unsaved and save confirms server response
+00:10 +38: loading D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_validation_test.dart
+00:11 +38: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_validation_test.dart: envelope and fixed restriction failures expose full domain paths
+00:11 +39: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_validation_test.dart: server readiness response round-trips independently of local calculation
+00:11 +40: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_validation_test.dart: each transformations reject fractional source quantities
+00:11 +41: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_validation_test.dart: malformed nested input reports its full field path
+00:11 +42: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_validation_test.dart: save request captures exact immutable retry payload
+00:11 +43: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_validation_test.dart: activation and entity mutation require reason and concurrency token
+00:11 +44: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_validation_test.dart: manual entry survives unknown label profile
+00:11 +45: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_validation_test.dart: not used action has explicit status
+00:11 +46: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_validation_test.dart: freeze needs explicit transformation and yields no guessed defaults
+00:11 +47: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_validation_test.dart: blank draft saves but cannot activate
+00:11 +48: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_validation_test.dart: complete printed configuration has receiving readiness
+00:11 +49: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_validation_test.dart: calculated expiry needs positive rule and policy reference
+00:11 +50: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_validation_test.dart: partial optional action does not block receiving
+00:11 +51: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_validation_test.dart: explicit unknown overrides inheritance and preserves origin
+00:11 +52: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_validation_test.dart: rejects unknown key
+00:11 +53: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_validation_test.dart: rejects bad type
+00:11 +54: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_validation_test.dart: rejects bad enum
+00:11 +55: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_validation_test.dart: rejects unit precision
+00:11 +56: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_validation_test.dart: rejects each fractional precision
+00:11 +57: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_validation_test.dart: rejects bad uuid
+00:11 +58: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_validation_test.dart: rejects oversize name
+00:11 +59: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_validation_test.dart: rejects oversize payload
+00:11 +60: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_validation_test.dart: rejects fixed markdown
+00:11 +61: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_validation_test.dart: rejects fixed confirmation
+00:11 +62: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_validation_test.dart: rejects duplicate units
+00:11 +63: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_validation_test.dart: rejects fractional each pack
+00:11 +64: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_validation_test.dart: unknown references reject save
+00:11 +65: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_validation_test.dart: cross branch reference rejects save
+00:11 +66: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_validation_test.dart: deactivated reference remains valid draft but prevents readiness
+00:11 +67: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_validation_test.dart: wire model snapshots input and returned nested collections
+00:11 +68: loading D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_visual_test.dart
+00:11 +68: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_visual_test.dart: render synthetic setup fixture at 390.0
+00:12 +69: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/setup/setup_visual_test.dart: render synthetic setup fixture at 1440.0
+00:12 +70: loading D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/widget_test.dart
+00:12 +70: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/widget_test.dart: Catalog resolves exact SKUs and UPC-A / EAN equivalents only
+00:12 +71: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/widget_test.dart: Cockpit fits Size(390.0, 844.0) and opens the catalog flow
+00:13 +72: D:/LLM-Data/Claude-Desktop/claude-code/shelflife/app_flutter/test/widget_test.dart: Cockpit fits Size(1440.0, 1100.0) and opens the catalog flow
+00:13 +73: All tests passed!

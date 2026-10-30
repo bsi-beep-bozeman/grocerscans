@@ -1,0 +1,232 @@
+[
+  {
+    "path": "app_flutter/android/app/src/main/AndroidManifest.xml",
+    "matches": true,
+    "actual": "883B87D7ED91C7BD52ECB16606656553E937948A994564960081ADB7FD716E20"
+  },
+  {
+    "path": "app_flutter/android/app/src/main/res/xml/receiving_backup_rules.xml",
+    "matches": true,
+    "actual": "9F5D3DC19A74B31570EF08BE5C7BDEE69B0F1280E9CAD175D5423BEC92A93294"
+  },
+  {
+    "path": "app_flutter/android/app/src/main/res/xml/receiving_data_extraction_rules.xml",
+    "matches": true,
+    "actual": "D5B24BA902CAE991B34617A9DE920991E51D54ED4132FD8D2387662583C74F86"
+  },
+  {
+    "path": "app_flutter/integration_test/receiving_storage_test.dart",
+    "matches": true,
+    "actual": "807569B97B07B2607AED2D3541C8264A7018A9B472592DD15FC6EC896E03636A"
+  },
+  {
+    "path": "app_flutter/lib/identity/identity_models.dart",
+    "matches": true,
+    "actual": "A945B8C7F83208580E8CC72A831234DE39F05AC6E4E1F13CC2D6BBFA561349F2"
+  },
+  {
+    "path": "app_flutter/lib/identity/identity_repository.dart",
+    "matches": true,
+    "actual": "D002F84761EE2E2360302FAED28D18B8524288F25CE4DFDFDEA62347DE30F99D"
+  },
+  {
+    "path": "app_flutter/lib/identity/pin_screen.dart",
+    "matches": true,
+    "actual": "A61C02AEF38714DBFDEAA7441845088232A401EAB5DC1294129A3D3F2C1749FC"
+  },
+  {
+    "path": "app_flutter/lib/identity/staff_session_controller.dart",
+    "matches": true,
+    "actual": "72B758961582557E4C756AD09D214AFA72905E4C17C245C9EF44C200CFE784CB"
+  },
+  {
+    "path": "app_flutter/lib/identity/staff_session_gate.dart",
+    "matches": true,
+    "actual": "A97C306599B1C75E0FCAD2E9B24D059BCD4A3605409B9D4B7A0849FB3941A012"
+  },
+  {
+    "path": "app_flutter/lib/identity/supabase_identity_repository.dart",
+    "matches": true,
+    "actual": "C4A322A3375AA0409461C9EFB2439E515FB0852CDC4D9342E245BF6643ED155F"
+  },
+  {
+    "path": "app_flutter/lib/identity/workspace_gate.dart",
+    "matches": true,
+    "actual": "BCBC5DF3A2DDC76A7CFBD24508F6729871D6C976FAB618FF0C83FAE2AA8C4C1C"
+  },
+  {
+    "path": "app_flutter/lib/main.dart",
+    "matches": true,
+    "actual": "B9021440D4FCE7143DD646C270CF241624903EB8B4E4AA2E9A3972C7F2F8D588"
+  },
+  {
+    "path": "app_flutter/lib/receiving/draft_recovery_screen.dart",
+    "matches": true,
+    "actual": "769CC8BF5C1060D85E72C7E6F75466CCEEDF4B1388FF0086A01D10ABD2357162"
+  },
+  {
+    "path": "app_flutter/lib/receiving/draft_workspace.dart",
+    "matches": true,
+    "actual": "8923590066F18CCFD8BF319C15B19F3A6403F8C1DD90CC296F9C6453258C1C59"
+  },
+  {
+    "path": "app_flutter/lib/receiving/receiving_draft.dart",
+    "matches": true,
+    "actual": "2AAE73E95564702E86C8DF65F11963FFB2EBC16E28273109D4EB0D2A2498723F"
+  },
+  {
+    "path": "app_flutter/lib/receiving/receiving_policy.dart",
+    "matches": true,
+    "actual": "167C7979DCA6816BD59263608FB38CD768708C57B19736FF4C74A4B084096E52"
+  },
+  {
+    "path": "app_flutter/lib/receiving/receiving_repository.dart",
+    "matches": true,
+    "actual": "5596FB1997A85A2BCB2898C0B527E9F8CDF1CC0410FE79A69963BAD80D5B8396"
+  },
+  {
+    "path": "app_flutter/lib/receiving/supabase_receiving_repository.dart",
+    "matches": true,
+    "actual": "D1BE96DFFAD61B757ABE530861941815BEF3AB8D59C73E7DCA540A42E861429B"
+  },
+  {
+    "path": "app_flutter/lib/sync/draft_crypto.dart",
+    "matches": true,
+    "actual": "493C6DD47D4C3FA36C481B1EC0AD36556F0BF7A0ABC00320A9B8DCDC56ABF6B9"
+  },
+  {
+    "path": "app_flutter/lib/sync/draft_migrations.dart",
+    "matches": true,
+    "actual": "4A96609ED3C12AD588D50C0ACBAEFEA6C34AEB1B9671781EE56A9AB29EC10FF3"
+  },
+  {
+    "path": "app_flutter/lib/sync/draft_queue.dart",
+    "matches": true,
+    "actual": "FB675AC880F89BBFBB7DAE1DFEC4B2BF7E8FC21EDD5905BAF2712CB5E0A4A7F0"
+  },
+  {
+    "path": "app_flutter/lib/sync/draft_store_android.dart",
+    "matches": true,
+    "actual": "A32405AF8778E7654017BAF4ECB399C632960E1F05DE75352CB672A52DD1120D"
+  },
+  {
+    "path": "app_flutter/lib/sync/draft_store_factory.dart",
+    "matches": true,
+    "actual": "AAD306686177F8EC3B09F07836B2606AE38620CB04AEB5D1C7803E91E4B15739"
+  },
+  {
+    "path": "app_flutter/lib/sync/draft_store_unsupported.dart",
+    "matches": true,
+    "actual": "FD97A5FEAD07283605AC8C9EEB0A25DA2708B09C31AB14FEB46E77A39EB57FAD"
+  },
+  {
+    "path": "app_flutter/lib/sync/draft_store_web.dart",
+    "matches": true,
+    "actual": "27D74F2BBAB550E6EC3D96F16AAFDDF6576115508274BC31EA82387CA768849B"
+  },
+  {
+    "path": "app_flutter/lib/sync/draft_store.dart",
+    "matches": true,
+    "actual": "6467E35EF486B75E1283A7374945C87767CB18D5D37633E517A367099CC4A6E7"
+  },
+  {
+    "path": "app_flutter/lib/sync/workspace_lifecycle_stub.dart",
+    "matches": true,
+    "actual": "D9EAEF3D6B814F4707FA3C9A39F377D0C2F928C613DEFC3EB8BF559365E90479"
+  },
+  {
+    "path": "app_flutter/lib/sync/workspace_lifecycle_web.dart",
+    "matches": true,
+    "actual": "6CF879F91571276F34FB198F39A892E40D859AA88387C71DB613160D9B1CFCB8"
+  },
+  {
+    "path": "app_flutter/lib/sync/workspace_lifecycle.dart",
+    "matches": true,
+    "actual": "5AEB483EB93CD1C29D56386C456567BE4566CD9FA99BEAAA735B660AE64473F8"
+  },
+  {
+    "path": "app_flutter/pubspec.lock",
+    "matches": true,
+    "actual": "AE13FF204FAEDFABB64DA4AEC167F4CDBA8098BF9E5F767F53F0B18A643AF8F5"
+  },
+  {
+    "path": "app_flutter/pubspec.yaml",
+    "matches": true,
+    "actual": "B8BFA3EEB6A5A939FDAC875A0588D2FDE75DFEE81C1F250AA031949125412EBB"
+  },
+  {
+    "path": "app_flutter/test/identity/gate_test.dart",
+    "matches": true,
+    "actual": "A44582FE4D96AFC8A21EC62F2A132B95CDA57E4D1188032DB10399325B37C74B"
+  },
+  {
+    "path": "app_flutter/test/identity/session_test.dart",
+    "matches": true,
+    "actual": "1B3E7DEF58AD443C803851982F6E6E2C55D47A3E4C25684DECA43BAE3E0B7A12"
+  },
+  {
+    "path": "app_flutter/test/receiving/policy_test.dart",
+    "matches": true,
+    "actual": "5A4119ABC39CFE05D724EDCEC7A2AC6058C3224CD5B18D641F15CDD00F00AA18"
+  },
+  {
+    "path": "app_flutter/test/receiving/recovery_test.dart",
+    "matches": true,
+    "actual": "EA4D01798E5445A650277A407C0E91B59C09B1B2D46BE580A358C716DC0458B9"
+  },
+  {
+    "path": "app_flutter/test/receiving/workspace_test.dart",
+    "matches": true,
+    "actual": "DE656CEC55528EF9BDE68728B71C9A18412288EF2124604D528B4383CFB40E99"
+  },
+  {
+    "path": "app_flutter/test/sync/draft_crypto_test.dart",
+    "matches": true,
+    "actual": "DC07A689FF9BF5AFD63504F9D46ED21F50B5D931AB99F2A7B6DAF1507AB94698"
+  },
+  {
+    "path": "app_flutter/test/sync/store_contract_test.dart",
+    "matches": true,
+    "actual": "BB81066651DD1276D60283BB4AF0D30BD22AAFC1D37F35B45EB79A615B7C2EA1"
+  },
+  {
+    "path": "product/supabase/migrations/20261027000000_receiving_identity.sql",
+    "matches": true,
+    "actual": "67533D735FB95140639DF07598D4FCBEB1F4791098495EF8173DE726ACC05F3A"
+  },
+  {
+    "path": "product/supabase/migrations/20261027000001_receiving_foundation_api.sql",
+    "matches": true,
+    "actual": "CDC6F332C868570B82AD7C8421E42DC73A4BF7B5850CFCCCD679CBA0C1FCB789"
+  },
+  {
+    "path": "product/supabase/migrations/20261027000002_receiving_access_boundary.sql",
+    "matches": true,
+    "actual": "4B40D5EAC1F9BE86A264FDA513D49DE854AC7D3DDCE7713EB4476DC8B0F3F24A"
+  },
+  {
+    "path": "product/supabase/tests/receiving_api_concurrency.py",
+    "matches": true,
+    "actual": "F18F941984D2652D7C302B35F5D10D0545FCF30431E3143FBF297C66D9AD9C2A"
+  },
+  {
+    "path": "product/supabase/tests/receiving_auth_harness.sql",
+    "matches": true,
+    "actual": "2DBF6685B3004ED2C3D299CAB7848D647BE44590D900DE1BAD3ADF7FE69970E3"
+  },
+  {
+    "path": "product/supabase/tests/receiving_identity.sql",
+    "matches": true,
+    "actual": "322055168CFABF680E9147B089C2835DBEFD7F1899E50CF5B2C8272B11EC3F7A"
+  },
+  {
+    "path": "product/supabase/tests/receiving_reads.sql",
+    "matches": true,
+    "actual": "21792BD27336C798D6955552E52A20CCF35DB3DF553C006108AAEC2647133852"
+  },
+  {
+    "path": "product/supabase/tests/receiving_recovery.sql",
+    "matches": true,
+    "actual": "E5870A7AA19D5706117034BAEF0F18E42B162608179E9763F5D7691D3F1A127A"
+  }
+]

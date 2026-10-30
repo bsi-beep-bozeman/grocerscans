@@ -1,0 +1,86 @@
+{
+  "status": "PASS",
+  "containers": [
+    "supabase_db_shelflife-ch06-validation",
+    "supabase_auth_shelflife-ch06-validation",
+    "supabase_rest_shelflife-ch06-validation",
+    "supabase_inbucket_shelflife-ch06-validation",
+    "supabase_kong_shelflife-ch06-validation"
+  ],
+  "setupTableFingerprints": {
+    "store_setup_drafts": {
+      "md5": "2a6b5dd6566c322dbf29cdcbc627015d",
+      "count": 25
+    },
+    "store_setup_versions": {
+      "md5": "0b365e94fdfe6d8483f4d24641aa184d",
+      "count": 8
+    },
+    "store_setup_active": {
+      "md5": "d2066bc56c0edb12e2c37fdaf731a8a3",
+      "count": 7
+    },
+    "setup_presets": {
+      "md5": "668be6480ae55a62a6eff39c4422fe5f",
+      "count": 27
+    },
+    "setup_preset_versions": {
+      "md5": "ca1fe688c7282acc6a0969ca288d1feb",
+      "count": 29
+    },
+    "setup_locations": {
+      "md5": "04fa36c50d86e9c3e5b19c1ae5bcd2fa",
+      "count": 27
+    },
+    "setup_operations": {
+      "md5": "e67647680c31c4c6cbdcc24a015b66b5",
+      "count": 106
+    },
+    "setup_audit": {
+      "md5": "c6be4017affd01e640a92d8eb4e981b6",
+      "count": 106
+    }
+  },
+  "inventory": {
+    "batches": {
+      "sha": "343c92323d07b5b35afcee5d8c43b8bf",
+      "count": 4
+    },
+    "alerts": {
+      "sha": "898837d20a0b9285f8bdac32e1c3ed0b",
+      "count": 4
+    },
+    "receiving_events": {
+      "sha": "e6a40b628d551bade7adf77e15ec78e9",
+      "count": 4
+    },
+    "rounds": {
+      "sha": "65cf4a0a20324ef4cde8936b1063135e",
+      "count": 4
+    },
+    "round_items": {
+      "sha": "759033822040ee7bc14c358e8a7ef2d9",
+      "count": 4
+    },
+    "audit_log": {
+      "sha": "34a2395274b6a0af69aa2fc103cbb914",
+      "count": 4
+    }
+  },
+  "freshPasswordSignIn": true,
+  "exactStatePreserved": true,
+  "bindings": [
+    {
+      "HostIp": "127.0.0.1",
+      "HostPort": "55322"
+    },
+    {
+      "HostIp": "127.0.0.1",
+      "HostPort": "55324"
+    },
+    {
+      "HostIp": "127.0.0.1",
+      "HostPort": "55321"
+    }
+  ]
+}

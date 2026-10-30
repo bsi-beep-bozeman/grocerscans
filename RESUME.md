@@ -1,5 +1,12 @@
 # Resume prompt
 
+> **2026-10-09 chapter workflow:** The stable entry point is now
+> [NEXT_CONVERSATION_HANDOFF.md](NEXT_CONVERSATION_HANDOFF.md), with rules in
+> [AGENTS.md](AGENTS.md). In a gated new chat, wait for explicit human start
+> approval before reading project files or using tools. The resume prompts below
+> are historical context, not authorization. Current plan/status are maintained
+> in [IMPLEMENTATION_PLAN.md](IMPLEMENTATION_PLAN.md) and [STATUS_LEDGER.md](STATUS_LEDGER.md).
+
 Paste the block below into a fresh Claude Code session after a context reset.
 Everything else in this repo — plus **`app_flutter/`** and **`product/supabase/`**
 — is the context it needs.

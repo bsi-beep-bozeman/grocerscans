@@ -1,5 +1,18 @@
 # Next conversation handoff — stable pointer
 
+**2026-10-30, human message — cleared to resume in Codex.** The human told
+the continuation session (see the two 2026-10-30 entries just below) that
+Codex can resume now. Everything in those entries is done, verified
+(including live camera scanning confirmed on real hardware, by the human, in
+their own desktop browser), committed, and pushed to `origin/main` at
+`95ec61b` — Codex does not need to re-verify any of it. **This is not the
+specific per-chat approval the standing gate further down requires** to
+resume the paused Chapter10 backend/database-restoration step — that
+instruction was given in a different context, about the client dry-run
+checkpoint, not about restarting the connected-validation sequence. If Codex
+is the thread named below and reaches that gated step, it still needs the
+human to say so explicitly in that thread.
+
 Updated 2026-10-30 Australia/Perth. **Current Chapter10 is OPEN; backend is paused and client dry-run hosting is pending. No new chat has been created.** Continue only in [ShelfLife — Receiving Foundation Connected…](codex://threads/01a18027-683a-7043-b764-5939d2330ee2), ID01a18027-683a-7043-b764-5939d2330ee2. Original named step Receiving Foundation Connected Validation Scope and Approval; current human-approved pivot: admin/staff client dry-run preview.
 
 **2026-10-30, later same day — PAUSED mid-implementation, continue here first:** human asked to see the admin/staff demo running locally (Vercel/Netlify explicitly deferred), then asked for camera scanning plus three more workflows (shared stock register, team/role/permission assignment, unit/rate editing) to bring the demo toward "80% finished shipped product" parity. A plan was approved and Phases 1-4 were implemented, tested (130/130 `flutter test` pass, `flutter analyze` clean) and partially walked through live in a browser before the human asked to pause and checkpoint. Full detail and the original verification status are in [this checkpoint's engineering handoff](handoffs/2026-10-30/camera-batch-register-team-rate/ENGINEERING_HANDOFF.md), which also reproduces the full approved plan verbatim for portability.

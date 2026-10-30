@@ -137,8 +137,9 @@ of needing a redesign.
 
 Resolved in the 2026-10-30 continuation below: manual-identifier lookup,
 stock register (admin + staff), Team & Access (add vendor/supervisor,
-permission-toggle reactivity), vendor PIN flow, unit-rate field, and the
-Supervisor routing gap. Still open:
+permission-toggle reactivity), vendor PIN flow, unit-rate field, the
+Supervisor routing gap, and live camera decode (confirmed working on real
+hardware — see addendum). Still open:
 
 - `DemoGuide`'s step-by-step copy on the home screen was only partially
   updated (steps 3 is updated; the register/team/vendor/rate workflows are
@@ -146,10 +147,9 @@ Supervisor routing gap. Still open:
 - Hosting (Vercel/Netlify) was the original ask before this pivot and remains
   untouched this session, per the human's own "forget Vercel, show me the
   prototype" redirect — see NEXT_CONVERSATION_HANDOFF.md for that thread's
-  standing state.
-- Live camera decode (`onDetect` → `_lookupByCode`) is still unverified with
-  a real camera — see the continuation addendum below for why this is an
-  environment limit, not a known-open task.
+  standing state. The prepared release ZIP from the client-dry-run checkpoint
+  predates camera/stock-register/team-access/rate and would need a fresh
+  build + bundle before publishing.
 
 ## Addendum — continuation, 2026-10-30 (Claude, grocerscans checkout)
 
@@ -171,12 +171,19 @@ copy, which is stale).
   removed her "View stock register" button (confirmed reactive).
 - Unit-rate field: entered a rate, saved, draft revision incremented and
   persisted correctly.
-- Live camera scan: re-tested and got the same degraded-path result as
-  above — but confirmed this is an **environment limit, not an app bug**.
-  The Claude Code built-in Browser pane itself blocks `getUserMedia`
-  requests outright (its own tooling reports "the page... requested camera
-  access, which is blocked in the Browser pane"), regardless of origin. The
-  actual `onDetect` decode path genuinely needs a real phone to verify.
+- Live camera scan: inside Claude Code's own sandboxed Browser pane,
+  re-tested and got the same degraded-path result as above — confirmed this
+  is an **environment limit, not an app bug**: the pane itself blocks
+  `getUserMedia` requests outright (its own tooling reports "the page... 
+  requested camera access, which is blocked in the Browser pane"),
+  regardless of origin. Asked the human to instead open
+  `http://127.0.0.1:8132` in their own real desktop browser on this machine
+  (not the sandboxed pane) — `localhost` is a secure context, so camera
+  permission can actually be granted there. **The human confirmed it worked**:
+  the camera opened and the live `onDetect` → `_lookupByCode` scan path
+  functioned on real hardware, not just the fallback. This is the first
+  confirmation in any session that the actual decode path works, not only
+  its degraded-path handling.
 
 **Fixed: the Supervisor routing gap.** Rather than adding a parallel
 "Supervisor" login card, gated a "Setup (units & rate)" button into the
